@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?><CMD_ComponentSpec xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cue="http://www.clarin.eu/cmd/cues/1" xmlns:cue_old="http://www.clarin.eu/cmdi/cues/1" isProfile="true" xsi:noNamespaceSchemaLocation="https://infra.clarin.eu/CMDI/1.1/general-component-schema.xsd">
+    <Header>
+        <ID>clarin.eu:cr1:p_1328259700947</ID>
+        <Name>SongScan</Name>
+        <Description>Metadata profile for the Song Scan from the 'Liederenbank'</Description>
+        
+    </Header>
+    <CMD_Component name="SongScan" CardinalityMin="1" CardinalityMax="1">
+        <CMD_Component name="GeneralInfo" ComponentId="clarin.eu:cr1:c_1271859438123" CardinalityMin="0" CardinalityMax="1">
+            <CMD_Element name="Name" ConceptLink="http://hdl.handle.net/11459/CCR_C-2544_3626545e-a21d-058c-ebfd-241c0464e7e5" ValueScheme="string" CardinalityMin="1" CardinalityMax="unbounded" Multilingual="true" DisplayPriority="1"/>
+            <CMD_Element name="Title" ConceptLink="http://hdl.handle.net/11459/CCR_C-2545_d873f2ab-2a2f-29d6-a9ab-260cde57f227" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" DisplayPriority="2"/>
+            <CMD_Element name="ID" ConceptLink="http://hdl.handle.net/11459/CCR_C-2573_ae7c2548-8a86-ab6e-7099-e28b7697d1a2" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded"/>
+            <CMD_Element name="Version" ConceptLink="http://hdl.handle.net/11459/CCR_C-2547_7883d382-b3ce-8ab4-7052-0138525a8ba1" ValueScheme="string" CardinalityMin="0" CardinalityMax="1"/>
+            <CMD_Element name="Owner" ConceptLink="http://hdl.handle.net/11459/CCR_C-2956_519a4aab-2f76-0fd3-090e-f0d6b81a7dbb" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true"/>
+            <CMD_Element name="PublicationYear" ConceptLink="http://hdl.handle.net/11459/CCR_C-2538_8b697452-7ef3-9fce-ccf9-a7f344f11317" ValueScheme="gYear" CardinalityMin="0" CardinalityMax="1"/>
+            <CMD_Component name="TimeCoverage" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" CardinalityMin="0" CardinalityMax="1">
+                <CMD_Element name="Description" ValueScheme="string" CardinalityMin="0" CardinalityMax="1"/>
+                <CMD_Element name="minDate" ValueScheme="date" CardinalityMin="0" CardinalityMax="1"/>
+                <CMD_Element name="maxDate" ValueScheme="date" CardinalityMin="0" CardinalityMax="1"/>
+            </CMD_Component>
+            <CMD_Component name="Description" ComponentId="clarin.eu:cr1:c_1271859438118" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" CardinalityMin="0" CardinalityMax="1">
+                <CMD_Element name="Description" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true">
+                    <AttributeList>
+                        <Attribute><Name>LanguageID</Name><Type>string</Type></Attribute>
+                    </AttributeList>
+                </CMD_Element>
+            </CMD_Component>
+        </CMD_Component>
+        <CMD_Component name="TechnicalMetadata" ComponentId="clarin.eu:cr1:c_1307535113337" CardinalityMin="1" CardinalityMax="1">
+            <CMD_Element name="MimeType" ConceptLink="http://hdl.handle.net/11459/CCR_C-2571_2be2e583-e5af-34c2-3673-93359ec1f7df" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" DisplayPriority="1"/>
+            <CMD_Element name="Quality" ConceptLink="http://hdl.handle.net/11459/CCR_C-2574_85e2b550-e877-599a-fb82-76812896f9da" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false"/>
+            <CMD_Component name="Size" CardinalityMin="0" CardinalityMax="1">
+                <CMD_Component name="TotalSize" CardinalityMin="0" CardinalityMax="unbounded">
+                    <CMD_Element name="Number" ValueScheme="decimal" CardinalityMin="1" CardinalityMax="1" DisplayPriority="1"/>
+                    <CMD_Element name="SizeUnit" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false"/>
+                </CMD_Component>
+                <CMD_Component name="Dimension" CardinalityMin="0" CardinalityMax="1">
+                    <CMD_Component name="Width" CardinalityMin="0" CardinalityMax="1">
+                        <CMD_Element name="Number" ValueScheme="decimal" CardinalityMin="1" CardinalityMax="1" DisplayPriority="1"/>
+                        <CMD_Element name="SizeUnit" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" DisplayPriority="1"/>
+                    </CMD_Component>
+                    <CMD_Component name="Height" CardinalityMin="0" CardinalityMax="1">
+                        <CMD_Element name="Number" ValueScheme="decimal" CardinalityMin="1" CardinalityMax="1" DisplayPriority="1"/>
+                        <CMD_Element name="SizeUnit" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" DisplayPriority="1"/>
+                    </CMD_Component>
+                </CMD_Component>
+            </CMD_Component>
+            <CMD_Component name="SpeechTechnicalMetadata" ComponentId="clarin.eu:cr1:c_1271859438143" CardinalityMin="0" CardinalityMax="1">
+                <CMD_Element name="SamplingFrequency" ConceptLink="http://hdl.handle.net/11459/CCR_C-2577_73344cc2-f341-8842-bcf7-48e5267a3aca" ValueScheme="decimal" CardinalityMin="0" CardinalityMax="unbounded"/>
+                <CMD_Element name="NumberOfChannels" ConceptLink="http://hdl.handle.net/11459/CCR_C-2961_9c4165d7-a124-bd97-ba64-73763421aa9d" ValueScheme="decimal" CardinalityMin="0" CardinalityMax="unbounded"/>
+                <CMD_Element name="ByteOrder" ConceptLink="http://hdl.handle.net/11459/CCR_C-2686_8482ada6-574c-67e3-d65a-64a23b06b533" CardinalityMin="0" CardinalityMax="unbounded">
+                    <ValueScheme>
+                        
+                            <enumeration>
+                                <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2687_a2b83d99-1795-80ee-9968-cb34dbd0d959">big endian</item>
+                                <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2688_592a09a1-3e6c-3880-c828-d218fee72af5">little endian</item>
+                            </enumeration>
+                        
+                    </ValueScheme>
+                </CMD_Element>
+                <CMD_Element name="Compression" ConceptLink="http://hdl.handle.net/11459/CCR_C-2685_65492121-3759-0fc2-694b-83eccbb9d26c" CardinalityMin="0" CardinalityMax="unbounded">
+                    <ValueScheme>
+                        
+                            <enumeration>
+                                <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2964_6226b156-c9cf-07db-f5e8-00accb1aafd9">none</item>
+                                <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2962_545d0b08-7224-067c-488a-d58ca4b6e5ef">lossless</item>
+                                <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2963_56ea0ae5-d807-6a0c-088d-ae596c28e30f">lossy</item>
+                            </enumeration>
+                        
+                    </ValueScheme>
+                </CMD_Element>
+                <CMD_Element name="BitResolution" ConceptLink="http://hdl.handle.net/11459/CCR_C-2684_ac8bdf07-61be-d478-53f7-8949139e11fc" ValueScheme="decimal" CardinalityMin="0" CardinalityMax="unbounded"/>
+                <CMD_Element name="SpeechCoding" ConceptLink="http://hdl.handle.net/11459/CCR_C-5514_145df064-6ac4-f0d3-7de8-1002dfb9b45e" CardinalityMin="0" CardinalityMax="unbounded">
+                    <ValueScheme>
+                        
+                            <enumeration>
+                                <item ConceptLink="http://hdl.handle.net/11459/CCR_C-5511_72024d49-98cd-c8c8-4230-3e9a9be7a03e" AppInfo="">pcm</item>
+                                <item ConceptLink="http://hdl.handle.net/11459/CCR_C-5509_49d08a21-ac57-b4a0-b951-9e973f2048ff" AppInfo="">alaw</item>
+                                <item ConceptLink="http://hdl.handle.net/11459/CCR_C-5510_bbf82aa8-440f-f9aa-414d-cf0327bd06bb" AppInfo="">mlaw</item>
+                                <item ConceptLink="http://hdl.handle.net/11459/CCR_C-5512_85d9121b-8109-2a32-4300-601190455645" AppInfo="">signed integer</item>
+                                <item ConceptLink="http://hdl.handle.net/11459/CCR_C-5513_1137e774-26b5-2a51-9972-212bd7f21a1f" AppInfo="">unsigned integer</item>
+                                <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2599_93805699-d3a2-ae19-5399-d0bba0e8fc24" AppInfo="">other</item>
+                                <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2591_f769d93b-c007-d2c9-aff2-99e9177e5764" AppInfo="">unknown</item>
+                            </enumeration>
+                        
+                    </ValueScheme>
+                </CMD_Element>
+                <CMD_Component name="MimeType" ComponentId="clarin.eu:cr1:c_1271859438106" CardinalityMin="0" CardinalityMax="unbounded">
+                    <CMD_Element name="MimeType" ConceptLink="http://hdl.handle.net/11459/CCR_C-2571_2be2e583-e5af-34c2-3673-93359ec1f7df" CardinalityMin="1" CardinalityMax="unbounded">
+                        <ValueScheme>
+                            
+                                <enumeration>
+                                    <item>application/epub+zip</item>
+                                    <item>application/json</item>
+                                    <item>application/msword</item>
+                                    <item>application/pdf</item>
+                                    <item>application/ssff</item>
+                                    <item>application/vnd.adobe.flash-movie</item>
+                                    <item>application/vnd.ms-excel</item>
+                                    <item>application/vnd.ms-powerpoint</item>
+                                    <item>application/vnd.oasis.opendocument.graphics</item>
+                                    <item>application/vnd.oasis.opendocument.presentation</item>
+                                    <item>application/vnd.oasis.opendocument.spreadsheet</item>
+                                    <item>application/vnd.oasis.opendocument.text</item>
+                                    <item>application/x-binary</item>
+                                    <item>application/x-tar</item>
+                                    <item>application/x-tex</item>
+                                    <item>application/x-texinfo</item>
+                                    <item>application/x-zip-compressed</item>
+                                    <item>application/xhtml+xml</item>
+                                    <item>application/zip</item>
+                                    <item>audio/aiff</item>
+                                    <item>audio/basic</item>
+                                    <item>audio/midi</item>
+                                    <item>audio/mod</item>
+                                    <item>audio/mp4</item>
+                                    <item>audio/mpeg3</item>
+                                    <item>audio/mpeg</item>
+                                    <item>audio/ogg</item>
+                                    <item>audio/raw</item>
+                                    <item>audio/vnd.wave</item>
+                                    <item>audio/voc</item>
+                                    <item>audio/vorbis</item>
+                                    <item>audio/wav</item>
+                                    <item>audio/webm</item>
+                                    <item>audio/x-adpcm</item>
+                                    <item>audio/x-aiff</item>
+                                    <item>audio/x-au</item>
+                                    <item>audio/x-esps</item>
+                                    <item>audio/x-gsm</item>
+                                    <item>audio/x-mpeg-3</item>
+                                    <item>audio/x-mpeg</item>
+                                    <item>audio/x-nist</item>
+                                    <item>audio/x-realaudio</item>
+                                    <item>audio/x-ssff</item>
+                                    <item>audio/x-voc</item>
+                                    <item>audio/x-wav</item>
+                                    <item>image/bmp</item>
+                                    <item>image/eps</item>
+                                    <item>image/gif</item>
+                                    <item>image/jpeg</item>
+                                    <item>image/pjpeg</item>
+                                    <item>image/png</item>
+                                    <item>image/svg+xml</item>
+                                    <item>image/tiff</item>
+                                    <item>image/vasa</item>
+                                    <item>image/vnd.djvu</item>
+                                    <item>image/x-quicktime</item>
+                                    <item>multipart/x-gzip</item>
+                                    <item>multipart/x-zip</item>
+                                    <item>text/css</item>
+                                    <item>text/csv</item>
+                                    <item>text/folia+xml</item>
+                                    <item>text/html</item>
+                                    <item>text/plain</item>
+                                    <item>text/plain-bas</item>
+                                    <item>text/praat-textgrid</item>
+                                    <item>text/richtext</item>
+                                    <item>text/sgml</item>
+                                    <item>text/xml</item>
+                                    <item>video/avi</item>
+                                    <item>video/mp4</item>
+                                    <item>video/mpeg</item>
+                                    <item>video/msvideo</item>
+                                    <item>video/ogg</item>
+                                    <item>video/quicktime</item>
+                                    <item>video/webm</item>
+                                    <item>video/x-flv</item>
+                                    <item>video/x-motion-jpeg</item>
+                                    <item>video/x-ms-wmv</item>
+                                </enumeration>
+                            
+                        </ValueScheme>
+                    </CMD_Element>
+                </CMD_Component>
+            </CMD_Component>
+        </CMD_Component>
+        <CMD_Component name="PublicCopy" CardinalityMin="0" CardinalityMax="1">
+            <CMD_Element name="Url" ConceptLink="http://hdl.handle.net/11459/CCR_C-2546_180dca37-c1d8-dffe-5d46-8f16de143320" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" DisplayPriority="1"/>
+        </CMD_Component>
+    </CMD_Component>
+</CMD_ComponentSpec>

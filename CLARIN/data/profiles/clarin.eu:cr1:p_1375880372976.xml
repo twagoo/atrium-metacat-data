@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?><CMD_ComponentSpec xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cue="http://www.clarin.eu/cmd/cues/1" xmlns:cue_old="http://www.clarin.eu/cmdi/cues/1" isProfile="true" xsi:noNamespaceSchemaLocation="https://infra.clarin.eu/CMDI/1.1/general-component-schema.xsd">
+    <Header>
+        <ID>clarin.eu:cr1:p_1375880372976</ID>
+        <Name>singlePaperPackage</Name>
+        <Description>Profile for single PaperPackage</Description>
+        
+    </Header>
+    <CMD_Component name="singlePaperPackage" CardinalityMin="1" CardinalityMax="1">
+        <CMD_Component name="paperPackage" ComponentId="clarin.eu:cr1:c_1375880372975" CardinalityMin="1" CardinalityMax="1">
+            <CMD_Element name="type" CardinalityMin="1" CardinalityMax="unbounded" DisplayPriority="1">
+                <ValueScheme>
+                    
+                        <enumeration>
+                            <item ConceptLink="" AppInfo="">legacy_r_package</item>
+                            <item ConceptLink="" AppInfo="">r_package</item>
+                            <item ConceptLink="" AppInfo="">zip</item>
+                            <item ConceptLink="" AppInfo="">other</item>
+                        </enumeration>
+                    
+                </ValueScheme>
+            </CMD_Element>
+            <CMD_Element name="originInfoLegacy" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false"/>
+            <CMD_Component name="mods" ComponentId="clarin.eu:cr1:c_1375880372973" CardinalityMin="1" CardinalityMax="1">
+                <CMD_Element name="abstract" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" DisplayPriority="1"/>
+                <CMD_Element name="genre" ConceptLink="http://hdl.handle.net/11459/CCR_C-2470_d191f2b2-6339-f031-b534-70d526b28357" ValueScheme="string" CardinalityMin="0" CardinalityMax="3" Multilingual="false"/>
+                <CMD_Element name="typeOfResource" ConceptLink="http://purl.org/dc/elements/1.1/type" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false"/>
+                <CMD_Element name="identifier" ConceptLink="http://hdl.handle.net/11459/CCR_C-2573_ae7c2548-8a86-ab6e-7099-e28b7697d1a2" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false">
+                    <AttributeList>
+                        <Attribute><Name>type</Name>
+                            <ValueScheme>
+                                
+                                    <enumeration>
+                                        <item ConceptLink="" AppInfo="">hdl</item>
+                                    </enumeration>
+                                
+                            </ValueScheme>
+                        </Attribute>
+                    </AttributeList>
+                </CMD_Element>
+                <CMD_Component name="name" ComponentId="clarin.eu:cr1:c_1375880372969" CardinalityMin="1" CardinalityMax="unbounded">
+                    <AttributeList>
+                        <Attribute><Name>type</Name>
+                            <ValueScheme>
+                                
+                                    <enumeration>
+                                        <item ConceptLink="" AppInfo="">personal</item>
+                                        <item ConceptLink="" AppInfo="">family</item>
+                                        <item ConceptLink="" AppInfo="">corporate</item>
+                                        <item ConceptLink="" AppInfo="">conference</item>
+                                    </enumeration>
+                                
+                            </ValueScheme>
+                        </Attribute>
+                    </AttributeList>
+                    <CMD_Element name="namePart" ValueScheme="string" CardinalityMin="1" CardinalityMax="7" Multilingual="false" DisplayPriority="1">
+                        <AttributeList>
+                            <Attribute><Name>type</Name>
+                                <ValueScheme>
+                                    
+                                        <enumeration>
+                                            <item ConceptLink="" AppInfo="">given</item>
+                                            <item ConceptLink="" AppInfo="">family</item>
+                                        </enumeration>
+                                    
+                                </ValueScheme>
+                            </Attribute>
+                        </AttributeList>
+                    </CMD_Element>
+                    <CMD_Component name="role" ComponentId="clarin.eu:cr1:c_1375880372970" CardinalityMin="1" CardinalityMax="1">
+                        <CMD_Element name="roleTerm" CardinalityMin="1" CardinalityMax="1" DisplayPriority="1">
+                            <AttributeList>
+                                <Attribute><Name>authority</Name>
+                                    <ValueScheme>
+                                        
+                                            <enumeration>
+                                                <item ConceptLink="" AppInfo="">marcrelator</item>
+                                            </enumeration>
+                                        
+                                    </ValueScheme>
+                                </Attribute>
+                                <Attribute><Name>type</Name>
+                                    <ValueScheme>
+                                        
+                                            <enumeration>
+                                                <item ConceptLink="" AppInfo="">text</item>
+                                            </enumeration>
+                                        
+                                    </ValueScheme>
+                                </Attribute>
+                            </AttributeList>
+                            <ValueScheme>
+                                
+                                    <enumeration>
+                                        <item ConceptLink="" AppInfo="">author</item>
+                                    </enumeration>
+                                
+                            </ValueScheme>
+                        </CMD_Element>
+                    </CMD_Component>
+                </CMD_Component>
+                <CMD_Component name="titleInfo" ComponentId="clarin.eu:cr1:c_1375880372968" CardinalityMin="1" CardinalityMax="1">
+                    <CMD_Element name="title" ConceptLink="http://hdl.handle.net/11459/CCR_C-2545_d873f2ab-2a2f-29d6-a9ab-260cde57f227" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" DisplayPriority="1"/>
+                </CMD_Component>
+                <CMD_Component name="originInfo" ComponentId="clarin.eu:cr1:c_1375880372971" CardinalityMin="0" CardinalityMax="1">
+                    <CMD_Element name="dateIssued" ValueScheme="gYear" CardinalityMin="0" CardinalityMax="1" DisplayPriority="1"/>
+                    <CMD_Element name="issuance" CardinalityMin="0" CardinalityMax="1">
+                        <ValueScheme>
+                            
+                                <enumeration>
+                                    <item ConceptLink="" AppInfo="">continuing</item>
+                                    <item ConceptLink="" AppInfo="">monographic</item>
+                                    <item ConceptLink="" AppInfo="">single unit</item>
+                                    <item ConceptLink="" AppInfo="">multipart monograph</item>
+                                    <item ConceptLink="" AppInfo="">serial</item>
+                                    <item ConceptLink="" AppInfo="">integrating resource</item>
+                                </enumeration>
+                            
+                        </ValueScheme>
+                    </CMD_Element>
+                    <CMD_Element name="publisher" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false"/>
+                    <CMD_Element name="genre" ValueScheme="string" CardinalityMin="1" CardinalityMax="3" Multilingual="false">
+                        <AttributeList>
+                            <Attribute><Name>authority</Name><Type>string</Type></Attribute>
+                        </AttributeList>
+                    </CMD_Element>
+                </CMD_Component>
+                <CMD_Component name="relatedItem" ComponentId="clarin.eu:cr1:c_1375880372972" CardinalityMin="0" CardinalityMax="unbounded">
+                    <AttributeList>
+                        <Attribute><Name>type</Name>
+                            <ValueScheme>
+                                
+                                    <enumeration>
+                                        <item ConceptLink="" AppInfo="">host</item>
+                                        <item ConceptLink="" AppInfo="">original</item>
+                                    </enumeration>
+                                
+                            </ValueScheme>
+                        </Attribute>
+                    </AttributeList>
+                    <CMD_Element name="genre" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false"/>
+                    <CMD_Component name="titleInfo" ComponentId="clarin.eu:cr1:c_1375880372968" CardinalityMin="0" CardinalityMax="1">
+                        <CMD_Element name="title" ConceptLink="http://hdl.handle.net/11459/CCR_C-2545_d873f2ab-2a2f-29d6-a9ab-260cde57f227" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" DisplayPriority="1"/>
+                    </CMD_Component>
+                    <CMD_Component name="originInfo" ComponentId="clarin.eu:cr1:c_1375880372971" CardinalityMin="1" CardinalityMax="1">
+                        <CMD_Element name="dateIssued" ValueScheme="gYear" CardinalityMin="0" CardinalityMax="1" DisplayPriority="1"/>
+                        <CMD_Element name="issuance" CardinalityMin="0" CardinalityMax="1">
+                            <ValueScheme>
+                                
+                                    <enumeration>
+                                        <item ConceptLink="" AppInfo="">continuing</item>
+                                        <item ConceptLink="" AppInfo="">monographic</item>
+                                        <item ConceptLink="" AppInfo="">single unit</item>
+                                        <item ConceptLink="" AppInfo="">multipart monograph</item>
+                                        <item ConceptLink="" AppInfo="">serial</item>
+                                        <item ConceptLink="" AppInfo="">integrating resource</item>
+                                    </enumeration>
+                                
+                            </ValueScheme>
+                        </CMD_Element>
+                        <CMD_Element name="publisher" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false"/>
+                        <CMD_Element name="genre" ValueScheme="string" CardinalityMin="1" CardinalityMax="3" Multilingual="false">
+                            <AttributeList>
+                                <Attribute><Name>authority</Name><Type>string</Type></Attribute>
+                            </AttributeList>
+                        </CMD_Element>
+                    </CMD_Component>
+                </CMD_Component>
+                <CMD_Component name="location" ComponentId="clarin.eu:cr1:c_1381926654506" CardinalityMin="1" CardinalityMax="1">
+                    <CMD_Element name="url" ValueScheme="anyURI" CardinalityMin="1" CardinalityMax="1" DisplayPriority="1">
+                        <AttributeList>
+                            <Attribute><Name>displayLabel</Name>
+                                <ValueScheme>
+                                    
+                                        <enumeration>
+                                            <item ConceptLink="" AppInfo="">Electronic full text</item>
+                                        </enumeration>
+                                    
+                                </ValueScheme>
+                            </Attribute>
+                            <Attribute><Name>access</Name>
+                                <ValueScheme>
+                                    
+                                        <enumeration>
+                                            <item ConceptLink="" AppInfo="">raw object</item>
+                                        </enumeration>
+                                    
+                                </ValueScheme>
+                            </Attribute>
+                        </AttributeList>
+                    </CMD_Element>
+                </CMD_Component>
+            </CMD_Component>
+        </CMD_Component>
+    </CMD_Component>
+</CMD_ComponentSpec>

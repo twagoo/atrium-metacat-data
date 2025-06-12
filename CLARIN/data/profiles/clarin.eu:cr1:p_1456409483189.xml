@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?><CMD_ComponentSpec xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cue="http://www.clarin.eu/cmd/cues/1" xmlns:cue_old="http://www.clarin.eu/cmdi/cues/1" isProfile="true" xsi:noNamespaceSchemaLocation="https://infra.clarin.eu/CMDI/1.1/general-component-schema.xsd">
+    <Header>
+        <ID>clarin.eu:cr1:p_1456409483189</ID>
+        <Name>DGDEvent</Name>
+        <Description>defines an event resource of the dgd. Updated to fit to VLO facets.</Description>
+        
+    </Header>
+    <CMD_Component name="DGDEvent" ConceptLink="http://hdl.handle.net/11459/CCR_C-2469_2160b7a0-80f7-2d68-5f3e-997e052a1602" CardinalityMin="1" CardinalityMax="1">
+        <CMD_Element name="ID" ConceptLink=" http://hdl.handle.net/11459/CCR_C-2573_ae7c2548-8a86-ab6e-7099-e28b7697d1a2" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" DisplayPriority="1" Documentation="Links to a persistent identifier">
+            
+        </CMD_Element>
+        <CMD_Element name="Collection" ConceptLink="http://hdl.handle.net/11459/CCR_C-5178_36271765-7197-42fe-807c-ee32e8be8819" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true"/>
+        <CMD_Element name="NationalProject" ConceptLink="http://hdl.handle.net/11459/CCR_C-5178_36271765-7197-42fe-807c-ee32e8be8819" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true"/>
+        <CMD_Element name="ProjectTitle" ConceptLink="http://hdl.handle.net/11459/CCR_C-2537_fa206273-223a-f4fa-dde3-ba59b965701f" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" DisplayPriority="1" Documentation="/Ereignis/Projekt[1]/@Titel">
+            
+        </CMD_Element>
+        <CMD_Element name="Name" ConceptLink="http://hdl.handle.net/11459/CCR_C-2545_d873f2ab-2a2f-29d6-a9ab-260cde57f227" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" DisplayPriority="1" Documentation="//Ereignis/Kennung">
+            
+        </CMD_Element>
+        <CMD_Element name="Institution" ConceptLink="http://hdl.handle.net/11459/CCR_C-2979_8030473e-bbcb-6b87-3fd2-90554429ec50" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" DisplayPriority="1" Documentation="/Ereignis/Basisdaten/Institution">
+            
+        </CMD_Element>
+        <CMD_Element name="RightsHolder" ConceptLink="http://hdl.handle.net/11459/CCR_C-6709_cb3572ed-ffd3-04f1-c145-b9c1f26bfc82" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" DisplayPriority="1"/>
+        <CMD_Element name="Description" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" DisplayPriority="1" Documentation="/Ereignis/Basisdaten/Beschreibung">
+            
+        </CMD_Element>
+        <CMD_Element name="TemporalCoverage" ConceptLink="http://hdl.handle.net/11459/CCR_C-3866_b8ee4ef7-9f5b-68b5-5c73-18a2555901c3" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" DisplayPriority="1" Documentation="/Ereignis/Basisdaten/Zeitraum">
+            
+        </CMD_Element>
+        <CMD_Element name="Duration" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" DisplayPriority="1" Documentation="/Ereignis/Basisdaten/Dauer">
+            
+        </CMD_Element>
+        <CMD_Element name="Environment" ConceptLink="http://hdl.handle.net/11459/CCR_C-2568_de017375-626e-6f9d-2cef-cc2570d07f60" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" DisplayPriority="1" Documentation="/Ereignis/Basisdaten/Räumlichkeiten">
+            
+        </CMD_Element>
+        <CMD_Element name="Conditions" ConceptLink="http://hdl.handle.net/11459/CCR_C-2958_4b7f6b96-cd43-7c51-ed1f-5fce17468d94" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" DisplayPriority="1"/>
+        <CMD_Element name="Availability" ConceptLink=" http://hdl.handle.net/11459/CCR_C-5439_98bb103d-476a-7f62-54b4-bf9de24d2229" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" DisplayPriority="1"/>
+        <CMD_Element name="DistributionType" ConceptLink="http://hdl.handle.net/11459/CCR_C-5439_98bb103d-476a-7f62-54b4-bf9de24d2229" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" DisplayPriority="1"/>
+        <CMD_Element name="License" ConceptLink="http://hdl.handle.net/11459/CCR_C-2457_45bbaa1a-7002-2ecd-ab9d-57a189f694a6" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" DisplayPriority="1"/>
+        <CMD_Element name="ResourceClass" ConceptLink="http://hdl.handle.net/11459/CCR_C-3806_e55e9ed6-b099-c21d-a634-3c7f4d22a215" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" DisplayPriority="1"/>
+        <CMD_Element name="Format" ConceptLink="http://hdl.handle.net/11459/CCR_C-2571_2be2e583-e5af-34c2-3673-93359ec1f7df" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" DisplayPriority="1"/>
+        <CMD_Element name="Genre" ConceptLink="http://hdl.handle.net/11459/CCR_C-2470_d191f2b2-6339-f031-b534-70d526b28357" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" DisplayPriority="1"/>
+        <CMD_Element name="Continent" ConceptLink="http://hdl.handle.net/11459/CCR_C-2531_e0427265-2fc4-d23e-0a7c-a21981ec3734" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" DisplayPriority="1"/>
+        <CMD_Element name="Country" ConceptLink="http://hdl.handle.net/11459/CCR_C-3792_68c770a4-d58c-46dd-d429-5609ce5f81c3" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" DisplayPriority="1"/>
+        <CMD_Element name="Keywords" ConceptLink="http://hdl.handle.net/11459/CCR_C-5436_6ab57c2c-5f8d-3561-6db6-d75da23d2637" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" DisplayPriority="1"/>
+        <CMD_Element name="LastUpdate" ConceptLink="http://hdl.handle.net/11459/CCR_C-3818_8c4aec73-1654-7565-9575-c4a17425ee29" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" DisplayPriority="1" Documentation="/Ereignis/Dokumentationsgeschichte[1]/Update[1]">
+            
+        </CMD_Element>
+        <CMD_Component name="Staff" CardinalityMin="0" CardinalityMax="unbounded">
+            <CMD_Element name="ResearcherParticipating" ConceptLink="http://hdl.handle.net/11459/CCR_C-5371_679ce449-31b9-cee5-6721-28e2365b3478" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" DisplayPriority="1" Documentation="/Ereignis/Projekt/Personal/An_E_teilnehmende_Forscher/">
+                
+            </CMD_Element>
+            <CMD_Element name="TechnicianParticipating" ConceptLink="http://hdl.handle.net/11459/CCR_C-2978_0e9e4864-44c4-de22-66b1-9b38bca10836" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" DisplayPriority="1" Documentation="/Ereignis/Projekt/Personal/An_E_teilnehmende_Techniker">
+                
+            </CMD_Element>
+        </CMD_Component>
+        <CMD_Component name="Location" ConceptLink="http://hdl.handle.net/11459/CCR_C-5563_eef43aee-6ca8-5ba2-2e21-c3d0344bb3e9" CardinalityMin="0" CardinalityMax="unbounded">
+            <CMD_Element name="Country" ConceptLink="http://hdl.handle.net/11459/CCR_C-6825_cbf94188-fd1c-6886-ee38-014f1ade0974" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" DisplayPriority="1" Documentation="/Ereignis/Basisdaten/Ort/Land">
+                
+            </CMD_Element>
+            <CMD_Element name="Region" ConceptLink="http://hdl.handle.net/11459/CCR_C-3814_dce1ba90-46f9-3b4a-d1ce-b37173126473" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" DisplayPriority="1" Documentation="/Ereignis/Basisdaten/Ort/Region">
+                
+            </CMD_Element>
+            <CMD_Element name="District" ConceptLink="http://hdl.handle.net/11459/CCR_C-5581_8c59e2cc-13b6-dffe-5257-a9d45a3a4879" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" DisplayPriority="1" Documentation="/Ereignis/Basisdaten/Ort/Kreis">
+                
+            </CMD_Element>
+            <CMD_Element name="LocationName" ConceptLink="http://hdl.handle.net/11459/CCR_C-5563_eef43aee-6ca8-5ba2-2e21-c3d0344bb3e9" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" DisplayPriority="1" Documentation="/Ereignis/Basisdaten/Ort/Ortsname">
+                
+            </CMD_Element>
+            <CMD_Element name="Population" ConceptLink="http://hdl.handle.net/11459/CCR_C-3881_6dc007dd-db31-ddac-3882-4048959dc00d" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" DisplayPriority="1" Documentation="/Ereignis/Basisdaten/Ort/Einwohnerzahl">
+                
+            </CMD_Element>
+            <CMD_Element name="LocationDistrict" ConceptLink="http://hdl.handle.net/11459/CCR_C-5581_8c59e2cc-13b6-dffe-5257-a9d45a3a4879" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" DisplayPriority="1" Documentation="/Ereignis/Basisdaten/Ort/Ortsteil">
+                
+            </CMD_Element>
+            <CMD_Component name="Coordinates" ConceptLink="http://hdl.handle.net/11459/CCR_C-2523_283c7b54-06ed-3d6c-4bb0-c8a79a8236fd" CardinalityMin="0" CardinalityMax="unbounded">
+                <CMD_Element name="Grid" ConceptLink="http://hdl.handle.net/11459/CCR_C-5343_024e3870-9400-ac91-4a42-1f61561b1b2d" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" DisplayPriority="1" Documentation="/Ereignis/Basisdaten]/Ort/Koordinaten/Planquadrat">
+                    
+                </CMD_Element>
+            </CMD_Component>
+        </CMD_Component>
+        <CMD_Component name="Session" ConceptLink="http://hdl.handle.net/11459/CCR_C-4566_817ec8b8-29d7-3d78-bc3f-2b764daaea72" CardinalityMin="0" CardinalityMax="unbounded">
+            <CMD_Element name="Label" ConceptLink="http://hdl.handle.net/11459/CCR_C-1857_54e14b00-c4a4-d48f-98d9-7eb2ab5b44d4" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" DisplayPriority="1" Documentation="/Ereignis/Sprechereignis">
+                
+            </CMD_Element>
+            <CMD_Element name="Title" ConceptLink="http://hdl.handle.net/11459/CCR_C-5125_4259bcdc-74e3-0d71-ef4b-39cc70e4e779" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" DisplayPriority="1" Documentation="/Ereignis/Sprechereignis/Basisdaten/Titel">
+                
+            </CMD_Element>
+            <CMD_Element name="Content" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" DisplayPriority="1" Documentation="/Ereignis/Sprechereignis/Inhalt/Beschreibung">
+                
+            </CMD_Element>
+            <CMD_Element name="Modality" ConceptLink="http://hdl.handle.net/11459/CCR_C-2490_44bc38a3-1799-4149-c791-40ac0176f0ff" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true"/>
+            <CMD_Element name="Subject" ConceptLink="http://hdl.handle.net/11459/CCR_C-6543_92dacb75-3098-0d5a-0665-94ddb6274f8c" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" DisplayPriority="1" Documentation="/Ereignis/Sprechereignis/Inhalt/Themen">
+                
+            </CMD_Element>
+            <CMD_Element name="Type" ConceptLink="http://hdl.handle.net/11459/CCR_C-2570_6f596a6d-4d5c-f336-d971-e61a310e2c8c" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" DisplayPriority="1" Documentation="/Ereignis/Sprechereignis/Basisdaten]/Art">
+                
+            </CMD_Element>
+            <CMD_Component name="Speaker" ConceptLink="http://hdl.handle.net/11459/CCR_C-5364_92cf9a34-fbd8-7288-0da0-970be9e240b3" CardinalityMin="0" CardinalityMax="unbounded">
+                <CMD_Element name="Label" ConceptLink="http://hdl.handle.net/11459/CCR_C-1857_54e14b00-c4a4-d48f-98d9-7eb2ab5b44d4" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" DisplayPriority="1"/>
+                <CMD_Element name="TranscriptID" ConceptLink="http://hdl.handle.net/11459/CCR_C-3894_4d08cc31-25fe-af0c-add4-ca7bdc12f5f7" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" DisplayPriority="1" Documentation="/Sprecher/Basisdaten/Sigle_in_Transkripten">
+                    
+                </CMD_Element>
+                <CMD_Element name="Sex" ConceptLink="http://hdl.handle.net/11459/CCR_C-6503_2c65ee0b-93e8-bd6a-cb6f-58ae67108b30" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" DisplayPriority="1" Documentation="/Sprecher/Basisdaten/Geschlecht">
+                    
+                </CMD_Element>
+                <CMD_Element name="Age" ConceptLink="http://hdl.handle.net/11459/CCR_C-3660_2a416158-a3e9-82ff-d3e9-ac5afed7f7c6" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" DisplayPriority="1" Documentation="/Basisdaten/Alter">
+                    
+                </CMD_Element>
+                <CMD_Element name="Role" ConceptLink="http://hdl.handle.net/11459/CCR_C-5690_b81f5894-575b-8963-da26-58076a7f31eb" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" DisplayPriority="1" Documentation="/Basisdaten/Rolle">
+                    
+                </CMD_Element>
+                <CMD_Element name="Name" ConceptLink="http://hdl.handle.net/11459/CCR_C-5364_92cf9a34-fbd8-7288-0da0-970be9e240b3" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" DisplayPriority="1" Documentation="/Sprecher/Basisdaten/Name">
+                    
+                </CMD_Element>
+                <CMD_Element name="Alias" ConceptLink="http://hdl.handle.net/11459/CCR_C-2957_877cc159-3d88-5fb7-b6ad-0b60d1546bb6" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" DisplayPriority="1" Documentation="/Sprecher/Basisdaten/Pseudonym">
+                    
+                </CMD_Element>
+                <CMD_Element name="DateOfBirth" ConceptLink="http://hdl.handle.net/11459/CCR_C-6497_c9741799-81fd-40af-c648-2d0fc5981cdb" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" DisplayPriority="1" Documentation="/Sprecher/Basisdaten/Geburtsdatum/YYYY-MM-DD">
+                    
+                </CMD_Element>
+                <CMD_Element name="Education" ConceptLink="http://hdl.handle.net/11459/CCR_C-4714_503922a7-5c7b-f85a-cf78-f77cefcd1c01" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" DisplayPriority="1" Documentation="/Sprecher/Basidaten/Bildungsabschluss">
+                    
+                </CMD_Element>
+                <CMD_Element name="Profession" ConceptLink="http://hdl.handle.net/11459/CCR_C-2558_319980ea-b064-d2b1-93ed-29056d553816" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" DisplayPriority="1" Documentation="/Sprecher/Basisdaten/Berufe">
+                    
+                </CMD_Element>
+                <CMD_Element name="Ethnicity" ConceptLink="http://hdl.handle.net/11459/CCR_C-2555_2cd97c4f-f40b-7435-0e45-dcd4ef11e5cd" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" DisplayPriority="1" Documentation="/Sprecher/Basisdaten/Ethnische_Zugehörigkeit">
+                    
+                </CMD_Element>
+                <CMD_Element name="Nationality" ConceptLink="http://hdl.handle.net/11459/CCR_C-4578_c4d97a82-4ba4-d5ff-a9f9-fbd43f121e33" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" DisplayPriority="1" Documentation="/Sprecher/Basisdaten/Staatsangehörigkeit">
+                    
+                </CMD_Element>
+                <CMD_Component name="LocationData" ConceptLink="http://hdl.handle.net/11459/CCR_C-5171_4e667d92-95d9-a9c2-2cfd-584e07ec7ba3" CardinalityMin="0" CardinalityMax="unbounded">
+                    <CMD_Component name="Location" ConceptLink="http://hdl.handle.net/11459/CCR_C-4679_a0efc3e6-402e-20e5-9566-36e0a44b441f" CardinalityMin="0" CardinalityMax="unbounded">
+                        <CMD_Element name="LocationType" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" DisplayPriority="1" Documentation="Ortsdaten/Typ">
+                            
+                        </CMD_Element>
+                        <CMD_Element name="Grid" ConceptLink="http://hdl.handle.net/11459/CCR_C-5343_024e3870-9400-ac91-4a42-1f61561b1b2d" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" DisplayPriority="1" Documentation="/Ortsdaten/Planquadrat">
+                            
+                        </CMD_Element>
+                        <CMD_Element name="Country" ConceptLink="http://hdl.handle.net/11459/CCR_C-6825_cbf94188-fd1c-6886-ee38-014f1ade0974" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" DisplayPriority="1" Documentation="/Sprecher/Ortsdaten/Land">
+                            
+                        </CMD_Element>
+                        <CMD_Element name="Region" ConceptLink="http://hdl.handle.net/11459/CCR_C-2533_fa6e1812-e29b-3cf6-e15a-50aa34b9be68" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" DisplayPriority="1" Documentation="/Sprecher/Ortsdaten/Region">
+                            
+                        </CMD_Element>
+                        <CMD_Element name="Place" ConceptLink="http://hdl.handle.net/11459/CCR_C-6255_bbbfe10d-83d1-185c-ec65-3e8ed033af02" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" DisplayPriority="1" Documentation="/Sprecher/Ortsdaten/Ortsname">
+                            
+                        </CMD_Element>
+                    </CMD_Component>
+                </CMD_Component>
+                <CMD_Component name="GeoLocalization" ComponentId="clarin.eu:cr1:c_1361876010667" CardinalityMin="0" CardinalityMax="unbounded">
+                    <CMD_Component name="Vertex" ConceptLink="http://hdl.handle.net/11459/CCR_C-2523_283c7b54-06ed-3d6c-4bb0-c8a79a8236fd" CardinalityMin="3" CardinalityMax="unbounded">
+                        <CMD_Element name="Latitude" ConceptLink="http://hdl.handle.net/11459/CCR_C-5582_0d7dc9e3-e288-56f8-2d9e-c91ae59f436f" ValueScheme="float" CardinalityMin="1" CardinalityMax="1" DisplayPriority="1" Documentation="the latitude of the polygon's vertex">
+                            
+                        </CMD_Element>
+                        <CMD_Element name="Longitude" ConceptLink="http://hdl.handle.net/11459/CCR_C-5583_8be52a01-2494-9656-bfef-39e7f748d104" ValueScheme="float" CardinalityMin="1" CardinalityMax="1" DisplayPriority="1" Documentation="the longitude of the polygon's vertex">
+                            
+                        </CMD_Element>
+                    </CMD_Component>
+                </CMD_Component>
+                <CMD_Component name="LanguageData" ConceptLink="http://hdl.handle.net/11459/CCR_C-5358_3cd089fe-ad03-6181-b20c-635ea41ed818" CardinalityMin="0" CardinalityMax="unbounded">
+                    <CMD_Element name="NativeLanguage" ConceptLink="http://hdl.handle.net/11459/CCR_C-5358_3cd089fe-ad03-6181-b20c-635ea41ed818" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" DisplayPriority="1" Documentation="/Sprecher/Sprachdaten/Sprachkenntnisse/Sprachstatus/text() == &#34;Muttersprache&#34;">
+                        
+                    </CMD_Element>
+                    <CMD_Element name="Language" ConceptLink="http://hdl.handle.net/11459/CCR_C-5358_3cd089fe-ad03-6181-b20c-635ea41ed818" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" DisplayPriority="1" Documentation="/Sprecher/Sprachdaten/Sprachkenntnisse/Sprachstatus/text() != &#34;Muttersprache&#34;">
+                        
+                    </CMD_Element>
+                </CMD_Component>
+            </CMD_Component>
+            <CMD_Component name="Recording" ConceptLink="http://hdl.handle.net/11459/CCR_C-4566_817ec8b8-29d7-3d78-bc3f-2b764daaea72" CardinalityMin="0" CardinalityMax="unbounded">
+                <CMD_Element name="Label" ConceptLink="http://hdl.handle.net/11459/CCR_C-1857_54e14b00-c4a4-d48f-98d9-7eb2ab5b44d4" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" DisplayPriority="1" Documentation="/SE-Aufnahme">
+                    
+                </CMD_Element>
+                <CMD_Element name="Type" ConceptLink="http://hdl.handle.net/11459/CCR_C-2570_6f596a6d-4d5c-f336-d971-e61a310e2c8c" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" DisplayPriority="1" Documentation="Basisdaten/Typ/">
+                    
+                </CMD_Element>
+                <CMD_Element name="Duration" ConceptLink="http://hdl.handle.net/11459/CCR_C-2567_8e616d60-5708-c3d4-320b-661399ccda43" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" DisplayPriority="1" Documentation="/Basisdaten/Dauer">
+                    
+                </CMD_Element>
+                <CMD_Component name="AudioData" CardinalityMin="0" CardinalityMax="unbounded">
+                    <CMD_Element name="FileLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-1857_54e14b00-c4a4-d48f-98d9-7eb2ab5b44d4" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" Documentation="/Digitale_Fassung">
+                        
+                    </CMD_Element>
+                    <CMD_Element name="FileName" ConceptLink="http://hdl.handle.net/11459/CCR_C-5435_155a7fae-a941-e6a8-4b63-4f6d1bd0c2aa" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" Documentation="/Digitale_FassungBasisdaten/Dateiname">
+                        
+                    </CMD_Element>
+                    <CMD_Element name="Format" ConceptLink=" http://hdl.handle.net/11459/CCR_C-2571_2be2e583-e5af-34c2-3673-93359ec1f7df" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" Documentation="/Digitale_Fassung/Tontechnische_Daten/Format">
+                        
+                    </CMD_Element>
+                    <CMD_Element name="Codec" ConceptLink="http://hdl.handle.net/11459/CCR_C-4599_2eee055a-fe8b-953a-52a9-c0ad8dae82d2" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" Documentation="Digitale_Fassung/Tontechnische_Daten/Codec">
+                        
+                    </CMD_Element>
+                    <CMD_Element name="SamplingRate" ConceptLink="http://hdl.handle.net/11459/CCR_C-2577_73344cc2-f341-8842-bcf7-48e5267a3aca" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" Documentation="/Digitale_Fassung/Tontechnische_Daten/Abtastrate">
+                        
+                    </CMD_Element>
+                    <CMD_Element name="Quantization" ConceptLink="http://hdl.handle.net/11459/CCR_C-2684_ac8bdf07-61be-d478-53f7-8949139e11fc" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" Documentation="Digitale_Fassung/Tontechnische_Daten/Quantisierungsrate">
+                        
+                    </CMD_Element>
+                    <CMD_Element name="BitRate" ConceptLink="http://hdl.handle.net/11459/CCR_C_3a9fcdeb-3347-2851-6ec3-12c22467a0fe" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" DisplayPriority="1" Documentation="/Digitale_Fassung/Tontechnische_Daten/Datenrate">
+                        
+                    </CMD_Element>
+                </CMD_Component>
+            </CMD_Component>
+            <CMD_Component name="Transcript" ConceptLink="http://hdl.handle.net/11459/CCR_C-5151_0cbd0a1b-24d9-ecd7-3808-c398afddb4b8" CardinalityMin="0" CardinalityMax="unbounded">
+                <CMD_Element name="Label" ConceptLink="http://hdl.handle.net/11459/CCR_C-1857_54e14b00-c4a4-d48f-98d9-7eb2ab5b44d4" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" DisplayPriority="1" Documentation="/Transcript/Kennung">
+                    
+                </CMD_Element>
+                <CMD_Element name="Title" ConceptLink="http://hdl.handle.net/11459/CCR_C-5125_4259bcdc-74e3-0d71-ef4b-39cc70e4e779" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" DisplayPriority="1" Documentation="/Basisdaten/Titel">
+                    
+                </CMD_Element>
+                <CMD_Element name="Type" ConceptLink="http://hdl.handle.net/11459/CCR_C-2570_6f596a6d-4d5c-f336-d971-e61a310e2c8c" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" DisplayPriority="1" Documentation="/Basisdaten/Typ">
+                    
+                </CMD_Element>
+                <CMD_Element name="FileName" ConceptLink="http://hdl.handle.net/11459/CCR_C-5435_155a7fae-a941-e6a8-4b63-4f6d1bd0c2aa" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" DisplayPriority="1" Documentation="/Digitale_Fassung/Basisdaten/Dateiname">
+                    
+                </CMD_Element>
+                <CMD_Element name="AnnotationConvention" ConceptLink="http://hdl.handle.net/11459/CCR_C-2325_7a0123dd-9334-d847-9d55-320fc8f8bcb4" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" DisplayPriority="1" Documentation="/Annotation/Basisdaten/Konventionen">
+                    
+                </CMD_Element>
+                <CMD_Element name="RelatedEventLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-6110_559d9db8-7db8-bc23-0dc2-7f26f4fcf841" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" DisplayPriority="1" Documentation="/Basisdaten/Relation_zu_SE-Aufnahme">
+                    
+                </CMD_Element>
+                <CMD_Element name="Period" ConceptLink="http://hdl.handle.net/11459/CCR_C-3866_b8ee4ef7-9f5b-68b5-5c73-18a2555901c3" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" DisplayPriority="1" Documentation="/Basisdaten/Relation_zu_SE-Aufnahme/Zeitabschnitt">
+                    
+                </CMD_Element>
+                <CMD_Element name="Duration" ConceptLink="http://hdl.handle.net/11459/CCR_C-2567_8e616d60-5708-c3d4-320b-661399ccda43" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" DisplayPriority="1" Documentation="/Basisdaten/Relation_zu_SE-Aufnahme/Dauer">
+                    
+                </CMD_Element>
+                <CMD_Element name="TranscriptionTool" ConceptLink="http://hdl.handle.net/11459/CCR_C-3785_8efaa065-756e-3a66-12de-75b72dec7e50" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" DisplayPriority="1" Documentation="/Annotation/Erstellung/Instrumente">
+                    
+                </CMD_Element>
+                <CMD_Element name="Alphabet" ConceptLink="http://hdl.handle.net/11459/CCR_C-4143_d48b6352-cc09-01ed-fc34-77e00def4822" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" DisplayPriority="1" Documentation="/Basisdaten/Annotation/Basisdaten/Zeicheninventar">
+                    
+                </CMD_Element>
+                <CMD_Element name="Distribution" ConceptLink="http://hdl.handle.net/11459/CCR_C-6671_b42b3450-711b-68dc-306f-1b59ec8f95f3" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" DisplayPriority="1" Documentation="/Distribution">
+                    
+                </CMD_Element>
+                <CMD_Element name="Access" ConceptLink="http://hdl.handle.net/11459/CCR_C-3784_55fa12c9-35ad-7b55-b7a5-f9926c801952" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" DisplayPriority="1" Documentation="/Distribution/Zugänglichkeit">
+                    
+                </CMD_Element>
+            </CMD_Component>
+        </CMD_Component>
+        <CMD_Component name="dc-inter-relations" ComponentId="clarin.eu:cr1:c_1430905751598" CardinalityMin="0" CardinalityMax="unbounded">
+            <CMD_Element name="conformsTo" ConceptLink="http://purl.org/dc/terms/conformsTo" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
+                <AttributeList>
+                    <Attribute><Name>href</Name><Type>anyURI</Type></Attribute>
+                </AttributeList>
+            </CMD_Element>
+            <CMD_Element name="hasFormat" ConceptLink="http://purl.org/dc/terms/hasFormat" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false" DisplayPriority="1">
+                <AttributeList>
+                    <Attribute><Name>href</Name><Type>anyURI</Type></Attribute>
+                </AttributeList>
+            </CMD_Element>
+            <CMD_Element name="hasPart" ConceptLink="http://purl.org/dc/terms/hasPart" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
+                <AttributeList>
+                    <Attribute><Name>href</Name><Type>anyURI</Type></Attribute>
+                </AttributeList>
+            </CMD_Element>
+            <CMD_Element name="hasVersion" ConceptLink="http://purl.org/dc/terms/hasVersion" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
+                <AttributeList>
+                    <Attribute><Name>href</Name><Type>anyURI</Type></Attribute>
+                </AttributeList>
+            </CMD_Element>
+            <CMD_Element name="isFormatOf" ConceptLink="http://purl.org/dc/terms/isFormatOf" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
+                <AttributeList>
+                    <Attribute><Name>href</Name><Type>anyURI</Type></Attribute>
+                </AttributeList>
+            </CMD_Element>
+            <CMD_Element name="isPartOf" ConceptLink="http://purl.org/dc/terms/isPartOf" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
+                <AttributeList>
+                    <Attribute><Name>href</Name><Type>anyURI</Type></Attribute>
+                </AttributeList>
+            </CMD_Element>
+            <CMD_Element name="isReferencedBy" ConceptLink="http://purl.org/dc/terms/isReferencedBy" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
+                <AttributeList>
+                    <Attribute><Name>href</Name><Type>anyURI</Type></Attribute>
+                </AttributeList>
+            </CMD_Element>
+            <CMD_Element name="isReplacedBy" ConceptLink="http://purl.org/dc/terms/isReplacedBy" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
+                <AttributeList>
+                    <Attribute><Name>href</Name><Type>anyURI</Type></Attribute>
+                </AttributeList>
+            </CMD_Element>
+            <CMD_Element name="isRequiredBy" ConceptLink="http://purl.org/dc/terms/isRequiredBy" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
+                <AttributeList>
+                    <Attribute><Name>href</Name><Type>anyURI</Type></Attribute>
+                </AttributeList>
+            </CMD_Element>
+            <CMD_Element name="isVersionOf" ConceptLink="http://purl.org/dc/terms/isVersionOf" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
+                <AttributeList>
+                    <Attribute><Name>href</Name><Type>anyURI</Type></Attribute>
+                </AttributeList>
+            </CMD_Element>
+            <CMD_Element name="references" ConceptLink="http://purl.org/dc/terms/references" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
+                <AttributeList>
+                    <Attribute><Name>href</Name><Type>anyURI</Type></Attribute>
+                </AttributeList>
+            </CMD_Element>
+            <CMD_Element name="relation" ConceptLink="http://purl.org/dc/terms/relation" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
+                <AttributeList>
+                    <Attribute><Name>href</Name><Type>anyURI</Type></Attribute>
+                </AttributeList>
+            </CMD_Element>
+            <CMD_Element name="replaces" ConceptLink="http://purl.org/dc/terms/replaces" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
+                <AttributeList>
+                    <Attribute><Name>href</Name><Type>anyURI</Type></Attribute>
+                </AttributeList>
+            </CMD_Element>
+            <CMD_Element name="requires" ConceptLink="http://purl.org/dc/terms/requires" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
+                <AttributeList>
+                    <Attribute><Name>href</Name><Type>anyURI</Type></Attribute>
+                </AttributeList>
+            </CMD_Element>
+            <CMD_Element name="source" ConceptLink="http://purl.org/dc/terms/source" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
+                <AttributeList>
+                    <Attribute><Name>href</Name><Type>anyURI</Type></Attribute>
+                </AttributeList>
+            </CMD_Element>
+        </CMD_Component>
+    </CMD_Component>
+</CMD_ComponentSpec>

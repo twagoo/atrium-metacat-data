@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-2975_d6a74ee5-8af1-71dd-e0b7-ab6ad19d4da8">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-notavailable_dc55639d-6b2b-a05a-ced0-9d394432ae43"/>
+    <skos:prefLabel xml:lang="en">segment</skos:prefLabel>
+    <skos:notation>segmentSpeech</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5045_59294bae-b210-cbc7-94d6-d3e1f36b43cd">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-notavailable_dc55639d-6b2b-a05a-ced0-9d394432ae43"/>
+    <skos:prefLabel xml:lang="en">sample frequency</skos:prefLabel>
+    <skos:notation>sampleFrequency</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5150_812b51a0-2a14-0bef-76c1-2364b1b1bf5b">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-notavailable_dc55639d-6b2b-a05a-ced0-9d394432ae43"/>
+    <skos:prefLabel xml:lang="en">phoneme</skos:prefLabel>
+    <skos:notation>phonemeSpeech</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-6068_b9d9d89e-e1fd-bfc8-dc7f-f90189733ad5">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-notavailable_dc55639d-6b2b-a05a-ced0-9d394432ae43"/>
+    <skos:prefLabel xml:lang="en">frequency</skos:prefLabel>
+    <skos:notation>frequencyEvents</skos:notation>
+  </skos:Concept>
+
+  <skos:ConceptScheme rdf:about="http://hdl.handle.net/11459/CCR_P-notavailable_dc55639d-6b2b-a05a-ced0-9d394432ae43">
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-2975_d6a74ee5-8af1-71dd-e0b7-ab6ad19d4da8"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5045_59294bae-b210-cbc7-94d6-d3e1f36b43cd"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5150_812b51a0-2a14-0bef-76c1-2364b1b1bf5b"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-6068_b9d9d89e-e1fd-bfc8-dc7f-f90189733ad5"/>
+    <rdfs:label xml:lang="en">not available</rdfs:label>
+  </skos:ConceptScheme>
+
+</rdf:RDF>

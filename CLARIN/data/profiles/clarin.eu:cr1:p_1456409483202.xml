@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><CMD_ComponentSpec xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cue="http://www.clarin.eu/cmd/cues/1" xmlns:cue_old="http://www.clarin.eu/cmdi/cues/1" isProfile="true" xsi:noNamespaceSchemaLocation="https://infra.clarin.eu/CMDI/1.1/general-component-schema.xsd">
+    <Header>
+        <ID>clarin.eu:cr1:p_1456409483202</ID>
+        <Name>BatImageBundle</Name>
+        <Description>Resource Bundle of bat brain images</Description>
+        
+    </Header>
+    <CMD_Component name="BatImageBundle" CardinalityMin="1" CardinalityMax="1">
+        <CMD_Element name="Name" ConceptLink="http://hdl.handle.net/11459/CCR_C-2544_3626545e-a21d-058c-ebfd-241c0464e7e5" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" DisplayPriority="1" Documentation="Name of the resource bundle">
+            
+        </CMD_Element>
+        <CMD_Element name="Title" ConceptLink="http://hdl.handle.net/11459/CCR_C-2545_d873f2ab-2a2f-29d6-a9ab-260cde57f227" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" DisplayPriority="2" Documentation="Title of the resource bundle">
+            
+        </CMD_Element>
+        <CMD_Element name="Date" ConceptLink="http://hdl.handle.net/11459/CCR_C-2510_2402e609-046a-dfbf-c2d7-5a2f1ae6dc86" CardinalityMin="1" CardinalityMax="1" Documentation="Date when the resources were created">
+            
+            <ValueScheme>
+                <pattern>[0-9]{4}(-(0[1-9]|1[012])(-([0-2][0-9]|3[01]))?)?(/[0-9]{4}(-(0[1-9]|1[012])(-([0-2][0-9]|3[01]))?)?)?|Unknown|Unspecified</pattern>
+            </ValueScheme>
+        </CMD_Element>
+        <CMD_Component name="Project" ComponentId="clarin.eu:cr1:c_1407745712062" CardinalityMin="1" CardinalityMax="1">
+            <CMD_Element name="Name" ConceptLink="http://hdl.handle.net/11459/CCR_C-2536_13fc5f10-c14a-1f64-a669-32736f6d3ef5" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" DisplayPriority="1"/>
+            <CMD_Element name="Title" ConceptLink="http://hdl.handle.net/11459/CCR_C-2537_fa206273-223a-f4fa-dde3-ba59b965701f" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false"/>
+            <CMD_Element name="Id" ConceptLink="http://hdl.handle.net/11459/CCR_C-2535_a4f0e587-455a-ef40-c129-9f605e4c8fad" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false"/>
+            <CMD_Component name="Contact" ComponentId="clarin.eu:cr1:c_1271859438180" CardinalityMin="1" CardinalityMax="unbounded">
+                <CMD_Element name="Name" ConceptLink="http://hdl.handle.net/11459/CCR_C-2454_e0e88868-2fc6-a87e-cd0d-d8f69c85b41d" ValueScheme="string" CardinalityMin="0" CardinalityMax="1"/>
+                <CMD_Element name="Address" ConceptLink="http://hdl.handle.net/11459/CCR_C-2505_b61e249b-ac68-b40a-0f21-03a4a26e16b4" ValueScheme="string" CardinalityMin="0" CardinalityMax="1"/>
+                <CMD_Element name="Email" ConceptLink="http://hdl.handle.net/11459/CCR_C-2521_7b01b455-0de8-d753-ad4e-dee49953ae98" ValueScheme="string" CardinalityMin="0" CardinalityMax="1"/>
+                <CMD_Element name="Organisation" ConceptLink="http://hdl.handle.net/11459/CCR_C-2459_fc4e74d6-84de-c8cd-1ae8-2c2be5ee90b1" ValueScheme="string" CardinalityMin="0" CardinalityMax="1"/>
+            </CMD_Component>
+            <CMD_Component name="descriptions" ComponentId="clarin.eu:cr1:c_1407745712036" CardinalityMin="0" CardinalityMax="1">
+                <CMD_Element name="Description" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" DisplayPriority="1"/>
+            </CMD_Component>
+        </CMD_Component>
+        <CMD_Component name="Bat-image" ComponentId="clarin.eu:cr1:c_1456409483200" CardinalityMin="1" CardinalityMax="unbounded">
+            <CMD_Element name="BatSpecies" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Documentation="Bat species">
+                
+            </CMD_Element>
+            <CMD_Element name="BatAge" CardinalityMin="0" CardinalityMax="1" Documentation="Bat age (Juvenile/Adult)">
+                
+                <ValueScheme>
+                    
+                        <enumeration>
+                            <item ConceptLink="" AppInfo="">Adult</item>
+                            <item ConceptLink="" AppInfo="">Juvenile</item>
+                        </enumeration>
+                    
+                </ValueScheme>
+            </CMD_Element>
+            <CMD_Element name="GeneSymbol" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Documentation="Gene symbol">
+                
+            </CMD_Element>
+            <CMD_Element name="BrainRegion" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Documentation="Brain region">
+                
+            </CMD_Element>
+            <CMD_Element name="Orientation" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Documentation="Orientation of the bat image">
+                
+            </CMD_Element>
+            <CMD_Element name="ImageOrderNumber" ValueScheme="int" CardinalityMin="0" CardinalityMax="1" DisplayPriority="1" Documentation="Image order number">
+                
+            </CMD_Element>
+            <CMD_Element name="Magnification" ValueScheme="int" CardinalityMin="0" CardinalityMax="1" Documentation="Magnification">
+                
+            </CMD_Element>
+            <CMD_Component name="ImageResource" CardinalityMin="1" CardinalityMax="1">
+                <CMD_Element name="ResourceLink" ConceptLink="http://hdl.handle.net/11459/CCR_C-2546_180dca37-c1d8-dffe-5d46-8f16de143320" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" DisplayPriority="1" Documentation="Link to the resource">
+                    
+                </CMD_Element>
+                <CMD_Element name="Format" ConceptLink="http://hdl.handle.net/11459/CCR_C-2571_2be2e583-e5af-34c2-3673-93359ec1f7df" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Documentation="File format of the resource">
+                    
+                </CMD_Element>
+            </CMD_Component>
+        </CMD_Component>
+        <CMD_Component name="Bat-experimental-conditions" ComponentId="clarin.eu:cr1:c_1456409483201" CardinalityMin="1" CardinalityMax="1">
+            <CMD_Element name="Antibody" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Documentation="Antibody">
+                
+            </CMD_Element>
+            <CMD_Element name="AntigenRetrievalPH" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Documentation="Antigen retrieval pH">
+                
+            </CMD_Element>
+            <CMD_Element name="Concentration" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Documentation="Concentration">
+                
+            </CMD_Element>
+            <CMD_Element name="IncubationTime" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Documentation="Incubation time">
+                
+            </CMD_Element>
+            <CMD_Element name="Method" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" DisplayPriority="1" Documentation="Method">
+                
+            </CMD_Element>
+        </CMD_Component>
+    </CMD_Component>
+</CMD_ComponentSpec>

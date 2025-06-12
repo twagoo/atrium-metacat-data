@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><CMD_ComponentSpec xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cue="http://www.clarin.eu/cmd/cues/1" xmlns:cue_old="http://www.clarin.eu/cmdi/cues/1" isProfile="true" xsi:noNamespaceSchemaLocation="https://infra.clarin.eu/CMDI/1.1/general-component-schema.xsd">
+    <Header>
+        <ID>clarin.eu:cr1:p_1357720977494</ID>
+        <Name>wnd_subcollection_core_data</Name>
+        <Description>Profile for WND subcollections</Description>
+        
+    </Header>
+    <CMD_Component name="wnd_subcollection_core_data" CardinalityMin="1" CardinalityMax="1">
+        <CMD_Component name="Fascicle" ComponentId="clarin.eu:cr1:c_1357720977497" CardinalityMin="1" CardinalityMax="1">
+            <CMD_Element name="ResourceName" ConceptLink="http://hdl.handle.net/11459/CCR_C-2544_3626545e-a21d-058c-ebfd-241c0464e7e5" ValueScheme="string" CardinalityMin="1" CardinalityMax="unbounded" Multilingual="true" DisplayPriority="1"/>
+        </CMD_Component>
+    </CMD_Component>
+</CMD_ComponentSpec>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?><CMD_ComponentSpec xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cue="http://www.clarin.eu/cmd/cues/1" xmlns:cue_old="http://www.clarin.eu/cmdi/cues/1" isProfile="true" xsi:noNamespaceSchemaLocation="https://infra.clarin.eu/CMDI/1.1/general-component-schema.xsd">
+    <Header>
+        <ID>clarin.eu:cr1:p_1430905751614</ID>
+        <Name>DGDCorpus</Name>
+        <Description>a profile for defining corpus-catalogue resources of the database for spoken german.</Description>
+        
+    </Header>
+    <CMD_Component name="DGDCorpus" ConceptLink="http://hdl.handle.net/11459/CCR_C-4361_ce00d14d-d3bb-5ec0-5d9d-46fa6f47b9fe" CardinalityMin="1" CardinalityMax="1">
+        <CMD_Element name="Name" ConceptLink="http://hdl.handle.net/11459/CCR_C-2544_3626545e-a21d-058c-ebfd-241c0464e7e5" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" DisplayPriority="1" Documentation="/Korpus/Name">
+            
+        </CMD_Element>
+        <CMD_Element name="Title" ConceptLink="http://hdl.handle.net/11459/CCR_C-5125_4259bcdc-74e3-0d71-ef4b-39cc70e4e779" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" DisplayPriority="1" Documentation="Korpus/Sonstige_Bezeichnungen">
+            
+        </CMD_Element>
+        <CMD_Element name="Description" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" DisplayPriority="1" Documentation="Korpus/Korpus_Projekt_Kurzbeschreibung">
+            
+        </CMD_Element>
+        <CMD_Element name="ResourceType" ConceptLink="http://hdl.handle.net/11459/CCR_C-2990_12f55eed-cacf-5ec3-c929-ce2493956713" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" DisplayPriority="1" Documentation="/Korpus/Erstellungsprojekt/Typ">
+            
+        </CMD_Element>
+        <CMD_Element name="ResourceMediaType" ConceptLink="http://hdl.handle.net/11459/CCR_C-2570_6f596a6d-4d5c-f336-d971-e61a310e2c8c" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" DisplayPriority="1" Documentation="/Korpus/Korpusbestandteile/Quellaufnahmen/@Typ">
+            
+        </CMD_Element>
+        <CMD_Element name="Organisation" ConceptLink="http://hdl.handle.net/11459/CCR_C-2979_8030473e-bbcb-6b87-3fd2-90554429ec50" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" DisplayPriority="1" Documentation="/Korpus/Erstellungsprojekt/Institut">
+            
+        </CMD_Element>
+        <CMD_Element name="DistributionType" ConceptLink="http://hdl.handle.net/11459/CCR_C-3795_9ca13de7-965b-6a56-ebfb-9cfec61fac6e" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" DisplayPriority="1" Documentation="/Korpus/Korpusbestandteile/Quellaufnahmen/Distribution/Zugänglichkeit">
+            
+        </CMD_Element>
+        <CMD_Element name="ProjectTitle" ConceptLink="http://hdl.handle.net/11459/CCR_C-2537_fa206273-223a-f4fa-dde3-ba59b965701f" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" DisplayPriority="1" Documentation="/Korpus/Erstellungsprojekt/@Titel">
+            
+        </CMD_Element>
+        <CMD_Element name="PublicationYear" ConceptLink="http://hdl.handle.net/11459/CCR_C-5774_1b974a7d-8f1f-15b6-02d3-8351e0127dee" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" DisplayPriority="1" Documentation="/Korpus/Erstellungsprojekt/Laufzeit">
+            
+        </CMD_Element>
+        <CMD_Element name="Language" ConceptLink="http://hdl.handle.net/11459/CCR_C-5358_3cd089fe-ad03-6181-b20c-635ea41ed818" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" DisplayPriority="1" Documentation="/Korpus/Aufzeichnungsobjekte/Sprechereignisse/Basisdaten/Sprachen">
+            
+        </CMD_Element>
+        <CMD_Element name="DeliveryFormat" ConceptLink="http://hdl.handle.net/11459/CCR_C-2465_4444eb51-7cf7-0ff7-7687-7f741f3a4f84" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" DisplayPriority="1" Documentation="/Korpus/Korpusbestandteile/SE-Aufnahmen/Digitale_Fassungen/Tontechnische_Daten/Format">
+            
+        </CMD_Element>
+        <CMD_Element name="Genre" ConceptLink="http://hdl.handle.net/11459/CCR_C-2470_d191f2b2-6339-f031-b534-70d526b28357" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" DisplayPriority="1" Documentation="/Korpus/Aufzeichnungsobjekte/Sprechereignisse/Basisdaten/Arten">
+            
+        </CMD_Element>
+        <CMD_Element name="Subject" ConceptLink="http://hdl.handle.net/11459/CCR_C-1391_e7bfdda3-47a4-3f75-721b-cb93a109ac64" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" DisplayPriority="1" Documentation="/Korpus/Aufzeichnungsobjekte/Sprechereignisse/Basisdaten/Sprachen">
+            
+        </CMD_Element>
+        <CMD_Element name="LastUpdate" ConceptLink="http://hdl.handle.net/11459/CCR_C-2526_979ac535-eaa5-5e59-3cad-51c450234698" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" Documentation="/Korpus/Dokumentationsgeschichte/Update/@Datum">
+            
+        </CMD_Element>
+        <CMD_Component name="Keywords" ConceptLink="http://hdl.handle.net/11459/CCR_C-5356_d4d861f6-e302-9b13-5ab5-f8ba171cc258" CardinalityMin="0" CardinalityMax="unbounded">
+            <CMD_Element name="Keyword" ConceptLink="http://hdl.handle.net/11459/CCR_C-278_336dd81a-626b-713e-c74a-34fa2ca26a71" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" DisplayPriority="1" Documentation="/Korpus/Deskription">
+                
+            </CMD_Element>
+        </CMD_Component>
+        <CMD_Component name="dc-inter-relations" ComponentId="clarin.eu:cr1:c_1430905751598" CardinalityMin="0" CardinalityMax="unbounded">
+            <CMD_Element name="conformsTo" ConceptLink="http://purl.org/dc/terms/conformsTo" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
+                <AttributeList>
+                    <Attribute><Name>href</Name><Type>anyURI</Type></Attribute>
+                </AttributeList>
+            </CMD_Element>
+            <CMD_Element name="hasFormat" ConceptLink="http://purl.org/dc/terms/hasFormat" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false" DisplayPriority="1">
+                <AttributeList>
+                    <Attribute><Name>href</Name><Type>anyURI</Type></Attribute>
+                </AttributeList>
+            </CMD_Element>
+            <CMD_Element name="hasPart" ConceptLink="http://purl.org/dc/terms/hasPart" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
+                <AttributeList>
+                    <Attribute><Name>href</Name><Type>anyURI</Type></Attribute>
+                </AttributeList>
+            </CMD_Element>
+            <CMD_Element name="hasVersion" ConceptLink="http://purl.org/dc/terms/hasVersion" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
+                <AttributeList>
+                    <Attribute><Name>href</Name><Type>anyURI</Type></Attribute>
+                </AttributeList>
+            </CMD_Element>
+            <CMD_Element name="isFormatOf" ConceptLink="http://purl.org/dc/terms/isFormatOf" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
+                <AttributeList>
+                    <Attribute><Name>href</Name><Type>anyURI</Type></Attribute>
+                </AttributeList>
+            </CMD_Element>
+            <CMD_Element name="isPartOf" ConceptLink="http://purl.org/dc/terms/isPartOf" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
+                <AttributeList>
+                    <Attribute><Name>href</Name><Type>anyURI</Type></Attribute>
+                </AttributeList>
+            </CMD_Element>
+            <CMD_Element name="isReferencedBy" ConceptLink="http://purl.org/dc/terms/isReferencedBy" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
+                <AttributeList>
+                    <Attribute><Name>href</Name><Type>anyURI</Type></Attribute>
+                </AttributeList>
+            </CMD_Element>
+            <CMD_Element name="isReplacedBy" ConceptLink="http://purl.org/dc/terms/isReplacedBy" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
+                <AttributeList>
+                    <Attribute><Name>href</Name><Type>anyURI</Type></Attribute>
+                </AttributeList>
+            </CMD_Element>
+            <CMD_Element name="isRequiredBy" ConceptLink="http://purl.org/dc/terms/isRequiredBy" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
+                <AttributeList>
+                    <Attribute><Name>href</Name><Type>anyURI</Type></Attribute>
+                </AttributeList>
+            </CMD_Element>
+            <CMD_Element name="isVersionOf" ConceptLink="http://purl.org/dc/terms/isVersionOf" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
+                <AttributeList>
+                    <Attribute><Name>href</Name><Type>anyURI</Type></Attribute>
+                </AttributeList>
+            </CMD_Element>
+            <CMD_Element name="references" ConceptLink="http://purl.org/dc/terms/references" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
+                <AttributeList>
+                    <Attribute><Name>href</Name><Type>anyURI</Type></Attribute>
+                </AttributeList>
+            </CMD_Element>
+            <CMD_Element name="relation" ConceptLink="http://purl.org/dc/terms/relation" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
+                <AttributeList>
+                    <Attribute><Name>href</Name><Type>anyURI</Type></Attribute>
+                </AttributeList>
+            </CMD_Element>
+            <CMD_Element name="replaces" ConceptLink="http://purl.org/dc/terms/replaces" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
+                <AttributeList>
+                    <Attribute><Name>href</Name><Type>anyURI</Type></Attribute>
+                </AttributeList>
+            </CMD_Element>
+            <CMD_Element name="requires" ConceptLink="http://purl.org/dc/terms/requires" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
+                <AttributeList>
+                    <Attribute><Name>href</Name><Type>anyURI</Type></Attribute>
+                </AttributeList>
+            </CMD_Element>
+            <CMD_Element name="source" ConceptLink="http://purl.org/dc/terms/source" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
+                <AttributeList>
+                    <Attribute><Name>href</Name><Type>anyURI</Type></Attribute>
+                </AttributeList>
+            </CMD_Element>
+        </CMD_Component>
+    </CMD_Component>
+</CMD_ComponentSpec>

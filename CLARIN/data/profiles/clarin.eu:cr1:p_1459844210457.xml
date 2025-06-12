@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?><CMD_ComponentSpec xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cue="http://www.clarin.eu/cmd/cues/1" xmlns:cue_old="http://www.clarin.eu/cmdi/cues/1" isProfile="true" xsi:noNamespaceSchemaLocation="https://infra.clarin.eu/CMDI/1.1/general-component-schema.xsd">
+    <Header>
+        <ID>clarin.eu:cr1:p_1459844210457</ID>
+        <Name>DiaryCollection</Name>
+        <Description>CMDI-profile of the database of the Dutch Diary Archive (Meertens Instituut)</Description>
+        
+    </Header>
+    <CMD_Component name="DiaryCollection" CardinalityMin="1" CardinalityMax="1">
+        <CMD_Element name="title" ConceptLink="http://purl.org/dc/terms/title" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" DisplayPriority="1"/>
+        <CMD_Element name="description" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" DisplayPriority="2"/>
+        <CMD_Component name="CoreResourceInformation" ComponentId="clarin.eu:cr1:c_1454489235462" CardinalityMin="1" CardinalityMax="unbounded">
+            <CMD_Element name="inventoryId" ConceptLink="http://hdl.handle.net/11459/CCR_C_2667a52a-6d6c-8a8f-a079-b97ba9c20284" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false"/>
+            <CMD_Element name="description" ConceptLink="http://purl.org/dc/terms/description" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" DisplayPriority="1"/>
+            <CMD_Element name="medium" ConceptLink="http://hdl.handle.net/11459/CCR_C-2458_6d94aa4b-09f5-bd3e-0c00-23a457840463" CardinalityMin="0" CardinalityMax="unbounded">
+                <ValueScheme>
+                    
+                        <enumeration>
+                            <item ConceptLink="" AppInfo="">server</item>
+                            <item ConceptLink="" AppInfo="">cdrom</item>
+                            <item ConceptLink="" AppInfo="">memorystick</item>
+                            <item ConceptLink="" AppInfo="">harddisc</item>
+                            <item ConceptLink="" AppInfo="">dvd</item>
+                            <item ConceptLink="" AppInfo="">diskette</item>
+                            <item ConceptLink="" AppInfo="">hi8</item>
+                        </enumeration>
+                    
+                </ValueScheme>
+            </CMD_Element>
+            <CMD_Element name="oldBoxNumber" ConceptLink="http://hdl.handle.net/11459/CCR_C_9eb975d2-a4a4-fdfb-57a8-a3cf9af9bdbe" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false"/>
+            <CMD_Component name="TechnicalMetadata" ConceptLink="http://hdl.handle.net/11459/CCR_C_4362eadb-3bc1-de33-cb11-47de192dd163" CardinalityMin="1" CardinalityMax="1">
+                <CMD_Element name="digital" ConceptLink="http://hdl.handle.net/11459/CCR_C_8a26a21a-71c9-b5d9-badd-a2de7363e60f" ValueScheme="boolean" CardinalityMin="1" CardinalityMax="1" DisplayPriority="1"/>
+                <CMD_Component name="Size" ConceptLink="http://hdl.handle.net/11459/CCR_C_d6993b58-e66f-34a1-73aa-2d02cad42e85" CardinalityMin="0" CardinalityMax="1">
+                    <CMD_Element name="number" ConceptLink="http://hdl.handle.net/11459/CCR_C-6177_8e40366a-172a-9f6a-cc6a-fcb982209d53" ValueScheme="decimal" CardinalityMin="1" CardinalityMax="1" DisplayPriority="1"/>
+                    <CMD_Element name="unit" ConceptLink="http://hdl.handle.net/11459/CCR_C-2583_5f5cb491-1037-8d46-d685-ccebfc0233f7" CardinalityMin="1" CardinalityMax="1">
+                        <ValueScheme>
+                            
+                                <enumeration>
+                                    <item ConceptLink="" AppInfo="kilobyte">KB</item>
+                                    <item ConceptLink="" AppInfo="megabyte">MB</item>
+                                    <item ConceptLink="" AppInfo="gigabyte">GB</item>
+                                    <item ConceptLink="" AppInfo="terabyte">TB</item>
+                                </enumeration>
+                            
+                        </ValueScheme>
+                    </CMD_Element>
+                </CMD_Component>
+            </CMD_Component>
+        </CMD_Component>
+        <CMD_Component name="DocumentType" ConceptLink="http://hdl.handle.net/11459/CCR_C-5557_af316698-4657-30f3-29c0-3bfc7d3eb21a" CardinalityMin="1" CardinalityMax="1">
+            <CMD_Element name="type" ConceptLink="http://hdl.handle.net/11459/CCR_C-5557_af316698-4657-30f3-29c0-3bfc7d3eb21a" CardinalityMin="0" CardinalityMax="unbounded" DisplayPriority="1">
+                <ValueScheme>
+                    
+                        <enumeration>
+                            <item ConceptLink="" AppInfo="">calendar</item>
+                            <item ConceptLink="" AppInfo="">diary</item>
+                            <item ConceptLink="" AppInfo="">letter / postcard</item>
+                            <item ConceptLink="" AppInfo="">memoir</item>
+                            <item ConceptLink="" AppInfo="">travel journal</item>
+                        </enumeration>
+                    
+                </ValueScheme>
+            </CMD_Element>
+            <CMD_Element name="other" ConceptLink="http://hdl.handle.net/11459/CCR_C-5557_af316698-4657-30f3-29c0-3bfc7d3eb21a" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true"/>
+        </CMD_Component>
+        <CMD_Component name="Size" ConceptLink="http://hdl.handle.net/11459/CCR_C-5644_ea415329-2992-eac9-d6ac-e029ed5387c3" CardinalityMin="0" CardinalityMax="unbounded">
+            <AttributeList>
+                <Attribute><Name>approximate</Name><Type>boolean</Type></Attribute>
+            </AttributeList>
+            <CMD_Element name="number" ConceptLink="http://hdl.handle.net/11459/CCR_C-5644_ea415329-2992-eac9-d6ac-e029ed5387c3" ValueScheme="decimal" CardinalityMin="1" CardinalityMax="1" DisplayPriority="1"/>
+            <CMD_Element name="unit" ConceptLink="http://hdl.handle.net/11459/CCR_C-2583_5f5cb491-1037-8d46-d685-ccebfc0233f7" CardinalityMin="1" CardinalityMax="1">
+                <ValueScheme>
+                    
+                        <enumeration>
+                            <item ConceptLink="" AppInfo="">volumes</item>
+                            <item ConceptLink="" AppInfo="">pages</item>
+                            <item ConceptLink="" AppInfo="">letters/postcards</item>
+                            <item ConceptLink="" AppInfo="">attachments</item>
+                        </enumeration>
+                    
+                </ValueScheme>
+            </CMD_Element>
+        </CMD_Component>
+        <CMD_Component name="Form" ConceptLink="http://hdl.handle.net/11459/CCR_C-6856_4256ae5c-e5df-9015-b374-5dad462f5494" CardinalityMin="1" CardinalityMax="1">
+            <CMD_Element name="format" ConceptLink="http://hdl.handle.net/11459/CCR_C-6856_4256ae5c-e5df-9015-b374-5dad462f5494" CardinalityMin="0" CardinalityMax="unbounded" DisplayPriority="1">
+                <ValueScheme>
+                    
+                        <enumeration>
+                            <item ConceptLink="" AppInfo="">handwritten original</item>
+                            <item ConceptLink="" AppInfo="">typed original</item>
+                            <item ConceptLink="" AppInfo="">digital file</item>
+                            <item ConceptLink="" AppInfo="">copy</item>
+                            <item ConceptLink="" AppInfo="">edited original</item>
+                            <item ConceptLink="" AppInfo="">transcription</item>
+                            <item ConceptLink="" AppInfo="">translation</item>
+                            <item ConceptLink="" AppInfo="">cd/dvd/cd-rom/hard disk</item>
+                            <item ConceptLink="" AppInfo="">book / brochure</item>
+                            <item ConceptLink="" AppInfo="">calendar</item>
+                            <item ConceptLink="" AppInfo="">printed</item>
+                        </enumeration>
+                    
+                </ValueScheme>
+            </CMD_Element>
+            <CMD_Element name="other" ConceptLink="http://hdl.handle.net/11459/CCR_C-6856_4256ae5c-e5df-9015-b374-5dad462f5494" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true"/>
+        </CMD_Component>
+        <CMD_Component name="Authors" CardinalityMin="1" CardinalityMax="1">
+            <CMD_Component name="Author" CardinalityMin="0" CardinalityMax="unbounded">
+                <CMD_Element name="birthDate" ConceptLink="http://hdl.handle.net/11459/CCR_C-5484_e9a0c522-add0-381d-1bc8-93431c3bde19" ValueScheme="gYear" CardinalityMin="0" CardinalityMax="1" DisplayPriority="1"/>
+                <CMD_Element name="birthPlace" ConceptLink="http://hdl.handle.net/11459/CCR_C-5121_79e664d5-ee01-1ff8-bb51-ef81e8bc8e11" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true"/>
+                <CMD_Element name="maritalStatus" ConceptLink="http://hdl.handle.net/11459/CCR_C_e5e684c2-ac65-1644-12bb-81e2434948da" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true"/>
+                <CMD_Element name="education" ConceptLink="http://hdl.handle.net/11459/CCR_C-2554_9de315eb-5f32-fec4-c445-cda05f2bde00" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true"/>
+                <CMD_Element name="profession" ConceptLink="http://hdl.handle.net/11459/CCR_C-2558_319980ea-b064-d2b1-93ed-29056d553816" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true"/>
+                <CMD_Element name="title" ConceptLink="http://hdl.handle.net/11459/CCR_C-5550_6e149aff-24fc-00e4-af48-046365ef3636" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true"/>
+                <CMD_Element name="gender" ConceptLink="http://hdl.handle.net/11459/CCR_C_12126e48-8bd4-ff0d-962d-3adfff0bf34a" CardinalityMin="1" CardinalityMax="unbounded">
+                    <ValueScheme>
+                        
+                            <enumeration>
+                                <item ConceptLink="" AppInfo="">male</item>
+                                <item ConceptLink="" AppInfo="">female</item>
+                                <item ConceptLink="" AppInfo="">other</item>
+                                <item ConceptLink="" AppInfo="">unknown</item>
+                            </enumeration>
+                        
+                    </ValueScheme>
+                </CMD_Element>
+                <CMD_Element name="dateOfDeath" ConceptLink="http://hdl.handle.net/11459/CCR_C-5619_389e4d44-5710-25fb-b318-4d1e3a0b9cf3" ValueScheme="gYear" CardinalityMin="0" CardinalityMax="1"/>
+                <CMD_Element name="religion" ConceptLink="http://hdl.handle.net/11459/CCR_C_32342a10-dd8b-d927-8eb3-cca8759a3ad6" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true"/>
+                <CMD_Element name="numberOfChildren" ConceptLink="http://hdl.handle.net/11459/CCR_C_0a3de576-5fa3-9855-1843-1997083d1c88" ValueScheme="int" CardinalityMin="0" CardinalityMax="1"/>
+                <CMD_Element name="placesOfResidence" ConceptLink="http://hdl.handle.net/11459/CCR_C_e79be7d2-652e-2792-e47c-5a7ee953f077" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true"/>
+                <CMD_Element name="startOfWriting" ConceptLink="http://hdl.handle.net/11459/CCR_C-2539_f831f74e-f8ca-4e29-bb02-eb6ca7ea3073" ValueScheme="gYear" CardinalityMin="0" CardinalityMax="1"/>
+            </CMD_Component>
+        </CMD_Component>
+    </CMD_Component>
+</CMD_ComponentSpec>

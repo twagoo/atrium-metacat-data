@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-6822_4bb79c10-c3a2-afe6-3449-24b86de08dc7">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-DialogueActs_955814a6-6c07-c143-94eb-b2551c2d51cb"/>
+    <skos:prefLabel xml:lang="en">instance</skos:prefLabel>
+    <skos:notation>instance</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-4046_8dfee0e9-6ab8-814f-8b5f-6703cc3ab058">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-DialogueActs_955814a6-6c07-c143-94eb-b2551c2d51cb"/>
+    <skos:prefLabel xml:lang="en">text corpus</skos:prefLabel>
+    <skos:notation>textCorpus</skos:notation>
+  </skos:Concept>
+
+  <skos:ConceptScheme rdf:about="http://hdl.handle.net/11459/CCR_P-DialogueActs_955814a6-6c07-c143-94eb-b2551c2d51cb">
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-6822_4bb79c10-c3a2-afe6-3449-24b86de08dc7"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-4046_8dfee0e9-6ab8-814f-8b5f-6703cc3ab058"/>
+    <rdfs:label xml:lang="en">Dialogue Acts</rdfs:label>
+  </skos:ConceptScheme>
+
+</rdf:RDF>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-1978_088a96da-46c0-cfc9-eb0d-2a3bc20caa55">
+    <skos:topConceptOf>
+      <skos:ConceptScheme rdf:about="http://hdl.handle.net/11459/CCR_P-MultilingualInformationManagement_ae12d298-6867-1428-839c-5a624aeaad94">
+        <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-1978_088a96da-46c0-cfc9-eb0d-2a3bc20caa55"/>
+        <rdfs:label xml:lang="en">Multilingual Information Management</rdfs:label>
+      </skos:ConceptScheme>
+    </skos:topConceptOf>
+
+    <skos:prefLabel xml:lang="en">value</skos:prefLabel>
+    <skos:notation>valueGeneric</skos:notation>
+  </skos:Concept>
+
+</rdf:RDF>

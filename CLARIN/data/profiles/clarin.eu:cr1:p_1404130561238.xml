@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><CMD_ComponentSpec xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cue="http://www.clarin.eu/cmd/cues/1" xmlns:cue_old="http://www.clarin.eu/cmdi/cues/1" isProfile="true" xsi:noNamespaceSchemaLocation="https://infra.clarin.eu/CMDI/1.1/general-component-schema.xsd">
+    <Header>
+        <ID>clarin.eu:cr1:p_1404130561238</ID>
+        <Name>VirtualCollection</Name>
+        <Description>A component for describing personalized sets of metadata descriptions</Description>
+        
+    </Header>
+    <CMD_Component name="VirtualCollection" CardinalityMin="1" CardinalityMax="1">
+        <CMD_Element name="Name" ConceptLink="http://hdl.handle.net/11459/CCR_C-2544_3626545e-a21d-058c-ebfd-241c0464e7e5" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" DisplayPriority="1"/>
+        <CMD_Element name="Description" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false"/>
+        <CMD_Element name="CreationDate" ConceptLink="http://hdl.handle.net/11459/CCR_C-2510_2402e609-046a-dfbf-c2d7-5a2f1ae6dc86" ValueScheme="date" CardinalityMin="1" CardinalityMax="1"/>
+        <CMD_Element name="Status" ConceptLink="http://hdl.handle.net/11459/CCR_C-3818_8c4aec73-1654-7565-9575-c4a17425ee29" CardinalityMin="1" CardinalityMax="1">
+            <ValueScheme>
+                
+                    <enumeration>
+                        <item ConceptLink="http://hdl.handle.net/11459/CCR_C-4381_6cf908f9-1189-8d49-ac52-20885b09b5f3" AppInfo="">draft</item>
+                        <item ConceptLink="http://hdl.handle.net/11459/CCR_C-4383_3502b414-9c7a-2b6e-98cb-b43581bdca67" AppInfo="">published</item>
+                        <item ConceptLink="http://hdl.handle.net/11459/CCR_C-4385_fff6480b-1f31-dd7c-a838-1990cce8128f" AppInfo="">deprecated</item>
+                    </enumeration>
+                
+            </ValueScheme>
+        </CMD_Element>
+        <CMD_Element name="Reproducability" CardinalityMin="0" CardinalityMax="1" Documentation="An indication of the degree to which results obtained from processing of the present collection can be expected to be stable">
+            
+            <ValueScheme>
+                
+                    <enumeration>
+                        <item ConceptLink="" AppInfo="Processing results may vary">fluctuating</item>
+                        <item ConceptLink="" AppInfo="Processing results can be expected to remain stable">intended</item>
+                        <item ConceptLink="" AppInfo="No claims with respect to the stability of the processing results are made">untended</item>
+                    </enumeration>
+                
+            </ValueScheme>
+        </CMD_Element>
+        <CMD_Element name="Purpose" ConceptLink="http://hdl.handle.net/11459/CCR_C-6151_418da06f-1629-164c-9ef1-ed40674f2dff" CardinalityMin="0" CardinalityMax="1" Documentation="An indication of the intended usage of the present virtual collection">
+            
+            <ValueScheme>
+                
+                    <enumeration>
+                        <item ConceptLink="" AppInfo="The virtual collection bundles resources that are relevant to a specific research (question)">research</item>
+                        <item ConceptLink="" AppInfo="The virtual collection bundles resources, that are to be cited in a publication">reference</item>
+                        <item ConceptLink="" AppInfo="The purpose of this virtual collection is not specified yet. Used in published collection is advised against">future use</item>
+                        <item ConceptLink="" AppInfo="This virtual collection bundles is intended to serve as an sample for research data">sample</item>
+                    </enumeration>
+                
+            </ValueScheme>
+        </CMD_Element>
+        <CMD_Element name="ReproducabilityNotice" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" Documentation="Optional notes describing the expected reproducibility of processing results in more detail">
+            
+        </CMD_Element>
+        <CMD_Element name="Origin" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false"/>
+        <CMD_Element name="Keyword" ConceptLink="http://hdl.handle.net/11459/CCR_C-5436_6ab57c2c-5f8d-3561-6db6-d75da23d2637" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false" Documentation="A word or short phrase signifying a salient facet of the present virtual collection">
+            
+        </CMD_Element>
+        <CMD_Component name="Creator" ConceptLink="http://hdl.handle.net/11459/CCR_C-6714_6e908e21-2b64-795e-c2a3-357bd9a328d8" CardinalityMin="1" CardinalityMax="unbounded">
+            <CMD_Element name="Name" ConceptLink="http://hdl.handle.net/11459/CCR_C-2512_e8061b33-c5f3-7f6c-184d-a4311549ba92" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" DisplayPriority="1"/>
+            <CMD_Element name="Email" ConceptLink="http://hdl.handle.net/11459/CCR_C-2521_7b01b455-0de8-d753-ad4e-dee49953ae98" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false"/>
+            <CMD_Element name="Organisation" ConceptLink="http://hdl.handle.net/11459/CCR_C-2459_fc4e74d6-84de-c8cd-1ae8-2c2be5ee90b1" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false"/>
+        </CMD_Component>
+        <CMD_Component name="Resource" CardinalityMin="0" CardinalityMax="unbounded">
+            <CMD_Element name="Label" ConceptLink="http://hdl.handle.net/11459/CCR_C-2544_3626545e-a21d-058c-ebfd-241c0464e7e5" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" DisplayPriority="1"/>
+            <CMD_Element name="Description" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false"/>
+        </CMD_Component>
+        <CMD_Component name="GeneratedBy" CardinalityMin="0" CardinalityMax="1">
+            <CMD_Element name="Description" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" Documentation="A prose description of the procedure by which the collection items can be retrieved from the external service">
+                
+            </CMD_Element>
+            <CMD_Element name="URI" ConceptLink="http://hdl.handle.net/11459/CCR_C-5643_48854879-cddd-4656-8449-0f27ae82901f" ValueScheme="anyURI" CardinalityMin="1" CardinalityMax="1" DisplayPriority="3" Documentation="The location of the service from which the items should be retrieved. This value may be a persistent identifier, but could also be a plain URI although this is advised against for published collections.">
+                
+            </CMD_Element>
+            <CMD_Element name="QueryProfile" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" DisplayPriority="2" Documentation="Identifier of the mechanism, i.e. the protocol to be used, by which the members of the virtual collection should be retrieved. A application exploiting the query can use this to use a proper driver to talk to the service. Example: In case of CLARIN-FCS access the endpoint by FCS-compatible means.">
+                
+            </CMD_Element>
+            <CMD_Element name="QueryValue" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" DisplayPriority="1" Documentation="The query that should be passed on to the service by which it can look up the items that are part of this collection. This value should be in the query language supported by the service. Example: In case of CLARIN-FCS, this value is the CQL query to be send to the endpoint.">
+                
+            </CMD_Element>
+        </CMD_Component>
+    </CMD_Component>
+</CMD_ComponentSpec>

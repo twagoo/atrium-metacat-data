@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><CMD_ComponentSpec xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cue="http://www.clarin.eu/cmd/cues/1" xmlns:cue_old="http://www.clarin.eu/cmdi/cues/1" isProfile="true" xsi:noNamespaceSchemaLocation="https://infra.clarin.eu/CMDI/1.1/general-component-schema.xsd">
+    <Header>
+        <ID>clarin.eu:cr1:p_1562754657284</ID>
+        <Name>teiHeader</Name>
+        <Description>Standard TEI Header used for resources in the GAMS repository</Description>
+        
+        
+    </Header>
+    <CMD_Component name="teiHeader" CardinalityMin="1" CardinalityMax="1">
+        <AttributeList>
+            <Attribute><Name>type</Name><ConceptLink>http://hdl.handle.net/11459/CCR_C-5424_3200a38b-344e-41de-e539-f71f80c38df8</ConceptLink><Type>string</Type>
+                
+                <AutoValue/>
+            </Attribute>
+        </AttributeList>
+        <CMD_Component name="fileDesc" CardinalityMin="1" CardinalityMax="1">
+            
+            <CMD_Component name="titleStmt" CardinalityMin="1" CardinalityMax="1">
+                
+                <CMD_Element name="title" ConceptLink="http://hdl.handle.net/11459/CCR_C-6119_ea4226b5-8d55-e71e-730f-2a02e3adbeb4" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" DisplayPriority="1">
+                    <AttributeList>
+                        <Attribute><Name>type</Name><Type>string</Type></Attribute>
+                        <Attribute><Name>level</Name><Type>string</Type></Attribute>
+                    </AttributeList>
+                </CMD_Element>
+                <CMD_Element name="author" ConceptLink=" http://hdl.handle.net/11459/CCR_C-4115_5da7f288-5384-5aaf-8d8e-fe4348165786" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded"/>
+            </CMD_Component>
+            <CMD_Component name="publicationStmt" CardinalityMin="1" CardinalityMax="1">
+                
+                <CMD_Element name="date" ValueScheme="string" CardinalityMin="1" CardinalityMax="1">
+                    <AttributeList>
+                        <Attribute><Name>when</Name><Type>string</Type></Attribute>
+                    </AttributeList>
+                </CMD_Element>
+                <CMD_Element name="pubPlace" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" DisplayPriority="1"/>
+                <CMD_Component name="publisher" CardinalityMin="1" CardinalityMax="1">
+                    <CMD_Element name="orgName" ConceptLink="http://hdl.handle.net/11459/CCR_C-2979_8030473e-bbcb-6b87-3fd2-90554429ec50" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" DisplayPriority="1">
+                        <AttributeList>
+                            <Attribute><Name>ref</Name><Type>string</Type></Attribute>
+                            <Attribute><Name>corresp</Name><Type>string</Type></Attribute>
+                        </AttributeList>
+                    </CMD_Element>
+                </CMD_Component>
+                <CMD_Component name="authority" CardinalityMin="1" CardinalityMax="1">
+                    <CMD_Element name="orgName" ConceptLink="http://hdl.handle.net/11459/CCR_C-2979_8030473e-bbcb-6b87-3fd2-90554429ec50" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" DisplayPriority="1">
+                        <AttributeList>
+                            <Attribute><Name>ref</Name><Type>string</Type></Attribute>
+                            <Attribute><Name>corresp</Name><Type>string</Type></Attribute>
+                        </AttributeList>
+                    </CMD_Element>
+                </CMD_Component>
+                <CMD_Component name="availability" ConceptLink="http://hdl.handle.net/11459/CCR_C-2453_1f0c3ea5-7966-ae11-d3c6-448424d4e6e8" CardinalityMin="1" CardinalityMax="1">
+                    <CMD_Element name="licence" ConceptLink="http://hdl.handle.net/11459/CCR_C-3800_12a79edd-0ffe-8d82-9831-45d125c54aee" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" DisplayPriority="1">
+                        <AttributeList>
+                            <Attribute><Name>target</Name><ConceptLink>http://hdl.handle.net/11459/CCR_C-6586_2c79d86a-5a75-0890-d407-7d9cb86b9beb</ConceptLink><Type>string</Type></Attribute>
+                        </AttributeList>
+                    </CMD_Element>
+                </CMD_Component>
+            </CMD_Component>
+            <CMD_Component name="sourceDesc" CardinalityMin="0" CardinalityMax="1">
+                
+                <CMD_Element name="bibl" ConceptLink="http://hdl.handle.net/11459/CCR_C-6137_4cd6c000-df42-abd8-49b3-ecd8d9d3546a" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" DisplayPriority="1"/>
+            </CMD_Component>
+        </CMD_Component>
+        <CMD_Component name="profileDesc" CardinalityMin="1" CardinalityMax="1">
+            <CMD_Component name="langUsage" ComponentId="clarin.eu:cr1:c_1375880373021" ConceptLink="http://hdl.handle.net/11459/CCR_C-5361_ba085ec1-9746-52bf-8cc1-3c300ce16eb8" CardinalityMin="1" CardinalityMax="1">
+                <CMD_Element name="language" ConceptLink="http://hdl.handle.net/11459/CCR_C-5358_3cd089fe-ad03-6181-b20c-635ea41ed818" ValueScheme="string" CardinalityMin="1" CardinalityMax="unbounded" Multilingual="false" DisplayPriority="1">
+                    <AttributeList>
+                        <Attribute><Name>ident</Name><ConceptLink>http://hdl.handle.net/11459/CCR_C-6193_096cfc32-04ce-c4d1-5ed4-5e92db53aa70</ConceptLink><Type>string</Type></Attribute>
+                    </AttributeList>
+                </CMD_Element>
+            </CMD_Component>
+            <CMD_Component name="abstract" CardinalityMin="1" CardinalityMax="1">
+                <CMD_Element name="p" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" ValueScheme="string" CardinalityMin="1" CardinalityMax="unbounded" DisplayPriority="1"/>
+            </CMD_Component>
+        </CMD_Component>
+    </CMD_Component>
+</CMD_ComponentSpec>

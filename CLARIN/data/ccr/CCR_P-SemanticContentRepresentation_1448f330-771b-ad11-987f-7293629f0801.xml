@@ -1,0 +1,1476 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5611_1934d394-4e06-ddfd-0558-27530b6e164b">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">article frequency data</skos:prefLabel>
+    <skos:notation>articleFrequencyData</skos:notation>
+  </skos:Concept>
+
+  <rdf:Description rdf:about="http://hdl.handle.net/11459/CCR_C-5777_396b7563-0706-2e5d-a8a0-d8d7a8d154a1">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+  </rdf:Description>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5827_1b0496fb-27d8-d88e-fdd6-5a8fc9bba058">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">causal relation</skos:prefLabel>
+    <skos:notation>causalRelation</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5915_f38709cf-57af-1a17-d028-c57c286d0646">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">co-synonym sense relations</skos:prefLabel>
+    <skos:notation>coSynonyms</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-6079_08d9c092-fd4f-2236-06db-1c8ad54fa2a9">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">Miscellaneous Named Entity Type</skos:prefLabel>
+    <skos:notation>neTypeMisc</skos:notation>
+  </skos:Concept>
+
+  <rdf:Description rdf:about="http://hdl.handle.net/11459/CCR_C-6089_be30ebd4-af6e-deeb-b72a-65207e30e8ad">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+  </rdf:Description>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-6109_2a566f00-aeeb-a6bd-6d45-16b64affe1b2">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">baseconcept</skos:prefLabel>
+    <skos:notation>baseConcept</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-1511_de660422-a1d2-bc63-f426-076234337234">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">collectiveNoun</skos:prefLabel>
+    <skos:notation>collectiveNoun</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5537_826cb4be-935d-b077-51ef-935f87765c28">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">polarity</skos:prefLabel>
+    <skos:notation>polarity</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5538_3096bbbc-e3da-717f-b53d-23db7fb4c32f">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">positive polarity</skos:prefLabel>
+    <skos:notation>positivePolarityAtttitude</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5599_c99da408-af63-43bc-7159-8a68cd1012bc">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">word cloud data</skos:prefLabel>
+    <skos:notation>worldCloudData</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5673_80f308af-a0ae-8fd5-e90c-97353bed5a83">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">sense example</skos:prefLabel>
+    <skos:notation>senseExample</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5700_f03994a2-67b1-23e8-469c-bb73e00a072b">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">WordForm</skos:prefLabel>
+    <skos:notation>wordFormLexeme</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5776_ed733b40-67dc-099e-6a96-cb56634109e4">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">proper name</skos:prefLabel>
+    <skos:notation>properName</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5779_3e3015d8-fb05-b00f-7196-dcb1b859dec8">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">abstract</skos:prefLabel>
+    <skos:notation>abstract</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5787_fae48fc1-1586-c27e-2819-9a5a744ea957">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">oldfashioned</skos:prefLabel>
+    <skos:notation>oldfashioned</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5788_520ef837-cc78-16ac-e2d7-d2467bf42d28">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">term</skos:prefLabel>
+    <skos:notation>termMeaning</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5794_13ee07fb-9b99-c115-62b5-577c562d0fea">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">sense group relation type</skos:prefLabel>
+    <skos:notation>senseGroupRelationType</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5805_80690989-c74d-5dcd-5205-9edb252b26bb">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">equivalent holonym synset relation</skos:prefLabel>
+    <skos:notation>eqHasHolonym</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5806_d524f146-b272-7f97-e528-8ac908baab17">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">patient instrument synset relation</skos:prefLabel>
+    <skos:notation>coPatientInstrument</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5807_c8560d51-8c7a-018b-47ce-82898f58af54">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">result agent synset relation</skos:prefLabel>
+    <skos:notation>coResultAgent</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5808_463eec16-b603-1c7a-8d3b-4dded7327ba6">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">result instrument synset relation</skos:prefLabel>
+    <skos:notation>coResultInstrument</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5809_b4b09f0d-567d-2993-998c-c8d6db449c07">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">role synset relation</skos:prefLabel>
+    <skos:notation>coRole</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5810_904651a5-20b7-3518-c290-7806a7bef28f">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">equivalent corole synset relation</skos:prefLabel>
+    <skos:notation>eqCoRole</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5811_7bb00c42-ab5d-dbd0-c803-f4169e5e35e2">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">equivalent beinstate synset relation</skos:prefLabel>
+    <skos:notation>eqBeInState</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5812_eedd438c-4be0-2d72-3fea-13d59a25e46b">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">patient agent synset relation</skos:prefLabel>
+    <skos:notation>coPatientAgent</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5813_5ade6c1f-ee98-8559-2988-af42df76dd39">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">equivalent hyperonym synset relation</skos:prefLabel>
+    <skos:notation>eqHasHyperonym</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5814_a24a9c50-ae7c-df16-4c99-341a1fc519b0">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">role patient synset relation</skos:prefLabel>
+    <skos:notation>rolePatient</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5815_71e91486-fd61-f1dd-3080-27b60172e020">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">involved target direction synset relation</skos:prefLabel>
+    <skos:notation>involvedTargetDirection</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5816_940c9ec3-0af0-77a8-30ef-3e19f6a64452">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">holonym location synset relation</skos:prefLabel>
+    <skos:notation>hasHoloLocation</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5817_942a5775-d868-dc88-ef01-d9cb4fde64a1">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">holonym part synset relation</skos:prefLabel>
+    <skos:notation>hasHoloPart</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5818_7227fbd8-4541-fc1e-35f1-95d129e53209">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">is subevent of synset relation</skos:prefLabel>
+    <skos:notation>isSubeventOf</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5819_ece19bd4-d088-28dc-6c04-22dbc706b283">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">meronym member synset relation</skos:prefLabel>
+    <skos:notation>hasMeroMember</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5820_e446eb5e-cab7-123c-04bb-44a74f902b3c">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">meronym madeof synset relation</skos:prefLabel>
+    <skos:notation>hasMeroMadeof</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5821_aa40a0d5-5015-e3d7-547a-dd78c2c53c7b">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">meronym location synset relation</skos:prefLabel>
+    <skos:notation>hasMeroLocation</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5822_1db896c3-d354-1c6d-60ad-eed2801d5551">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">cross part-of-speech fuzzynym synset relation</skos:prefLabel>
+    <skos:notation>xposFuzzynym</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5824_c7d3c1a6-cc6d-7e62-d8dd-704c5fc74c30">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">hyperonym synset relation</skos:prefLabel>
+    <skos:notation>hasHyperonym</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5825_5b6422e4-8924-11db-4615-32b61a9c38f6">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">state of synset relation</skos:prefLabel>
+    <skos:notation>stateOf</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5826_e2c441af-adf4-bd24-8dc7-9d81e8b49ae2">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">meronym portion synset relation</skos:prefLabel>
+    <skos:notation>hasMeroPortion</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5828_2e1418a7-0308-a886-6b85-b96fca0a4bf5">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">holonym portion synset relation</skos:prefLabel>
+    <skos:notation>hasHoloPortion</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5829_f0624281-7d56-88eb-b461-f7d49542f70b">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">cross part-of-speech near antonym synset relation</skos:prefLabel>
+    <skos:notation>xposNearAntonym</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5830_f6a39613-a205-241e-9209-5a3a9311e2c6">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">holonym member synset relation</skos:prefLabel>
+    <skos:notation>hasHoloMember</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5831_593ebc43-fac9-a09a-957d-2ed4105b7c66">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">holonym madeof synset relation</skos:prefLabel>
+    <skos:notation>hasHoloMadeof</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5832_72e77de2-6017-9d2a-3136-b5841898165e">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">fuzzynym synset relation</skos:prefLabel>
+    <skos:notation>fuzzynym</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5833_fbf2eab1-b091-7cac-3d6c-07b906c9129e">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">role target direction synset relation</skos:prefLabel>
+    <skos:notation>roleTargetDirection</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5834_3a9ef3ed-0a49-dfe1-0d7e-5f102fa28346">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">role source direction synset relation</skos:prefLabel>
+    <skos:notation>roleSourceDirection</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5835_4190ffcf-8fc2-1915-f982-42218a895121">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">role result synset relation</skos:prefLabel>
+    <skos:notation>roleResult</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5836_5b50c43d-670a-0672-c884-e35bde8c98a8">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">holonym synset relation</skos:prefLabel>
+    <skos:notation>hasHolonym</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5837_afd7668a-aa13-2058-6114-28ca5dd29a36">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">in manner synset relation</skos:prefLabel>
+    <skos:notation>inManner</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5838_534fc5b3-9a9a-b2f6-3da7-c321f8452e75">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">agent patient synset relation</skos:prefLabel>
+    <skos:notation>coAgentPatient</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5839_0f344d8b-a9fb-aaa3-c65c-099793e2f92f">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">causative synset relation</skos:prefLabel>
+    <skos:notation>isCausedBy</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5840_5d04cb4a-cf7f-4d9f-6304-0c4273c48222">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">involved source sirection synset relation</skos:prefLabel>
+    <skos:notation>involvedSourceDirection</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5841_0e991e25-f762-97ff-22ed-c65711e987af">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">involved result synset relation</skos:prefLabel>
+    <skos:notation>involvedResult</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5842_bb831513-b90b-1249-4308-98f1dad091b9">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">involved patient synset relation</skos:prefLabel>
+    <skos:notation>involvedPatient</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5843_deb94df9-266d-158d-f9e7-2c01c4884d61">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">involved location synset relation</skos:prefLabel>
+    <skos:notation>involvedLocation</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5844_7b2d0191-d028-7e22-c8ae-80628aa56127">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">involved instrument synset relation</skos:prefLabel>
+    <skos:notation>involvedInstrument</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5845_000157b4-d396-c014-5c41-02186c6065ce">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">involved direction synset relation</skos:prefLabel>
+    <skos:notation>involvedDirection</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5846_c2078bf1-e0a2-4cf3-e5b1-1f119fa1205d">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">meronym part synset relation</skos:prefLabel>
+    <skos:notation>hasMeroPart</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5847_f8f939b7-8971-5ffb-278e-21833af2fea2">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">involved synset relation</skos:prefLabel>
+    <skos:notation>involved</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5848_47965941-0df5-a700-4b85-ac46f120f5ef">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">cross part-of-speech hyponym synset relation</skos:prefLabel>
+    <skos:notation>hasXposHyponym</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5849_969605a5-0648-dfa3-e9a9-4ec371813149">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">agent result synset relation</skos:prefLabel>
+    <skos:notation>coAgentResult</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5850_1eef51f1-2902-9e63-3188-967492bf6190">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">equivalent hyponym synset relation</skos:prefLabel>
+    <skos:notation>eqHasHyponym</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5851_a57110e1-a28e-18cf-bed7-af99a57d4f9a">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">equivalent meronym synset relation</skos:prefLabel>
+    <skos:notation>eqHasMeronym</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5852_1d1f4bd9-dc92-0057-57cf-2263edb5cca5">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">equivalent subevent synset relation</skos:prefLabel>
+    <skos:notation>eqHasSubevent</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5853_4912ebd7-3f49-914f-eb0a-fb9bdfac1e65">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">subevent synset relation</skos:prefLabel>
+    <skos:notation>hasSubevent</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5854_84a3ffca-bf6b-28c0-5ad3-66ffe646e176">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">meronym synset relation</skos:prefLabel>
+    <skos:notation>hasMeronym</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5855_ca45b3e6-8e12-3c1d-a723-90508a51630a">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">equivalent state of synset relationtr</skos:prefLabel>
+    <skos:notation>eqIsStateOf</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5856_fdcd53b1-c782-e668-8811-c3d0f0c167bf">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">equivalent is subevent of synset relation</skos:prefLabel>
+    <skos:notation>eqIsSubeventOf</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5857_36367433-07de-501c-d8b9-5c61692602c6">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">equivalent near synonym synset relation</skos:prefLabel>
+    <skos:notation>eqNearSynonym</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5858_f0f5e601-8f5e-2cc3-305d-9d58ae1ac744">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">equivalent role synset relation</skos:prefLabel>
+    <skos:notation>eqRole</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5859_019020b8-5cd2-458c-dab3-0f44160420bb">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">equivalent unspecified synset relation</skos:prefLabel>
+    <skos:notation>eqUnspecified</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5860_2b60a86a-637a-0c85-ef3f-7de730659ee9">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">instrument agent synset relation</skos:prefLabel>
+    <skos:notation>coInstrumentAgent</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5861_00ddaa35-bc22-802c-e859-60a67f2534fe">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">role location synset relation</skos:prefLabel>
+    <skos:notation>roleLocation</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5862_c865392b-05ab-6e87-9bc0-85a220c1bd26">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">role instrument synset relation</skos:prefLabel>
+    <skos:notation>roleInstrument</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5863_6164c9d8-21f6-ccc9-0b26-3a022c4a0a05">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">role direction synset relation</skos:prefLabel>
+    <skos:notation>roleDirection</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5864_15ef6831-43f2-7953-4e96-75fdf1599615">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">instrument patient synset relation</skos:prefLabel>
+    <skos:notation>coInstrumentPatient</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5876_330b0500-68d7-585b-ebe8-6236178aa85b">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">instrument result synset relation</skos:prefLabel>
+    <skos:notation>coInstrumentResult</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5877_bd3304e9-cb64-1886-4629-7f41c02fe689">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">equivalent causes synset relation</skos:prefLabel>
+    <skos:notation>eqCauses</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5878_63165234-6f0c-0c7d-aff3-def9f95bec76">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">be in state relation</skos:prefLabel>
+    <skos:notation>beInState</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5879_949ffa3e-5730-68ad-d8c0-cf83de9cc1f6">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">agent instrument synset relation</skos:prefLabel>
+    <skos:notation>coAgentInstrument</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5880_27ce2a3e-b8c9-4819-242d-24128ff7d0ef">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">equivalent synonym synset relation</skos:prefLabel>
+    <skos:notation>eqSynonym</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5881_d3f57bd2-51ea-4227-7775-81fda35b714d">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">xpos-near-synonym</skos:prefLabel>
+    <skos:notation>xposNearSynonym</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5882_ae6fb09f-d289-89d3-6b7a-ad0712858c97">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">cross part-of-speech hyperonym synset relation</skos:prefLabel>
+    <skos:notation>hasXposHyperonym</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5883_217fc024-3510-6c29-02a1-705fea682066">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">equivalent involved synset relation</skos:prefLabel>
+    <skos:notation>eqInvolved</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5884_c6034f8b-9a0b-0a36-9047-4962bb56d840">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">equivalent causal synset relation</skos:prefLabel>
+    <skos:notation>eqIsCausedBy</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5885_b83b4012-f976-a33e-5bbf-53d89e348306">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">involved agent synset relation</skos:prefLabel>
+    <skos:notation>involvedAgent</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5906_1a68fbc1-4c46-968e-2f55-e257fc01e7c7">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">lexical collocation</skos:prefLabel>
+    <skos:notation>lexicalCollocation</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5907_a1bb74b7-ccc4-ed80-ddf6-a1148df05d1f">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">grammatical collocation</skos:prefLabel>
+    <skos:notation>grammaticalCollocation</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5908_aebcfab0-83c7-c126-8389-603a65ca4d80">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">pragmatic formula</skos:prefLabel>
+    <skos:notation>pragmaticFormula</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5909_51dc90e4-ef3a-b595-b6bc-1e60eaa40364">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">slogan</skos:prefLabel>
+    <skos:notation>slogan</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5910_2c1b4982-d8bf-8256-bacd-0afe51837c4f">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">free combination</skos:prefLabel>
+    <skos:notation>freeCombination</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5912_762a71bc-bf55-e3d1-3e04-03cc85cbcfc4">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">co-annotations sense relations</skos:prefLabel>
+    <skos:notation>coAnnotations</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5913_062a77a6-caa7-b15f-db53-4764eeeb7816">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">co-hyponym sense relations</skos:prefLabel>
+    <skos:notation>coHyponyms</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5914_34103e67-1358-8471-5f1f-4ba480990514">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">co-semantic relations sense relations</skos:prefLabel>
+    <skos:notation>coRelations</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5919_4f6f1260-7fc3-e277-e492-7b637e3a07fc">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">manner of synset relation</skos:prefLabel>
+    <skos:notation>mannerOf</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5931_01f48298-6218-f110-d723-55081e8ff63b">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">euphemistic</skos:prefLabel>
+    <skos:notation>euphemistic</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5932_d20522d2-43cc-db41-3bdb-2888db2bfe80">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">jocular</skos:prefLabel>
+    <skos:notation>jocular</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5933_a1ec4024-05d6-c3b2-ae76-5abc36470d73">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">pejorative</skos:prefLabel>
+    <skos:notation>pejorative</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5935_65b9dc57-a286-1a2c-cdd5-b4e954c17ee1">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">geography</skos:prefLabel>
+    <skos:notation>geography</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5936_0fed3f07-a9e4-e49c-8cd9-f8f65fbddda1">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">belgian dutch</skos:prefLabel>
+    <skos:notation>belgianDutch</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5938_28b48a73-7f32-c7b3-486a-9b147ceae2ba">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">synset relation</skos:prefLabel>
+    <skos:notation>synsetRelationGeneral</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5939_4bc57047-687c-a521-2f33-10c1afa91b9d">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">role agent synset relation</skos:prefLabel>
+    <skos:notation>roleAgent</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5940_a85740df-f00d-82fc-aee7-d01dc4c07c96">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">role synset relation</skos:prefLabel>
+    <skos:notation>roleSynsets</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5941_ce3201f3-7ff7-53a7-bab8-dfe73e8d6d1f">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">echprod2 verb</skos:prefLabel>
+    <skos:notation>echprod2</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5942_4a7da61f-b451-e092-4e9b-5e33a0d9e5c8">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">possessive3 verb</skos:prefLabel>
+    <skos:notation>possess3</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5943_766a55bb-0502-177e-e5c9-e5a81f6fb6e8">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">action1 verb</skos:prefLabel>
+    <skos:notation>action1Verb</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5944_b1232938-a527-a305-0c41-74d3ab658f5d">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">action2 verb</skos:prefLabel>
+    <skos:notation>action2Verb</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5945_249098cf-2668-c9e9-f76b-49b3a090abf2">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">action3 verb</skos:prefLabel>
+    <skos:notation>action3Verb</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5946_973282a6-2b5a-23ac-8a94-ae14ac5b1352">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">cognitive1 verb</skos:prefLabel>
+    <skos:notation>cognitive1Verb</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5947_d972edd2-0f9d-42e8-4884-97366aab0e42">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">cognitive2 verb</skos:prefLabel>
+    <skos:notation>cognitive2Verb</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5948_b66b4e6d-dcb2-f390-d118-1eb97319a001">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">movement3 verb</skos:prefLabel>
+    <skos:notation>movement3</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5949_11ff4d95-4c3a-4a30-06f8-863e76ffb60d">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">possessive2 verb</skos:prefLabel>
+    <skos:notation>possess2</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5950_6ad6b86a-eedd-c3cc-0fbd-01a5fe1dba98">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">process and movement3 verb</skos:prefLabel>
+    <skos:notation>processMovement3</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5951_c53a93e7-f8fd-a9a4-db2b-fea80d1a5d46">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">process and movement2 verb</skos:prefLabel>
+    <skos:notation>processMovement2</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5952_88bb81aa-59ef-505b-672e-dd3c2d95131f">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">cognitive3 verb</skos:prefLabel>
+    <skos:notation>cognitive3Verb</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5953_2e83e776-8b02-c78d-1b32-f85ba11b564c">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">process and movement1 verb</skos:prefLabel>
+    <skos:notation>processMovement1</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5954_851a2810-1bce-be62-fa8f-50ba4dbedb32">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">process3 verb</skos:prefLabel>
+    <skos:notation>process3</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5955_5e96e858-141e-5ab3-ebe1-595ef5fcb40c">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">process2 verb</skos:prefLabel>
+    <skos:notation>process2</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5956_131a8fc8-5e7d-1bad-f012-f143e8815e7b">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">process1 verb</skos:prefLabel>
+    <skos:notation>process1</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5957_6b3729f2-8191-c882-c672-b10f469f713a">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">state3 verb</skos:prefLabel>
+    <skos:notation>state3</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5958_3275cff3-8562-81c3-23b7-ead6cf28dea9">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">state2 verb</skos:prefLabel>
+    <skos:notation>state2</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5959_123f1c50-8883-5951-c905-9571f5649f3a">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">state1 verb</skos:prefLabel>
+    <skos:notation>state1</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5960_792dbe87-dfe6-55b2-a894-0a17b8b293d7">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">state and cognitive3 verb</skos:prefLabel>
+    <skos:notation>stateCognitive3</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5961_cf3824cd-22b6-e8dd-a76f-dbc80524a620">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">state and cognitive2 verb</skos:prefLabel>
+    <skos:notation>stateCognitive2</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5962_2781e278-a5fc-328f-d3f3-8c7d97328ecd">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">state and cognitive1 verb</skos:prefLabel>
+    <skos:notation>stateCognitive1</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5963_9fa50501-cbc6-61aa-9e73-5b284f3f4aa3">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">process and cognitive3 verb</skos:prefLabel>
+    <skos:notation>processCognitive3</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5964_6cc9cb98-c86c-90d0-4ba8-e258e1b0298c">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">process and cognitive2 verb</skos:prefLabel>
+    <skos:notation>processCognitive2</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5965_460e3221-91e7-e639-c0db-b3472973ebd2">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">location1 verb</skos:prefLabel>
+    <skos:notation>VerbTypeLocationOne</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5966_2df510e1-4757-5dff-535d-06d52fae970a">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">location2 verb</skos:prefLabel>
+    <skos:notation>VerbTypeLocationTwo</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5967_8cead073-9654-8625-d679-4d238166fdc5">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">movement1 verb</skos:prefLabel>
+    <skos:notation>movement1</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5968_255ecb61-3372-562b-c6a2-d46934f0eef4">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">movement2 verb</skos:prefLabel>
+    <skos:notation>movement2</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5969_f796dfd7-6126-b732-dec3-a0aee77a8b2e">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">process and cognitive1 verb</skos:prefLabel>
+    <skos:notation>processCognitive1</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5970_4b9dfb54-b884-313f-9054-ed414d0daa77">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">echprod3 verb</skos:prefLabel>
+    <skos:notation>echprod3</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5971_836c2879-f2b5-5b30-e477-0955260d60a5">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">near antonym synset relation</skos:prefLabel>
+    <skos:notation>nearAntonym</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5972_fa755008-1a0f-61e6-d113-b805e6c50c79">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">near synonym synset relation</skos:prefLabel>
+    <skos:notation>nearSynonym</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5974_4f27ed1c-6064-2f20-0202-c1e3efbcbedb">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">action verb</skos:prefLabel>
+    <skos:notation>actionVerb</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5975_24e52644-ac0a-f31d-077d-6822708ba47c">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">time</skos:prefLabel>
+    <skos:notation>time</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5976_6441b53f-598c-c644-7ee4-3f7fc988759c">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">concrother</skos:prefLabel>
+    <skos:notation>concrother</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5977_d97f9269-471d-989d-05e3-144de28677c7">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">dynamic</skos:prefLabel>
+    <skos:notation>dynamic</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5978_e15c7f47-ff31-fc37-bff4-792bf7a62d7a">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">human</skos:prefLabel>
+    <skos:notation>human</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5979_663bc68d-b837-9f0d-98ea-72bff53a23bf">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">institute</skos:prefLabel>
+    <skos:notation>institute</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5980_898f107a-176d-a20c-a3c0-a14e82eb9730">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">measure</skos:prefLabel>
+    <skos:notation>measure</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5981_f5ea397a-92d9-36f8-f98f-11d1a7f3de41">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">nondynamic</skos:prefLabel>
+    <skos:notation>nondynamic</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5982_9b9dc9c2-97a4-a089-0ff6-361319daa75c">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">nonhuman</skos:prefLabel>
+    <skos:notation>nonhuman</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5983_eea1147f-bd3b-c325-86f3-5a3a34bdfa20">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">substance</skos:prefLabel>
+    <skos:notation>substance</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5984_71dcbd53-effa-c78c-dc92-46855034d823">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">concrete</skos:prefLabel>
+    <skos:notation>concrete</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5985_2c9e182d-8324-9bb9-2728-04138aee0dfb">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">process</skos:prefLabel>
+    <skos:notation>process</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5986_2b22cc15-5cdb-9e77-4754-c411f50e7c1c">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">state</skos:prefLabel>
+    <skos:notation>state</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5987_08af1123-c5ee-bdad-2756-e1d3a4aca5ea">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">colour</skos:prefLabel>
+    <skos:notation>colour</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5988_0a7cf447-f836-42e3-618c-37366b126bfb">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">place verb</skos:prefLabel>
+    <skos:notation>placeVerb</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5989_b5b94f1f-ac78-0ec7-0c22-c31558cec8f7">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">physical or perceptive</skos:prefLabel>
+    <skos:notation>phyper</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5990_ef03ab41-7672-81e8-9d15-0ed9d469b071">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">emotional or mental</skos:prefLabel>
+    <skos:notation>emotionalMental</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5991_1935da37-733b-6728-6a53-47892ccc8c63">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">artefact</skos:prefLabel>
+    <skos:notation>artefact</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5995_8d4f4250-3ca3-4ee2-5c8e-26964af3d0ac">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">sense relation</skos:prefLabel>
+    <skos:notation>senseRelation</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5996_06754d9e-0d3f-856a-587c-9a67f53d534e">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">sense group</skos:prefLabel>
+    <skos:notation>senseGroup</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5997_200e4bb0-c402-cd2e-4e18-748dfd00d5ff">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">semantic shifts</skos:prefLabel>
+    <skos:notation>semanticShifts</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-6001_1e14bf7a-e087-a40d-4469-cd8f6068fba3">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">textual form</skos:prefLabel>
+    <skos:notation>textualForm</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-6002_309ed1e0-f12f-2ebb-7cc8-6237afc0b911">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">canonical form</skos:prefLabel>
+    <skos:notation>canonicalForm</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-6003_01a69edd-6c87-d5f4-38aa-9d70e50859d6">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">combination word</skos:prefLabel>
+    <skos:notation>combiWord</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-6029_26b75c3a-ce19-2659-1fd9-3900d853f6f5">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">patient result synset relation</skos:prefLabel>
+    <skos:notation>coPatientResult</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-6030_69836740-e3cd-be6b-9428-1fe4e9022b67">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">result patient synset relation</skos:prefLabel>
+    <skos:notation>coResultPatient</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-6074_cca5ea32-ba26-56bb-0f95-51e9bcf68cb1">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">Named Entity</skos:prefLabel>
+    <skos:notation>namedEntityOccurrence</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-6075_0a5db4e8-7f5e-f889-9886-836a4cae53bf">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">Named Entity type</skos:prefLabel>
+    <skos:notation>typeNamedEntity</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-6076_c681d93b-58a5-6b7b-ddfe-3cb0259b58f3">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">Person Named Entity Type</skos:prefLabel>
+    <skos:notation>neTypePerson</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-6077_cafc6c76-003b-ae36-45ae-e5b03070d534">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">Location Named Entity Type</skos:prefLabel>
+    <skos:notation>neTypeLocation</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-6078_182363da-e9ee-0307-5b0c-047f6d8d5bfb">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">Organisation Named Entity Type</skos:prefLabel>
+    <skos:notation>neTypeOrganisation</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-6080_52c1b035-f9d9-3617-799b-bbd55528e21a">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">Nym reference</skos:prefLabel>
+    <skos:notation>neNymRef</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-6081_73618c2d-c389-89b3-bd1d-7f72332e44de">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">Gloss</skos:prefLabel>
+    <skos:notation>neGloss</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-6082_25f4594d-3390-129d-8bb6-b5152973c7a1">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">Person Name structure</skos:prefLabel>
+    <skos:notation>neStructure</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-6083_ab6ae538-0b94-00fd-d7dc-d29de5e0b7c0">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">Named entity Normalized Form</skos:prefLabel>
+    <skos:notation>neNormalizedForm</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-6084_b020c3a0-68b2-41a9-9806-eebca18cf8cd">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">Named Entity Resolution type</skos:prefLabel>
+    <skos:notation>neResolution</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-6085_7abb8bd3-a17a-d4b9-28c0-080a6cda031c">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">Plot internal entity resolution</skos:prefLabel>
+    <skos:notation>resolutionPlotInternal</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-6086_024a23f2-72e3-c732-9e39-9180850654c7">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">Plot external entity resolution</skos:prefLabel>
+    <skos:notation>resolutionPlotExternal</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-6087_0c832bdc-06a7-4edb-31b5-91543361eaaa">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">Named Entity Part</skos:prefLabel>
+    <skos:notation>nePart</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-6088_1fdaa318-ced3-2a8a-b24e-eb5d017379f8">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">Named Entity Part Type</skos:prefLabel>
+    <skos:notation>nePart.type</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-6090_d23e9b2f-4af0-556f-f193-324e243e32a0">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">Family Name</skos:prefLabel>
+    <skos:notation>familyName</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-6091_38dd5b99-c663-7538-0086-7344102933ac">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">Nickname</skos:prefLabel>
+    <skos:notation>nickNameAdded</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-6092_23050035-251c-038c-e786-8b6093df01a9">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">First name sex</skos:prefLabel>
+    <skos:notation>nePart.sex</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-6093_124e22e8-1cf8-1d64-2679-ef196a9310e0">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">Female sex</skos:prefLabel>
+    <skos:notation>femaleSex</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-6094_55691064-f254-fd57-11b6-cb8c0a8357ba">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">Male sex</skos:prefLabel>
+    <skos:notation>maleSex</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-6095_d53fd90b-be90-3449-fe47-7852080c4898">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">Unknown sex</skos:prefLabel>
+    <skos:notation>unknownSex</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-6096_2471ead1-fd74-70b5-79eb-20aadb3db72c">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">Hemaprodite Sex</skos:prefLabel>
+    <skos:notation>hermaphroditeSex</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-6097_0cf80f20-841d-2b75-4dbe-cd84f96d83f0">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">Surname type</skos:prefLabel>
+    <skos:notation>surnameType</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-6098_a3123935-cbbd-8ad4-1db3-567629ca43eb">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">Modern surname Type</skos:prefLabel>
+    <skos:notation>surnameTypeModern</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-6099_efa4818f-4d9f-8723-a6b4-dea5d1ad090d">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">Historical Surname Type</skos:prefLabel>
+    <skos:notation>surnameTypeHistorical</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-6100_30b08706-db16-61c7-e00e-21bc65e84848">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">Collective Surname Type</skos:prefLabel>
+    <skos:notation>surnameTypeCollective</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-6101_e4db5828-60ac-80c7-6626-d199090ad2a4">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">Normalized Form</skos:prefLabel>
+    <skos:notation>nePart.normalizedForm</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-6102_80ba4008-a18c-2d8b-c99b-88a4d3bf6b7b">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">List of Nyms</skos:prefLabel>
+    <skos:notation>listNym</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-6103_b8e43f08-90f1-8fe5-f002-b025b11cc954">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">Nym</skos:prefLabel>
+    <skos:notation>nym</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-6110_559d9db8-7db8-bc23-0dc2-7f26f4fcf841">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">event</skos:prefLabel>
+    <skos:notation>event</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-6118_30041869-9bad-bea9-00be-9f8d4fc69a74">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">instrument</skos:prefLabel>
+    <skos:notation>instrument</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-6823_679f84e0-33b9-5407-e62d-852f7220763f">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">related_to</skos:prefLabel>
+    <skos:notation>relatedTo</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-1978_088a96da-46c0-cfc9-eb0d-2a3bc20caa55">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">value</skos:prefLabel>
+    <skos:notation>valueGeneric</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5540_ac126fdd-015f-5cd7-94d7-13102a60f7b2">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">negative polarity</skos:prefLabel>
+    <skos:notation>negativePolarityAttitude</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5600_2766756d-9190-687c-80bf-b5900981e6e3">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">word sentiment</skos:prefLabel>
+    <skos:notation>wordSentiment</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5823_58e2b49b-7351-3c80-3942-7d6cb5547b42">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">hyponym synset relation</skos:prefLabel>
+    <skos:notation>hasHyponym</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5905_f78e0129-7f3e-e1d7-c8ae-29bb545ccc6e">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">multiword expression type</skos:prefLabel>
+    <skos:notation>expressionType</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5920_9ffcc725-c513-51d3-3db4-928739e603e0">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">informal</skos:prefLabel>
+    <skos:notation>informal</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5921_1ae6c712-7c43-265c-c83e-4aea5fc1bead">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">chronology</skos:prefLabel>
+    <skos:notation>chronology</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5929_be52c5e8-3ea5-1b9a-7852-b69bff9b90e0">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">connotation</skos:prefLabel>
+    <skos:notation>connotation</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5937_7ebcfa7e-af7f-6667-fa59-646fa603b782">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">semantic feature set</skos:prefLabel>
+    <skos:notation>semanticFeatureSet</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5973_4fc5c299-e032-d713-a238-bc67df8b1665">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">semantic type</skos:prefLabel>
+    <skos:notation>semanticType</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-6025_f3a1641a-b408-b562-e31e-e71a51d8bfbf">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">plurale tantum</skos:prefLabel>
+    <skos:notation>pluraleTantum</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-6026_bb5fe286-4b25-5af3-5575-19751f116335">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">countability</skos:prefLabel>
+    <skos:notation>countability</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-6028_818f517b-3832-0b27-225b-0d027998b7b1">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">form type</skos:prefLabel>
+    <skos:notation>formType</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-2318_bfda5ab9-a429-c2e5-8f08-7c8dfca8245a">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">annotation</skos:prefLabel>
+    <skos:notation>annotationAddedInformation</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-4046_8dfee0e9-6ab8-814f-8b5f-6703cc3ab058">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">text corpus</skos:prefLabel>
+    <skos:notation>textCorpus</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-6020_d3d474f6-595b-c39b-e98a-c2a62ace9f84">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">language resource</skos:prefLabel>
+    <skos:notation>languageResource</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-3778_b2ab05b5-4449-67a9-c25f-bf364a79621a">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">example (vernacular)</skos:prefLabel>
+    <skos:notation>example_vernacular</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-4174_8c1a1567-a86d-50d8-e208-e030f2688c98">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801"/>
+    <skos:prefLabel xml:lang="en">key</skos:prefLabel>
+    <skos:notation>key</skos:notation>
+  </skos:Concept>
+
+  <skos:ConceptScheme rdf:about="http://hdl.handle.net/11459/CCR_P-SemanticContentRepresentation_1448f330-771b-ad11-987f-7293629f0801">
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5611_1934d394-4e06-ddfd-0558-27530b6e164b"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5777_396b7563-0706-2e5d-a8a0-d8d7a8d154a1"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5827_1b0496fb-27d8-d88e-fdd6-5a8fc9bba058"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5915_f38709cf-57af-1a17-d028-c57c286d0646"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-6079_08d9c092-fd4f-2236-06db-1c8ad54fa2a9"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-6089_be30ebd4-af6e-deeb-b72a-65207e30e8ad"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-6109_2a566f00-aeeb-a6bd-6d45-16b64affe1b2"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-1511_de660422-a1d2-bc63-f426-076234337234"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5537_826cb4be-935d-b077-51ef-935f87765c28"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5538_3096bbbc-e3da-717f-b53d-23db7fb4c32f"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5599_c99da408-af63-43bc-7159-8a68cd1012bc"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5673_80f308af-a0ae-8fd5-e90c-97353bed5a83"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5700_f03994a2-67b1-23e8-469c-bb73e00a072b"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5776_ed733b40-67dc-099e-6a96-cb56634109e4"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5779_3e3015d8-fb05-b00f-7196-dcb1b859dec8"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5787_fae48fc1-1586-c27e-2819-9a5a744ea957"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5788_520ef837-cc78-16ac-e2d7-d2467bf42d28"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5794_13ee07fb-9b99-c115-62b5-577c562d0fea"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5805_80690989-c74d-5dcd-5205-9edb252b26bb"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5806_d524f146-b272-7f97-e528-8ac908baab17"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5807_c8560d51-8c7a-018b-47ce-82898f58af54"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5808_463eec16-b603-1c7a-8d3b-4dded7327ba6"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5809_b4b09f0d-567d-2993-998c-c8d6db449c07"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5810_904651a5-20b7-3518-c290-7806a7bef28f"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5811_7bb00c42-ab5d-dbd0-c803-f4169e5e35e2"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5812_eedd438c-4be0-2d72-3fea-13d59a25e46b"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5813_5ade6c1f-ee98-8559-2988-af42df76dd39"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5814_a24a9c50-ae7c-df16-4c99-341a1fc519b0"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5815_71e91486-fd61-f1dd-3080-27b60172e020"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5816_940c9ec3-0af0-77a8-30ef-3e19f6a64452"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5817_942a5775-d868-dc88-ef01-d9cb4fde64a1"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5818_7227fbd8-4541-fc1e-35f1-95d129e53209"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5819_ece19bd4-d088-28dc-6c04-22dbc706b283"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5820_e446eb5e-cab7-123c-04bb-44a74f902b3c"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5821_aa40a0d5-5015-e3d7-547a-dd78c2c53c7b"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5822_1db896c3-d354-1c6d-60ad-eed2801d5551"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5824_c7d3c1a6-cc6d-7e62-d8dd-704c5fc74c30"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5825_5b6422e4-8924-11db-4615-32b61a9c38f6"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5826_e2c441af-adf4-bd24-8dc7-9d81e8b49ae2"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5828_2e1418a7-0308-a886-6b85-b96fca0a4bf5"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5829_f0624281-7d56-88eb-b461-f7d49542f70b"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5830_f6a39613-a205-241e-9209-5a3a9311e2c6"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5831_593ebc43-fac9-a09a-957d-2ed4105b7c66"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5832_72e77de2-6017-9d2a-3136-b5841898165e"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5833_fbf2eab1-b091-7cac-3d6c-07b906c9129e"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5834_3a9ef3ed-0a49-dfe1-0d7e-5f102fa28346"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5835_4190ffcf-8fc2-1915-f982-42218a895121"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5836_5b50c43d-670a-0672-c884-e35bde8c98a8"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5837_afd7668a-aa13-2058-6114-28ca5dd29a36"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5838_534fc5b3-9a9a-b2f6-3da7-c321f8452e75"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5839_0f344d8b-a9fb-aaa3-c65c-099793e2f92f"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5840_5d04cb4a-cf7f-4d9f-6304-0c4273c48222"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5841_0e991e25-f762-97ff-22ed-c65711e987af"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5842_bb831513-b90b-1249-4308-98f1dad091b9"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5843_deb94df9-266d-158d-f9e7-2c01c4884d61"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5844_7b2d0191-d028-7e22-c8ae-80628aa56127"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5845_000157b4-d396-c014-5c41-02186c6065ce"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5846_c2078bf1-e0a2-4cf3-e5b1-1f119fa1205d"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5847_f8f939b7-8971-5ffb-278e-21833af2fea2"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5848_47965941-0df5-a700-4b85-ac46f120f5ef"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5849_969605a5-0648-dfa3-e9a9-4ec371813149"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5850_1eef51f1-2902-9e63-3188-967492bf6190"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5851_a57110e1-a28e-18cf-bed7-af99a57d4f9a"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5852_1d1f4bd9-dc92-0057-57cf-2263edb5cca5"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5853_4912ebd7-3f49-914f-eb0a-fb9bdfac1e65"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5854_84a3ffca-bf6b-28c0-5ad3-66ffe646e176"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5855_ca45b3e6-8e12-3c1d-a723-90508a51630a"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5856_fdcd53b1-c782-e668-8811-c3d0f0c167bf"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5857_36367433-07de-501c-d8b9-5c61692602c6"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5858_f0f5e601-8f5e-2cc3-305d-9d58ae1ac744"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5859_019020b8-5cd2-458c-dab3-0f44160420bb"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5860_2b60a86a-637a-0c85-ef3f-7de730659ee9"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5861_00ddaa35-bc22-802c-e859-60a67f2534fe"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5862_c865392b-05ab-6e87-9bc0-85a220c1bd26"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5863_6164c9d8-21f6-ccc9-0b26-3a022c4a0a05"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5864_15ef6831-43f2-7953-4e96-75fdf1599615"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5876_330b0500-68d7-585b-ebe8-6236178aa85b"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5877_bd3304e9-cb64-1886-4629-7f41c02fe689"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5878_63165234-6f0c-0c7d-aff3-def9f95bec76"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5879_949ffa3e-5730-68ad-d8c0-cf83de9cc1f6"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5880_27ce2a3e-b8c9-4819-242d-24128ff7d0ef"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5881_d3f57bd2-51ea-4227-7775-81fda35b714d"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5882_ae6fb09f-d289-89d3-6b7a-ad0712858c97"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5883_217fc024-3510-6c29-02a1-705fea682066"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5884_c6034f8b-9a0b-0a36-9047-4962bb56d840"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5885_b83b4012-f976-a33e-5bbf-53d89e348306"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5906_1a68fbc1-4c46-968e-2f55-e257fc01e7c7"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5907_a1bb74b7-ccc4-ed80-ddf6-a1148df05d1f"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5908_aebcfab0-83c7-c126-8389-603a65ca4d80"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5909_51dc90e4-ef3a-b595-b6bc-1e60eaa40364"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5910_2c1b4982-d8bf-8256-bacd-0afe51837c4f"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5912_762a71bc-bf55-e3d1-3e04-03cc85cbcfc4"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5913_062a77a6-caa7-b15f-db53-4764eeeb7816"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5914_34103e67-1358-8471-5f1f-4ba480990514"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5919_4f6f1260-7fc3-e277-e492-7b637e3a07fc"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5931_01f48298-6218-f110-d723-55081e8ff63b"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5932_d20522d2-43cc-db41-3bdb-2888db2bfe80"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5933_a1ec4024-05d6-c3b2-ae76-5abc36470d73"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5935_65b9dc57-a286-1a2c-cdd5-b4e954c17ee1"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5936_0fed3f07-a9e4-e49c-8cd9-f8f65fbddda1"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5938_28b48a73-7f32-c7b3-486a-9b147ceae2ba"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5939_4bc57047-687c-a521-2f33-10c1afa91b9d"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5940_a85740df-f00d-82fc-aee7-d01dc4c07c96"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5941_ce3201f3-7ff7-53a7-bab8-dfe73e8d6d1f"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5942_4a7da61f-b451-e092-4e9b-5e33a0d9e5c8"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5943_766a55bb-0502-177e-e5c9-e5a81f6fb6e8"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5944_b1232938-a527-a305-0c41-74d3ab658f5d"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5945_249098cf-2668-c9e9-f76b-49b3a090abf2"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5946_973282a6-2b5a-23ac-8a94-ae14ac5b1352"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5947_d972edd2-0f9d-42e8-4884-97366aab0e42"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5948_b66b4e6d-dcb2-f390-d118-1eb97319a001"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5949_11ff4d95-4c3a-4a30-06f8-863e76ffb60d"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5950_6ad6b86a-eedd-c3cc-0fbd-01a5fe1dba98"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5951_c53a93e7-f8fd-a9a4-db2b-fea80d1a5d46"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5952_88bb81aa-59ef-505b-672e-dd3c2d95131f"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5953_2e83e776-8b02-c78d-1b32-f85ba11b564c"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5954_851a2810-1bce-be62-fa8f-50ba4dbedb32"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5955_5e96e858-141e-5ab3-ebe1-595ef5fcb40c"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5956_131a8fc8-5e7d-1bad-f012-f143e8815e7b"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5957_6b3729f2-8191-c882-c672-b10f469f713a"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5958_3275cff3-8562-81c3-23b7-ead6cf28dea9"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5959_123f1c50-8883-5951-c905-9571f5649f3a"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5960_792dbe87-dfe6-55b2-a894-0a17b8b293d7"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5961_cf3824cd-22b6-e8dd-a76f-dbc80524a620"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5962_2781e278-a5fc-328f-d3f3-8c7d97328ecd"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5963_9fa50501-cbc6-61aa-9e73-5b284f3f4aa3"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5964_6cc9cb98-c86c-90d0-4ba8-e258e1b0298c"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5965_460e3221-91e7-e639-c0db-b3472973ebd2"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5966_2df510e1-4757-5dff-535d-06d52fae970a"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5967_8cead073-9654-8625-d679-4d238166fdc5"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5968_255ecb61-3372-562b-c6a2-d46934f0eef4"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5969_f796dfd7-6126-b732-dec3-a0aee77a8b2e"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5970_4b9dfb54-b884-313f-9054-ed414d0daa77"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5971_836c2879-f2b5-5b30-e477-0955260d60a5"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5972_fa755008-1a0f-61e6-d113-b805e6c50c79"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5974_4f27ed1c-6064-2f20-0202-c1e3efbcbedb"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5975_24e52644-ac0a-f31d-077d-6822708ba47c"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5976_6441b53f-598c-c644-7ee4-3f7fc988759c"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5977_d97f9269-471d-989d-05e3-144de28677c7"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5978_e15c7f47-ff31-fc37-bff4-792bf7a62d7a"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5979_663bc68d-b837-9f0d-98ea-72bff53a23bf"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5980_898f107a-176d-a20c-a3c0-a14e82eb9730"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5981_f5ea397a-92d9-36f8-f98f-11d1a7f3de41"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5982_9b9dc9c2-97a4-a089-0ff6-361319daa75c"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5983_eea1147f-bd3b-c325-86f3-5a3a34bdfa20"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5984_71dcbd53-effa-c78c-dc92-46855034d823"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5985_2c9e182d-8324-9bb9-2728-04138aee0dfb"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5986_2b22cc15-5cdb-9e77-4754-c411f50e7c1c"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5987_08af1123-c5ee-bdad-2756-e1d3a4aca5ea"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5988_0a7cf447-f836-42e3-618c-37366b126bfb"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5989_b5b94f1f-ac78-0ec7-0c22-c31558cec8f7"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5990_ef03ab41-7672-81e8-9d15-0ed9d469b071"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5991_1935da37-733b-6728-6a53-47892ccc8c63"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5995_8d4f4250-3ca3-4ee2-5c8e-26964af3d0ac"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5996_06754d9e-0d3f-856a-587c-9a67f53d534e"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5997_200e4bb0-c402-cd2e-4e18-748dfd00d5ff"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-6001_1e14bf7a-e087-a40d-4469-cd8f6068fba3"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-6002_309ed1e0-f12f-2ebb-7cc8-6237afc0b911"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-6003_01a69edd-6c87-d5f4-38aa-9d70e50859d6"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-6029_26b75c3a-ce19-2659-1fd9-3900d853f6f5"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-6030_69836740-e3cd-be6b-9428-1fe4e9022b67"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-6074_cca5ea32-ba26-56bb-0f95-51e9bcf68cb1"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-6075_0a5db4e8-7f5e-f889-9886-836a4cae53bf"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-6076_c681d93b-58a5-6b7b-ddfe-3cb0259b58f3"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-6077_cafc6c76-003b-ae36-45ae-e5b03070d534"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-6078_182363da-e9ee-0307-5b0c-047f6d8d5bfb"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-6080_52c1b035-f9d9-3617-799b-bbd55528e21a"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-6081_73618c2d-c389-89b3-bd1d-7f72332e44de"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-6082_25f4594d-3390-129d-8bb6-b5152973c7a1"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-6083_ab6ae538-0b94-00fd-d7dc-d29de5e0b7c0"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-6084_b020c3a0-68b2-41a9-9806-eebca18cf8cd"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-6085_7abb8bd3-a17a-d4b9-28c0-080a6cda031c"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-6086_024a23f2-72e3-c732-9e39-9180850654c7"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-6087_0c832bdc-06a7-4edb-31b5-91543361eaaa"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-6088_1fdaa318-ced3-2a8a-b24e-eb5d017379f8"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-6090_d23e9b2f-4af0-556f-f193-324e243e32a0"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-6091_38dd5b99-c663-7538-0086-7344102933ac"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-6092_23050035-251c-038c-e786-8b6093df01a9"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-6093_124e22e8-1cf8-1d64-2679-ef196a9310e0"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-6094_55691064-f254-fd57-11b6-cb8c0a8357ba"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-6095_d53fd90b-be90-3449-fe47-7852080c4898"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-6096_2471ead1-fd74-70b5-79eb-20aadb3db72c"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-6097_0cf80f20-841d-2b75-4dbe-cd84f96d83f0"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-6098_a3123935-cbbd-8ad4-1db3-567629ca43eb"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-6099_efa4818f-4d9f-8723-a6b4-dea5d1ad090d"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-6100_30b08706-db16-61c7-e00e-21bc65e84848"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-6101_e4db5828-60ac-80c7-6626-d199090ad2a4"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-6102_80ba4008-a18c-2d8b-c99b-88a4d3bf6b7b"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-6103_b8e43f08-90f1-8fe5-f002-b025b11cc954"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-6110_559d9db8-7db8-bc23-0dc2-7f26f4fcf841"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-6118_30041869-9bad-bea9-00be-9f8d4fc69a74"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-6823_679f84e0-33b9-5407-e62d-852f7220763f"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-1978_088a96da-46c0-cfc9-eb0d-2a3bc20caa55"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5540_ac126fdd-015f-5cd7-94d7-13102a60f7b2"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5600_2766756d-9190-687c-80bf-b5900981e6e3"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5823_58e2b49b-7351-3c80-3942-7d6cb5547b42"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5905_f78e0129-7f3e-e1d7-c8ae-29bb545ccc6e"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5920_9ffcc725-c513-51d3-3db4-928739e603e0"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5921_1ae6c712-7c43-265c-c83e-4aea5fc1bead"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5929_be52c5e8-3ea5-1b9a-7852-b69bff9b90e0"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5937_7ebcfa7e-af7f-6667-fa59-646fa603b782"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5973_4fc5c299-e032-d713-a238-bc67df8b1665"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-6025_f3a1641a-b408-b562-e31e-e71a51d8bfbf"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-6026_bb5fe286-4b25-5af3-5575-19751f116335"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-6028_818f517b-3832-0b27-225b-0d027998b7b1"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-2318_bfda5ab9-a429-c2e5-8f08-7c8dfca8245a"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-4046_8dfee0e9-6ab8-814f-8b5f-6703cc3ab058"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-6020_d3d474f6-595b-c39b-e98a-c2a62ace9f84"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-3778_b2ab05b5-4449-67a9-c25f-bf364a79621a"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-4174_8c1a1567-a86d-50d8-e208-e030f2688c98"/>
+    <rdfs:label xml:lang="en">Semantic Content Representation</rdfs:label>
+  </skos:ConceptScheme>
+
+</rdf:RDF>

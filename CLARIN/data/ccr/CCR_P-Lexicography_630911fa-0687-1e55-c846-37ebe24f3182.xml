@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5671_93dcb64b-a856-ae5a-3e4f-933dad8146ee">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-Lexicography_630911fa-0687-1e55-c846-37ebe24f3182"/>
+    <skos:prefLabel xml:lang="en">book title</skos:prefLabel>
+    <skos:notation>work</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5659_922803de-7b5c-fb22-534b-354871824392">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-Lexicography_630911fa-0687-1e55-c846-37ebe24f3182"/>
+    <skos:prefLabel xml:lang="en">lemma</skos:prefLabel>
+    <skos:notation>lemmaEntireEntry</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5660_fd969968-40b8-5fa1-c08d-7de524996ba0">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-Lexicography_630911fa-0687-1e55-c846-37ebe24f3182"/>
+    <skos:prefLabel xml:lang="en">part of speech</skos:prefLabel>
+    <skos:notation>partOfSpeechHeadword</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5661_790ad01e-f7c6-9fbe-fe21-4774a3613fee">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-Lexicography_630911fa-0687-1e55-c846-37ebe24f3182"/>
+    <skos:prefLabel xml:lang="en">form</skos:prefLabel>
+    <skos:notation>formalInformationHeadword</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5662_a00e87da-398d-d0bf-e6c0-cf2903831209">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-Lexicography_630911fa-0687-1e55-c846-37ebe24f3182"/>
+    <skos:prefLabel xml:lang="en">headword</skos:prefLabel>
+    <skos:notation>headword</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5663_92b2be18-cdd5-0152-10b2-8d62e65e015a">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-Lexicography_630911fa-0687-1e55-c846-37ebe24f3182"/>
+    <skos:prefLabel xml:lang="en">etymology</skos:prefLabel>
+    <skos:notation>etymologyDerivation</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5664_3f21ae8a-c43d-1f13-3af3-75bb548546b8">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-Lexicography_630911fa-0687-1e55-c846-37ebe24f3182"/>
+    <skos:prefLabel xml:lang="en">morphological information</skos:prefLabel>
+    <skos:notation>morphologicalInformation</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5665_b2cc524e-c126-49d2-1b28-6b6d695fbc8f">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-Lexicography_630911fa-0687-1e55-c846-37ebe24f3182"/>
+    <skos:prefLabel xml:lang="en">meaning</skos:prefLabel>
+    <skos:notation>meaning</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5666_413d9285-bfc2-eb1f-7403-42b015926301">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-Lexicography_630911fa-0687-1e55-c846-37ebe24f3182"/>
+    <skos:prefLabel xml:lang="en">provisional translation</skos:prefLabel>
+    <skos:notation>provisionalTranslation</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5667_951f614b-ba4d-dec6-9080-257727dbaf4f">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-Lexicography_630911fa-0687-1e55-c846-37ebe24f3182"/>
+    <skos:prefLabel xml:lang="en">Citation</skos:prefLabel>
+    <skos:notation>citationExample</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5668_e4bd514d-f803-f15d-0e1b-a7a09e460786">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-Lexicography_630911fa-0687-1e55-c846-37ebe24f3182"/>
+    <skos:prefLabel xml:lang="en">Quotation</skos:prefLabel>
+    <skos:notation>quotation</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5669_9fffcc6c-236c-15d7-8da6-bcd6dee40ea9">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-Lexicography_630911fa-0687-1e55-c846-37ebe24f3182"/>
+    <skos:prefLabel xml:lang="en">Dutch translation</skos:prefLabel>
+    <skos:notation>dutchTranslation</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5670_442382d8-2ab4-1444-fabd-8dae7c4d74a4">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-Lexicography_630911fa-0687-1e55-c846-37ebe24f3182"/>
+    <skos:prefLabel xml:lang="en">reference</skos:prefLabel>
+    <skos:notation>referenceLocation</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-5672_58d2e554-0a78-e7ed-bc17-84c6cdb34f4f">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-Lexicography_630911fa-0687-1e55-c846-37ebe24f3182"/>
+    <skos:prefLabel xml:lang="en">location</skos:prefLabel>
+    <skos:notation>locationQuotedText</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-1978_088a96da-46c0-cfc9-eb0d-2a3bc20caa55">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-Lexicography_630911fa-0687-1e55-c846-37ebe24f3182"/>
+    <skos:prefLabel xml:lang="en">value</skos:prefLabel>
+    <skos:notation>valueGeneric</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-3714_ff75b2dd-057a-38eb-3eae-f50bbed7e906">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-Lexicography_630911fa-0687-1e55-c846-37ebe24f3182"/>
+    <skos:prefLabel xml:lang="en">homonym number</skos:prefLabel>
+    <skos:notation>homonym_number</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-3735_a4f75eed-be6c-0602-4298-d63ec7f52f9b">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-Lexicography_630911fa-0687-1e55-c846-37ebe24f3182"/>
+    <skos:prefLabel xml:lang="en">picture</skos:prefLabel>
+    <skos:notation>picture</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-3758_e9bcf032-d3a4-58ec-06c9-7fd1dc315bfa">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-Lexicography_630911fa-0687-1e55-c846-37ebe24f3182"/>
+    <skos:prefLabel xml:lang="en">sense number</skos:prefLabel>
+    <skos:notation>senseNumber</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-3759_16758f0e-7e7f-acbe-6bd3-989fe2b8cdbf">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-Lexicography_630911fa-0687-1e55-c846-37ebe24f3182"/>
+    <skos:prefLabel xml:lang="en">source</skos:prefLabel>
+    <skos:notation>sourceInformant</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-3760_bf9771c3-7e27-ba40-115a-5b86011364a3">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-Lexicography_630911fa-0687-1e55-c846-37ebe24f3182"/>
+    <skos:prefLabel xml:lang="en">status</skos:prefLabel>
+    <skos:notation>statusCompleteness</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-4080_adc3aa94-e615-f007-e538-71e832e3340c">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-Lexicography_630911fa-0687-1e55-c846-37ebe24f3182"/>
+    <skos:prefLabel xml:lang="en">machine readable dictionary</skos:prefLabel>
+    <skos:notation>machineReadableDictionary</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-3817_09cdc640-abe2-9886-57a5-522cd339ee80">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-Lexicography_630911fa-0687-1e55-c846-37ebe24f3182"/>
+    <skos:prefLabel xml:lang="en">Cross-reference</skos:prefLabel>
+    <skos:notation>crossReferenceLexicon</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-3705_60143fc6-1dd7-c23e-a2f0-c30be3b1badb">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-Lexicography_630911fa-0687-1e55-c846-37ebe24f3182"/>
+    <skos:prefLabel xml:lang="en">encyclopedic information (vernacular)</skos:prefLabel>
+    <skos:notation>encyclopedic_info_vernacular</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-3778_b2ab05b5-4449-67a9-c25f-bf364a79621a">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-Lexicography_630911fa-0687-1e55-c846-37ebe24f3182"/>
+    <skos:prefLabel xml:lang="en">example (vernacular)</skos:prefLabel>
+    <skos:notation>example_vernacular</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-4174_8c1a1567-a86d-50d8-e208-e030f2688c98">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-Lexicography_630911fa-0687-1e55-c846-37ebe24f3182"/>
+    <skos:prefLabel xml:lang="en">key</skos:prefLabel>
+    <skos:notation>key</skos:notation>
+  </skos:Concept>
+
+  <skos:ConceptScheme rdf:about="http://hdl.handle.net/11459/CCR_P-Lexicography_630911fa-0687-1e55-c846-37ebe24f3182">
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5671_93dcb64b-a856-ae5a-3e4f-933dad8146ee"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5659_922803de-7b5c-fb22-534b-354871824392"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5660_fd969968-40b8-5fa1-c08d-7de524996ba0"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5661_790ad01e-f7c6-9fbe-fe21-4774a3613fee"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5662_a00e87da-398d-d0bf-e6c0-cf2903831209"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5663_92b2be18-cdd5-0152-10b2-8d62e65e015a"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5664_3f21ae8a-c43d-1f13-3af3-75bb548546b8"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5665_b2cc524e-c126-49d2-1b28-6b6d695fbc8f"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5666_413d9285-bfc2-eb1f-7403-42b015926301"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5667_951f614b-ba4d-dec6-9080-257727dbaf4f"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5668_e4bd514d-f803-f15d-0e1b-a7a09e460786"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5669_9fffcc6c-236c-15d7-8da6-bcd6dee40ea9"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5670_442382d8-2ab4-1444-fabd-8dae7c4d74a4"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-5672_58d2e554-0a78-e7ed-bc17-84c6cdb34f4f"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-1978_088a96da-46c0-cfc9-eb0d-2a3bc20caa55"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-3714_ff75b2dd-057a-38eb-3eae-f50bbed7e906"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-3735_a4f75eed-be6c-0602-4298-d63ec7f52f9b"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-3758_e9bcf032-d3a4-58ec-06c9-7fd1dc315bfa"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-3759_16758f0e-7e7f-acbe-6bd3-989fe2b8cdbf"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-3760_bf9771c3-7e27-ba40-115a-5b86011364a3"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-4080_adc3aa94-e615-f007-e538-71e832e3340c"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-3817_09cdc640-abe2-9886-57a5-522cd339ee80"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-3705_60143fc6-1dd7-c23e-a2f0-c30be3b1badb"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-3778_b2ab05b5-4449-67a9-c25f-bf364a79621a"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-4174_8c1a1567-a86d-50d8-e208-e030f2688c98"/>
+    <rdfs:label xml:lang="en">Lexicography</rdfs:label>
+  </skos:ConceptScheme>
+
+</rdf:RDF>

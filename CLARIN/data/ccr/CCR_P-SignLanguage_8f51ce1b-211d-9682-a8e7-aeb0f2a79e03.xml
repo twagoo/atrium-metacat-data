@@ -1,0 +1,811 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+
+  <rdf:Description rdf:about="http://hdl.handle.net/11459/CCR_C-4740_e718540f-5210-497b-4ffb-ae893a323fcb">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SignLanguage_8f51ce1b-211d-9682-a8e7-aeb0f2a79e03"/>
+  </rdf:Description>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-6796_d6ac8835-f5df-a7ba-a8b1-2b2aca3ca26d">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SignLanguage_8f51ce1b-211d-9682-a8e7-aeb0f2a79e03"/>
+    <skos:prefLabel xml:lang="en">number of cameras</skos:prefLabel>
+    <skos:notation>multilpleCameras</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-2674_b4424080-c775-0fa2-c1d5-f73ac687be86">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SignLanguage_8f51ce1b-211d-9682-a8e7-aeb0f2a79e03"/>
+    <skos:prefLabel xml:lang="en">major location</skos:prefLabel>
+    <skos:notation>majorLocation</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-2803_192fb695-9f6d-4873-7197-5cf02012fd68">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SignLanguage_8f51ce1b-211d-9682-a8e7-aeb0f2a79e03"/>
+    <skos:prefLabel xml:lang="en">articulatory orientation</skos:prefLabel>
+    <skos:notation>articulatoryOrientation</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-2804_ded8fe0f-5b85-bca1-8158-c9556886b328">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SignLanguage_8f51ce1b-211d-9682-a8e7-aeb0f2a79e03"/>
+    <skos:prefLabel xml:lang="en">absolute orientation: palm</skos:prefLabel>
+    <skos:notation>absoluteOrientationPalm</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-2805_ffc48455-5510-4be5-084a-8078004c195e">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SignLanguage_8f51ce1b-211d-9682-a8e7-aeb0f2a79e03"/>
+    <skos:prefLabel xml:lang="en">absolute orientation: fingers</skos:prefLabel>
+    <skos:notation>absoluteOrientationFinger</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-4670_fdfa7190-3565-2e32-338e-da6ff6942ae5">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SignLanguage_8f51ce1b-211d-9682-a8e7-aeb0f2a79e03"/>
+    <skos:prefLabel xml:lang="en">manually coded speech</skos:prefLabel>
+    <skos:notation>manuallyCodedSpeech</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-4672_e8b65d8a-7901-16db-aa32-d49f5490d357">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SignLanguage_8f51ce1b-211d-9682-a8e7-aeb0f2a79e03"/>
+    <skos:prefLabel xml:lang="en">village sign language</skos:prefLabel>
+    <skos:notation>villageSignLanguage</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-4673_e3598acb-ec58-189c-4b9b-e66010d3fa35">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SignLanguage_8f51ce1b-211d-9682-a8e7-aeb0f2a79e03"/>
+    <skos:prefLabel xml:lang="en">home sign</skos:prefLabel>
+    <skos:notation>homeSign</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-4674_eeb1e7ca-1cfa-a176-8f9f-ea0b08b534ce">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SignLanguage_8f51ce1b-211d-9682-a8e7-aeb0f2a79e03"/>
+    <skos:prefLabel xml:lang="en">auxiliary sign language</skos:prefLabel>
+    <skos:notation>auxiliarySignLanguage</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-4677_424862ee-70e5-3bdc-82d0-0ddf23824de5">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SignLanguage_8f51ce1b-211d-9682-a8e7-aeb0f2a79e03"/>
+    <skos:prefLabel xml:lang="en">handshape</skos:prefLabel>
+    <skos:notation>handshape</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-4678_159d14bf-f2c2-627a-a613-12cdd9ae167e">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SignLanguage_8f51ce1b-211d-9682-a8e7-aeb0f2a79e03"/>
+    <skos:prefLabel xml:lang="en">orientation</skos:prefLabel>
+    <skos:notation>orientation</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-4679_a0efc3e6-402e-20e5-9566-36e0a44b441f">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SignLanguage_8f51ce1b-211d-9682-a8e7-aeb0f2a79e03"/>
+    <skos:prefLabel xml:lang="en">location</skos:prefLabel>
+    <skos:notation>locationArticulation</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-4680_36b93769-29c7-2c08-9f0a-9c7c604cbbac">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SignLanguage_8f51ce1b-211d-9682-a8e7-aeb0f2a79e03"/>
+    <skos:prefLabel xml:lang="en">movement</skos:prefLabel>
+    <skos:notation>movement</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-4681_e965be48-f201-98e4-8486-266b7c2043d0">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SignLanguage_8f51ce1b-211d-9682-a8e7-aeb0f2a79e03"/>
+    <skos:prefLabel xml:lang="en">non-manual</skos:prefLabel>
+    <skos:notation>nonManual</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-4682_013075f6-e6bf-4a65-c8a3-bd18cdd2be57">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SignLanguage_8f51ce1b-211d-9682-a8e7-aeb0f2a79e03"/>
+    <skos:prefLabel xml:lang="en">sign gloss</skos:prefLabel>
+    <skos:notation>signGloss</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-4684_78d8e379-38ae-072f-b462-188397ee4fb4">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SignLanguage_8f51ce1b-211d-9682-a8e7-aeb0f2a79e03"/>
+    <skos:prefLabel xml:lang="en">relative orientation</skos:prefLabel>
+    <skos:notation>relativeOrientation</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-4685_1d34dcd5-d6df-a49d-0def-0402ae1de2cf">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SignLanguage_8f51ce1b-211d-9682-a8e7-aeb0f2a79e03"/>
+    <skos:prefLabel xml:lang="en">mouthing</skos:prefLabel>
+    <skos:notation>mouthing</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-4686_5b524ad8-7944-6c23-e8a8-ddc28811b6d3">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SignLanguage_8f51ce1b-211d-9682-a8e7-aeb0f2a79e03"/>
+    <skos:prefLabel xml:lang="en">repeated movement</skos:prefLabel>
+    <skos:notation>repeatedMovement</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-4687_3f76973b-5208-a813-6f2e-35b94ced76e2">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SignLanguage_8f51ce1b-211d-9682-a8e7-aeb0f2a79e03"/>
+    <skos:prefLabel xml:lang="en">alternating movement</skos:prefLabel>
+    <skos:notation>alternatingMovement</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-4688_d938c486-2a1a-13d3-0da4-5140abc7c05b">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SignLanguage_8f51ce1b-211d-9682-a8e7-aeb0f2a79e03"/>
+    <skos:prefLabel xml:lang="en">mouth action</skos:prefLabel>
+    <skos:notation>mouthAction</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-4689_d4ae7da9-1244-b9e7-769b-edc424b114a7">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SignLanguage_8f51ce1b-211d-9682-a8e7-aeb0f2a79e03"/>
+    <skos:prefLabel xml:lang="en">mouth gesture</skos:prefLabel>
+    <skos:notation>mouthGesture</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-4690_5cc0055e-c65a-cd9e-d917-4abb545ba4f1">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SignLanguage_8f51ce1b-211d-9682-a8e7-aeb0f2a79e03"/>
+    <skos:prefLabel xml:lang="en">face-for-face mouth gesture</skos:prefLabel>
+    <skos:notation>faceForFace</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-4691_7f77b454-8e6c-5a8b-042a-557f1123bb79">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SignLanguage_8f51ce1b-211d-9682-a8e7-aeb0f2a79e03"/>
+    <skos:prefLabel xml:lang="en">empty mouth gesture</skos:prefLabel>
+    <skos:notation>emptyMouthGesture</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-4692_f703ad37-6cf5-5ca0-0e6a-de8f20afb3ae">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SignLanguage_8f51ce1b-211d-9682-a8e7-aeb0f2a79e03"/>
+    <skos:prefLabel xml:lang="en">whole face mouth gesture</skos:prefLabel>
+    <skos:notation>wholeFaceMouthGesture</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-4693_87f485d3-0e61-4d95-e3ff-a5d5e5e19f18">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SignLanguage_8f51ce1b-211d-9682-a8e7-aeb0f2a79e03"/>
+    <skos:prefLabel xml:lang="en">adverbial mouth gesture</skos:prefLabel>
+    <skos:notation>adverbialMouthGesture</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-4695_653106d4-d6ed-4f83-cc9e-6de6fafa2a0a">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SignLanguage_8f51ce1b-211d-9682-a8e7-aeb0f2a79e03"/>
+    <skos:prefLabel xml:lang="en">synchronous movement</skos:prefLabel>
+    <skos:notation>synchronous</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-4696_ab1d0c13-c9bc-4a78-cd04-2ee03139f7de">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SignLanguage_8f51ce1b-211d-9682-a8e7-aeb0f2a79e03"/>
+    <skos:prefLabel xml:lang="en">language variety</skos:prefLabel>
+    <skos:notation>languageVariety</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-4697_5a993361-fe24-9ebc-672b-b04ea2a4707f">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SignLanguage_8f51ce1b-211d-9682-a8e7-aeb0f2a79e03"/>
+    <skos:prefLabel xml:lang="en">elicitation method</skos:prefLabel>
+    <skos:notation>elicitationMethod</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-4698_144df9fc-7be5-0407-2300-95ea3d029c74">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SignLanguage_8f51ce1b-211d-9682-a8e7-aeb0f2a79e03"/>
+    <skos:prefLabel xml:lang="en">interpreting source</skos:prefLabel>
+    <skos:notation>interpretingSource</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-4699_f2913d4d-5d7a-95ab-1997-aa0a4b74624a">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SignLanguage_8f51ce1b-211d-9682-a8e7-aeb0f2a79e03"/>
+    <skos:prefLabel xml:lang="en">interpreting target</skos:prefLabel>
+    <skos:notation>interpretingTarget</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-4700_b10c679a-543f-d014-8348-93c05ed37739">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SignLanguage_8f51ce1b-211d-9682-a8e7-aeb0f2a79e03"/>
+    <skos:prefLabel xml:lang="en">interpreting visibility</skos:prefLabel>
+    <skos:notation>interpretingVisibility</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-4701_baa8637a-53a2-4c3e-1fc6-1dde5e7feae3">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SignLanguage_8f51ce1b-211d-9682-a8e7-aeb0f2a79e03"/>
+    <skos:prefLabel xml:lang="en">interpreting audience</skos:prefLabel>
+    <skos:notation>interpretingAudience</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-4702_a731f34a-1f0a-e744-c4e7-c975ad65a3e3">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SignLanguage_8f51ce1b-211d-9682-a8e7-aeb0f2a79e03"/>
+    <skos:prefLabel xml:lang="en">deafness</skos:prefLabel>
+    <skos:notation>deafness</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-4703_1b27693b-fb28-ed48-aaa7-0304e9ac477f">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SignLanguage_8f51ce1b-211d-9682-a8e7-aeb0f2a79e03"/>
+    <skos:prefLabel xml:lang="en">deafness aid type</skos:prefLabel>
+    <skos:notation>deafnessAidType</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-4704_18e90134-a299-2107-b5ae-4a59194c3134">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SignLanguage_8f51ce1b-211d-9682-a8e7-aeb0f2a79e03"/>
+    <skos:prefLabel xml:lang="en">sign language experience exposure age</skos:prefLabel>
+    <skos:notation>signLanguageExperienceExposureAge</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-4705_77972986-4533-da3c-394f-b6cdc08cf708">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SignLanguage_8f51ce1b-211d-9682-a8e7-aeb0f2a79e03"/>
+    <skos:prefLabel xml:lang="en">sign language experience acquisition location</skos:prefLabel>
+    <skos:notation>signLanguageExperienceAcquisitionLocation</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-4706_806443d5-4d7f-23bd-44bc-948758905d23">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SignLanguage_8f51ce1b-211d-9682-a8e7-aeb0f2a79e03"/>
+    <skos:prefLabel xml:lang="en">sign language teaching experience</skos:prefLabel>
+    <skos:notation>signLanguageTeachingExperience</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-4707_a8c4be82-35bd-56dc-4e28-c558624b0d2a">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SignLanguage_8f51ce1b-211d-9682-a8e7-aeb0f2a79e03"/>
+    <skos:prefLabel xml:lang="en">deafness of mother</skos:prefLabel>
+    <skos:notation>deafnessMother</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-4708_27e618a6-487b-9dcb-b84d-e8398a406db9">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SignLanguage_8f51ce1b-211d-9682-a8e7-aeb0f2a79e03"/>
+    <skos:prefLabel xml:lang="en">deafness of father</skos:prefLabel>
+    <skos:notation>deafnessFather</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-4709_24e4df3c-793e-d692-d441-e88938519071">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SignLanguage_8f51ce1b-211d-9682-a8e7-aeb0f2a79e03"/>
+    <skos:prefLabel xml:lang="en">deafness of partner</skos:prefLabel>
+    <skos:notation>deafnessPartner</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-4710_d3a34341-fe55-fd8c-58cd-86f54a7448fe">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SignLanguage_8f51ce1b-211d-9682-a8e7-aeb0f2a79e03"/>
+    <skos:prefLabel xml:lang="en">primary communication form of mother</skos:prefLabel>
+    <skos:notation>primaryCommunicationFormMother</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-4711_b277f18f-e77a-070c-5485-3ff906ebd92c">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SignLanguage_8f51ce1b-211d-9682-a8e7-aeb0f2a79e03"/>
+    <skos:prefLabel xml:lang="en">primary communication form of father</skos:prefLabel>
+    <skos:notation>primaryCommunicationFormFather</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-4712_c765c6e4-8926-3353-9d9d-6360ab6049c1">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SignLanguage_8f51ce1b-211d-9682-a8e7-aeb0f2a79e03"/>
+    <skos:prefLabel xml:lang="en">primary communication form of partner</skos:prefLabel>
+    <skos:notation>primaryCommunicationFormPartner</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-4713_c9ea9293-f55f-11b2-b8cf-69fe5e6cc108">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SignLanguage_8f51ce1b-211d-9682-a8e7-aeb0f2a79e03"/>
+    <skos:prefLabel xml:lang="en">education age</skos:prefLabel>
+    <skos:notation>educationAge</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-4714_503922a7-5c7b-f85a-cf78-f77cefcd1c01">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SignLanguage_8f51ce1b-211d-9682-a8e7-aeb0f2a79e03"/>
+    <skos:prefLabel xml:lang="en">education school type</skos:prefLabel>
+    <skos:notation>educationSchoolType</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-4715_cfd0f990-1093-75c0-70d9-e5ade9cfec20">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SignLanguage_8f51ce1b-211d-9682-a8e7-aeb0f2a79e03"/>
+    <skos:prefLabel xml:lang="en">education class kind</skos:prefLabel>
+    <skos:notation>educationClassKind</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-4716_39876b43-e378-c540-75f7-052b12f893b5">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SignLanguage_8f51ce1b-211d-9682-a8e7-aeb0f2a79e03"/>
+    <skos:prefLabel xml:lang="en">education model</skos:prefLabel>
+    <skos:notation>educationModel</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-4717_baf7e50d-310f-a1de-f32e-e702501ab123">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SignLanguage_8f51ce1b-211d-9682-a8e7-aeb0f2a79e03"/>
+    <skos:prefLabel xml:lang="en">education location</skos:prefLabel>
+    <skos:notation>educationLocation</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-4718_a7d8fe65-2e19-dcf4-0bd0-0c72b82a9a61">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SignLanguage_8f51ce1b-211d-9682-a8e7-aeb0f2a79e03"/>
+    <skos:prefLabel xml:lang="en">education boarding school</skos:prefLabel>
+    <skos:notation>educationBoardingSchool</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-4719_5829229e-8ac2-1a31-1522-c41d1f87252f">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SignLanguage_8f51ce1b-211d-9682-a8e7-aeb0f2a79e03"/>
+    <skos:prefLabel xml:lang="en">hearing</skos:prefLabel>
+    <skos:notation>hearing</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-4720_6321d6a2-17df-fc40-90a5-2633a1176633">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SignLanguage_8f51ce1b-211d-9682-a8e7-aeb0f2a79e03"/>
+    <skos:prefLabel xml:lang="en">hard-of-hearing</skos:prefLabel>
+    <skos:notation>hardOfHearing</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-4721_ea322f7b-3318-43e9-2e77-54a15664cf7b">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SignLanguage_8f51ce1b-211d-9682-a8e7-aeb0f2a79e03"/>
+    <skos:prefLabel xml:lang="en">deaf</skos:prefLabel>
+    <skos:notation>deaf</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-4722_663c0be6-b7b2-27c0-b0f1-3b6c872430b6">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SignLanguage_8f51ce1b-211d-9682-a8e7-aeb0f2a79e03"/>
+    <skos:prefLabel xml:lang="en">conventional</skos:prefLabel>
+    <skos:notation>conventional</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-4723_76fbfc95-23bb-f968-2d8d-75de0c4d4b84">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SignLanguage_8f51ce1b-211d-9682-a8e7-aeb0f2a79e03"/>
+    <skos:prefLabel xml:lang="en">cochlear implant</skos:prefLabel>
+    <skos:notation>cochlearImplant</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-4724_229c16ca-8d2d-43f6-e177-7069b503aad0">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SignLanguage_8f51ce1b-211d-9682-a8e7-aeb0f2a79e03"/>
+    <skos:prefLabel xml:lang="en">no hearing aid</skos:prefLabel>
+    <skos:notation>noHearingAid</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-4725_e1c20161-a812-7a3e-d101-35ff9251f615">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SignLanguage_8f51ce1b-211d-9682-a8e7-aeb0f2a79e03"/>
+    <skos:prefLabel xml:lang="en">home from family</skos:prefLabel>
+    <skos:notation>homeFromFamily</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-4726_5dca4834-4522-d4e8-96a5-8846fbba5343">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SignLanguage_8f51ce1b-211d-9682-a8e7-aeb0f2a79e03"/>
+    <skos:prefLabel xml:lang="en">home from tutor</skos:prefLabel>
+    <skos:notation>homeFromTutor</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-4728_ff7c297e-9a06-70d2-2ddb-f36104c7f280">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SignLanguage_8f51ce1b-211d-9682-a8e7-aeb0f2a79e03"/>
+    <skos:prefLabel xml:lang="en">family beyond home</skos:prefLabel>
+    <skos:notation>familyBeyondHome</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-4729_a3c6f62d-d7c9-fa38-510b-130c11986306">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SignLanguage_8f51ce1b-211d-9682-a8e7-aeb0f2a79e03"/>
+    <skos:prefLabel xml:lang="en">acquired from friends</skos:prefLabel>
+    <skos:notation>acquiredFromFriends</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-4730_cd82b329-4caf-51a1-29f3-117de25933e6">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SignLanguage_8f51ce1b-211d-9682-a8e7-aeb0f2a79e03"/>
+    <skos:prefLabel xml:lang="en">no prompt</skos:prefLabel>
+    <skos:notation>noPrompt</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-4731_ca3be974-a196-cda4-99b1-7867b211e028">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SignLanguage_8f51ce1b-211d-9682-a8e7-aeb0f2a79e03"/>
+    <skos:prefLabel xml:lang="en">single picture prompt</skos:prefLabel>
+    <skos:notation>singlePicturePrompt</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-4732_85221ac3-59a6-a8cf-3a38-d4e46e5802ee">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SignLanguage_8f51ce1b-211d-9682-a8e7-aeb0f2a79e03"/>
+    <skos:prefLabel xml:lang="en">picture story prompt</skos:prefLabel>
+    <skos:notation>pictureStoryPrompt</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-4733_a27a3abc-6095-42ed-c360-ccfce00b7752">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SignLanguage_8f51ce1b-211d-9682-a8e7-aeb0f2a79e03"/>
+    <skos:prefLabel xml:lang="en">written language prompt</skos:prefLabel>
+    <skos:notation>writtenLanguagePrompt</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-4734_8524c5ec-f35a-ace8-9cd0-8c77fb58181a">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SignLanguage_8f51ce1b-211d-9682-a8e7-aeb0f2a79e03"/>
+    <skos:prefLabel xml:lang="en">sign language prompt</skos:prefLabel>
+    <skos:notation>signLanguagePrompt</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-4735_44c3cadf-7e56-b3c5-5fca-87df87ba1f8e">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SignLanguage_8f51ce1b-211d-9682-a8e7-aeb0f2a79e03"/>
+    <skos:prefLabel xml:lang="en">video prompt</skos:prefLabel>
+    <skos:notation>videoPrompt</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-4739_26f4d38c-905b-f1e5-b5d8-800b34f89730">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SignLanguage_8f51ce1b-211d-9682-a8e7-aeb0f2a79e03"/>
+    <skos:prefLabel xml:lang="en">subtitling</skos:prefLabel>
+    <skos:notation>subtitling</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-4741_d162ed46-a5ac-95da-c332-6db6947c843a">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SignLanguage_8f51ce1b-211d-9682-a8e7-aeb0f2a79e03"/>
+    <skos:prefLabel xml:lang="en">not visible</skos:prefLabel>
+    <skos:notation>notVisible</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-4742_10273965-0945-3bce-d5b7-fba61a73bbd8">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SignLanguage_8f51ce1b-211d-9682-a8e7-aeb0f2a79e03"/>
+    <skos:prefLabel xml:lang="en">in view during whole session</skos:prefLabel>
+    <skos:notation>inViewDuringWholeSession</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-4743_441008ef-5bf0-7d8b-ad29-42918345998c">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SignLanguage_8f51ce1b-211d-9682-a8e7-aeb0f2a79e03"/>
+    <skos:prefLabel xml:lang="en">in view during part of the session</skos:prefLabel>
+    <skos:notation>inViewDuringPartOfSession</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-4744_b32757df-5450-ebdf-6037-0830bd54df9c">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SignLanguage_8f51ce1b-211d-9682-a8e7-aeb0f2a79e03"/>
+    <skos:prefLabel xml:lang="en">audience not present</skos:prefLabel>
+    <skos:notation>audienceNotPresent</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-4745_7e0c7354-59e3-db0c-41e1-e5f9a59f1e53">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SignLanguage_8f51ce1b-211d-9682-a8e7-aeb0f2a79e03"/>
+    <skos:prefLabel xml:lang="en">audience known to interpreter</skos:prefLabel>
+    <skos:notation>audienceKnownToInterpreter</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-4746_8fae0446-04fa-667b-62cc-8e0ceda3abd4">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SignLanguage_8f51ce1b-211d-9682-a8e7-aeb0f2a79e03"/>
+    <skos:prefLabel xml:lang="en">audience partly known to interpreter</skos:prefLabel>
+    <skos:notation>audiencePartlyKnownToInterpreter</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-4747_7b78b9a0-643c-cc03-a1c6-969ee80872d3">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SignLanguage_8f51ce1b-211d-9682-a8e7-aeb0f2a79e03"/>
+    <skos:prefLabel xml:lang="en">anonymous audience</skos:prefLabel>
+    <skos:notation>anonymousAudience</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-4748_f444cf59-a7b3-f34e-b551-fc51df85f165">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SignLanguage_8f51ce1b-211d-9682-a8e7-aeb0f2a79e03"/>
+    <skos:prefLabel xml:lang="en">no sign teaching experience</skos:prefLabel>
+    <skos:notation>noSignTeachingExperience</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-4749_a2880123-80a9-8744-3938-ddd343f85f5f">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SignLanguage_8f51ce1b-211d-9682-a8e7-aeb0f2a79e03"/>
+    <skos:prefLabel xml:lang="en">some sign teaching experience</skos:prefLabel>
+    <skos:notation>someSignTeachingExperience</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-4750_565617b4-d9dd-1f99-1c50-d91d7f35b5e6">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SignLanguage_8f51ce1b-211d-9682-a8e7-aeb0f2a79e03"/>
+    <skos:prefLabel xml:lang="en">extensive sign teaching experience</skos:prefLabel>
+    <skos:notation>extensiveSignTeachingExperience</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-4751_93d88555-f7c5-60b9-c8ef-1b3448f8a244">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SignLanguage_8f51ce1b-211d-9682-a8e7-aeb0f2a79e03"/>
+    <skos:prefLabel xml:lang="en">preference for sign</skos:prefLabel>
+    <skos:notation>preferenceForSign</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-4752_4a92a8eb-19dd-075e-03bd-5ef497521535">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SignLanguage_8f51ce1b-211d-9682-a8e7-aeb0f2a79e03"/>
+    <skos:prefLabel xml:lang="en">preference for sign-supported speech</skos:prefLabel>
+    <skos:notation>preferenceForSignSupportedSpeech</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-4753_ab06dc48-0187-d485-59c0-b446c09470ab">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SignLanguage_8f51ce1b-211d-9682-a8e7-aeb0f2a79e03"/>
+    <skos:prefLabel xml:lang="en">gesture</skos:prefLabel>
+    <skos:notation>gestureSign</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-4754_8f41a467-834a-ad41-1c74-2315b74ac501">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SignLanguage_8f51ce1b-211d-9682-a8e7-aeb0f2a79e03"/>
+    <skos:prefLabel xml:lang="en">mix between signing and speaking</skos:prefLabel>
+    <skos:notation>mixSigningSpeaking</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-4755_14e44aa0-8e0c-c445-a2dd-237d5f180fab">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SignLanguage_8f51ce1b-211d-9682-a8e7-aeb0f2a79e03"/>
+    <skos:prefLabel xml:lang="en">preference for only speech</skos:prefLabel>
+    <skos:notation>preferenceForSpeech</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-4756_41a99cfc-8061-a22d-1ad0-09dd3ff1c207">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SignLanguage_8f51ce1b-211d-9682-a8e7-aeb0f2a79e03"/>
+    <skos:prefLabel xml:lang="en">preference for writing</skos:prefLabel>
+    <skos:notation>preferenceForWriting</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-4757_f0b31809-d516-4826-80e6-77b1e72b79f7">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SignLanguage_8f51ce1b-211d-9682-a8e7-aeb0f2a79e03"/>
+    <skos:prefLabel xml:lang="en">bilingual home programme</skos:prefLabel>
+    <skos:notation>bilingualHomeProgramme</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-4758_66bb65b9-f59f-8a7e-e374-3b8ecc16d780">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SignLanguage_8f51ce1b-211d-9682-a8e7-aeb0f2a79e03"/>
+    <skos:prefLabel xml:lang="en">kindergarten</skos:prefLabel>
+    <skos:notation>kindergarten</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-4759_ca243bc8-55fb-5643-63ee-65f97e664b54">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SignLanguage_8f51ce1b-211d-9682-a8e7-aeb0f2a79e03"/>
+    <skos:prefLabel xml:lang="en">preschool</skos:prefLabel>
+    <skos:notation>preschool</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-4760_a10792d6-3767-0bd5-acd4-48cfbdd2fa68">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SignLanguage_8f51ce1b-211d-9682-a8e7-aeb0f2a79e03"/>
+    <skos:prefLabel xml:lang="en">primary school</skos:prefLabel>
+    <skos:notation>primarySchool</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-4761_9e0d80a1-e9f2-f2bb-fab5-282249cdcba8">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SignLanguage_8f51ce1b-211d-9682-a8e7-aeb0f2a79e03"/>
+    <skos:prefLabel xml:lang="en">vocational training</skos:prefLabel>
+    <skos:notation>vocationalTraining</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-4762_3e8c1f1f-f338-00f0-052c-5507154e6e8a">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SignLanguage_8f51ce1b-211d-9682-a8e7-aeb0f2a79e03"/>
+    <skos:prefLabel xml:lang="en">college</skos:prefLabel>
+    <skos:notation>college</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-4763_c223b7d7-e4dc-b78f-3661-e3a579008fb1">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SignLanguage_8f51ce1b-211d-9682-a8e7-aeb0f2a79e03"/>
+    <skos:prefLabel xml:lang="en">university</skos:prefLabel>
+    <skos:notation>university</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-4764_c41eb0de-f3cc-82c4-cf04-6bdb7bd1c2c2">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SignLanguage_8f51ce1b-211d-9682-a8e7-aeb0f2a79e03"/>
+    <skos:prefLabel xml:lang="en">deaf school</skos:prefLabel>
+    <skos:notation>deafSchool</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-4765_bb3c9fd1-a42e-7a57-f2e1-2e33a223e712">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SignLanguage_8f51ce1b-211d-9682-a8e7-aeb0f2a79e03"/>
+    <skos:prefLabel xml:lang="en">hard-of-hearing school</skos:prefLabel>
+    <skos:notation>hardOfHearingSchool</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-4766_77cb5366-aef3-2530-b1be-bba98ae0df4e">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SignLanguage_8f51ce1b-211d-9682-a8e7-aeb0f2a79e03"/>
+    <skos:prefLabel xml:lang="en">deaf class in a hearing school</skos:prefLabel>
+    <skos:notation>deafClassInHearingSchool</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-4767_70a06fdf-312a-0f03-4296-1296054e322f">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SignLanguage_8f51ce1b-211d-9682-a8e7-aeb0f2a79e03"/>
+    <skos:prefLabel xml:lang="en">individually integrated</skos:prefLabel>
+    <skos:notation>individuallyIntegrated</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-4768_fe447d58-0b6b-3bc6-60ea-4a9bc82fb912">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SignLanguage_8f51ce1b-211d-9682-a8e7-aeb0f2a79e03"/>
+    <skos:prefLabel xml:lang="en">bilingual</skos:prefLabel>
+    <skos:notation>bilingualApproach</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-4769_e7ad688c-81dc-c89d-a1c9-32d46ccc1b50">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SignLanguage_8f51ce1b-211d-9682-a8e7-aeb0f2a79e03"/>
+    <skos:prefLabel xml:lang="en">oral education approach</skos:prefLabel>
+    <skos:notation>oralEducationApproach</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-4770_40344628-4f92-cada-f159-9a8f897fa4d1">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SignLanguage_8f51ce1b-211d-9682-a8e7-aeb0f2a79e03"/>
+    <skos:prefLabel xml:lang="en">mixed education approaches</skos:prefLabel>
+    <skos:notation>mixedEducationApproaches</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-4771_650043e7-974c-362a-1f10-cab18efc7eb7">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SignLanguage_8f51ce1b-211d-9682-a8e7-aeb0f2a79e03"/>
+    <skos:prefLabel xml:lang="en">sign monolingual</skos:prefLabel>
+    <skos:notation>signMonolingual</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-4772_0113d884-8b8a-d96a-58dd-4101f60bf31c">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SignLanguage_8f51ce1b-211d-9682-a8e7-aeb0f2a79e03"/>
+    <skos:prefLabel xml:lang="en">oral with an interpreter</skos:prefLabel>
+    <skos:notation>oralWithInterpreter</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-4773_e162d0d5-2f23-0f07-4bee-4a5c85e9cd40">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SignLanguage_8f51ce1b-211d-9682-a8e7-aeb0f2a79e03"/>
+    <skos:prefLabel xml:lang="en">boarding school</skos:prefLabel>
+    <skos:notation>boardingSchool</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-4774_9ebb5d70-82d0-fa0b-34de-29a1d25e4e74">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SignLanguage_8f51ce1b-211d-9682-a8e7-aeb0f2a79e03"/>
+    <skos:prefLabel xml:lang="en">not a boarding school</skos:prefLabel>
+    <skos:notation>notBoardingSchool</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-1978_088a96da-46c0-cfc9-eb0d-2a3bc20caa55">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SignLanguage_8f51ce1b-211d-9682-a8e7-aeb0f2a79e03"/>
+    <skos:prefLabel xml:lang="en">value</skos:prefLabel>
+    <skos:notation>valueGeneric</skos:notation>
+  </skos:Concept>
+
+  <rdf:Description rdf:about="http://hdl.handle.net/11459/CCR_C-3951_d3334e38-2654-204c-3a8e-9c0ddb130c4d">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SignLanguage_8f51ce1b-211d-9682-a8e7-aeb0f2a79e03"/>
+  </rdf:Description>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-4352_1a20d5e1-ea4f-359f-30b1-fbc87ab9dfab">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SignLanguage_8f51ce1b-211d-9682-a8e7-aeb0f2a79e03"/>
+    <skos:prefLabel xml:lang="en">handedness</skos:prefLabel>
+    <skos:notation>handedness</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-4667_dc340530-bd1b-2c37-0fc7-196517817944">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SignLanguage_8f51ce1b-211d-9682-a8e7-aeb0f2a79e03"/>
+    <skos:prefLabel xml:lang="en">sign language</skos:prefLabel>
+    <skos:notation>signLanguage</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-4668_517aa280-6765-b2c1-786d-5466f8408f8f">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SignLanguage_8f51ce1b-211d-9682-a8e7-aeb0f2a79e03"/>
+    <skos:prefLabel xml:lang="en">spoken language</skos:prefLabel>
+    <skos:notation>spokenLanguage</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-4669_dcb377ff-bbf1-c6ea-0040-b41233b2ddf2">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SignLanguage_8f51ce1b-211d-9682-a8e7-aeb0f2a79e03"/>
+    <skos:prefLabel xml:lang="en">sign supported speech</skos:prefLabel>
+    <skos:notation>signSupportedSpeech</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-4671_38b2f74c-4edb-0f07-4296-b7ac4ab2856d">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SignLanguage_8f51ce1b-211d-9682-a8e7-aeb0f2a79e03"/>
+    <skos:prefLabel xml:lang="en">fingerspelling</skos:prefLabel>
+    <skos:notation>fingerspelling</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-4676_096b32f0-b0f6-23ac-0c13-449959d855f5">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SignLanguage_8f51ce1b-211d-9682-a8e7-aeb0f2a79e03"/>
+    <skos:prefLabel xml:lang="en">sign parameter</skos:prefLabel>
+    <skos:notation>signParameter</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-4350_ecd66e0c-ca53-f020-12cb-40e14517bfe9">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SignLanguage_8f51ce1b-211d-9682-a8e7-aeb0f2a79e03"/>
+    <skos:prefLabel xml:lang="en">left</skos:prefLabel>
+    <skos:notation>left</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-4351_7a4c98c0-68a1-e58b-ca08-435c13e8787e">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SignLanguage_8f51ce1b-211d-9682-a8e7-aeb0f2a79e03"/>
+    <skos:prefLabel xml:lang="en">right</skos:prefLabel>
+    <skos:notation>right</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-4377_6bfd9181-bebc-69b8-6cf7-6f4ae3416e72">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SignLanguage_8f51ce1b-211d-9682-a8e7-aeb0f2a79e03"/>
+    <skos:prefLabel xml:lang="en">ambidextrous</skos:prefLabel>
+    <skos:notation>ambidextrous</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-4378_61fa2c36-595d-d7a7-8404-d3a033f9d167">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SignLanguage_8f51ce1b-211d-9682-a8e7-aeb0f2a79e03"/>
+    <skos:prefLabel xml:lang="en">height</skos:prefLabel>
+    <skos:notation>physicalHeight</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-2592_6bf81885-106a-fbf0-40e0-9f0233fbd88c">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SignLanguage_8f51ce1b-211d-9682-a8e7-aeb0f2a79e03"/>
+    <skos:prefLabel xml:lang="en">unspecified</skos:prefLabel>
+    <skos:notation>unspecified</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-2591_f769d93b-c007-d2c9-aff2-99e9177e5764">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-SignLanguage_8f51ce1b-211d-9682-a8e7-aeb0f2a79e03"/>
+    <skos:prefLabel xml:lang="en">unknown</skos:prefLabel>
+    <skos:notation>unknown</skos:notation>
+  </skos:Concept>
+
+  <skos:ConceptScheme rdf:about="http://hdl.handle.net/11459/CCR_P-SignLanguage_8f51ce1b-211d-9682-a8e7-aeb0f2a79e03">
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-4740_e718540f-5210-497b-4ffb-ae893a323fcb"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-6796_d6ac8835-f5df-a7ba-a8b1-2b2aca3ca26d"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-2674_b4424080-c775-0fa2-c1d5-f73ac687be86"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-2803_192fb695-9f6d-4873-7197-5cf02012fd68"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-2804_ded8fe0f-5b85-bca1-8158-c9556886b328"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-2805_ffc48455-5510-4be5-084a-8078004c195e"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-4670_fdfa7190-3565-2e32-338e-da6ff6942ae5"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-4672_e8b65d8a-7901-16db-aa32-d49f5490d357"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-4673_e3598acb-ec58-189c-4b9b-e66010d3fa35"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-4674_eeb1e7ca-1cfa-a176-8f9f-ea0b08b534ce"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-4677_424862ee-70e5-3bdc-82d0-0ddf23824de5"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-4678_159d14bf-f2c2-627a-a613-12cdd9ae167e"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-4679_a0efc3e6-402e-20e5-9566-36e0a44b441f"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-4680_36b93769-29c7-2c08-9f0a-9c7c604cbbac"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-4681_e965be48-f201-98e4-8486-266b7c2043d0"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-4682_013075f6-e6bf-4a65-c8a3-bd18cdd2be57"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-4684_78d8e379-38ae-072f-b462-188397ee4fb4"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-4685_1d34dcd5-d6df-a49d-0def-0402ae1de2cf"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-4686_5b524ad8-7944-6c23-e8a8-ddc28811b6d3"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-4687_3f76973b-5208-a813-6f2e-35b94ced76e2"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-4688_d938c486-2a1a-13d3-0da4-5140abc7c05b"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-4689_d4ae7da9-1244-b9e7-769b-edc424b114a7"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-4690_5cc0055e-c65a-cd9e-d917-4abb545ba4f1"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-4691_7f77b454-8e6c-5a8b-042a-557f1123bb79"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-4692_f703ad37-6cf5-5ca0-0e6a-de8f20afb3ae"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-4693_87f485d3-0e61-4d95-e3ff-a5d5e5e19f18"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-4695_653106d4-d6ed-4f83-cc9e-6de6fafa2a0a"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-4696_ab1d0c13-c9bc-4a78-cd04-2ee03139f7de"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-4697_5a993361-fe24-9ebc-672b-b04ea2a4707f"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-4698_144df9fc-7be5-0407-2300-95ea3d029c74"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-4699_f2913d4d-5d7a-95ab-1997-aa0a4b74624a"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-4700_b10c679a-543f-d014-8348-93c05ed37739"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-4701_baa8637a-53a2-4c3e-1fc6-1dde5e7feae3"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-4702_a731f34a-1f0a-e744-c4e7-c975ad65a3e3"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-4703_1b27693b-fb28-ed48-aaa7-0304e9ac477f"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-4704_18e90134-a299-2107-b5ae-4a59194c3134"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-4705_77972986-4533-da3c-394f-b6cdc08cf708"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-4706_806443d5-4d7f-23bd-44bc-948758905d23"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-4707_a8c4be82-35bd-56dc-4e28-c558624b0d2a"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-4708_27e618a6-487b-9dcb-b84d-e8398a406db9"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-4709_24e4df3c-793e-d692-d441-e88938519071"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-4710_d3a34341-fe55-fd8c-58cd-86f54a7448fe"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-4711_b277f18f-e77a-070c-5485-3ff906ebd92c"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-4712_c765c6e4-8926-3353-9d9d-6360ab6049c1"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-4713_c9ea9293-f55f-11b2-b8cf-69fe5e6cc108"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-4714_503922a7-5c7b-f85a-cf78-f77cefcd1c01"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-4715_cfd0f990-1093-75c0-70d9-e5ade9cfec20"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-4716_39876b43-e378-c540-75f7-052b12f893b5"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-4717_baf7e50d-310f-a1de-f32e-e702501ab123"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-4718_a7d8fe65-2e19-dcf4-0bd0-0c72b82a9a61"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-4719_5829229e-8ac2-1a31-1522-c41d1f87252f"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-4720_6321d6a2-17df-fc40-90a5-2633a1176633"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-4721_ea322f7b-3318-43e9-2e77-54a15664cf7b"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-4722_663c0be6-b7b2-27c0-b0f1-3b6c872430b6"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-4723_76fbfc95-23bb-f968-2d8d-75de0c4d4b84"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-4724_229c16ca-8d2d-43f6-e177-7069b503aad0"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-4725_e1c20161-a812-7a3e-d101-35ff9251f615"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-4726_5dca4834-4522-d4e8-96a5-8846fbba5343"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-4728_ff7c297e-9a06-70d2-2ddb-f36104c7f280"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-4729_a3c6f62d-d7c9-fa38-510b-130c11986306"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-4730_cd82b329-4caf-51a1-29f3-117de25933e6"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-4731_ca3be974-a196-cda4-99b1-7867b211e028"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-4732_85221ac3-59a6-a8cf-3a38-d4e46e5802ee"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-4733_a27a3abc-6095-42ed-c360-ccfce00b7752"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-4734_8524c5ec-f35a-ace8-9cd0-8c77fb58181a"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-4735_44c3cadf-7e56-b3c5-5fca-87df87ba1f8e"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-4739_26f4d38c-905b-f1e5-b5d8-800b34f89730"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-4741_d162ed46-a5ac-95da-c332-6db6947c843a"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-4742_10273965-0945-3bce-d5b7-fba61a73bbd8"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-4743_441008ef-5bf0-7d8b-ad29-42918345998c"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-4744_b32757df-5450-ebdf-6037-0830bd54df9c"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-4745_7e0c7354-59e3-db0c-41e1-e5f9a59f1e53"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-4746_8fae0446-04fa-667b-62cc-8e0ceda3abd4"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-4747_7b78b9a0-643c-cc03-a1c6-969ee80872d3"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-4748_f444cf59-a7b3-f34e-b551-fc51df85f165"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-4749_a2880123-80a9-8744-3938-ddd343f85f5f"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-4750_565617b4-d9dd-1f99-1c50-d91d7f35b5e6"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-4751_93d88555-f7c5-60b9-c8ef-1b3448f8a244"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-4752_4a92a8eb-19dd-075e-03bd-5ef497521535"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-4753_ab06dc48-0187-d485-59c0-b446c09470ab"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-4754_8f41a467-834a-ad41-1c74-2315b74ac501"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-4755_14e44aa0-8e0c-c445-a2dd-237d5f180fab"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-4756_41a99cfc-8061-a22d-1ad0-09dd3ff1c207"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-4757_f0b31809-d516-4826-80e6-77b1e72b79f7"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-4758_66bb65b9-f59f-8a7e-e374-3b8ecc16d780"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-4759_ca243bc8-55fb-5643-63ee-65f97e664b54"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-4760_a10792d6-3767-0bd5-acd4-48cfbdd2fa68"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-4761_9e0d80a1-e9f2-f2bb-fab5-282249cdcba8"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-4762_3e8c1f1f-f338-00f0-052c-5507154e6e8a"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-4763_c223b7d7-e4dc-b78f-3661-e3a579008fb1"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-4764_c41eb0de-f3cc-82c4-cf04-6bdb7bd1c2c2"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-4765_bb3c9fd1-a42e-7a57-f2e1-2e33a223e712"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-4766_77cb5366-aef3-2530-b1be-bba98ae0df4e"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-4767_70a06fdf-312a-0f03-4296-1296054e322f"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-4768_fe447d58-0b6b-3bc6-60ea-4a9bc82fb912"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-4769_e7ad688c-81dc-c89d-a1c9-32d46ccc1b50"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-4770_40344628-4f92-cada-f159-9a8f897fa4d1"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-4771_650043e7-974c-362a-1f10-cab18efc7eb7"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-4772_0113d884-8b8a-d96a-58dd-4101f60bf31c"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-4773_e162d0d5-2f23-0f07-4bee-4a5c85e9cd40"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-4774_9ebb5d70-82d0-fa0b-34de-29a1d25e4e74"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-1978_088a96da-46c0-cfc9-eb0d-2a3bc20caa55"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-3951_d3334e38-2654-204c-3a8e-9c0ddb130c4d"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-4352_1a20d5e1-ea4f-359f-30b1-fbc87ab9dfab"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-4667_dc340530-bd1b-2c37-0fc7-196517817944"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-4668_517aa280-6765-b2c1-786d-5466f8408f8f"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-4669_dcb377ff-bbf1-c6ea-0040-b41233b2ddf2"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-4671_38b2f74c-4edb-0f07-4296-b7ac4ab2856d"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-4676_096b32f0-b0f6-23ac-0c13-449959d855f5"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-4350_ecd66e0c-ca53-f020-12cb-40e14517bfe9"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-4351_7a4c98c0-68a1-e58b-ca08-435c13e8787e"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-4377_6bfd9181-bebc-69b8-6cf7-6f4ae3416e72"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-4378_61fa2c36-595d-d7a7-8404-d3a033f9d167"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-2592_6bf81885-106a-fbf0-40e0-9f0233fbd88c"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-2591_f769d93b-c007-d2c9-aff2-99e9177e5764"/>
+    <rdfs:label xml:lang="en">Sign Language</rdfs:label>
+  </skos:ConceptScheme>
+
+</rdf:RDF>

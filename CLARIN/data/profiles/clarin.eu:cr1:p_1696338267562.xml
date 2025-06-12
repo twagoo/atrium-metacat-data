@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?><CMD_ComponentSpec xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cue="http://www.clarin.eu/cmd/cues/1" xmlns:cue_old="http://www.clarin.eu/cmdi/cues/1" isProfile="true" xsi:noNamespaceSchemaLocation="https://infra.clarin.eu/CMDI/1.1/general-component-schema.xsd">
+    <Header>
+        <ID>clarin.eu:cr1:p_1696338267562</ID>
+        <Name>SWISSUbase</Name>
+        <Description>Profile for Swiss national repository - SWISSUbase</Description>
+        
+    </Header>
+    <CMD_Component name="SWISSUbase" CardinalityMin="1" CardinalityMax="1">
+        <CMD_Component name="Project" CardinalityMin="1" CardinalityMax="1">
+            <CMD_Component name="Overview" ConceptLink="" CardinalityMin="1" CardinalityMax="1">
+                <CMD_Element name="Author" ConceptLink="http://hdl.handle.net/11459/CCR_C-6130_f11d590d-b9f3-6a81-9f17-22988671e59e" ValueScheme="string" CardinalityMin="1" CardinalityMax="unbounded" DisplayPriority="1"/>
+                <CMD_Element name="Institution" ConceptLink="http://hdl.handle.net/11459/CCR_C-6213_b30f2cad-2436-4aef-c73e-45053de4a1f5" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded"/>
+                <CMD_Element name="Project_title" ConceptLink="http://hdl.handle.net/11459/CCR_C-2545_d873f2ab-2a2f-29d6-a9ab-260cde57f227" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" DisplayPriority="1"/>
+                <CMD_Element name="Project_description_language" ConceptLink="http://hdl.handle.net/11459/CCR_C-2543_800bf037-d733-846b-2d29-b86bccbd0841" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true"/>
+                <CMD_Element name="Main_discipline" ConceptLink="http://hdl.handle.net/11459/CCR_C-6838_6a67f2cc-037c-ac1c-a1a7-c74b83595efa" ValueScheme="string" CardinalityMin="1" CardinalityMax="unbounded" Multilingual="true"/>
+            </CMD_Component>
+            <CMD_Component name="General_description" ConceptLink="http://hdl.handle.net/11459/CCR_C-6142_53042bb3-ac88-5c14-ae98-bd7601e97ec8" CardinalityMin="1" CardinalityMax="1">
+                <CMD_Element name="Period" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" Documentation="The period covered by the project, e.g. 1939-1945.">
+                    
+                </CMD_Element>
+                <CMD_Element name="Geographical_area" ConceptLink="http://hdl.handle.net/11459/CCR_C-6006_7a2bfdc1-c915-f065-a1af-541e8eefe2cf" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" DisplayPriority="1"/>
+                <CMD_Element name="Additional_geographic_information" ConceptLink="http://hdl.handle.net/11459/CCR_C-6006_7a2bfdc1-c915-f065-a1af-541e8eefe2cf" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true"/>
+                <CMD_Element name="Abstract" ConceptLink="http://hdl.handle.net/11459/CCR_C-6005_552bfc06-0acd-a0cd-9cb9-5fcb7dedb323" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" Documentation="The origin of the research, objectives and strategy, problem addressed, theoretical framework, hypotheses, practical application">
+                    
+                </CMD_Element>
+                <CMD_Element name="Results" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" Documentation="The main or intermediate results">
+                    
+                </CMD_Element>
+            </CMD_Component>
+            <CMD_Component name="Dataset" CardinalityMin="1" CardinalityMax="unbounded">
+                
+                <CMD_Component name="Overview" CardinalityMin="1" CardinalityMax="1">
+                    <CMD_Element name="Dataset_title" ConceptLink="http://hdl.handle.net/11459/CCR_C-5125_4259bcdc-74e3-0d71-ef4b-39cc70e4e779" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" DisplayPriority="1"/>
+                    <CMD_Element name="Dataset_description_language" ConceptLink="http://hdl.handle.net/11459/CCR_C-2543_800bf037-d733-846b-2d29-b86bccbd0841" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true"/>
+                    <CMD_Element name="DOI" ConceptLink="http://hdl.handle.net/11459/CCR_C-2573_ae7c2548-8a86-ab6e-7099-e28b7697d1a2" ValueScheme="string" CardinalityMin="1" CardinalityMax="1"/>
+                    <CMD_Element name="Dataset_description" ConceptLink="http://hdl.handle.net/11459/CCR_C-6005_552bfc06-0acd-a0cd-9cb9-5fcb7dedb323" ValueScheme="string" CardinalityMin="0" CardinalityMax="1"/>
+                    <CMD_Element name="Remarks_about_the_documentation" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Documentation="Any comment concerning the documentation, as well as any practical considerations with respect to the use of this documentation.">
+                        
+                    </CMD_Element>
+                    <CMD_Element name="Version_notes" ConceptLink="http://hdl.handle.net/11459/CCR_C-6720_0e25bfac-ed62-6ccd-5a06-11964f0d9318" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Documentation="Comments on the modifications made to the dataset for this version.">
+                        
+                    </CMD_Element>
+                    <CMD_Element name="Bibliographical_citation" ConceptLink="http://hdl.handle.net/11459/CCR_C-6137_4cd6c000-df42-abd8-49b3-ecd8d9d3546a" ValueScheme="string" CardinalityMin="1" CardinalityMax="1"/>
+                    <CMD_Element name="Dataset_version" ConceptLink="http://hdl.handle.net/11459/CCR_C-2547_7883d382-b3ce-8ab4-7052-0138525a8ba1" ValueScheme="string" CardinalityMin="1" CardinalityMax="1"/>
+                </CMD_Component>
+                <CMD_Component name="Resource" ConceptLink="http://hdl.handle.net/11459/CCR_C-6582_2ab1561d-1162-08fd-f7c2-2a706e8c65f9" CardinalityMin="1" CardinalityMax="1">
+                    <CMD_Element name="Resource_type" ConceptLink="http://hdl.handle.net/11459/CCR_C-6582_2ab1561d-1162-08fd-f7c2-2a706e8c65f9" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" DisplayPriority="1"/>
+                    <CMD_Element name="Resource_description" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" DisplayPriority="1"/>
+                    <CMD_Element name="Keywords" ConceptLink="http://hdl.handle.net/11459/CCR_C-5356_d4d861f6-e302-9b13-5ab5-f8ba171cc258" ValueScheme="string" CardinalityMin="0" CardinalityMax="1"/>
+                    <CMD_Component name="Participants" CardinalityMin="0" CardinalityMax="unbounded">
+                        
+                        <CMD_Element name="Number_of_persons" ConceptLink="http://hdl.handle.net/11459/CCR_C-3887_377dc728-2708-f2b7-00b3-97ebd48dcbe8" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" DisplayPriority="1"/>
+                        <CMD_Element name="Sex" ConceptLink="http://hdl.handle.net/11459/CCR_C-2560_ebb466e1-2b6b-6701-4e64-94618b4b455b" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true"/>
+                        <CMD_Element name="Age_range_start" ConceptLink="http://hdl.handle.net/11459/CCR_C-3653_37d2ee5e-e74b-5636-08d6-67676257c88d" ValueScheme="string" CardinalityMin="0" CardinalityMax="1"/>
+                        <CMD_Element name="Age_range_end" ConceptLink="http://hdl.handle.net/11459/CCR_C-3653_37d2ee5e-e74b-5636-08d6-67676257c88d" ValueScheme="string" CardinalityMin="0" CardinalityMax="1"/>
+                    </CMD_Component>
+                </CMD_Component>
+                <CMD_Component name="License" ComponentId="clarin.eu:cr1:c_1475136016240" ConceptLink="http://hdl.handle.net/11459/CCR_C-2457_45bbaa1a-7002-2ecd-ab9d-57a189f694a6" CardinalityMin="1" CardinalityMax="1">
+                    <CMD_Element name="License" ConceptLink="http://hdl.handle.net/11459/CCR_C-2457_45bbaa1a-7002-2ecd-ab9d-57a189f694a6" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" DisplayPriority="1" Documentation="End user license agreement">
+                        
+                    </CMD_Element>
+                    <CMD_Element name="LicenseURL" ValueScheme="anyURI" CardinalityMin="1" CardinalityMax="1" Documentation="URL of the license agreement">
+                        
+                    </CMD_Element>
+                </CMD_Component>
+                <CMD_Component name="Files" ConceptLink="http://hdl.handle.net/11459/CCR_C-5338_8218e241-0458-c8e0-99fe-3f9c0ed618c8" CardinalityMin="1" CardinalityMax="unbounded">
+                    <CMD_Element name="File_title" ConceptLink="http://hdl.handle.net/11459/CCR_C-5125_4259bcdc-74e3-0d71-ef4b-39cc70e4e779" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" DisplayPriority="1"/>
+                    <CMD_Component name="Linguistic_metadata" CardinalityMin="0" CardinalityMax="1">
+                        
+                        <CMD_Component name="Language" ConceptLink="http://hdl.handle.net/11459/CCR_C-2484_669684e7-cb9e-ea96-59cb-a25fe89b9b9d" CardinalityMin="0" CardinalityMax="unbounded">
+                            <CMD_Element name="Reference_path" ConceptLink="http://hdl.handle.net/11459/CCR_C-4129_6048efbf-eb87-2083-4110-84a44f8984f7" ValueScheme="string" CardinalityMin="1" CardinalityMax="1"/>
+                            <CMD_Element name="Language_name" ConceptLink="http://hdl.handle.net/11459/CCR_C-2484_669684e7-cb9e-ea96-59cb-a25fe89b9b9d" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" DisplayPriority="1"/>
+                            <CMD_Element name="Linguality_type" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" Documentation="The linguality type defines whether the data collection/resource/speaker is monolingual, bilingual or multilingual.">
+                                
+                            </CMD_Element>
+                            <CMD_Element name="Language_variety_name" ConceptLink="http://hdl.handle.net/11459/CCR_C-3886_ee0e9b7b-6586-f226-9694-aff53e0343bc" ValueScheme="string" CardinalityMin="0" CardinalityMax="1"/>
+                            <CMD_Element name="Language_variety_type" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" Documentation="The language variety type defines if the language of the described resource is a dialect, jargon or other.">
+                                
+                            </CMD_Element>
+                            <CMD_Element name="Language_status" ConceptLink="http://hdl.handle.net/11459/CCR_C-5627_235c15d0-74eb-e2bd-b0c9-71721e78a227" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true"/>
+                            <CMD_Element name="Modality_type" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" Documentation="Modality type refers to the manifestation of the language: e.g. sign language or spoken language">
+                                
+                            </CMD_Element>
+                            <CMD_Element name="Country" ConceptLink="http://hdl.handle.net/11459/CCR_C-6834_b4c220c3-eecc-b513-33bc-7b27d73d1f85" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true"/>
+                            <CMD_Element name="Naturality" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" Documentation="Naturality refers to the production process of a language utterance/the modality: e.g. was it pre-planned, elicited, or spontaneous?">
+                                
+                            </CMD_Element>
+                            <CMD_Element name="Conversational_type" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" Documentation="The conversational type specifies how many people participate in a conversation, e.g. dialogue.">
+                                
+                            </CMD_Element>
+                        </CMD_Component>
+                        <CMD_Component name="Annotation" ConceptLink="http://hdl.handle.net/11459/CCR_C-4085_c4b5b45a-364e-1fc1-6321-5738ba4c2fa1" CardinalityMin="0" CardinalityMax="unbounded">
+                            <CMD_Element name="Reference_path" ConceptLink="http://hdl.handle.net/11459/CCR_C-4129_6048efbf-eb87-2083-4110-84a44f8984f7" ValueScheme="string" CardinalityMin="1" CardinalityMax="1"/>
+                            <CMD_Element name="Annotation_type" ConceptLink="http://hdl.handle.net/11459/CCR_C-4085_c4b5b45a-364e-1fc1-6321-5738ba4c2fa1" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" DisplayPriority="1">
+                                <AttributeList>
+                                    <Attribute><Name>Annotation_tiers</Name><ConceptLink>http://hdl.handle.net/11459/CCR_C-2462_5b266792-7a54-9296-42e2-2318b9861fe1</ConceptLink><Type>string</Type></Attribute>
+                                    <Attribute><Name>Annotation_format</Name><ConceptLink>http://hdl.handle.net/11459/CCR_C-2562_872eb94a-47fb-b551-2f64-13ded063259e</ConceptLink><Type>string</Type></Attribute>
+                                </AttributeList>
+                            </CMD_Element>
+                            <CMD_Element name="Controlled_vocabulary" ConceptLink="http://hdl.handle.net/11459/CCR_C-5357_a0e5136b-c741-d7a7-960a-593346bf8d11" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Documentation="The controlled vocabulary or tag set that was used for annotation. E.g. Stuttgart-Tübingen-Tagset (STTS)">
+                                
+                            </CMD_Element>
+                        </CMD_Component>
+                        <CMD_Component name="Text" ConceptLink="http://hdl.handle.net/11459/CCR_C-2658_3a34bb3c-e815-efeb-c6bd-a53da6dcc0b9" CardinalityMin="0" CardinalityMax="unbounded">
+                            <CMD_Element name="Reference_path" ConceptLink="http://hdl.handle.net/11459/CCR_C-4129_6048efbf-eb87-2083-4110-84a44f8984f7" ValueScheme="string" CardinalityMin="1" CardinalityMax="1"/>
+                            <CMD_Element name="Media_type" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" DisplayPriority="1" Documentation="Standardised naming of the file format, a media type, e.g. text/xml">
+                                
+                                <AttributeList>
+                                    <Attribute><Name>Provenience_derivation</Name><ConceptLink>http://hdl.handle.net/11459/CCR_C-2534_04c8cf6a-4272-2213-4de7-52713b7c286f</ConceptLink><Type>string</Type>
+                                        
+                                    </Attribute>
+                                    <Attribute><Name>Text_genre</Name><ConceptLink>http://hdl.handle.net/11459/CCR_C-2470_d191f2b2-6339-f031-b534-70d526b28357</ConceptLink><Type>string</Type></Attribute>
+                                </AttributeList>
+                            </CMD_Element>
+                            <CMD_Element name="Character_encoding" ConceptLink="http://hdl.handle.net/11459/CCR_C-2564_880b1108-6b03-647f-eed9-cdfbd464c661" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true"/>
+                        </CMD_Component>
+                        <CMD_Component name="Audio" ConceptLink="http://hdl.handle.net/11459/CCR_C-2653_06ff001f-7ed4-6399-7147-02170140dd64" CardinalityMin="0" CardinalityMax="unbounded">
+                            <CMD_Element name="Reference_path" ConceptLink="http://hdl.handle.net/11459/CCR_C-4129_6048efbf-eb87-2083-4110-84a44f8984f7" ValueScheme="string" CardinalityMin="1" CardinalityMax="1"/>
+                            <CMD_Element name="Media_type" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" DisplayPriority="1" Documentation="Standardised naming of the file format, a media type, e.g. audio/mpeg">
+                                
+                                <AttributeList>
+                                    <Attribute><Name>Audio_genre</Name><ConceptLink>http://hdl.handle.net/11459/CCR_C-2470_d191f2b2-6339-f031-b534-70d526b28357</ConceptLink><Type>string</Type></Attribute>
+                                    <Attribute><Name>Codec</Name><ConceptLink>http://hdl.handle.net/11459/CCR_C-4599_2eee055a-fe8b-953a-52a9-c0ad8dae82d2</ConceptLink><Type>string</Type></Attribute>
+                                    <Attribute><Name>Duration</Name><ConceptLink>http://hdl.handle.net/11459/CCR_C-2567_8e616d60-5708-c3d4-320b-661399ccda43</ConceptLink><Type>time</Type></Attribute>
+                                    <Attribute><Name>Duration_of_effective_speech</Name><ConceptLink>http://hdl.handle.net/11459/CCR_C-2691_5c1c9d59-cc6d-da0a-cf24-1ee36f0947a7</ConceptLink><Type>time</Type></Attribute>
+                                </AttributeList>
+                            </CMD_Element>
+                        </CMD_Component>
+                        <CMD_Component name="Video" ConceptLink="http://hdl.handle.net/11459/CCR_C-2654_115c5ce8-7bdb-06b4-fe52-d6ebf2f80022" CardinalityMin="0" CardinalityMax="unbounded">
+                            <CMD_Element name="Reference_path" ConceptLink="http://hdl.handle.net/11459/CCR_C-4129_6048efbf-eb87-2083-4110-84a44f8984f7" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" DisplayPriority="1"/>
+                            <CMD_Element name="Media_type" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" Documentation="Standardised naming of the file format, a media type, e.g. video/mp4">
+                                
+                                <AttributeList>
+                                    <Attribute><Name>Video_genre</Name><ConceptLink>http://hdl.handle.net/11459/CCR_C-2470_d191f2b2-6339-f031-b534-70d526b28357</ConceptLink><Type>string</Type></Attribute>
+                                    <Attribute><Name>Resolution_info</Name><ConceptLink>http://hdl.handle.net/11459/CCR_C-2575_3d7c3d42-f4d3-6071-61a1-45deeb960343</ConceptLink><Type>string</Type></Attribute>
+                                    <Attribute><Name>Frame_rate</Name><ConceptLink>http://hdl.handle.net/11459/CCR_C-4597_a9d69eaf-5d6f-17a2-f107-9aaff21d137b</ConceptLink><Type>int</Type></Attribute>
+                                    <Attribute><Name>Duration</Name><ConceptLink>http://hdl.handle.net/11459/CCR_C-2567_8e616d60-5708-c3d4-320b-661399ccda43</ConceptLink><Type>string</Type></Attribute>
+                                    <Attribute><Name>Duration_of_speech</Name><ConceptLink>http://hdl.handle.net/11459/CCR_C-2691_5c1c9d59-cc6d-da0a-cf24-1ee36f0947a7</ConceptLink><Type>string</Type></Attribute>
+                                </AttributeList>
+                            </CMD_Element>
+                            <CMD_Element name="Codec" ConceptLink="http://hdl.handle.net/11459/CCR_C-4599_2eee055a-fe8b-953a-52a9-c0ad8dae82d2" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true"/>
+                            <CMD_Element name="Container_format" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" Documentation="The container format, that contains the actual data in a encoded form, e.g. Matroska (MKV), Ogg, MP4">
+                                
+                            </CMD_Element>
+                        </CMD_Component>
+                        <CMD_Component name="Image" ConceptLink="http://hdl.handle.net/11459/CCR_C-2655_c21a8115-d6e7-982c-d5e8-3a278d6e653a" CardinalityMin="0" CardinalityMax="unbounded">
+                            <CMD_Element name="Reference_path" ConceptLink="http://hdl.handle.net/11459/CCR_C-4129_6048efbf-eb87-2083-4110-84a44f8984f7" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" DisplayPriority="1"/>
+                            <CMD_Element name="Media_type" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" Documentation="Standardised naming of the file format, a media type. E.g. image/png">
+                                
+                                <AttributeList>
+                                    <Attribute><Name>Image_genre</Name><ConceptLink>http://hdl.handle.net/11459/CCR_C-2470_d191f2b2-6339-f031-b534-70d526b28357</ConceptLink><Type>string</Type></Attribute>
+                                    <Attribute><Name>Resolution_info</Name><ConceptLink>http://hdl.handle.net/11459/CCR_C-2575_3d7c3d42-f4d3-6071-61a1-45deeb960343</ConceptLink><Type>string</Type></Attribute>
+                                </AttributeList>
+                            </CMD_Element>
+                            <CMD_Element name="Type_of_image_content" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" Documentation="Description of the image content. E.g. Sign posts">
+                                
+                            </CMD_Element>
+                            <CMD_Element name="Compression" ConceptLink="http://hdl.handle.net/11459/CCR_C-2685_65492121-3759-0fc2-694b-83eccbb9d26c" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true"/>
+                            <CMD_Element name="Graphics_type" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" Documentation="Indicates if images are raster or vector images. Typically, JPEG, GIF, BMP and TIFF are raster graphics, while SVG and AI (Adobe Illustrator) are vector graphic formats.">
+                                
+                            </CMD_Element>
+                        </CMD_Component>
+                        <CMD_Component name="Tools" ConceptLink="http://hdl.handle.net/11459/CCR_C-4362_bbceebba-02fc-2417-5433-3402a33e350a" CardinalityMin="0" CardinalityMax="unbounded">
+                            <CMD_Element name="Reference_path" ConceptLink="http://hdl.handle.net/11459/CCR_C-4129_6048efbf-eb87-2083-4110-84a44f8984f7" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" DisplayPriority="1"/>
+                            <CMD_Element name="Software" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Documentation="The Software used to generate, annotate or process the data. E.g. EUDICO Linguistic Annotator (ELAN)">
+                                
+                                <AttributeList>
+                                    <Attribute><Name>Software_role</Name><Type>string</Type>
+                                        
+                                    </Attribute>
+                                    <Attribute><Name>Description</Name><ConceptLink>http://hdl.handle.net/11459/CCR_C-6139_ab15a7eb-7032-d4f0-643e-bffe5ad09fc3</ConceptLink><Type>string</Type></Attribute>
+                                </AttributeList>
+                            </CMD_Element>
+                        </CMD_Component>
+                    </CMD_Component>
+                </CMD_Component>
+            </CMD_Component>
+        </CMD_Component>
+    </CMD_Component>
+</CMD_ComponentSpec>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-1978_088a96da-46c0-cfc9-eb0d-2a3bc20caa55">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-Translation_e7ebeaa2-68f1-34c8-6301-249173bf6ccf"/>
+    <skos:prefLabel xml:lang="en">value</skos:prefLabel>
+    <skos:notation>valueGeneric</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-3988_7dae537c-75bd-bbc0-2604-e0d22332f184">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-Translation_e7ebeaa2-68f1-34c8-6301-249173bf6ccf"/>
+    <skos:prefLabel xml:lang="en">aligned text</skos:prefLabel>
+    <skos:notation>alignedText</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-3989_adfbb96d-a8c7-8779-525e-9e0465fde4a4">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-Translation_e7ebeaa2-68f1-34c8-6301-249173bf6ccf"/>
+    <skos:prefLabel xml:lang="en">text alignment</skos:prefLabel>
+    <skos:notation>textAlignment</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-4054_c2d4b731-d7c9-3845-f91c-592b8e65c741">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-Translation_e7ebeaa2-68f1-34c8-6301-249173bf6ccf"/>
+    <skos:prefLabel xml:lang="en">education interpreting</skos:prefLabel>
+    <skos:notation>educationInterpreting</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-4064_b2a283a9-cff5-d6ec-68e2-69e35c9adba5">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-Translation_e7ebeaa2-68f1-34c8-6301-249173bf6ccf"/>
+    <skos:prefLabel xml:lang="en">audio transcription</skos:prefLabel>
+    <skos:notation>audioTranscription</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-4065_3adf4ee0-ffaf-4fd4-5252-6cf7a050f499">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-Translation_e7ebeaa2-68f1-34c8-6301-249173bf6ccf"/>
+    <skos:prefLabel xml:lang="en">text transcription</skos:prefLabel>
+    <skos:notation>textTranscription</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-4075_260e02a4-4e95-671f-b1af-e2db8fbf2a9e">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-Translation_e7ebeaa2-68f1-34c8-6301-249173bf6ccf"/>
+    <skos:prefLabel xml:lang="en">dubbing</skos:prefLabel>
+    <skos:notation>dubbing</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-3983_0ae7d6a6-cebc-a492-1b6f-fa1fa272ce0b">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-Translation_e7ebeaa2-68f1-34c8-6301-249173bf6ccf"/>
+    <skos:prefLabel xml:lang="en">translation</skos:prefLabel>
+    <skos:notation>translationProcess</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-4020_77c327a6-cfc2-676a-d710-d3f9300fc2c6">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-Translation_e7ebeaa2-68f1-34c8-6301-249173bf6ccf"/>
+    <skos:prefLabel xml:lang="en">target text</skos:prefLabel>
+    <skos:notation>targetText</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-4046_8dfee0e9-6ab8-814f-8b5f-6703cc3ab058">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-Translation_e7ebeaa2-68f1-34c8-6301-249173bf6ccf"/>
+    <skos:prefLabel xml:lang="en">text corpus</skos:prefLabel>
+    <skos:notation>textCorpus</skos:notation>
+  </skos:Concept>
+
+  <skos:ConceptScheme rdf:about="http://hdl.handle.net/11459/CCR_P-Translation_e7ebeaa2-68f1-34c8-6301-249173bf6ccf">
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-1978_088a96da-46c0-cfc9-eb0d-2a3bc20caa55"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-3988_7dae537c-75bd-bbc0-2604-e0d22332f184"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-3989_adfbb96d-a8c7-8779-525e-9e0465fde4a4"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-4054_c2d4b731-d7c9-3845-f91c-592b8e65c741"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-4064_b2a283a9-cff5-d6ec-68e2-69e35c9adba5"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-4065_3adf4ee0-ffaf-4fd4-5252-6cf7a050f499"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-4075_260e02a4-4e95-671f-b1af-e2db8fbf2a9e"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-3983_0ae7d6a6-cebc-a492-1b6f-fa1fa272ce0b"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-4020_77c327a6-cfc2-676a-d710-d3f9300fc2c6"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-4046_8dfee0e9-6ab8-814f-8b5f-6703cc3ab058"/>
+    <rdfs:label xml:lang="en">Translation</rdfs:label>
+  </skos:ConceptScheme>
+
+</rdf:RDF>

@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?><CMD_ComponentSpec xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cue="http://www.clarin.eu/cmd/cues/1" xmlns:cue_old="http://www.clarin.eu/cmdi/cues/1" isProfile="true" xsi:noNamespaceSchemaLocation="https://infra.clarin.eu/CMDI/1.1/general-component-schema.xsd">
+    <Header>
+        <ID>clarin.eu:cr1:p_1423750293168</ID>
+        <Name>BASWebService</Name>
+        <Description>This is a derived web-service profile from the core model which describes the web-services at BAS. It uses extended components Service, ParameterGroup and Parameter from the core model (with different group name BASWebServices).
+Changes from version 1.0 to 1.1: 
+Added component cmdi-collectiontype in component Service to allow coding of ResourceType according to DC-3806.
+Added element isInternalDefaultConfigurationParameter (boolean) in component Parameter to allow the coding of non-setable default parameters of webservices.
+Changes from Version 1.1 to 1.2:
+Added displayName to Parameter.
+Added Developer to Operation.</Description>
+        
+    </Header>
+    <CMD_Component name="BASWebService" CardinalityMin="1" CardinalityMax="1">
+        <CMD_Component name="Description" ComponentId="clarin.eu:cr1:c_1271859438118" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" CardinalityMin="0" CardinalityMax="1">
+            <CMD_Element name="Description" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true">
+                <AttributeList>
+                    <Attribute><Name>LanguageID</Name><Type>string</Type></Attribute>
+                </AttributeList>
+            </CMD_Element>
+        </CMD_Component>
+        <CMD_Component name="CollectionType" ComponentId="clarin.eu:cr1:c_1271859438142" CardinalityMin="0" CardinalityMax="1">
+            <CMD_Element name="CollectionType" ConceptLink="http://hdl.handle.net/11459/CCR_C-3806_e55e9ed6-b099-c21d-a634-3c7f4d22a215" CardinalityMin="1" CardinalityMax="unbounded">
+                <ValueScheme>
+                    
+                        <enumeration>
+                            <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2658_3a34bb3c-e815-efeb-c6bd-a53da6dcc0b9">text</item>
+                            <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2655_c21a8115-d6e7-982c-d5e8-3a278d6e653a">picture</item>
+                            <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2654_115c5ce8-7bdb-06b4-fe52-d6ebf2f80022">video</item>
+                            <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2653_06ff001f-7ed4-6399-7147-02170140dd64">audio</item>
+                            <item ConceptLink="http://hdl.handle.net/11459/CCR_C-4365_df3e68a4-e3fd-5747-fc25-650a06543c81">experimentalData</item>
+                            <item ConceptLink="http://hdl.handle.net/11459/CCR_C-4364_de3c0847-5661-f5cb-84e7-fae5dfd2fb2f">fieldworkMaterial</item>
+                            <item ConceptLink="http://hdl.handle.net/11459/CCR_C-4363_3732d8f1-f063-6f14-8c50-ac15e52702c5">grammar</item>
+                            <item ConceptLink="http://hdl.handle.net/11459/CCR_C-4360_b693329a-05ea-ebb3-02b1-896c95e39d32">lexicon</item>
+                            <item ConceptLink="http://hdl.handle.net/11459/CCR_C-4369_30ca2daa-b83c-bf24-9b56-eda3a2171ef8">resourceBundle</item>
+                            <item ConceptLink="http://hdl.handle.net/11459/CCR_C-4366_fb510ba7-d745-3e3b-7876-303b76bb1a31">surveyData</item>
+                            <item ConceptLink="http://hdl.handle.net/11459/CCR_C-5047_d2e8681c-0b8a-97e2-396b-03651f234473">teachingMaterial</item>
+                            <item ConceptLink="http://hdl.handle.net/11459/CCR_C-4367_c9696d87-7039-55d4-f661-2a96fac95f38">testData</item>
+                            <item ConceptLink="http://hdl.handle.net/11459/CCR_C-4362_bbceebba-02fc-2417-5433-3402a33e350a">tool</item>
+                            <item ConceptLink="http://hdl.handle.net/11459/CCR_C-4368_324c1065-aa9d-8321-51e0-f4d04022b51d">toolChain</item>
+                            <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2599_93805699-d3a2-ae19-5399-d0bba0e8fc24">other</item>
+                        </enumeration>
+                    
+                </ValueScheme>
+            </CMD_Element>
+        </CMD_Component>
+        <CMD_Component name="Service" ComponentId="clarin.eu:cr1:c_1423750293167" ConceptLink="http://hdl.handle.net/11459/CCR_C-4159_ca0e6cba-cab5-b51a-f430-fdcb0756c9ac" CardinalityMin="1" CardinalityMax="unbounded">
+            <AttributeList>
+                <Attribute><Name>CoreVersion</Name><ConceptLink>http://hdl.handle.net/11459/CCR_C-2547_7883d382-b3ce-8ab4-7052-0138525a8ba1</ConceptLink>
+                    <ValueScheme>
+                        
+                            <enumeration>
+                                <item ConceptLink="" AppInfo="">1.0</item>
+                            </enumeration>
+                        
+                    </ValueScheme>
+                </Attribute>
+            </AttributeList>
+            <CMD_Element name="Name" ConceptLink="http://hdl.handle.net/11459/CCR_C-4160_192be757-0d8f-f4fe-b10b-d3d50de92482" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" DisplayPriority="1" Documentation="The name of the web service or set of web services.">
+                
+            </CMD_Element>
+            <CMD_Element name="Description" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" Documentation="A description of the web service or set of web services.">
+                
+            </CMD_Element>
+            <CMD_Component name="ServiceDescriptionLocation" ConceptLink="http://hdl.handle.net/11459/CCR_C-4161_c007397e-d92b-05fa-d24c-482d5e110331" CardinalityMin="1" CardinalityMax="1"/>
+            <CMD_Component name="CollectionType" ComponentId="clarin.eu:cr1:c_1271859438142" CardinalityMin="0" CardinalityMax="1">
+                <CMD_Element name="CollectionType" ConceptLink="http://hdl.handle.net/11459/CCR_C-3806_e55e9ed6-b099-c21d-a634-3c7f4d22a215" CardinalityMin="1" CardinalityMax="unbounded">
+                    <ValueScheme>
+                        
+                            <enumeration>
+                                <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2658_3a34bb3c-e815-efeb-c6bd-a53da6dcc0b9">text</item>
+                                <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2655_c21a8115-d6e7-982c-d5e8-3a278d6e653a">picture</item>
+                                <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2654_115c5ce8-7bdb-06b4-fe52-d6ebf2f80022">video</item>
+                                <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2653_06ff001f-7ed4-6399-7147-02170140dd64">audio</item>
+                                <item ConceptLink="http://hdl.handle.net/11459/CCR_C-4365_df3e68a4-e3fd-5747-fc25-650a06543c81">experimentalData</item>
+                                <item ConceptLink="http://hdl.handle.net/11459/CCR_C-4364_de3c0847-5661-f5cb-84e7-fae5dfd2fb2f">fieldworkMaterial</item>
+                                <item ConceptLink="http://hdl.handle.net/11459/CCR_C-4363_3732d8f1-f063-6f14-8c50-ac15e52702c5">grammar</item>
+                                <item ConceptLink="http://hdl.handle.net/11459/CCR_C-4360_b693329a-05ea-ebb3-02b1-896c95e39d32">lexicon</item>
+                                <item ConceptLink="http://hdl.handle.net/11459/CCR_C-4369_30ca2daa-b83c-bf24-9b56-eda3a2171ef8">resourceBundle</item>
+                                <item ConceptLink="http://hdl.handle.net/11459/CCR_C-4366_fb510ba7-d745-3e3b-7876-303b76bb1a31">surveyData</item>
+                                <item ConceptLink="http://hdl.handle.net/11459/CCR_C-5047_d2e8681c-0b8a-97e2-396b-03651f234473">teachingMaterial</item>
+                                <item ConceptLink="http://hdl.handle.net/11459/CCR_C-4367_c9696d87-7039-55d4-f661-2a96fac95f38">testData</item>
+                                <item ConceptLink="http://hdl.handle.net/11459/CCR_C-4362_bbceebba-02fc-2417-5433-3402a33e350a">tool</item>
+                                <item ConceptLink="http://hdl.handle.net/11459/CCR_C-4368_324c1065-aa9d-8321-51e0-f4d04022b51d">toolChain</item>
+                                <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2599_93805699-d3a2-ae19-5399-d0bba0e8fc24">other</item>
+                            </enumeration>
+                        
+                    </ValueScheme>
+                </CMD_Element>
+            </CMD_Component>
+            <CMD_Component name="Operations" CardinalityMin="1" CardinalityMax="1">
+                <CMD_Component name="Operation" ComponentId="clarin.eu:cr1:c_1423750293166" ConceptLink="http://hdl.handle.net/11459/CCR_C-4175_9c723fad-1282-c4df-a012-dc78efa17d1d" CardinalityMin="1" CardinalityMax="unbounded">
+                    <CMD_Element name="Name" ConceptLink="http://hdl.handle.net/11459/CCR_C-4176_0454b9ca-973b-03f9-ce5b-999660b8b3b3" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" DisplayPriority="1" Documentation="This Operation Name should be resolvable in the Service ServiceDescription, i.e., the WSDL or WADL document describing how to technically invoke the service.">
+                        
+                    </CMD_Element>
+                    <CMD_Element name="Description" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" Documentation="The Operation Description should describe what this operation does to the input to produce the output.">
+                        
+                    </CMD_Element>
+                    <CMD_Component name="Input" ConceptLink="http://hdl.handle.net/11459/CCR_C-4177_569a0481-7b5d-2c45-a371-c577eee98c90" CardinalityMin="0" CardinalityMax="1">
+                        <CMD_Component name="ParameterGroup" ComponentId="clarin.eu:cr1:c_1423750293165" CardinalityMin="0" CardinalityMax="unbounded">
+                            <CMD_Element name="Name" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" DisplayPriority="1"/>
+                            <CMD_Element name="Description" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false"/>
+                            <CMD_Element name="MIMEType" ConceptLink="http://hdl.handle.net/11459/CCR_C-2571_2be2e583-e5af-34c2-3673-93359ec1f7df" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false"/>
+                            <CMD_Element name="DataType" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false"/>
+                            <CMD_Component name="Parameters" CardinalityMin="1" CardinalityMax="1">
+                                <CMD_Component name="Parameter" ComponentId="clarin.eu:cr1:c_1423750293164" CardinalityMin="1" CardinalityMax="unbounded">
+                                    <CMD_Element name="Name" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" DisplayPriority="1" Documentation="name of the parameter; this string usually matches the exact parameter name as being used in a REST call">
+                                        
+                                    </CMD_Element>
+                                    <CMD_Element name="Description" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" Documentation="Description of the parameter">
+                                        
+                                    </CMD_Element>
+                                    <CMD_Element name="MIMEType" ConceptLink="http://hdl.handle.net/11459/CCR_C-2571_2be2e583-e5af-34c2-3673-93359ec1f7df" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" Documentation="mimetype of the file, if the parameter is used to denote an input or output file. If the parameter does not denote an input/output files, this element is not present.">
+                                        
+                                    </CMD_Element>
+                                    <CMD_Element name="DataType" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" Documentation="a value domain, in general taken from the well-known XMLSchema data types (Biron et al., 2004), e.g., ID.">
+                                        
+                                    </CMD_Element>
+                                    <CMD_Element name="isConfigurationParameter" ValueScheme="boolean" CardinalityMin="0" CardinalityMax="1" Documentation="if set true, the parameter does not denote input/output data but rather a configuration parameter that controls the behavior of the service, e.g. the language">
+                                        
+                                    </CMD_Element>
+                                    <CMD_Element name="DataCategory" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="1" Documentation="link to IsoCat if applicable">
+                                        
+                                    </CMD_Element>
+                                    <CMD_Element name="SemanticType" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" Documentation="internal semantic typing used by chaining mechanisms">
+                                        
+                                    </CMD_Element>
+                                    <CMD_Element name="Default" ConceptLink="http://hdl.handle.net/11459/CCR_C-1655_0722250d-dcbf-44f6-ad8c-b178a9bff79e" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" Documentation="the default value for this parameter.">
+                                        
+                                    </CMD_Element>
+                                    <CMD_Element name="isInternalDefaultConfigurationParameter" ValueScheme="boolean" CardinalityMin="0" CardinalityMax="1" Documentation="If set to 'true' the parameter is not accessible in the REST call of this service, but rather an internal parameter that is always set to the default value (given in the element Default). The reason the parameter is shown in the CMDI is two-fold: 1.) The setting can be used by the backend server that implements this webservice to set default parameters, and 2.) this information might be useful for developers to see what default parameters are used in this services in comparism to a more general service that allows the setting of the same parameters.">
+                                        
+                                    </CMD_Element>
+                                    <CMD_Element name="displayName" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" DisplayPriority="1" Documentation="Preferred name to display this parameter, e.g. in a front end interface">
+                                        
+                                    </CMD_Element>
+                                    <CMD_Component name="Values" CardinalityMin="0" CardinalityMax="1">
+                                        <CMD_Component name="ParameterValue" CardinalityMin="1" CardinalityMax="unbounded">
+                                            <CMD_Element name="Value" ConceptLink="http://hdl.handle.net/11459/CCR_C-1978_088a96da-46c0-cfc9-eb0d-2a3bc20caa55" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" DisplayPriority="1" Documentation="a possible value or value range or regular expression for this parameter">
+                                                
+                                            </CMD_Element>
+                                            <CMD_Element name="Description" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" Documentation="optional description of a value">
+                                                
+                                            </CMD_Element>
+                                            <CMD_Element name="DataCategory" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="1" Documentation="link to IsoCat for semantic of a possible value">
+                                                
+                                            </CMD_Element>
+                                        </CMD_Component>
+                                    </CMD_Component>
+                                    <CMD_Component name="MaxFileSize" ConceptLink="http://hdl.handle.net/11459/CCR_C-2580_6dfe4e09-1c61-9b24-98ad-16bb867860fe" CardinalityMin="0" CardinalityMax="1">
+                                        <CMD_Component name="TotalSize" ComponentId="clarin.eu:cr1:c_1271859438114" CardinalityMin="1" CardinalityMax="1">
+                                            <CMD_Element name="Number" ConceptLink="http://hdl.handle.net/11459/CCR_C-2580_6dfe4e09-1c61-9b24-98ad-16bb867860fe" ValueScheme="decimal" CardinalityMin="1" CardinalityMax="1"/>
+                                            <CMD_Element name="SizeUnit" ConceptLink="http://hdl.handle.net/11459/CCR_C-2583_5f5cb491-1037-8d46-d685-ccebfc0233f7" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true"/>
+                                        </CMD_Component>
+                                    </CMD_Component>
+                                </CMD_Component>
+                            </CMD_Component>
+                        </CMD_Component>
+                        <CMD_Component name="Parameter" ComponentId="clarin.eu:cr1:c_1423750293164" CardinalityMin="0" CardinalityMax="unbounded">
+                            <CMD_Element name="Name" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" DisplayPriority="1" Documentation="name of the parameter; this string usually matches the exact parameter name as being used in a REST call">
+                                
+                            </CMD_Element>
+                            <CMD_Element name="Description" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" Documentation="Description of the parameter">
+                                
+                            </CMD_Element>
+                            <CMD_Element name="MIMEType" ConceptLink="http://hdl.handle.net/11459/CCR_C-2571_2be2e583-e5af-34c2-3673-93359ec1f7df" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" Documentation="mimetype of the file, if the parameter is used to denote an input or output file. If the parameter does not denote an input/output files, this element is not present.">
+                                
+                            </CMD_Element>
+                            <CMD_Element name="DataType" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" Documentation="a value domain, in general taken from the well-known XMLSchema data types (Biron et al., 2004), e.g., ID.">
+                                
+                            </CMD_Element>
+                            <CMD_Element name="isConfigurationParameter" ValueScheme="boolean" CardinalityMin="0" CardinalityMax="1" Documentation="if set true, the parameter does not denote input/output data but rather a configuration parameter that controls the behavior of the service, e.g. the language">
+                                
+                            </CMD_Element>
+                            <CMD_Element name="DataCategory" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="1" Documentation="link to IsoCat if applicable">
+                                
+                            </CMD_Element>
+                            <CMD_Element name="SemanticType" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" Documentation="internal semantic typing used by chaining mechanisms">
+                                
+                            </CMD_Element>
+                            <CMD_Element name="Default" ConceptLink="http://hdl.handle.net/11459/CCR_C-1655_0722250d-dcbf-44f6-ad8c-b178a9bff79e" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" Documentation="the default value for this parameter.">
+                                
+                            </CMD_Element>
+                            <CMD_Element name="isInternalDefaultConfigurationParameter" ValueScheme="boolean" CardinalityMin="0" CardinalityMax="1" Documentation="If set to 'true' the parameter is not accessible in the REST call of this service, but rather an internal parameter that is always set to the default value (given in the element Default). The reason the parameter is shown in the CMDI is two-fold: 1.) The setting can be used by the backend server that implements this webservice to set default parameters, and 2.) this information might be useful for developers to see what default parameters are used in this services in comparism to a more general service that allows the setting of the same parameters.">
+                                
+                            </CMD_Element>
+                            <CMD_Element name="displayName" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" DisplayPriority="1" Documentation="Preferred name to display this parameter, e.g. in a front end interface">
+                                
+                            </CMD_Element>
+                            <CMD_Component name="Values" CardinalityMin="0" CardinalityMax="1">
+                                <CMD_Component name="ParameterValue" CardinalityMin="1" CardinalityMax="unbounded">
+                                    <CMD_Element name="Value" ConceptLink="http://hdl.handle.net/11459/CCR_C-1978_088a96da-46c0-cfc9-eb0d-2a3bc20caa55" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" DisplayPriority="1" Documentation="a possible value or value range or regular expression for this parameter">
+                                        
+                                    </CMD_Element>
+                                    <CMD_Element name="Description" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" Documentation="optional description of a value">
+                                        
+                                    </CMD_Element>
+                                    <CMD_Element name="DataCategory" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="1" Documentation="link to IsoCat for semantic of a possible value">
+                                        
+                                    </CMD_Element>
+                                </CMD_Component>
+                            </CMD_Component>
+                            <CMD_Component name="MaxFileSize" ConceptLink="http://hdl.handle.net/11459/CCR_C-2580_6dfe4e09-1c61-9b24-98ad-16bb867860fe" CardinalityMin="0" CardinalityMax="1">
+                                <CMD_Component name="TotalSize" ComponentId="clarin.eu:cr1:c_1271859438114" CardinalityMin="1" CardinalityMax="1">
+                                    <CMD_Element name="Number" ConceptLink="http://hdl.handle.net/11459/CCR_C-2580_6dfe4e09-1c61-9b24-98ad-16bb867860fe" ValueScheme="decimal" CardinalityMin="1" CardinalityMax="1"/>
+                                    <CMD_Element name="SizeUnit" ConceptLink="http://hdl.handle.net/11459/CCR_C-2583_5f5cb491-1037-8d46-d685-ccebfc0233f7" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true"/>
+                                </CMD_Component>
+                            </CMD_Component>
+                        </CMD_Component>
+                    </CMD_Component>
+                    <CMD_Component name="Output" ConceptLink="http://hdl.handle.net/11459/CCR_C-4178_ab5aa4f6-5bab-4f30-d334-5af4344d0562" CardinalityMin="1" CardinalityMax="1">
+                        <CMD_Component name="ParameterGroup" ComponentId="clarin.eu:cr1:c_1423750293165" CardinalityMin="0" CardinalityMax="unbounded">
+                            <CMD_Element name="Name" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" DisplayPriority="1"/>
+                            <CMD_Element name="Description" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false"/>
+                            <CMD_Element name="MIMEType" ConceptLink="http://hdl.handle.net/11459/CCR_C-2571_2be2e583-e5af-34c2-3673-93359ec1f7df" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false"/>
+                            <CMD_Element name="DataType" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false"/>
+                            <CMD_Component name="Parameters" CardinalityMin="1" CardinalityMax="1">
+                                <CMD_Component name="Parameter" ComponentId="clarin.eu:cr1:c_1423750293164" CardinalityMin="1" CardinalityMax="unbounded">
+                                    <CMD_Element name="Name" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" DisplayPriority="1" Documentation="name of the parameter; this string usually matches the exact parameter name as being used in a REST call">
+                                        
+                                    </CMD_Element>
+                                    <CMD_Element name="Description" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" Documentation="Description of the parameter">
+                                        
+                                    </CMD_Element>
+                                    <CMD_Element name="MIMEType" ConceptLink="http://hdl.handle.net/11459/CCR_C-2571_2be2e583-e5af-34c2-3673-93359ec1f7df" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" Documentation="mimetype of the file, if the parameter is used to denote an input or output file. If the parameter does not denote an input/output files, this element is not present.">
+                                        
+                                    </CMD_Element>
+                                    <CMD_Element name="DataType" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" Documentation="a value domain, in general taken from the well-known XMLSchema data types (Biron et al., 2004), e.g., ID.">
+                                        
+                                    </CMD_Element>
+                                    <CMD_Element name="isConfigurationParameter" ValueScheme="boolean" CardinalityMin="0" CardinalityMax="1" Documentation="if set true, the parameter does not denote input/output data but rather a configuration parameter that controls the behavior of the service, e.g. the language">
+                                        
+                                    </CMD_Element>
+                                    <CMD_Element name="DataCategory" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="1" Documentation="link to IsoCat if applicable">
+                                        
+                                    </CMD_Element>
+                                    <CMD_Element name="SemanticType" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" Documentation="internal semantic typing used by chaining mechanisms">
+                                        
+                                    </CMD_Element>
+                                    <CMD_Element name="Default" ConceptLink="http://hdl.handle.net/11459/CCR_C-1655_0722250d-dcbf-44f6-ad8c-b178a9bff79e" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" Documentation="the default value for this parameter.">
+                                        
+                                    </CMD_Element>
+                                    <CMD_Element name="isInternalDefaultConfigurationParameter" ValueScheme="boolean" CardinalityMin="0" CardinalityMax="1" Documentation="If set to 'true' the parameter is not accessible in the REST call of this service, but rather an internal parameter that is always set to the default value (given in the element Default). The reason the parameter is shown in the CMDI is two-fold: 1.) The setting can be used by the backend server that implements this webservice to set default parameters, and 2.) this information might be useful for developers to see what default parameters are used in this services in comparism to a more general service that allows the setting of the same parameters.">
+                                        
+                                    </CMD_Element>
+                                    <CMD_Element name="displayName" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" DisplayPriority="1" Documentation="Preferred name to display this parameter, e.g. in a front end interface">
+                                        
+                                    </CMD_Element>
+                                    <CMD_Component name="Values" CardinalityMin="0" CardinalityMax="1">
+                                        <CMD_Component name="ParameterValue" CardinalityMin="1" CardinalityMax="unbounded">
+                                            <CMD_Element name="Value" ConceptLink="http://hdl.handle.net/11459/CCR_C-1978_088a96da-46c0-cfc9-eb0d-2a3bc20caa55" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" DisplayPriority="1" Documentation="a possible value or value range or regular expression for this parameter">
+                                                
+                                            </CMD_Element>
+                                            <CMD_Element name="Description" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" Documentation="optional description of a value">
+                                                
+                                            </CMD_Element>
+                                            <CMD_Element name="DataCategory" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="1" Documentation="link to IsoCat for semantic of a possible value">
+                                                
+                                            </CMD_Element>
+                                        </CMD_Component>
+                                    </CMD_Component>
+                                    <CMD_Component name="MaxFileSize" ConceptLink="http://hdl.handle.net/11459/CCR_C-2580_6dfe4e09-1c61-9b24-98ad-16bb867860fe" CardinalityMin="0" CardinalityMax="1">
+                                        <CMD_Component name="TotalSize" ComponentId="clarin.eu:cr1:c_1271859438114" CardinalityMin="1" CardinalityMax="1">
+                                            <CMD_Element name="Number" ConceptLink="http://hdl.handle.net/11459/CCR_C-2580_6dfe4e09-1c61-9b24-98ad-16bb867860fe" ValueScheme="decimal" CardinalityMin="1" CardinalityMax="1"/>
+                                            <CMD_Element name="SizeUnit" ConceptLink="http://hdl.handle.net/11459/CCR_C-2583_5f5cb491-1037-8d46-d685-ccebfc0233f7" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true"/>
+                                        </CMD_Component>
+                                    </CMD_Component>
+                                </CMD_Component>
+                            </CMD_Component>
+                        </CMD_Component>
+                        <CMD_Component name="Parameter" ComponentId="clarin.eu:cr1:c_1423750293164" CardinalityMin="0" CardinalityMax="unbounded">
+                            <CMD_Element name="Name" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" DisplayPriority="1" Documentation="name of the parameter; this string usually matches the exact parameter name as being used in a REST call">
+                                
+                            </CMD_Element>
+                            <CMD_Element name="Description" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" Documentation="Description of the parameter">
+                                
+                            </CMD_Element>
+                            <CMD_Element name="MIMEType" ConceptLink="http://hdl.handle.net/11459/CCR_C-2571_2be2e583-e5af-34c2-3673-93359ec1f7df" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" Documentation="mimetype of the file, if the parameter is used to denote an input or output file. If the parameter does not denote an input/output files, this element is not present.">
+                                
+                            </CMD_Element>
+                            <CMD_Element name="DataType" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" Documentation="a value domain, in general taken from the well-known XMLSchema data types (Biron et al., 2004), e.g., ID.">
+                                
+                            </CMD_Element>
+                            <CMD_Element name="isConfigurationParameter" ValueScheme="boolean" CardinalityMin="0" CardinalityMax="1" Documentation="if set true, the parameter does not denote input/output data but rather a configuration parameter that controls the behavior of the service, e.g. the language">
+                                
+                            </CMD_Element>
+                            <CMD_Element name="DataCategory" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="1" Documentation="link to IsoCat if applicable">
+                                
+                            </CMD_Element>
+                            <CMD_Element name="SemanticType" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" Documentation="internal semantic typing used by chaining mechanisms">
+                                
+                            </CMD_Element>
+                            <CMD_Element name="Default" ConceptLink="http://hdl.handle.net/11459/CCR_C-1655_0722250d-dcbf-44f6-ad8c-b178a9bff79e" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" Documentation="the default value for this parameter.">
+                                
+                            </CMD_Element>
+                            <CMD_Element name="isInternalDefaultConfigurationParameter" ValueScheme="boolean" CardinalityMin="0" CardinalityMax="1" Documentation="If set to 'true' the parameter is not accessible in the REST call of this service, but rather an internal parameter that is always set to the default value (given in the element Default). The reason the parameter is shown in the CMDI is two-fold: 1.) The setting can be used by the backend server that implements this webservice to set default parameters, and 2.) this information might be useful for developers to see what default parameters are used in this services in comparism to a more general service that allows the setting of the same parameters.">
+                                
+                            </CMD_Element>
+                            <CMD_Element name="displayName" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" DisplayPriority="1" Documentation="Preferred name to display this parameter, e.g. in a front end interface">
+                                
+                            </CMD_Element>
+                            <CMD_Component name="Values" CardinalityMin="0" CardinalityMax="1">
+                                <CMD_Component name="ParameterValue" CardinalityMin="1" CardinalityMax="unbounded">
+                                    <CMD_Element name="Value" ConceptLink="http://hdl.handle.net/11459/CCR_C-1978_088a96da-46c0-cfc9-eb0d-2a3bc20caa55" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" DisplayPriority="1" Documentation="a possible value or value range or regular expression for this parameter">
+                                        
+                                    </CMD_Element>
+                                    <CMD_Element name="Description" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" Documentation="optional description of a value">
+                                        
+                                    </CMD_Element>
+                                    <CMD_Element name="DataCategory" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="1" Documentation="link to IsoCat for semantic of a possible value">
+                                        
+                                    </CMD_Element>
+                                </CMD_Component>
+                            </CMD_Component>
+                            <CMD_Component name="MaxFileSize" ConceptLink="http://hdl.handle.net/11459/CCR_C-2580_6dfe4e09-1c61-9b24-98ad-16bb867860fe" CardinalityMin="0" CardinalityMax="1">
+                                <CMD_Component name="TotalSize" ComponentId="clarin.eu:cr1:c_1271859438114" CardinalityMin="1" CardinalityMax="1">
+                                    <CMD_Element name="Number" ConceptLink="http://hdl.handle.net/11459/CCR_C-2580_6dfe4e09-1c61-9b24-98ad-16bb867860fe" ValueScheme="decimal" CardinalityMin="1" CardinalityMax="1"/>
+                                    <CMD_Element name="SizeUnit" ConceptLink="http://hdl.handle.net/11459/CCR_C-2583_5f5cb491-1037-8d46-d685-ccebfc0233f7" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true"/>
+                                </CMD_Component>
+                            </CMD_Component>
+                        </CMD_Component>
+                    </CMD_Component>
+                    <CMD_Component name="Developer" ConceptLink="http://hdl.handle.net/11459/CCR_C-4115_5da7f288-5384-5aaf-8d8e-fe4348165786" CardinalityMin="0" CardinalityMax="1">
+                        <CMD_Element name="developerName" ConceptLink="http://hdl.handle.net/11459/CCR_C-2978_0e9e4864-44c4-de22-66b1-9b38bca10836" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false" DisplayPriority="1" Documentation="The name of a person who has or is developing this operation. ">
+                            
+                        </CMD_Element>
+                        <CMD_Element name="developerFundingOrg" ConceptLink="http://hdl.handle.net/11459/CCR_C-2979_8030473e-bbcb-6b87-3fd2-90554429ec50" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false" Documentation="The name of the organisation that provided funding for the development of this operation.">
+                            
+                        </CMD_Element>
+                        <CMD_Element name="developerCitation" ConceptLink="http://hdl.handle.net/11459/CCR_C-3937_b00b282f-0fb7-6ddd-f03f-45212f8df321" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false" Documentation="The proper reference when the operation is cited in a publication.">
+                            
+                        </CMD_Element>
+                    </CMD_Component>
+                </CMD_Component>
+            </CMD_Component>
+        </CMD_Component>
+    </CMD_Component>
+</CMD_ComponentSpec>

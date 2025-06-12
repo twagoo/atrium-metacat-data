@@ -1,0 +1,1058 @@
+<?xml version="1.0" encoding="UTF-8"?><CMD_ComponentSpec xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cue="http://www.clarin.eu/cmd/cues/1" xmlns:cue_old="http://www.clarin.eu/cmdi/cues/1" isProfile="true" xsi:noNamespaceSchemaLocation="https://infra.clarin.eu/CMDI/1.1/general-component-schema.xsd">
+    <Header>
+        <ID>clarin.eu:cr1:p_1381926654438</ID>
+        <Name>teiHeader</Name>
+        <Description>the version of the teiHeader that is used by the DTA project, see http://www.deutschestextarchiv.de/doku/basisformat_header
+
+Version 1.1</Description>
+        
+    </Header>
+    <CMD_Component name="teiHeader" CardinalityMin="1" CardinalityMax="1">
+        <CMD_Component name="fileDesc" ComponentId="clarin.eu:cr1:c_1381926654441" CardinalityMin="1" CardinalityMax="1">
+            <CMD_Component name="titleStmt" ComponentId="clarin.eu:cr1:c_1381926654513" CardinalityMin="1" CardinalityMax="1">
+                <CMD_Element name="title" ConceptLink="http://hdl.handle.net/11459/CCR_C-2545_d873f2ab-2a2f-29d6-a9ab-260cde57f227" ValueScheme="string" CardinalityMin="1" CardinalityMax="unbounded" Multilingual="false" DisplayPriority="1" Documentation="the title of a work according to the classification in @type">
+                    
+                    <AttributeList>
+                        <Attribute><Name>type</Name>
+                            <ValueScheme>
+                                
+                                    <enumeration>
+                                        <item ConceptLink="" AppInfo="">main</item>
+                                        <item ConceptLink="" AppInfo="">sub</item>
+                                        <item ConceptLink="" AppInfo="">volume</item>
+                                        <item ConceptLink="" AppInfo="">part</item>
+                                    </enumeration>
+                                
+                            </ValueScheme>
+                        </Attribute>
+                        <Attribute><Name>level</Name>
+                            <ValueScheme>
+                                
+                                    <enumeration>
+                                        <item ConceptLink="" AppInfo="">a</item>
+                                        <item ConceptLink="" AppInfo="">m</item>
+                                        <item ConceptLink="" AppInfo="">j</item>
+                                        <item ConceptLink="" AppInfo="">s</item>
+                                    </enumeration>
+                                
+                            </ValueScheme>
+                        </Attribute>
+                        <Attribute><Name>n</Name><Type>decimal</Type></Attribute>
+                    </AttributeList>
+                </CMD_Element>
+                <CMD_Component name="author" ComponentId="clarin.eu:cr1:c_1493735943963" ConceptLink="http://hdl.handle.net/11459/CCR_C-4115_5da7f288-5384-5aaf-8d8e-fe4348165786" CardinalityMin="0" CardinalityMax="unbounded">
+                    <CMD_Component name="persName" ComponentId="clarin.eu:cr1:c_1493735943962" ConceptLink="http://hdl.handle.net/11459/CCR_C-2978_0e9e4864-44c4-de22-66b1-9b38bca10836" CardinalityMin="1" CardinalityMax="1">
+                        <CMD_Element name="surname" ConceptLink="http://hdl.handle.net/11459/CCR_C-4195_cfa61853-c8ef-252d-b87c-e02ae6149ea1" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" DisplayPriority="1"/>
+                        <CMD_Element name="forename" ConceptLink="http://hdl.handle.net/11459/CCR_C-4194_10476a01-dbce-7ad5-4cb2-f6eb7e777ff0" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" DisplayPriority="1"/>
+                        <CMD_Element name="nameLink" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false"/>
+                        <CMD_Element name="genName" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false"/>
+                        <CMD_Element name="addName" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false"/>
+                        <CMD_Element name="roleName" ConceptLink="http://hdl.handle.net/11459/CCR_C-2561_7ed5ad20-8c48-3a1c-0830-309f4db96822" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false"/>
+                        <CMD_Element name="persName" ConceptLink="http://hdl.handle.net/11459/CCR_C-2978_0e9e4864-44c4-de22-66b1-9b38bca10836" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Documentation="the literal name of a person">
+                            
+                        </CMD_Element>
+                        <CMD_Component name="idno" ComponentId="clarin.eu:cr1:c_1493735943964" CardinalityMin="0" CardinalityMax="1">
+                            <CMD_Element name="idno" ConceptLink="http://hdl.handle.net/11459/CCR_C-3894_4d08cc31-25fe-af0c-add4-ca7bdc12f5f7" ValueScheme="string" CardinalityMin="1" CardinalityMax="unbounded" Multilingual="false" DisplayPriority="1">
+                                <AttributeList>
+                                    <Attribute><Name>type</Name>
+                                        <ValueScheme>
+                                            
+                                                <enumeration>
+                                                    <item ConceptLink="" AppInfo="">DTAID</item>
+                                                    <item ConceptLink="" AppInfo="">URN</item>
+                                                    <item ConceptLink="" AppInfo="">shelfmark</item>
+                                                    <item ConceptLink="" AppInfo="">DTADirName</item>
+                                                    <item ConceptLink="" AppInfo="">URLCatalogue</item>
+                                                    <item ConceptLink="" AppInfo="">URLImages</item>
+                                                    <item ConceptLink="" AppInfo="">URLWeb</item>
+                                                    <item ConceptLink="" AppInfo="">URLXML</item>
+                                                    <item ConceptLink="" AppInfo="">URLText</item>
+                                                    <item ConceptLink="" AppInfo="">URLHTML</item>
+                                                    <item ConceptLink="" AppInfo="">URLCAB</item>
+                                                    <item ConceptLink="" AppInfo="">URLTCF</item>
+                                                    <item ConceptLink="" AppInfo="">PND</item>
+                                                    <item ConceptLink="" AppInfo="">PIDCMDI</item>
+                                                    <item>URLSourceProject</item>
+                                                </enumeration>
+                                            
+                                        </ValueScheme>
+                                    </Attribute>
+                                </AttributeList>
+                            </CMD_Element>
+                        </CMD_Component>
+                    </CMD_Component>
+                </CMD_Component>
+                <CMD_Component name="editor" ComponentId="clarin.eu:cr1:c_1396012485117" ConceptLink="http://hdl.handle.net/11459/CCR_C-4118_0d368d47-dc1e-bdda-98e0-0cbb56040423" CardinalityMin="0" CardinalityMax="unbounded">
+                    <AttributeList>
+                        <Attribute><Name>role</Name>
+                            <ValueScheme>
+                                
+                                    <enumeration>
+                                        <item ConceptLink="" AppInfo="">translator</item>
+                                    </enumeration>
+                                
+                            </ValueScheme>
+                        </Attribute>
+                    </AttributeList>
+                    <CMD_Component name="persName" ComponentId="clarin.eu:cr1:c_1493735943962" ConceptLink="http://hdl.handle.net/11459/CCR_C-2978_0e9e4864-44c4-de22-66b1-9b38bca10836" CardinalityMin="0" CardinalityMax="1">
+                        <CMD_Element name="surname" ConceptLink="http://hdl.handle.net/11459/CCR_C-4195_cfa61853-c8ef-252d-b87c-e02ae6149ea1" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" DisplayPriority="1"/>
+                        <CMD_Element name="forename" ConceptLink="http://hdl.handle.net/11459/CCR_C-4194_10476a01-dbce-7ad5-4cb2-f6eb7e777ff0" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" DisplayPriority="1"/>
+                        <CMD_Element name="nameLink" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false"/>
+                        <CMD_Element name="genName" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false"/>
+                        <CMD_Element name="addName" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false"/>
+                        <CMD_Element name="roleName" ConceptLink="http://hdl.handle.net/11459/CCR_C-2561_7ed5ad20-8c48-3a1c-0830-309f4db96822" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false"/>
+                        <CMD_Element name="persName" ConceptLink="http://hdl.handle.net/11459/CCR_C-2978_0e9e4864-44c4-de22-66b1-9b38bca10836" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Documentation="the literal name of a person">
+                            
+                        </CMD_Element>
+                        <CMD_Component name="idno" ComponentId="clarin.eu:cr1:c_1493735943964" CardinalityMin="0" CardinalityMax="1">
+                            <CMD_Element name="idno" ConceptLink="http://hdl.handle.net/11459/CCR_C-3894_4d08cc31-25fe-af0c-add4-ca7bdc12f5f7" ValueScheme="string" CardinalityMin="1" CardinalityMax="unbounded" Multilingual="false" DisplayPriority="1">
+                                <AttributeList>
+                                    <Attribute><Name>type</Name>
+                                        <ValueScheme>
+                                            
+                                                <enumeration>
+                                                    <item ConceptLink="" AppInfo="">DTAID</item>
+                                                    <item ConceptLink="" AppInfo="">URN</item>
+                                                    <item ConceptLink="" AppInfo="">shelfmark</item>
+                                                    <item ConceptLink="" AppInfo="">DTADirName</item>
+                                                    <item ConceptLink="" AppInfo="">URLCatalogue</item>
+                                                    <item ConceptLink="" AppInfo="">URLImages</item>
+                                                    <item ConceptLink="" AppInfo="">URLWeb</item>
+                                                    <item ConceptLink="" AppInfo="">URLXML</item>
+                                                    <item ConceptLink="" AppInfo="">URLText</item>
+                                                    <item ConceptLink="" AppInfo="">URLHTML</item>
+                                                    <item ConceptLink="" AppInfo="">URLCAB</item>
+                                                    <item ConceptLink="" AppInfo="">URLTCF</item>
+                                                    <item ConceptLink="" AppInfo="">PND</item>
+                                                    <item ConceptLink="" AppInfo="">PIDCMDI</item>
+                                                    <item>URLSourceProject</item>
+                                                </enumeration>
+                                            
+                                        </ValueScheme>
+                                    </Attribute>
+                                </AttributeList>
+                            </CMD_Element>
+                        </CMD_Component>
+                    </CMD_Component>
+                    <CMD_Component name="orgName" ComponentId="clarin.eu:cr1:c_1381926654512" CardinalityMin="0" CardinalityMax="1">
+                        <CMD_Element name="orgName" ConceptLink="http://hdl.handle.net/11459/CCR_C-2979_8030473e-bbcb-6b87-3fd2-90554429ec50" ValueScheme="string" CardinalityMin="1" CardinalityMax="unbounded" Multilingual="true" DisplayPriority="1" Documentation="an organization's proper name">
+                            
+                            <AttributeList>
+                                <Attribute><Name>role</Name>
+                                    <ValueScheme>
+                                        
+                                            <enumeration>
+                                                <item ConceptLink="" AppInfo="">project</item>
+                                                <item ConceptLink="" AppInfo="">hostingInstitution</item>
+                                            </enumeration>
+                                        
+                                    </ValueScheme>
+                                </Attribute>
+                            </AttributeList>
+                        </CMD_Element>
+                        <CMD_Component name="idno" ComponentId="clarin.eu:cr1:c_1493735943964" CardinalityMin="0" CardinalityMax="1">
+                            <CMD_Element name="idno" ConceptLink="http://hdl.handle.net/11459/CCR_C-3894_4d08cc31-25fe-af0c-add4-ca7bdc12f5f7" ValueScheme="string" CardinalityMin="1" CardinalityMax="unbounded" Multilingual="false" DisplayPriority="1">
+                                <AttributeList>
+                                    <Attribute><Name>type</Name>
+                                        <ValueScheme>
+                                            
+                                                <enumeration>
+                                                    <item ConceptLink="" AppInfo="">DTAID</item>
+                                                    <item ConceptLink="" AppInfo="">URN</item>
+                                                    <item ConceptLink="" AppInfo="">shelfmark</item>
+                                                    <item ConceptLink="" AppInfo="">DTADirName</item>
+                                                    <item ConceptLink="" AppInfo="">URLCatalogue</item>
+                                                    <item ConceptLink="" AppInfo="">URLImages</item>
+                                                    <item ConceptLink="" AppInfo="">URLWeb</item>
+                                                    <item ConceptLink="" AppInfo="">URLXML</item>
+                                                    <item ConceptLink="" AppInfo="">URLText</item>
+                                                    <item ConceptLink="" AppInfo="">URLHTML</item>
+                                                    <item ConceptLink="" AppInfo="">URLCAB</item>
+                                                    <item ConceptLink="" AppInfo="">URLTCF</item>
+                                                    <item ConceptLink="" AppInfo="">PND</item>
+                                                    <item ConceptLink="" AppInfo="">PIDCMDI</item>
+                                                    <item>URLSourceProject</item>
+                                                </enumeration>
+                                            
+                                        </ValueScheme>
+                                    </Attribute>
+                                </AttributeList>
+                            </CMD_Element>
+                        </CMD_Component>
+                    </CMD_Component>
+                </CMD_Component>
+                <CMD_Component name="respStmt" CardinalityMin="0" CardinalityMax="unbounded">
+                    <CMD_Component name="persName" ComponentId="clarin.eu:cr1:c_1493735943962" ConceptLink="http://hdl.handle.net/11459/CCR_C-2978_0e9e4864-44c4-de22-66b1-9b38bca10836" CardinalityMin="0" CardinalityMax="unbounded">
+                        <CMD_Element name="surname" ConceptLink="http://hdl.handle.net/11459/CCR_C-4195_cfa61853-c8ef-252d-b87c-e02ae6149ea1" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" DisplayPriority="1"/>
+                        <CMD_Element name="forename" ConceptLink="http://hdl.handle.net/11459/CCR_C-4194_10476a01-dbce-7ad5-4cb2-f6eb7e777ff0" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" DisplayPriority="1"/>
+                        <CMD_Element name="nameLink" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false"/>
+                        <CMD_Element name="genName" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false"/>
+                        <CMD_Element name="addName" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false"/>
+                        <CMD_Element name="roleName" ConceptLink="http://hdl.handle.net/11459/CCR_C-2561_7ed5ad20-8c48-3a1c-0830-309f4db96822" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false"/>
+                        <CMD_Element name="persName" ConceptLink="http://hdl.handle.net/11459/CCR_C-2978_0e9e4864-44c4-de22-66b1-9b38bca10836" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Documentation="the literal name of a person">
+                            
+                        </CMD_Element>
+                        <CMD_Component name="idno" ComponentId="clarin.eu:cr1:c_1493735943964" CardinalityMin="0" CardinalityMax="1">
+                            <CMD_Element name="idno" ConceptLink="http://hdl.handle.net/11459/CCR_C-3894_4d08cc31-25fe-af0c-add4-ca7bdc12f5f7" ValueScheme="string" CardinalityMin="1" CardinalityMax="unbounded" Multilingual="false" DisplayPriority="1">
+                                <AttributeList>
+                                    <Attribute><Name>type</Name>
+                                        <ValueScheme>
+                                            
+                                                <enumeration>
+                                                    <item ConceptLink="" AppInfo="">DTAID</item>
+                                                    <item ConceptLink="" AppInfo="">URN</item>
+                                                    <item ConceptLink="" AppInfo="">shelfmark</item>
+                                                    <item ConceptLink="" AppInfo="">DTADirName</item>
+                                                    <item ConceptLink="" AppInfo="">URLCatalogue</item>
+                                                    <item ConceptLink="" AppInfo="">URLImages</item>
+                                                    <item ConceptLink="" AppInfo="">URLWeb</item>
+                                                    <item ConceptLink="" AppInfo="">URLXML</item>
+                                                    <item ConceptLink="" AppInfo="">URLText</item>
+                                                    <item ConceptLink="" AppInfo="">URLHTML</item>
+                                                    <item ConceptLink="" AppInfo="">URLCAB</item>
+                                                    <item ConceptLink="" AppInfo="">URLTCF</item>
+                                                    <item ConceptLink="" AppInfo="">PND</item>
+                                                    <item ConceptLink="" AppInfo="">PIDCMDI</item>
+                                                    <item>URLSourceProject</item>
+                                                </enumeration>
+                                            
+                                        </ValueScheme>
+                                    </Attribute>
+                                </AttributeList>
+                            </CMD_Element>
+                        </CMD_Component>
+                    </CMD_Component>
+                    <CMD_Component name="orgName" ComponentId="clarin.eu:cr1:c_1381926654512" CardinalityMin="0" CardinalityMax="unbounded">
+                        <CMD_Element name="orgName" ConceptLink="http://hdl.handle.net/11459/CCR_C-2979_8030473e-bbcb-6b87-3fd2-90554429ec50" ValueScheme="string" CardinalityMin="1" CardinalityMax="unbounded" Multilingual="true" DisplayPriority="1" Documentation="an organization's proper name">
+                            
+                            <AttributeList>
+                                <Attribute><Name>role</Name>
+                                    <ValueScheme>
+                                        
+                                            <enumeration>
+                                                <item ConceptLink="" AppInfo="">project</item>
+                                                <item ConceptLink="" AppInfo="">hostingInstitution</item>
+                                            </enumeration>
+                                        
+                                    </ValueScheme>
+                                </Attribute>
+                            </AttributeList>
+                        </CMD_Element>
+                        <CMD_Component name="idno" ComponentId="clarin.eu:cr1:c_1493735943964" CardinalityMin="0" CardinalityMax="1">
+                            <CMD_Element name="idno" ConceptLink="http://hdl.handle.net/11459/CCR_C-3894_4d08cc31-25fe-af0c-add4-ca7bdc12f5f7" ValueScheme="string" CardinalityMin="1" CardinalityMax="unbounded" Multilingual="false" DisplayPriority="1">
+                                <AttributeList>
+                                    <Attribute><Name>type</Name>
+                                        <ValueScheme>
+                                            
+                                                <enumeration>
+                                                    <item ConceptLink="" AppInfo="">DTAID</item>
+                                                    <item ConceptLink="" AppInfo="">URN</item>
+                                                    <item ConceptLink="" AppInfo="">shelfmark</item>
+                                                    <item ConceptLink="" AppInfo="">DTADirName</item>
+                                                    <item ConceptLink="" AppInfo="">URLCatalogue</item>
+                                                    <item ConceptLink="" AppInfo="">URLImages</item>
+                                                    <item ConceptLink="" AppInfo="">URLWeb</item>
+                                                    <item ConceptLink="" AppInfo="">URLXML</item>
+                                                    <item ConceptLink="" AppInfo="">URLText</item>
+                                                    <item ConceptLink="" AppInfo="">URLHTML</item>
+                                                    <item ConceptLink="" AppInfo="">URLCAB</item>
+                                                    <item ConceptLink="" AppInfo="">URLTCF</item>
+                                                    <item ConceptLink="" AppInfo="">PND</item>
+                                                    <item ConceptLink="" AppInfo="">PIDCMDI</item>
+                                                    <item>URLSourceProject</item>
+                                                </enumeration>
+                                            
+                                        </ValueScheme>
+                                    </Attribute>
+                                </AttributeList>
+                            </CMD_Element>
+                        </CMD_Component>
+                    </CMD_Component>
+                    <CMD_Component name="resp" CardinalityMin="1" CardinalityMax="unbounded">
+                        <CMD_Element name="note" ValueScheme="string" CardinalityMin="1" CardinalityMax="unbounded" Multilingual="false" DisplayPriority="1">
+                            <AttributeList>
+                                <Attribute><Name>type</Name>
+                                    <ValueScheme>
+                                        
+                                            <enumeration>
+                                                <item ConceptLink="" AppInfo="">remarkResponsibility</item>
+                                                <item ConceptLink="" AppInfo="">remarkRevisionDTA</item>
+                                                <item ConceptLink="" AppInfo="">remarkDocument</item>
+                                            </enumeration>
+                                        
+                                    </ValueScheme>
+                                </Attribute>
+                            </AttributeList>
+                        </CMD_Element>
+                        <CMD_Element name="ref" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
+                            <AttributeList>
+                                <Attribute><Name>target</Name><Type>anyURI</Type></Attribute>
+                            </AttributeList>
+                        </CMD_Element>
+                        <CMD_Element name="date" ValueScheme="dateTime" CardinalityMin="0" CardinalityMax="1">
+                            <AttributeList>
+                                <Attribute><Name>type</Name>
+                                    <ValueScheme>
+                                        
+                                            <enumeration>
+                                                <item ConceptLink="" AppInfo="">publication</item>
+                                                <item ConceptLink="" AppInfo="">firstPublication</item>
+                                                <item ConceptLink="" AppInfo="">importDTA</item>
+                                            </enumeration>
+                                        
+                                    </ValueScheme>
+                                </Attribute>
+                            </AttributeList>
+                        </CMD_Element>
+                    </CMD_Component>
+                </CMD_Component>
+            </CMD_Component>
+            <CMD_Component name="editionStmt" ComponentId="clarin.eu:cr1:c_1342181139673" CardinalityMin="1" CardinalityMax="1">
+                <CMD_Element name="edition" ConceptLink="http://hdl.handle.net/11459/CCR_C-4123_ad8f84fe-0c42-e83c-9db1-f0295a035cb7" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" DisplayPriority="1">
+                    <AttributeList>
+                        <Attribute><Name>n</Name><Type>string</Type></Attribute>
+                    </AttributeList>
+                </CMD_Element>
+            </CMD_Component>
+            <CMD_Component name="extent" ComponentId="clarin.eu:cr1:c_1345180279117" CardinalityMin="0" CardinalityMax="1">
+                <CMD_Element name="measure" ConceptLink="http://hdl.handle.net/11459/CCR_C-2580_6dfe4e09-1c61-9b24-98ad-16bb867860fe" ValueScheme="string" CardinalityMin="1" CardinalityMax="unbounded" Multilingual="false" DisplayPriority="1">
+                    <AttributeList>
+                        <Attribute><Name>type</Name><ConceptLink>http://hdl.handle.net/11459/CCR_C-2583_5f5cb491-1037-8d46-d685-ccebfc0233f7</ConceptLink>
+                            <ValueScheme>
+                                
+                                    <enumeration>
+                                        <item ConceptLink="" AppInfo="">images</item>
+                                        <item ConceptLink="" AppInfo="">tokens</item>
+                                        <item ConceptLink="" AppInfo="">types</item>
+                                        <item ConceptLink="" AppInfo="">characters</item>
+                                        <item ConceptLink="" AppInfo="">pages</item>
+                                    </enumeration>
+                                
+                            </ValueScheme>
+                        </Attribute>
+                    </AttributeList>
+                </CMD_Element>
+            </CMD_Component>
+            <CMD_Component name="publicationStmt" ComponentId="clarin.eu:cr1:c_1381926654439" CardinalityMin="1" CardinalityMax="1">
+                <CMD_Element name="pubPlace" ConceptLink="http://hdl.handle.net/11459/CCR_C-5580_03e458f2-f873-8645-76eb-40e001b6c1ac" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false" DisplayPriority="1"/>
+                <CMD_Element name="date" ConceptLink="http://hdl.handle.net/11459/CCR_C-2538_8b697452-7ef3-9fce-ccf9-a7f344f11317" ValueScheme="string" CardinalityMin="1" CardinalityMax="unbounded" Multilingual="false" Documentation="date of publication">
+                    
+                    <AttributeList>
+                        <Attribute><Name>type</Name>
+                            <ValueScheme>
+                                
+                                    <enumeration>
+                                        <item ConceptLink="" AppInfo="">publication</item>
+                                        <item ConceptLink="" AppInfo="">firstPublication</item>
+                                        <item ConceptLink="" AppInfo="">creation</item>
+                                    </enumeration>
+                                
+                            </ValueScheme>
+                        </Attribute>
+                    </AttributeList>
+                </CMD_Element>
+                <CMD_Component name="publisher" CardinalityMin="0" CardinalityMax="unbounded">
+                    <CMD_Element name="name" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false" DisplayPriority="1"/>
+                    <CMD_Element name="email" ConceptLink="http://hdl.handle.net/11459/CCR_C-2521_7b01b455-0de8-d753-ad4e-dee49953ae98" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false"/>
+                    <CMD_Component name="orgName" ComponentId="clarin.eu:cr1:c_1381926654512" CardinalityMin="0" CardinalityMax="unbounded">
+                        <CMD_Element name="orgName" ConceptLink="http://hdl.handle.net/11459/CCR_C-2979_8030473e-bbcb-6b87-3fd2-90554429ec50" ValueScheme="string" CardinalityMin="1" CardinalityMax="unbounded" Multilingual="true" DisplayPriority="1" Documentation="an organization's proper name">
+                            
+                            <AttributeList>
+                                <Attribute><Name>role</Name>
+                                    <ValueScheme>
+                                        
+                                            <enumeration>
+                                                <item ConceptLink="" AppInfo="">project</item>
+                                                <item ConceptLink="" AppInfo="">hostingInstitution</item>
+                                            </enumeration>
+                                        
+                                    </ValueScheme>
+                                </Attribute>
+                            </AttributeList>
+                        </CMD_Element>
+                        <CMD_Component name="idno" ComponentId="clarin.eu:cr1:c_1493735943964" CardinalityMin="0" CardinalityMax="1">
+                            <CMD_Element name="idno" ConceptLink="http://hdl.handle.net/11459/CCR_C-3894_4d08cc31-25fe-af0c-add4-ca7bdc12f5f7" ValueScheme="string" CardinalityMin="1" CardinalityMax="unbounded" Multilingual="false" DisplayPriority="1">
+                                <AttributeList>
+                                    <Attribute><Name>type</Name>
+                                        <ValueScheme>
+                                            
+                                                <enumeration>
+                                                    <item ConceptLink="" AppInfo="">DTAID</item>
+                                                    <item ConceptLink="" AppInfo="">URN</item>
+                                                    <item ConceptLink="" AppInfo="">shelfmark</item>
+                                                    <item ConceptLink="" AppInfo="">DTADirName</item>
+                                                    <item ConceptLink="" AppInfo="">URLCatalogue</item>
+                                                    <item ConceptLink="" AppInfo="">URLImages</item>
+                                                    <item ConceptLink="" AppInfo="">URLWeb</item>
+                                                    <item ConceptLink="" AppInfo="">URLXML</item>
+                                                    <item ConceptLink="" AppInfo="">URLText</item>
+                                                    <item ConceptLink="" AppInfo="">URLHTML</item>
+                                                    <item ConceptLink="" AppInfo="">URLCAB</item>
+                                                    <item ConceptLink="" AppInfo="">URLTCF</item>
+                                                    <item ConceptLink="" AppInfo="">PND</item>
+                                                    <item ConceptLink="" AppInfo="">PIDCMDI</item>
+                                                    <item>URLSourceProject</item>
+                                                </enumeration>
+                                            
+                                        </ValueScheme>
+                                    </Attribute>
+                                </AttributeList>
+                            </CMD_Element>
+                        </CMD_Component>
+                    </CMD_Component>
+                    <CMD_Component name="address" ConceptLink="http://hdl.handle.net/11459/CCR_C-2505_b61e249b-ac68-b40a-0f21-03a4a26e16b4" CardinalityMin="0" CardinalityMax="unbounded">
+                        <CMD_Element name="addrLine" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false" DisplayPriority="1"/>
+                        <CMD_Element name="country" ConceptLink="http://hdl.handle.net/11459/CCR_C-2532_d004b0a6-fd1d-3ca3-abf1-1e6aeb3e37b2" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false"/>
+                    </CMD_Component>
+                </CMD_Component>
+                <CMD_Component name="availability" ConceptLink="http://hdl.handle.net/11459/CCR_C-2453_1f0c3ea5-7966-ae11-d3c6-448424d4e6e8" CardinalityMin="0" CardinalityMax="1">
+                    <CMD_Component name="licence" ConceptLink="http://hdl.handle.net/11459/CCR_C-3800_12a79edd-0ffe-8d82-9831-45d125c54aee" CardinalityMin="1" CardinalityMax="1">
+                        <AttributeList>
+                            <Attribute><Name>target</Name><ConceptLink>http://hdl.handle.net/11459/CCR_C-6586_2c79d86a-  5a75-0890-d407-7d9cb86b9beb</ConceptLink><Type>anyURI</Type>
+                                
+                            </Attribute>
+                        </AttributeList>
+                        <CMD_Element name="p" ValueScheme="string" CardinalityMin="1" CardinalityMax="unbounded" Multilingual="false" DisplayPriority="1"/>
+                    </CMD_Component>
+                </CMD_Component>
+                <CMD_Component name="idno" ComponentId="clarin.eu:cr1:c_1493735943964" CardinalityMin="0" CardinalityMax="1">
+                    <CMD_Element name="idno" ConceptLink="http://hdl.handle.net/11459/CCR_C-3894_4d08cc31-25fe-af0c-add4-ca7bdc12f5f7" ValueScheme="string" CardinalityMin="1" CardinalityMax="unbounded" Multilingual="false" DisplayPriority="1">
+                        <AttributeList>
+                            <Attribute><Name>type</Name>
+                                <ValueScheme>
+                                    
+                                        <enumeration>
+                                            <item ConceptLink="" AppInfo="">DTAID</item>
+                                            <item ConceptLink="" AppInfo="">URN</item>
+                                            <item ConceptLink="" AppInfo="">shelfmark</item>
+                                            <item ConceptLink="" AppInfo="">DTADirName</item>
+                                            <item ConceptLink="" AppInfo="">URLCatalogue</item>
+                                            <item ConceptLink="" AppInfo="">URLImages</item>
+                                            <item ConceptLink="" AppInfo="">URLWeb</item>
+                                            <item ConceptLink="" AppInfo="">URLXML</item>
+                                            <item ConceptLink="" AppInfo="">URLText</item>
+                                            <item ConceptLink="" AppInfo="">URLHTML</item>
+                                            <item ConceptLink="" AppInfo="">URLCAB</item>
+                                            <item ConceptLink="" AppInfo="">URLTCF</item>
+                                            <item ConceptLink="" AppInfo="">PND</item>
+                                            <item ConceptLink="" AppInfo="">PIDCMDI</item>
+                                            <item>URLSourceProject</item>
+                                        </enumeration>
+                                    
+                                </ValueScheme>
+                            </Attribute>
+                        </AttributeList>
+                    </CMD_Element>
+                </CMD_Component>
+            </CMD_Component>
+            <CMD_Component name="sourceDesc" ComponentId="clarin.eu:cr1:c_1381926654443" CardinalityMin="1" CardinalityMax="1">
+                <CMD_Element name="bibl" ConceptLink="http://hdl.handle.net/11459/CCR_C-2544_3626545e-a21d-058c-ebfd-241c0464e7e5" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" DisplayPriority="1" Documentation="abreviated bibliographical information">
+                    
+                    <AttributeList>
+                        <Attribute><Name>type</Name>
+                            <ValueScheme>
+                                
+                                    <enumeration>
+                                        <item ConceptLink="" AppInfo="">DM</item>
+                                        <item ConceptLink="" AppInfo="">DS</item>
+                                        <item ConceptLink="" AppInfo="">JA</item>
+                                        <item ConceptLink="" AppInfo="">J</item>
+                                        <item ConceptLink="" AppInfo="">M</item>
+                                        <item ConceptLink="" AppInfo="">MM</item>
+                                        <item ConceptLink="" AppInfo="">MMS</item>
+                                        <item ConceptLink="" AppInfo="">MS</item>
+                                        <item AppInfo="">MAN</item>
+                                    </enumeration>
+                                
+                            </ValueScheme>
+                        </Attribute>
+                    </AttributeList>
+                </CMD_Element>
+                <CMD_Component name="biblFull" CardinalityMin="1" CardinalityMax="1">
+                    <CMD_Component name="titleStmt" ComponentId="clarin.eu:cr1:c_1381926654513" CardinalityMin="1" CardinalityMax="1">
+                        <CMD_Element name="title" ConceptLink="http://hdl.handle.net/11459/CCR_C-2545_d873f2ab-2a2f-29d6-a9ab-260cde57f227" ValueScheme="string" CardinalityMin="1" CardinalityMax="unbounded" Multilingual="false" DisplayPriority="1" Documentation="the title of a work according to the classification in @type">
+                            
+                            <AttributeList>
+                                <Attribute><Name>type</Name>
+                                    <ValueScheme>
+                                        
+                                            <enumeration>
+                                                <item ConceptLink="" AppInfo="">main</item>
+                                                <item ConceptLink="" AppInfo="">sub</item>
+                                                <item ConceptLink="" AppInfo="">volume</item>
+                                                <item ConceptLink="" AppInfo="">part</item>
+                                            </enumeration>
+                                        
+                                    </ValueScheme>
+                                </Attribute>
+                                <Attribute><Name>level</Name>
+                                    <ValueScheme>
+                                        
+                                            <enumeration>
+                                                <item ConceptLink="" AppInfo="">a</item>
+                                                <item ConceptLink="" AppInfo="">m</item>
+                                                <item ConceptLink="" AppInfo="">j</item>
+                                                <item ConceptLink="" AppInfo="">s</item>
+                                            </enumeration>
+                                        
+                                    </ValueScheme>
+                                </Attribute>
+                                <Attribute><Name>n</Name><Type>decimal</Type></Attribute>
+                            </AttributeList>
+                        </CMD_Element>
+                        <CMD_Component name="author" ComponentId="clarin.eu:cr1:c_1493735943963" ConceptLink="http://hdl.handle.net/11459/CCR_C-4115_5da7f288-5384-5aaf-8d8e-fe4348165786" CardinalityMin="0" CardinalityMax="unbounded">
+                            <CMD_Component name="persName" ComponentId="clarin.eu:cr1:c_1493735943962" ConceptLink="http://hdl.handle.net/11459/CCR_C-2978_0e9e4864-44c4-de22-66b1-9b38bca10836" CardinalityMin="1" CardinalityMax="1">
+                                <CMD_Element name="surname" ConceptLink="http://hdl.handle.net/11459/CCR_C-4195_cfa61853-c8ef-252d-b87c-e02ae6149ea1" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" DisplayPriority="1"/>
+                                <CMD_Element name="forename" ConceptLink="http://hdl.handle.net/11459/CCR_C-4194_10476a01-dbce-7ad5-4cb2-f6eb7e777ff0" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" DisplayPriority="1"/>
+                                <CMD_Element name="nameLink" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false"/>
+                                <CMD_Element name="genName" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false"/>
+                                <CMD_Element name="addName" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false"/>
+                                <CMD_Element name="roleName" ConceptLink="http://hdl.handle.net/11459/CCR_C-2561_7ed5ad20-8c48-3a1c-0830-309f4db96822" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false"/>
+                                <CMD_Element name="persName" ConceptLink="http://hdl.handle.net/11459/CCR_C-2978_0e9e4864-44c4-de22-66b1-9b38bca10836" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Documentation="the literal name of a person">
+                                    
+                                </CMD_Element>
+                                <CMD_Component name="idno" ComponentId="clarin.eu:cr1:c_1493735943964" CardinalityMin="0" CardinalityMax="1">
+                                    <CMD_Element name="idno" ConceptLink="http://hdl.handle.net/11459/CCR_C-3894_4d08cc31-25fe-af0c-add4-ca7bdc12f5f7" ValueScheme="string" CardinalityMin="1" CardinalityMax="unbounded" Multilingual="false" DisplayPriority="1">
+                                        <AttributeList>
+                                            <Attribute><Name>type</Name>
+                                                <ValueScheme>
+                                                    
+                                                        <enumeration>
+                                                            <item ConceptLink="" AppInfo="">DTAID</item>
+                                                            <item ConceptLink="" AppInfo="">URN</item>
+                                                            <item ConceptLink="" AppInfo="">shelfmark</item>
+                                                            <item ConceptLink="" AppInfo="">DTADirName</item>
+                                                            <item ConceptLink="" AppInfo="">URLCatalogue</item>
+                                                            <item ConceptLink="" AppInfo="">URLImages</item>
+                                                            <item ConceptLink="" AppInfo="">URLWeb</item>
+                                                            <item ConceptLink="" AppInfo="">URLXML</item>
+                                                            <item ConceptLink="" AppInfo="">URLText</item>
+                                                            <item ConceptLink="" AppInfo="">URLHTML</item>
+                                                            <item ConceptLink="" AppInfo="">URLCAB</item>
+                                                            <item ConceptLink="" AppInfo="">URLTCF</item>
+                                                            <item ConceptLink="" AppInfo="">PND</item>
+                                                            <item ConceptLink="" AppInfo="">PIDCMDI</item>
+                                                            <item>URLSourceProject</item>
+                                                        </enumeration>
+                                                    
+                                                </ValueScheme>
+                                            </Attribute>
+                                        </AttributeList>
+                                    </CMD_Element>
+                                </CMD_Component>
+                            </CMD_Component>
+                        </CMD_Component>
+                        <CMD_Component name="editor" ComponentId="clarin.eu:cr1:c_1396012485117" ConceptLink="http://hdl.handle.net/11459/CCR_C-4118_0d368d47-dc1e-bdda-98e0-0cbb56040423" CardinalityMin="0" CardinalityMax="unbounded">
+                            <AttributeList>
+                                <Attribute><Name>role</Name>
+                                    <ValueScheme>
+                                        
+                                            <enumeration>
+                                                <item ConceptLink="" AppInfo="">translator</item>
+                                            </enumeration>
+                                        
+                                    </ValueScheme>
+                                </Attribute>
+                            </AttributeList>
+                            <CMD_Component name="persName" ComponentId="clarin.eu:cr1:c_1493735943962" ConceptLink="http://hdl.handle.net/11459/CCR_C-2978_0e9e4864-44c4-de22-66b1-9b38bca10836" CardinalityMin="0" CardinalityMax="1">
+                                <CMD_Element name="surname" ConceptLink="http://hdl.handle.net/11459/CCR_C-4195_cfa61853-c8ef-252d-b87c-e02ae6149ea1" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" DisplayPriority="1"/>
+                                <CMD_Element name="forename" ConceptLink="http://hdl.handle.net/11459/CCR_C-4194_10476a01-dbce-7ad5-4cb2-f6eb7e777ff0" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" DisplayPriority="1"/>
+                                <CMD_Element name="nameLink" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false"/>
+                                <CMD_Element name="genName" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false"/>
+                                <CMD_Element name="addName" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false"/>
+                                <CMD_Element name="roleName" ConceptLink="http://hdl.handle.net/11459/CCR_C-2561_7ed5ad20-8c48-3a1c-0830-309f4db96822" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false"/>
+                                <CMD_Element name="persName" ConceptLink="http://hdl.handle.net/11459/CCR_C-2978_0e9e4864-44c4-de22-66b1-9b38bca10836" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Documentation="the literal name of a person">
+                                    
+                                </CMD_Element>
+                                <CMD_Component name="idno" ComponentId="clarin.eu:cr1:c_1493735943964" CardinalityMin="0" CardinalityMax="1">
+                                    <CMD_Element name="idno" ConceptLink="http://hdl.handle.net/11459/CCR_C-3894_4d08cc31-25fe-af0c-add4-ca7bdc12f5f7" ValueScheme="string" CardinalityMin="1" CardinalityMax="unbounded" Multilingual="false" DisplayPriority="1">
+                                        <AttributeList>
+                                            <Attribute><Name>type</Name>
+                                                <ValueScheme>
+                                                    
+                                                        <enumeration>
+                                                            <item ConceptLink="" AppInfo="">DTAID</item>
+                                                            <item ConceptLink="" AppInfo="">URN</item>
+                                                            <item ConceptLink="" AppInfo="">shelfmark</item>
+                                                            <item ConceptLink="" AppInfo="">DTADirName</item>
+                                                            <item ConceptLink="" AppInfo="">URLCatalogue</item>
+                                                            <item ConceptLink="" AppInfo="">URLImages</item>
+                                                            <item ConceptLink="" AppInfo="">URLWeb</item>
+                                                            <item ConceptLink="" AppInfo="">URLXML</item>
+                                                            <item ConceptLink="" AppInfo="">URLText</item>
+                                                            <item ConceptLink="" AppInfo="">URLHTML</item>
+                                                            <item ConceptLink="" AppInfo="">URLCAB</item>
+                                                            <item ConceptLink="" AppInfo="">URLTCF</item>
+                                                            <item ConceptLink="" AppInfo="">PND</item>
+                                                            <item ConceptLink="" AppInfo="">PIDCMDI</item>
+                                                            <item>URLSourceProject</item>
+                                                        </enumeration>
+                                                    
+                                                </ValueScheme>
+                                            </Attribute>
+                                        </AttributeList>
+                                    </CMD_Element>
+                                </CMD_Component>
+                            </CMD_Component>
+                            <CMD_Component name="orgName" ComponentId="clarin.eu:cr1:c_1381926654512" CardinalityMin="0" CardinalityMax="1">
+                                <CMD_Element name="orgName" ConceptLink="http://hdl.handle.net/11459/CCR_C-2979_8030473e-bbcb-6b87-3fd2-90554429ec50" ValueScheme="string" CardinalityMin="1" CardinalityMax="unbounded" Multilingual="true" DisplayPriority="1" Documentation="an organization's proper name">
+                                    
+                                    <AttributeList>
+                                        <Attribute><Name>role</Name>
+                                            <ValueScheme>
+                                                
+                                                    <enumeration>
+                                                        <item ConceptLink="" AppInfo="">project</item>
+                                                        <item ConceptLink="" AppInfo="">hostingInstitution</item>
+                                                    </enumeration>
+                                                
+                                            </ValueScheme>
+                                        </Attribute>
+                                    </AttributeList>
+                                </CMD_Element>
+                                <CMD_Component name="idno" ComponentId="clarin.eu:cr1:c_1493735943964" CardinalityMin="0" CardinalityMax="1">
+                                    <CMD_Element name="idno" ConceptLink="http://hdl.handle.net/11459/CCR_C-3894_4d08cc31-25fe-af0c-add4-ca7bdc12f5f7" ValueScheme="string" CardinalityMin="1" CardinalityMax="unbounded" Multilingual="false" DisplayPriority="1">
+                                        <AttributeList>
+                                            <Attribute><Name>type</Name>
+                                                <ValueScheme>
+                                                    
+                                                        <enumeration>
+                                                            <item ConceptLink="" AppInfo="">DTAID</item>
+                                                            <item ConceptLink="" AppInfo="">URN</item>
+                                                            <item ConceptLink="" AppInfo="">shelfmark</item>
+                                                            <item ConceptLink="" AppInfo="">DTADirName</item>
+                                                            <item ConceptLink="" AppInfo="">URLCatalogue</item>
+                                                            <item ConceptLink="" AppInfo="">URLImages</item>
+                                                            <item ConceptLink="" AppInfo="">URLWeb</item>
+                                                            <item ConceptLink="" AppInfo="">URLXML</item>
+                                                            <item ConceptLink="" AppInfo="">URLText</item>
+                                                            <item ConceptLink="" AppInfo="">URLHTML</item>
+                                                            <item ConceptLink="" AppInfo="">URLCAB</item>
+                                                            <item ConceptLink="" AppInfo="">URLTCF</item>
+                                                            <item ConceptLink="" AppInfo="">PND</item>
+                                                            <item ConceptLink="" AppInfo="">PIDCMDI</item>
+                                                            <item>URLSourceProject</item>
+                                                        </enumeration>
+                                                    
+                                                </ValueScheme>
+                                            </Attribute>
+                                        </AttributeList>
+                                    </CMD_Element>
+                                </CMD_Component>
+                            </CMD_Component>
+                        </CMD_Component>
+                        <CMD_Component name="respStmt" CardinalityMin="0" CardinalityMax="unbounded">
+                            <CMD_Component name="persName" ComponentId="clarin.eu:cr1:c_1493735943962" ConceptLink="http://hdl.handle.net/11459/CCR_C-2978_0e9e4864-44c4-de22-66b1-9b38bca10836" CardinalityMin="0" CardinalityMax="unbounded">
+                                <CMD_Element name="surname" ConceptLink="http://hdl.handle.net/11459/CCR_C-4195_cfa61853-c8ef-252d-b87c-e02ae6149ea1" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" DisplayPriority="1"/>
+                                <CMD_Element name="forename" ConceptLink="http://hdl.handle.net/11459/CCR_C-4194_10476a01-dbce-7ad5-4cb2-f6eb7e777ff0" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" DisplayPriority="1"/>
+                                <CMD_Element name="nameLink" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false"/>
+                                <CMD_Element name="genName" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false"/>
+                                <CMD_Element name="addName" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false"/>
+                                <CMD_Element name="roleName" ConceptLink="http://hdl.handle.net/11459/CCR_C-2561_7ed5ad20-8c48-3a1c-0830-309f4db96822" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false"/>
+                                <CMD_Element name="persName" ConceptLink="http://hdl.handle.net/11459/CCR_C-2978_0e9e4864-44c4-de22-66b1-9b38bca10836" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Documentation="the literal name of a person">
+                                    
+                                </CMD_Element>
+                                <CMD_Component name="idno" ComponentId="clarin.eu:cr1:c_1493735943964" CardinalityMin="0" CardinalityMax="1">
+                                    <CMD_Element name="idno" ConceptLink="http://hdl.handle.net/11459/CCR_C-3894_4d08cc31-25fe-af0c-add4-ca7bdc12f5f7" ValueScheme="string" CardinalityMin="1" CardinalityMax="unbounded" Multilingual="false" DisplayPriority="1">
+                                        <AttributeList>
+                                            <Attribute><Name>type</Name>
+                                                <ValueScheme>
+                                                    
+                                                        <enumeration>
+                                                            <item ConceptLink="" AppInfo="">DTAID</item>
+                                                            <item ConceptLink="" AppInfo="">URN</item>
+                                                            <item ConceptLink="" AppInfo="">shelfmark</item>
+                                                            <item ConceptLink="" AppInfo="">DTADirName</item>
+                                                            <item ConceptLink="" AppInfo="">URLCatalogue</item>
+                                                            <item ConceptLink="" AppInfo="">URLImages</item>
+                                                            <item ConceptLink="" AppInfo="">URLWeb</item>
+                                                            <item ConceptLink="" AppInfo="">URLXML</item>
+                                                            <item ConceptLink="" AppInfo="">URLText</item>
+                                                            <item ConceptLink="" AppInfo="">URLHTML</item>
+                                                            <item ConceptLink="" AppInfo="">URLCAB</item>
+                                                            <item ConceptLink="" AppInfo="">URLTCF</item>
+                                                            <item ConceptLink="" AppInfo="">PND</item>
+                                                            <item ConceptLink="" AppInfo="">PIDCMDI</item>
+                                                            <item>URLSourceProject</item>
+                                                        </enumeration>
+                                                    
+                                                </ValueScheme>
+                                            </Attribute>
+                                        </AttributeList>
+                                    </CMD_Element>
+                                </CMD_Component>
+                            </CMD_Component>
+                            <CMD_Component name="orgName" ComponentId="clarin.eu:cr1:c_1381926654512" CardinalityMin="0" CardinalityMax="unbounded">
+                                <CMD_Element name="orgName" ConceptLink="http://hdl.handle.net/11459/CCR_C-2979_8030473e-bbcb-6b87-3fd2-90554429ec50" ValueScheme="string" CardinalityMin="1" CardinalityMax="unbounded" Multilingual="true" DisplayPriority="1" Documentation="an organization's proper name">
+                                    
+                                    <AttributeList>
+                                        <Attribute><Name>role</Name>
+                                            <ValueScheme>
+                                                
+                                                    <enumeration>
+                                                        <item ConceptLink="" AppInfo="">project</item>
+                                                        <item ConceptLink="" AppInfo="">hostingInstitution</item>
+                                                    </enumeration>
+                                                
+                                            </ValueScheme>
+                                        </Attribute>
+                                    </AttributeList>
+                                </CMD_Element>
+                                <CMD_Component name="idno" ComponentId="clarin.eu:cr1:c_1493735943964" CardinalityMin="0" CardinalityMax="1">
+                                    <CMD_Element name="idno" ConceptLink="http://hdl.handle.net/11459/CCR_C-3894_4d08cc31-25fe-af0c-add4-ca7bdc12f5f7" ValueScheme="string" CardinalityMin="1" CardinalityMax="unbounded" Multilingual="false" DisplayPriority="1">
+                                        <AttributeList>
+                                            <Attribute><Name>type</Name>
+                                                <ValueScheme>
+                                                    
+                                                        <enumeration>
+                                                            <item ConceptLink="" AppInfo="">DTAID</item>
+                                                            <item ConceptLink="" AppInfo="">URN</item>
+                                                            <item ConceptLink="" AppInfo="">shelfmark</item>
+                                                            <item ConceptLink="" AppInfo="">DTADirName</item>
+                                                            <item ConceptLink="" AppInfo="">URLCatalogue</item>
+                                                            <item ConceptLink="" AppInfo="">URLImages</item>
+                                                            <item ConceptLink="" AppInfo="">URLWeb</item>
+                                                            <item ConceptLink="" AppInfo="">URLXML</item>
+                                                            <item ConceptLink="" AppInfo="">URLText</item>
+                                                            <item ConceptLink="" AppInfo="">URLHTML</item>
+                                                            <item ConceptLink="" AppInfo="">URLCAB</item>
+                                                            <item ConceptLink="" AppInfo="">URLTCF</item>
+                                                            <item ConceptLink="" AppInfo="">PND</item>
+                                                            <item ConceptLink="" AppInfo="">PIDCMDI</item>
+                                                            <item>URLSourceProject</item>
+                                                        </enumeration>
+                                                    
+                                                </ValueScheme>
+                                            </Attribute>
+                                        </AttributeList>
+                                    </CMD_Element>
+                                </CMD_Component>
+                            </CMD_Component>
+                            <CMD_Component name="resp" CardinalityMin="1" CardinalityMax="unbounded">
+                                <CMD_Element name="note" ValueScheme="string" CardinalityMin="1" CardinalityMax="unbounded" Multilingual="false" DisplayPriority="1">
+                                    <AttributeList>
+                                        <Attribute><Name>type</Name>
+                                            <ValueScheme>
+                                                
+                                                    <enumeration>
+                                                        <item ConceptLink="" AppInfo="">remarkResponsibility</item>
+                                                        <item ConceptLink="" AppInfo="">remarkRevisionDTA</item>
+                                                        <item ConceptLink="" AppInfo="">remarkDocument</item>
+                                                    </enumeration>
+                                                
+                                            </ValueScheme>
+                                        </Attribute>
+                                    </AttributeList>
+                                </CMD_Element>
+                                <CMD_Element name="ref" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
+                                    <AttributeList>
+                                        <Attribute><Name>target</Name><Type>anyURI</Type></Attribute>
+                                    </AttributeList>
+                                </CMD_Element>
+                                <CMD_Element name="date" ValueScheme="dateTime" CardinalityMin="0" CardinalityMax="1">
+                                    <AttributeList>
+                                        <Attribute><Name>type</Name>
+                                            <ValueScheme>
+                                                
+                                                    <enumeration>
+                                                        <item ConceptLink="" AppInfo="">publication</item>
+                                                        <item ConceptLink="" AppInfo="">firstPublication</item>
+                                                        <item ConceptLink="" AppInfo="">importDTA</item>
+                                                    </enumeration>
+                                                
+                                            </ValueScheme>
+                                        </Attribute>
+                                    </AttributeList>
+                                </CMD_Element>
+                            </CMD_Component>
+                        </CMD_Component>
+                    </CMD_Component>
+                    <CMD_Component name="editionStmt" ComponentId="clarin.eu:cr1:c_1342181139673" CardinalityMin="1" CardinalityMax="1">
+                        <CMD_Element name="edition" ConceptLink="http://hdl.handle.net/11459/CCR_C-4123_ad8f84fe-0c42-e83c-9db1-f0295a035cb7" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" DisplayPriority="1">
+                            <AttributeList>
+                                <Attribute><Name>n</Name><Type>string</Type></Attribute>
+                            </AttributeList>
+                        </CMD_Element>
+                    </CMD_Component>
+                    <CMD_Component name="extent" ComponentId="clarin.eu:cr1:c_1345180279117" CardinalityMin="0" CardinalityMax="1">
+                        <CMD_Element name="measure" ConceptLink="http://hdl.handle.net/11459/CCR_C-2580_6dfe4e09-1c61-9b24-98ad-16bb867860fe" ValueScheme="string" CardinalityMin="1" CardinalityMax="unbounded" Multilingual="false" DisplayPriority="1">
+                            <AttributeList>
+                                <Attribute><Name>type</Name><ConceptLink>http://hdl.handle.net/11459/CCR_C-2583_5f5cb491-1037-8d46-d685-ccebfc0233f7</ConceptLink>
+                                    <ValueScheme>
+                                        
+                                            <enumeration>
+                                                <item ConceptLink="" AppInfo="">images</item>
+                                                <item ConceptLink="" AppInfo="">tokens</item>
+                                                <item ConceptLink="" AppInfo="">types</item>
+                                                <item ConceptLink="" AppInfo="">characters</item>
+                                                <item ConceptLink="" AppInfo="">pages</item>
+                                            </enumeration>
+                                        
+                                    </ValueScheme>
+                                </Attribute>
+                            </AttributeList>
+                        </CMD_Element>
+                    </CMD_Component>
+                    <CMD_Component name="publicationStmt" ComponentId="clarin.eu:cr1:c_1381926654439" CardinalityMin="1" CardinalityMax="1">
+                        <CMD_Element name="pubPlace" ConceptLink="http://hdl.handle.net/11459/CCR_C-5580_03e458f2-f873-8645-76eb-40e001b6c1ac" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false" DisplayPriority="1"/>
+                        <CMD_Element name="date" ConceptLink="http://hdl.handle.net/11459/CCR_C-2538_8b697452-7ef3-9fce-ccf9-a7f344f11317" ValueScheme="string" CardinalityMin="1" CardinalityMax="unbounded" Multilingual="false" Documentation="date of publication">
+                            
+                            <AttributeList>
+                                <Attribute><Name>type</Name>
+                                    <ValueScheme>
+                                        
+                                            <enumeration>
+                                                <item ConceptLink="" AppInfo="">publication</item>
+                                                <item ConceptLink="" AppInfo="">firstPublication</item>
+                                                <item ConceptLink="" AppInfo="">creation</item>
+                                            </enumeration>
+                                        
+                                    </ValueScheme>
+                                </Attribute>
+                            </AttributeList>
+                        </CMD_Element>
+                        <CMD_Component name="publisher" CardinalityMin="0" CardinalityMax="unbounded">
+                            <CMD_Element name="name" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false" DisplayPriority="1"/>
+                            <CMD_Element name="email" ConceptLink="http://hdl.handle.net/11459/CCR_C-2521_7b01b455-0de8-d753-ad4e-dee49953ae98" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false"/>
+                            <CMD_Component name="orgName" ComponentId="clarin.eu:cr1:c_1381926654512" CardinalityMin="0" CardinalityMax="unbounded">
+                                <CMD_Element name="orgName" ConceptLink="http://hdl.handle.net/11459/CCR_C-2979_8030473e-bbcb-6b87-3fd2-90554429ec50" ValueScheme="string" CardinalityMin="1" CardinalityMax="unbounded" Multilingual="true" DisplayPriority="1" Documentation="an organization's proper name">
+                                    
+                                    <AttributeList>
+                                        <Attribute><Name>role</Name>
+                                            <ValueScheme>
+                                                
+                                                    <enumeration>
+                                                        <item ConceptLink="" AppInfo="">project</item>
+                                                        <item ConceptLink="" AppInfo="">hostingInstitution</item>
+                                                    </enumeration>
+                                                
+                                            </ValueScheme>
+                                        </Attribute>
+                                    </AttributeList>
+                                </CMD_Element>
+                                <CMD_Component name="idno" ComponentId="clarin.eu:cr1:c_1493735943964" CardinalityMin="0" CardinalityMax="1">
+                                    <CMD_Element name="idno" ConceptLink="http://hdl.handle.net/11459/CCR_C-3894_4d08cc31-25fe-af0c-add4-ca7bdc12f5f7" ValueScheme="string" CardinalityMin="1" CardinalityMax="unbounded" Multilingual="false" DisplayPriority="1">
+                                        <AttributeList>
+                                            <Attribute><Name>type</Name>
+                                                <ValueScheme>
+                                                    
+                                                        <enumeration>
+                                                            <item ConceptLink="" AppInfo="">DTAID</item>
+                                                            <item ConceptLink="" AppInfo="">URN</item>
+                                                            <item ConceptLink="" AppInfo="">shelfmark</item>
+                                                            <item ConceptLink="" AppInfo="">DTADirName</item>
+                                                            <item ConceptLink="" AppInfo="">URLCatalogue</item>
+                                                            <item ConceptLink="" AppInfo="">URLImages</item>
+                                                            <item ConceptLink="" AppInfo="">URLWeb</item>
+                                                            <item ConceptLink="" AppInfo="">URLXML</item>
+                                                            <item ConceptLink="" AppInfo="">URLText</item>
+                                                            <item ConceptLink="" AppInfo="">URLHTML</item>
+                                                            <item ConceptLink="" AppInfo="">URLCAB</item>
+                                                            <item ConceptLink="" AppInfo="">URLTCF</item>
+                                                            <item ConceptLink="" AppInfo="">PND</item>
+                                                            <item ConceptLink="" AppInfo="">PIDCMDI</item>
+                                                            <item>URLSourceProject</item>
+                                                        </enumeration>
+                                                    
+                                                </ValueScheme>
+                                            </Attribute>
+                                        </AttributeList>
+                                    </CMD_Element>
+                                </CMD_Component>
+                            </CMD_Component>
+                            <CMD_Component name="address" ConceptLink="http://hdl.handle.net/11459/CCR_C-2505_b61e249b-ac68-b40a-0f21-03a4a26e16b4" CardinalityMin="0" CardinalityMax="unbounded">
+                                <CMD_Element name="addrLine" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false" DisplayPriority="1"/>
+                                <CMD_Element name="country" ConceptLink="http://hdl.handle.net/11459/CCR_C-2532_d004b0a6-fd1d-3ca3-abf1-1e6aeb3e37b2" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false"/>
+                            </CMD_Component>
+                        </CMD_Component>
+                        <CMD_Component name="availability" ConceptLink="http://hdl.handle.net/11459/CCR_C-2453_1f0c3ea5-7966-ae11-d3c6-448424d4e6e8" CardinalityMin="0" CardinalityMax="1">
+                            <CMD_Component name="licence" ConceptLink="http://hdl.handle.net/11459/CCR_C-3800_12a79edd-0ffe-8d82-9831-45d125c54aee" CardinalityMin="1" CardinalityMax="1">
+                                <AttributeList>
+                                    <Attribute><Name>target</Name><ConceptLink>http://hdl.handle.net/11459/CCR_C-6586_2c79d86a-  5a75-0890-d407-7d9cb86b9beb</ConceptLink><Type>anyURI</Type>
+                                        
+                                    </Attribute>
+                                </AttributeList>
+                                <CMD_Element name="p" ValueScheme="string" CardinalityMin="1" CardinalityMax="unbounded" Multilingual="false" DisplayPriority="1"/>
+                            </CMD_Component>
+                        </CMD_Component>
+                        <CMD_Component name="idno" ComponentId="clarin.eu:cr1:c_1493735943964" CardinalityMin="0" CardinalityMax="1">
+                            <CMD_Element name="idno" ConceptLink="http://hdl.handle.net/11459/CCR_C-3894_4d08cc31-25fe-af0c-add4-ca7bdc12f5f7" ValueScheme="string" CardinalityMin="1" CardinalityMax="unbounded" Multilingual="false" DisplayPriority="1">
+                                <AttributeList>
+                                    <Attribute><Name>type</Name>
+                                        <ValueScheme>
+                                            
+                                                <enumeration>
+                                                    <item ConceptLink="" AppInfo="">DTAID</item>
+                                                    <item ConceptLink="" AppInfo="">URN</item>
+                                                    <item ConceptLink="" AppInfo="">shelfmark</item>
+                                                    <item ConceptLink="" AppInfo="">DTADirName</item>
+                                                    <item ConceptLink="" AppInfo="">URLCatalogue</item>
+                                                    <item ConceptLink="" AppInfo="">URLImages</item>
+                                                    <item ConceptLink="" AppInfo="">URLWeb</item>
+                                                    <item ConceptLink="" AppInfo="">URLXML</item>
+                                                    <item ConceptLink="" AppInfo="">URLText</item>
+                                                    <item ConceptLink="" AppInfo="">URLHTML</item>
+                                                    <item ConceptLink="" AppInfo="">URLCAB</item>
+                                                    <item ConceptLink="" AppInfo="">URLTCF</item>
+                                                    <item ConceptLink="" AppInfo="">PND</item>
+                                                    <item ConceptLink="" AppInfo="">PIDCMDI</item>
+                                                    <item>URLSourceProject</item>
+                                                </enumeration>
+                                            
+                                        </ValueScheme>
+                                    </Attribute>
+                                </AttributeList>
+                            </CMD_Element>
+                        </CMD_Component>
+                    </CMD_Component>
+                    <CMD_Component name="notesStmt" CardinalityMin="0" CardinalityMax="1">
+                        <CMD_Element name="note" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" DisplayPriority="1">
+                            <AttributeList>
+                                <Attribute><Name>type</Name>
+                                    <ValueScheme>
+                                        
+                                            <enumeration>
+                                                <item ConceptLink="" AppInfo="">remarkSource</item>
+                                            </enumeration>
+                                        
+                                    </ValueScheme>
+                                </Attribute>
+                            </AttributeList>
+                        </CMD_Element>
+                    </CMD_Component>
+                    <CMD_Component name="seriesStmt" ComponentId="clarin.eu:cr1:c_1498745062851" CardinalityMin="0" CardinalityMax="1">
+                        <CMD_Element name="title" ValueScheme="string" CardinalityMin="1" CardinalityMax="unbounded" Multilingual="false" DisplayPriority="1">
+                            <AttributeList>
+                                <Attribute><Name>type</Name>
+                                    <ValueScheme>
+                                        
+                                            <enumeration>
+                                                <item ConceptLink="" AppInfo="">main</item>
+                                                <item ConceptLink="" AppInfo="">sub</item>
+                                            </enumeration>
+                                        
+                                    </ValueScheme>
+                                </Attribute>
+                                <Attribute><Name>level</Name>
+                                    <ValueScheme>
+                                        
+                                            <enumeration>
+                                                <item ConceptLink="" AppInfo="">s</item>
+                                                <item ConceptLink="" AppInfo="">j</item>
+                                            </enumeration>
+                                        
+                                    </ValueScheme>
+                                </Attribute>
+                            </AttributeList>
+                        </CMD_Element>
+                        <CMD_Element name="biblScope" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false" Documentation="detailed reference of a certain part within a series">
+                            
+                            <AttributeList>
+                                <Attribute><Name>unit</Name>
+                                    <ValueScheme>
+                                        
+                                            <enumeration>
+                                                <item ConceptLink="" AppInfo="">volume</item>
+                                                <item ConceptLink="" AppInfo="">issue</item>
+                                                <item ConceptLink="" AppInfo="">pages</item>
+                                            </enumeration>
+                                        
+                                    </ValueScheme>
+                                </Attribute>
+                            </AttributeList>
+                        </CMD_Element>
+                    </CMD_Component>
+                </CMD_Component>
+                <CMD_Component name="msDesc" CardinalityMin="1" CardinalityMax="1">
+                    <CMD_Component name="msIdentifier" CardinalityMin="0" CardinalityMax="1">
+                        <CMD_Element name="repository" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" DisplayPriority="1"/>
+                        <CMD_Component name="idno" ComponentId="clarin.eu:cr1:c_1493735943964" CardinalityMin="0" CardinalityMax="1">
+                            <CMD_Element name="idno" ConceptLink="http://hdl.handle.net/11459/CCR_C-3894_4d08cc31-25fe-af0c-add4-ca7bdc12f5f7" ValueScheme="string" CardinalityMin="1" CardinalityMax="unbounded" Multilingual="false" DisplayPriority="1">
+                                <AttributeList>
+                                    <Attribute><Name>type</Name>
+                                        <ValueScheme>
+                                            
+                                                <enumeration>
+                                                    <item ConceptLink="" AppInfo="">DTAID</item>
+                                                    <item ConceptLink="" AppInfo="">URN</item>
+                                                    <item ConceptLink="" AppInfo="">shelfmark</item>
+                                                    <item ConceptLink="" AppInfo="">DTADirName</item>
+                                                    <item ConceptLink="" AppInfo="">URLCatalogue</item>
+                                                    <item ConceptLink="" AppInfo="">URLImages</item>
+                                                    <item ConceptLink="" AppInfo="">URLWeb</item>
+                                                    <item ConceptLink="" AppInfo="">URLXML</item>
+                                                    <item ConceptLink="" AppInfo="">URLText</item>
+                                                    <item ConceptLink="" AppInfo="">URLHTML</item>
+                                                    <item ConceptLink="" AppInfo="">URLCAB</item>
+                                                    <item ConceptLink="" AppInfo="">URLTCF</item>
+                                                    <item ConceptLink="" AppInfo="">PND</item>
+                                                    <item ConceptLink="" AppInfo="">PIDCMDI</item>
+                                                    <item>URLSourceProject</item>
+                                                </enumeration>
+                                            
+                                        </ValueScheme>
+                                    </Attribute>
+                                </AttributeList>
+                            </CMD_Element>
+                        </CMD_Component>
+                    </CMD_Component>
+                    <CMD_Component name="physDesc" CardinalityMin="0" CardinalityMax="1">
+                        <CMD_Component name="typeDesc" CardinalityMin="1" CardinalityMax="1">
+                            <CMD_Element name="p" ValueScheme="string" CardinalityMin="1" CardinalityMax="unbounded" Multilingual="false" DisplayPriority="1"/>
+                        </CMD_Component>
+                    </CMD_Component>
+                </CMD_Component>
+            </CMD_Component>
+        </CMD_Component>
+        <CMD_Component name="encodingDesc" ComponentId="clarin.eu:cr1:c_1345180279116" CardinalityMin="1" CardinalityMax="1">
+            <CMD_Component name="editorialDecl" CardinalityMin="1" CardinalityMax="1">
+                <CMD_Element name="p" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false" DisplayPriority="1" Documentation="a human readable description of the encoding guidelines">
+                    
+                </CMD_Element>
+            </CMD_Component>
+        </CMD_Component>
+        <CMD_Component name="profileDesc" ComponentId="clarin.eu:cr1:c_1493735943961" CardinalityMin="1" CardinalityMax="1">
+            <CMD_Component name="abstract" ConceptLink="http://hdl.handle.net/11459/CCR_C-6005_552bfc06-0acd-a0cd-9cb9-5fcb7dedb323" CardinalityMin="1" CardinalityMax="1">
+                
+                <CMD_Element name="p" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" ValueScheme="string" CardinalityMin="1" CardinalityMax="unbounded" DisplayPriority="1" Documentation="rough description of the text source and its embeddings">
+                    
+                </CMD_Element>
+            </CMD_Component>
+            <CMD_Component name="langUsage" CardinalityMin="1" CardinalityMax="1">
+                <CMD_Element name="language" ConceptLink="http://hdl.handle.net/11459/CCR_C-2484_669684e7-cb9e-ea96-59cb-a25fe89b9b9d" ValueScheme="string" CardinalityMin="1" CardinalityMax="unbounded" Multilingual="false" DisplayPriority="1">
+                    <AttributeList>
+                        <Attribute><Name>ident</Name><ConceptLink>http://hdl.handle.net/11459/CCR_C-2482_08eded24-4086-7e3f-88e5-e0807fb01e17</ConceptLink><Type>string</Type></Attribute>
+                    </AttributeList>
+                </CMD_Element>
+            </CMD_Component>
+            <CMD_Component name="textClass" ConceptLink="http://hdl.handle.net/11459/CCR_C-5427_29063663-5799-3588-bb4f-e852c37e6c97" CardinalityMin="1" CardinalityMax="1">
+                
+                <CMD_Element name="classCode" ConceptLink="http://hdl.handle.net/11459/CCR_C-5316_2c6244b4-4f10-5e8e-49b6-26fbf7004791" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false" DisplayPriority="1" Documentation="(classification code) contains the classification code used for this text in some standard classification system. (source: TEI P5, 3.4.0)">
+                    
+                    <AttributeList>
+                        <Attribute><Name>scheme</Name><ConceptLink>http://hdl.handle.net/11459/CCR_C-5317_d0b45527-e754-627f-6a80-1a3503df9973</ConceptLink><Type>anyURI</Type>
+                            
+                        </Attribute>
+                    </AttributeList>
+                </CMD_Element>
+            </CMD_Component>
+            <CMD_Component name="textDesc" ConceptLink="http://hdl.handle.net/11459/CCR_C-6142_53042bb3-ac88-5c14-ae98-bd7601e97ec8" CardinalityMin="0" CardinalityMax="1">
+                
+                <CMD_Element name="channel" ConceptLink="http://hdl.handle.net/11459/CCR_C-6143_b06c8570-5568-8433-30c8-4eb6184b58ac" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" DisplayPriority="1" Documentation="(primary channel) describes the medium or channel by which a text is delivered or experienced. For a written text, this might be print, manuscript, e-mail, etc.; for a spoken one, radio, telephone, face-to-face, etc. (source: http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-channel.html)">
+                    
+                    <AttributeList>
+                        <Attribute><Name>mode</Name><ConceptLink>http://hdl.handle.net/11459/CCR_C-2490_44bc38a3-1799-4149-c791-40ac0176f0ff</ConceptLink>
+                            <ValueScheme>
+                                
+                                    <enumeration>
+                                        <item ConceptLink="http://hdl.handle.net/11459/CCR_C-6201_1955517f-a6f5-0f9b-2fd9-be49439352b8" AppInfo="written mode">w</item>
+                                    </enumeration>
+                                
+                            </ValueScheme>
+                        </Attribute>
+                    </AttributeList>
+                </CMD_Element>
+            </CMD_Component>
+        </CMD_Component>
+    </CMD_Component>
+</CMD_ComponentSpec>

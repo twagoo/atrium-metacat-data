@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?><CMD_ComponentSpec xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cue="http://www.clarin.eu/cmd/cues/1" xmlns:cue_old="http://www.clarin.eu/cmdi/cues/1" isProfile="true" xsi:noNamespaceSchemaLocation="https://infra.clarin.eu/CMDI/1.1/general-component-schema.xsd">
+    <Header>
+        <ID>clarin.eu:cr1:p_1288172614023</ID>
+        <Name>DcmiTerms</Name>
+        <Description>DCMI Terms vocabulary, see http://dublincore.org/documents/dcmi-terms/</Description>
+        
+    </Header>
+    <CMD_Component name="DcmiTerms" CardinalityMin="1" CardinalityMax="1">
+        <CMD_Element name="abstract" ConceptLink="http://purl.org/dc/terms/abstract" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" Documentation="A summary of the resource.">
+            
+        </CMD_Element>
+        <CMD_Element name="accessRights" ConceptLink="http://purl.org/dc/terms/accessRights" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" Documentation="Information about who can access the resource or an indication of its security status.">
+            
+        </CMD_Element>
+        <CMD_Element name="accrualMethod" ConceptLink="http://purl.org/dc/terms/accrualMethod" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" Documentation="The method by which items are added to a collection.">
+            
+        </CMD_Element>
+        <CMD_Element name="accrualPeriodicity" ConceptLink="http://purl.org/dc/terms/accrualPeriodicity" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" Documentation="The frequency with which items are added to a collection.">
+            
+        </CMD_Element>
+        <CMD_Element name="accrualPolicy" ConceptLink="http://purl.org/dc/terms/accrualPolicy" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" Documentation="The policy governing the addition of items to a collection.">
+            
+        </CMD_Element>
+        <CMD_Element name="alternative" ConceptLink="http://purl.org/dc/terms/alternative" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" Documentation="An alternative name for the resource.">
+            
+        </CMD_Element>
+        <CMD_Element name="audience" ConceptLink="http://purl.org/dc/terms/audience" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" Documentation="A class of entity for whom the resource is intended or useful.">
+            
+        </CMD_Element>
+        <CMD_Element name="available" ConceptLink="http://purl.org/dc/terms/available" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" Documentation="Date (often a range) that the resource became or will become available.">
+            
+        </CMD_Element>
+        <CMD_Element name="bibliographicCitation" ConceptLink="http://purl.org/dc/terms/bibliographicCitation" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" Documentation="A bibliographic reference for the resource.">
+            
+        </CMD_Element>
+        <CMD_Element name="conformsTo" ConceptLink="http://purl.org/dc/terms/conformsTo" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" Documentation="An established standard to which the described resource conforms.">
+            
+        </CMD_Element>
+        <CMD_Element name="contributor" ConceptLink="http://purl.org/dc/terms/contributor" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" Documentation="An entity responsible for making contributions to the resource.">
+            
+        </CMD_Element>
+        <CMD_Element name="coverage" ConceptLink="http://purl.org/dc/terms/coverage" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" Documentation="The spatial or temporal topic of the resource, the spatial applicability of the resource, or the jurisdiction under which the resource is relevant.">
+            
+        </CMD_Element>
+        <CMD_Element name="created" ConceptLink="http://purl.org/dc/terms/created" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" Documentation="Date of creation of the resource.">
+            
+        </CMD_Element>
+        <CMD_Element name="creator" ConceptLink="http://purl.org/dc/terms/creator" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" Documentation="An entity primarily responsible for making the resource.">
+            
+        </CMD_Element>
+        <CMD_Element name="date" ConceptLink="http://purl.org/dc/terms/date" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" Documentation="A point or period of time associated with an event in the lifecycle of the resource.">
+            
+        </CMD_Element>
+        <CMD_Element name="dateAccepted" ConceptLink="http://purl.org/dc/terms/dateAccepted" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" Documentation="Date of acceptance of the resource.">
+            
+        </CMD_Element>
+        <CMD_Element name="dateCopyrighted" ConceptLink="http://purl.org/dc/terms/dateCopyrighted" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" Documentation="Date of copyright.">
+            
+        </CMD_Element>
+        <CMD_Element name="dateSubmitted" ConceptLink="http://purl.org/dc/terms/dateSubmitted" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" Documentation="Date of submission of the resource.">
+            
+        </CMD_Element>
+        <CMD_Element name="description" ConceptLink="http://purl.org/dc/terms/description" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" Documentation="An account of the resource.">
+            
+        </CMD_Element>
+        <CMD_Element name="educationLevel" ConceptLink="http://purl.org/dc/terms/educationLevel" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" Documentation="A class of entity, defined in terms of progression through an educational or training context, for which the described resource is intended.">
+            
+        </CMD_Element>
+        <CMD_Element name="extent" ConceptLink="http://purl.org/dc/terms/extent" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" Documentation="The size or duration of the resource.">
+            
+        </CMD_Element>
+        <CMD_Element name="format" ConceptLink="http://purl.org/dc/terms/format" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" Documentation="The file format, physical medium, or dimensions of the resource.">
+            
+        </CMD_Element>
+        <CMD_Element name="hasFormat" ConceptLink="http://purl.org/dc/terms/hasFormat" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" Documentation="A related resource that is substantially the same as the pre-existing described resource, but in another format.">
+            
+        </CMD_Element>
+        <CMD_Element name="hasPart" ConceptLink="http://purl.org/dc/terms/hasPart" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" Documentation="A related resource that is included either physically or logically in the described resource.">
+            
+        </CMD_Element>
+        <CMD_Element name="hasVersion" ConceptLink="http://purl.org/dc/terms/hasVersion" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" Documentation="A related resource that is a version, edition, or adaptation of the described resource.">
+            
+        </CMD_Element>
+        <CMD_Element name="identifier" ConceptLink="http://purl.org/dc/terms/identifier" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" Documentation="An unambiguous reference to the resource within a given context.">
+            
+        </CMD_Element>
+        <CMD_Element name="instructionalMethod" ConceptLink="http://purl.org/dc/terms/instructionalMethod" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" Documentation="A process, used to engender knowledge, attitudes and skills, that the described resource is designed to support.">
+            
+        </CMD_Element>
+        <CMD_Element name="isFormatOf" ConceptLink="http://purl.org/dc/terms/isFormatOf" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" Documentation="A related resource that is substantially the same as the described resource, but in another format.">
+            
+        </CMD_Element>
+        <CMD_Element name="isPartOf" ConceptLink="http://purl.org/dc/terms/isPartOf" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" Documentation="A related resource in which the described resource is physically or logically included.">
+            
+        </CMD_Element>
+        <CMD_Element name="isReferencedBy" ConceptLink="http://purl.org/dc/terms/isReferencedBy" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" Documentation="A related resource that references, cites, or otherwise points to the described resource.">
+            
+        </CMD_Element>
+        <CMD_Element name="isReplacedBy" ConceptLink="http://purl.org/dc/terms/isReplacedBy" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" Documentation="A related resource that supplants, displaces, or supersedes the described resource.">
+            
+        </CMD_Element>
+        <CMD_Element name="isRequiredBy" ConceptLink="http://purl.org/dc/terms/isRequiredBy" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" Documentation="A related resource that requires the described resource to support its function, delivery, or coherence.">
+            
+        </CMD_Element>
+        <CMD_Element name="issued" ConceptLink="http://purl.org/dc/terms/issued" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" Documentation="Date of formal issuance (e.g., publication) of the resource.">
+            
+        </CMD_Element>
+        <CMD_Element name="isVersionOf" ConceptLink="http://purl.org/dc/terms/isVersionOf" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" Documentation="Changes in version imply substantive changes in content rather than differences in format.">
+            
+        </CMD_Element>
+        <CMD_Element name="language" ConceptLink="http://purl.org/dc/terms/language" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" Documentation="A language of the resource.">
+            
+        </CMD_Element>
+        <CMD_Element name="license" ConceptLink="http://purl.org/dc/terms/license" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" Documentation="A legal document giving official permission to do something with the resource.">
+            
+        </CMD_Element>
+        <CMD_Element name="mediator" ConceptLink="http://purl.org/dc/terms/mediator" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" Documentation="An entity that mediates access to the resource and for whom the resource is intended or useful.">
+            
+        </CMD_Element>
+        <CMD_Element name="medium" ConceptLink="http://purl.org/dc/terms/medium" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" Documentation="The material or physical carrier of the resource.">
+            
+        </CMD_Element>
+        <CMD_Element name="modified" ConceptLink="http://purl.org/dc/terms/modified" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" Documentation="Date on which the resource was changed.">
+            
+        </CMD_Element>
+        <CMD_Element name="provenance" ConceptLink="http://purl.org/dc/terms/provenance" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" Documentation="A statement of any changes in ownership and custody of the resource since its creation that are significant for its authenticity, integrity, and interpretation.">
+            
+        </CMD_Element>
+        <CMD_Element name="publisher" ConceptLink="http://purl.org/dc/terms/publisher" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" Documentation="An entity responsible for making the resource available.">
+            
+        </CMD_Element>
+        <CMD_Element name="references" ConceptLink="http://purl.org/dc/terms/references" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" Documentation="A related resource that is referenced, cited, or otherwise pointed to by the described resource.">
+            
+        </CMD_Element>
+        <CMD_Element name="relation" ConceptLink="http://purl.org/dc/terms/relation" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" Documentation="A related resource.">
+            
+        </CMD_Element>
+        <CMD_Element name="replaces" ConceptLink="http://purl.org/dc/terms/replaces" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" Documentation="A related resource that is supplanted, displaced, or superseded by the described resource.">
+            
+        </CMD_Element>
+        <CMD_Element name="requires" ConceptLink="http://purl.org/dc/terms/requires" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" Documentation="A related resource that is required by the described resource to support its function, delivery, or coherence.">
+            
+        </CMD_Element>
+        <CMD_Element name="rights" ConceptLink="http://purl.org/dc/terms/rights" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" Documentation="Information about rights held in and over the resource.">
+            
+        </CMD_Element>
+        <CMD_Element name="rightsHolder" ConceptLink="http://purl.org/dc/terms/rightsHolder" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" Documentation="A person or organization owning or managing rights over the resource.">
+            
+        </CMD_Element>
+        <CMD_Element name="source" ConceptLink="http://purl.org/dc/terms/source" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" Documentation="A related resource from which the described resource is derived.">
+            
+        </CMD_Element>
+        <CMD_Element name="spatial" ConceptLink="http://purl.org/dc/terms/spatial" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" Documentation="Spatial characteristics of the resource.">
+            
+        </CMD_Element>
+        <CMD_Element name="subject" ConceptLink="http://purl.org/dc/terms/subject" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" Documentation="The topic of the resource.">
+            
+        </CMD_Element>
+        <CMD_Element name="tableOfContents" ConceptLink="http://purl.org/dc/terms/tableOfContents" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" Documentation="A list of subunits of the resource.">
+            
+        </CMD_Element>
+        <CMD_Element name="temporal" ConceptLink="http://purl.org/dc/terms/temporal" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" Documentation="Temporal characteristics of the resource.">
+            
+        </CMD_Element>
+        <CMD_Element name="title" ConceptLink="http://purl.org/dc/terms/title" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" Documentation="A name given to the resource.">
+            
+        </CMD_Element>
+        <CMD_Element name="type" ConceptLink="http://purl.org/dc/terms/type" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" Documentation="The nature or genre of the resource.">
+            
+        </CMD_Element>
+        <CMD_Element name="valid" ConceptLink="http://purl.org/dc/terms/valid" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" Documentation="Date (often a range) of validity of a resource.">
+            
+        </CMD_Element>
+    </CMD_Component>
+</CMD_ComponentSpec>

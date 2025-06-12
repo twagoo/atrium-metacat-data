@@ -1,0 +1,700 @@
+<?xml version="1.0" encoding="UTF-8"?><CMD_ComponentSpec xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cue="http://www.clarin.eu/cmd/cues/1" xmlns:cue_old="http://www.clarin.eu/cmdi/cues/1" isProfile="true" xsi:noNamespaceSchemaLocation="https://infra.clarin.eu/CMDI/1.1/general-component-schema.xsd">
+    <Header>
+        <ID>clarin.eu:cr1:p_1595321762461</ID>
+        <Name>BasicEventIDS</Name>
+        <Description>Metadata for an event</Description>
+        
+    </Header>
+    <CMD_Component name="BasicEventIDS" ConceptLink="http://hdl.handle.net/11459/CCR_C-6110_559d9db8-7db8-bc23-0dc2-7f26f4fcf841" CardinalityMin="1" CardinalityMax="1">
+        <CMD_Component name="BasicInfoIDS" ComponentId="clarin.eu:cr1:c_1595321762450" ConceptLink="http://hdl.handle.net/11459/CCR_C-2629_cea0bd03-e626-0be8-e376-b029b6279fd0" CardinalityMin="1" CardinalityMax="1">
+            <CMD_Element name="Title" ConceptLink="http://hdl.handle.net/11459/CCR_C-2544_3626545e-a21d-058c-ebfd-241c0464e7e5" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" DisplayPriority="1" Documentation="Title of the ressource">
+                
+            </CMD_Element>
+            <CMD_Element name="Version" ConceptLink="http://hdl.handle.net/11459/CCR_C-2547_7883d382-b3ce-8ab4-7052-0138525a8ba1" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" DisplayPriority="1" Documentation="Version of the resource">
+                
+            </CMD_Element>
+            <CMD_Element name="Collection" ConceptLink="http://hdl.handle.net/11459/CCR_C-6832_3f1d39bf-ed03-4f05-6b6c-f28cc0e268ed" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" Documentation="The name of the collection the resource belongs to">
+                
+            </CMD_Element>
+            <CMD_Element name="ProjectName" ConceptLink="http://hdl.handle.net/11459/CCR_C-2536_13fc5f10-c14a-1f64-a669-32736f6d3ef5" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true"/>
+            <CMD_Element name="Description" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" ValueScheme="string" CardinalityMin="1" CardinalityMax="unbounded" Multilingual="true" Documentation="Description of the resource">
+                
+            </CMD_Element>
+            <CMD_Element name="Subject" ConceptLink="http://hdl.handle.net/11459/CCR_C-6848_5a4281f5-fdef-6300-dbd2-930d15dabcd2" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" DisplayPriority="1" Documentation="Subject of the resource ">
+                
+            </CMD_Element>
+            <CMD_Element name="Keyword" ConceptLink="http://hdl.handle.net/11459/CCR_C-278_336dd81a-626b-713e-c74a-34fa2ca26a71" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true"/>
+            <CMD_Element name="Genre" ConceptLink="http://hdl.handle.net/11459/CCR_C-6793_a687cc7c-df4a-58bd-4545-c74eeb0fe550" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" Documentation="Genre of the resource">
+                
+            </CMD_Element>
+            <CMD_Element name="Format" ConceptLink="http://hdl.handle.net/11459/CCR_C-2465_4444eb51-7cf7-0ff7-7687-7f741f3a4f84" ValueScheme="string" CardinalityMin="1" CardinalityMax="unbounded" Documentation="Format of the resource">
+                
+            </CMD_Element>
+            <CMD_Element name="Modality" ConceptLink="http://hdl.handle.net/11459/CCR_C-2490_44bc38a3-1799-4149-c791-40ac0176f0ff" ValueScheme="string" CardinalityMin="1" CardinalityMax="unbounded" Multilingual="true"/>
+            <CMD_Element name="ResourceClass" ConceptLink="http://hdl.handle.net/11459/CCR_C-3806_e55e9ed6-b099-c21d-a634-3c7f4d22a215" ValueScheme="string" CardinalityMin="1" CardinalityMax="unbounded" Documentation="The type of the resource or tool (e.g. corpus, lexicon, grammar, tool...)">
+                
+            </CMD_Element>
+            <CMD_Element name="TemporalCoverage" ConceptLink="http://hdl.handle.net/11459/CCR_C-6849_03a7b38d-de17-accc-8795-8dbfbf301420" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true"/>
+            <CMD_Element name="Licence" ConceptLink="http://hdl.handle.net/11459/CCR_C-5362_8cffd964-f57e-09ed-daed-eeabbf2d22c0" ValueScheme="string" CardinalityMin="1" CardinalityMax="1"/>
+            <CMD_Element name="LicenceType" ConceptLink="http://hdl.handle.net/11459/CCR_C-3800_12a79edd-0ffe-8d82-9831-45d125c54aee" ValueScheme="string" CardinalityMin="1" CardinalityMax="1"/>
+            <CMD_Element name="LicenceUrl" ConceptLink="http://hdl.handle.net/11459/CCR_C-6586_2c79d86a-5a75-0890-d407-7d9cb86b9beb" ValueScheme="string" CardinalityMin="0" CardinalityMax="1"/>
+            <CMD_Element name="LanguageCode" ConceptLink="http://hdl.handle.net/11459/CCR_C-2482_08eded24-4086-7e3f-88e5-e0807fb01e17" ValueScheme="string" CardinalityMin="1" CardinalityMax="unbounded" Documentation="The object language relevant for the resource or tool">
+                
+            </CMD_Element>
+            <CMD_Component name="Multilinguality" ComponentId="clarin.eu:cr1:c_1271859438121" CardinalityMax="1">
+                <CMD_Element name="Multilinguality" ConceptLink="http://hdl.handle.net/11459/CCR_C-2491_e2d90ef0-a2e9-c101-6d35-bf25fc29f901" CardinalityMin="1" CardinalityMax="1">
+                    <ValueScheme>
+                        
+                            <enumeration>
+                                <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2980_46811e66-9ece-d829-0806-84c4ea76c1da">Monolingual</item>
+                                <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2981_9044e25f-19da-13f1-8b1f-24e50d0fce27">Bilingual</item>
+                                <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2982_0aa36b27-d005-731d-d580-0ddd1df895fa">Multilingual</item>
+                                <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2592_6bf81885-106a-fbf0-40e0-9f0233fbd88c">Unspecified</item>
+                            </enumeration>
+                        
+                    </ValueScheme>
+                </CMD_Element>
+            </CMD_Component>
+            <CMD_Component name="Country" ComponentId="clarin.eu:cr1:c_1290431694493" CardinalityMin="1" CardinalityMax="unbounded">
+                <CMD_Element name="CountryName" ConceptLink="http://hdl.handle.net/11459/CCR_C-3792_68c770a4-d58c-46dd-d429-5609ce5f81c3" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true"/>
+                <CMD_Element name="CountryCoding" ConceptLink="http://hdl.handle.net/11459/CCR_C-2092_36cd7ca8-e412-9f29-7ea7-4a3ba4ba2c91" CardinalityMin="1" CardinalityMax="1" DisplayPriority="1">
+                    <ValueScheme>
+                        
+                            <enumeration>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186333&amp;language=1" AppInfo="Andorra">AD</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186550&amp;language=1" AppInfo="United Arab Emirates">AE</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186329&amp;language=1" AppInfo="Afghanistan">AF</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186336&amp;language=1" AppInfo="Antigua and Barbuda">AG</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186516&amp;language=1" AppInfo="Anguilla">AI</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186330&amp;language=1" AppInfo="Albania">AL</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186344&amp;language=1" AppInfo="Armenia">AM</item>
+                                <item ConceptLink="" AppInfo="Netherlands Antilles">AN</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186335&amp;language=1" AppInfo="Angola">AO</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186331&amp;language=1" AppInfo="Antarctica">AQ</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186338&amp;language=1" AppInfo="Argentina">AR</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186333&amp;language=1" AppInfo="American Samoa">AS</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186340&amp;language=1" AppInfo="Austria">AT</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186339&amp;language=1" AppInfo="Australia">AU</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186481&amp;language=1" AppInfo="Aruba">AW</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186402&amp;language=1" AppInfo="Aland Islands ﻿Åland Islands">AX</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186337&amp;language=1" AppInfo="Azerbaijan">AZ</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186350&amp;language=1" AppInfo="Bosnia and Herzegovina">BA</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186345&amp;language=1" AppInfo="Barbados">BB</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186343&amp;language=1" AppInfo="Bangladesh">BD</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186346&amp;language=1" AppInfo="Belgium">BE</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186567&amp;language=1" AppInfo="Burkina Faso">BF</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186359&amp;language=1" AppInfo="Bulgaria">BG</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186341&amp;language=1" AppInfo="Bahrain">BH</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186361&amp;language=1" AppInfo="Burundi">BI</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186387&amp;language=1" AppInfo="Benin">BJ</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186513&amp;language=1" AppInfo="Saint Barthélemy">BL</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186347&amp;language=1" AppInfo="Bermuda">BM</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186358&amp;language=1" AppInfo="Brunei Darussalam">BN</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186349&amp;language=1" AppInfo="Bolivia">BO</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186353&amp;language=1" AppInfo="Brazil">BR</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186341&amp;language=1" AppInfo="Bahamas">BS</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186348&amp;language=1" AppInfo="Bhutan">BT</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186352&amp;language=1" AppInfo="Bouvet Island">BV</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186351&amp;language=1" AppInfo="Botswana">BW</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186362&amp;language=1" AppInfo="Belarus">BY</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186354&amp;language=1" AppInfo="Belize">BZ</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186365&amp;language=1" AppInfo="Canada">CA</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186375&amp;language=1" AppInfo="Cocos (Keeling) Islands">CC</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186380&amp;language=1" AppInfo="Congo">CD</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186368&amp;language=1" AppInfo="Central African Republic">CF</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186379&amp;language=1" AppInfo="Congo">CG</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186542&amp;language=1" AppInfo="Switzerland">CH</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186438&amp;language=1" AppInfo="Cote d'Ivoire ﻿Côte d'Ivoire">CI</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186381&amp;language=1" AppInfo="Cook Islands">CK</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186371&amp;language=1" AppInfo="Chile">CL</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186364&amp;language=1" AppInfo="Cameroon">CM</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186372&amp;language=1" AppInfo="China">CN</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186376&amp;language=1" AppInfo="Colombia">CO</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186382&amp;language=1" AppInfo="Costa Rica">CR</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186384&amp;language=1" AppInfo="Cuba">CU</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186366&amp;language=1" AppInfo="Cape Verde">CV</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186374&amp;language=1" AppInfo="Christmas Island">CX</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186385&amp;language=1" AppInfo="Cyprus">CY</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186386&amp;language=1" AppInfo="Czech Republic">CZ</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186412&amp;language=1" AppInfo="Germany">DE</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186407&amp;language=1" AppInfo="Djibouti">DJ</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186388&amp;language=1" AppInfo="Denmark">DK</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186389&amp;language=1" AppInfo="Dominica">DM</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186390&amp;language=1" AppInfo="Dominican Republic">DO</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186332&amp;language=1" AppInfo="Algeria">DZ</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186391&amp;language=1" AppInfo="Ecuador">EC</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186396&amp;language=1" AppInfo="Estonia">EE</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186559&amp;language=1" AppInfo="Egypt">EG</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186536&amp;language=1" AppInfo="Western Sahara">EH</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186395&amp;language=1" AppInfo="Eritrea">ER</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186535&amp;language=1" AppInfo="Spain">ES</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186394&amp;language=1" AppInfo="Ethiopia">ET</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186401&amp;language=1" AppInfo="Finland">FI</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186400&amp;language=1" AppInfo="Fiji">FJ</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186398&amp;language=1" AppInfo="Falkland Islands (Malvinas)">FK</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186493&amp;language=1" AppInfo="Micronesia">FM</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186397&amp;language=1" AppInfo="Faroe Islands">FO</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186403&amp;language=1" AppInfo="France">FR</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186408&amp;language=1" AppInfo="Gabon">GA</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186560&amp;language=1" AppInfo="United Kingdom">GB</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186418&amp;language=1" AppInfo="Grenada">GD</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186409&amp;language=1" AppInfo="Georgia">GE</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186404&amp;language=1" AppInfo="French Guiana">GF</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186561&amp;language=1" AppInfo="Guernsey">GG</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186413&amp;language=1" AppInfo="Ghana">GH</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186414&amp;language=1" AppInfo="Gibraltar">GI</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186417&amp;language=1" AppInfo="Greenland">GL</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186410&amp;language=1" AppInfo="Gambia">GM</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186422&amp;language=1" AppInfo="Guinea">GN</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186419&amp;language=1" AppInfo="Guadeloupe">GP</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186393&amp;language=1" AppInfo="Equatorial Guinea">GQ</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186416&amp;language=1" AppInfo="Greece">GR</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186399&amp;language=1" AppInfo="South Georgia and the South Sandwich Islands">GS</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186421&amp;language=1" AppInfo="Guatemala">GT</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186420&amp;language=1" AppInfo="Guam">GU</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186505&amp;language=1" AppInfo="Guinea-Bissau">GW</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186423&amp;language=1" AppInfo="Guyana">GY</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186428&amp;language=1" AppInfo="Hong Kong">HK</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186425&amp;language=1" AppInfo="Heard Island and McDonald Islands">HM</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186427&amp;language=1" AppInfo="Honduras">HN</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186383&amp;language=1" AppInfo="Croatia">HR</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186424&amp;language=1" AppInfo="Haiti">HT</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186429&amp;language=1" AppInfo="Hungary">HU</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186432&amp;language=1" AppInfo="Indonesia">ID</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186435&amp;language=1" AppInfo="Ireland">IE</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186436&amp;language=1" AppInfo="Israel">IL</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186563&amp;language=1" AppInfo="Isle of Man">IM</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186431&amp;language=1" AppInfo="India">IN</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186355&amp;language=1" AppInfo="British Indian Ocean Territory">IO</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186434&amp;language=1" AppInfo="Iraq">IQ</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186433&amp;language=1" AppInfo="Iran">IR</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186430&amp;language=1" AppInfo="Iceland">IS</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186437&amp;language=1" AppInfo="Italy">IT</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186562&amp;language=1" AppInfo="Jersey">JE</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186439&amp;language=1" AppInfo="Jamaica">JM</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186442&amp;language=1" AppInfo="Jordan">JO</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186440&amp;language=1" AppInfo="Japan">JP</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186443&amp;language=1" AppInfo="Kenya">KE</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186447&amp;language=1" AppInfo="Kyrgyzstan">KG</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186363&amp;language=1" AppInfo="Cambodia">KH</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186415&amp;language=1" AppInfo="Kiribati">KI</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186377&amp;language=1" AppInfo="Comoros">KM</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186515&amp;language=1" AppInfo="Saint Kitts and Nevis">KN</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186444&amp;language=1" AppInfo="Korea">KP</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186445&amp;language=1" AppInfo="Korea">KR</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186446&amp;language=1" AppInfo="Kuwait">KW</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186367&amp;language=1" AppInfo="Cayman Islands">KY</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186441&amp;language=1" AppInfo="Kazakhstan">KZ</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186448&amp;language=1" AppInfo="Lao People's Democratic Republic">LA</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186449&amp;language=1" AppInfo="Lebanon">LB</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186517&amp;language=1" AppInfo="Saint Lucia">LC</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186454&amp;language=1" AppInfo="Liechtenstein">LI</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186369&amp;language=1" AppInfo="Sri Lanka">LK</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186452&amp;language=1" AppInfo="Liberia">LR</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186450&amp;language=1" AppInfo="Lesotho">LS</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186455&amp;language=1" AppInfo="Lithuania">LT</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186456&amp;language=1" AppInfo="Luxembourg">LU</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186451&amp;language=1" AppInfo="Latvia">LV</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186453&amp;language=1" AppInfo="Libyan Arab Jamahiriya">LY</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186473&amp;language=1" AppInfo="Morocco">MA</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186468&amp;language=1" AppInfo="Monaco">MC</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186470&amp;language=1" AppInfo="Moldova">MD</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186471&amp;language=1" AppInfo="Montenegro">ME</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186518&amp;language=1" AppInfo="Saint Martin (French part)">MF</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186458&amp;language=1" AppInfo="Madagascar">MG</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186494&amp;language=1" AppInfo="Marshall Islands">MH</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186558&amp;language=1" AppInfo="Macedonia">MK</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186462&amp;language=1" AppInfo="Mali">ML</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186360&amp;language=1" AppInfo="Myanmar">MM</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186469&amp;language=1" AppInfo="Mongolia">MN</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186457&amp;language=1" AppInfo="Macao">MO</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186491&amp;language=1" AppInfo="Northern Mariana Islands">MP</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186464&amp;language=1" AppInfo="Martinique">MQ</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186465&amp;language=1" AppInfo="Mauritania">MR</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186472&amp;language=1" AppInfo="Montserrat">MS</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186463&amp;language=1" AppInfo="Malta">MT</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186466&amp;language=1" AppInfo="Mauritius">MU</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186461&amp;language=1" AppInfo="Maldives">MV</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186459&amp;language=1" AppInfo="Malawi">MW</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186467&amp;language=1" AppInfo="Mexico">MX</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186460&amp;language=1" AppInfo="Malaysia">MY</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186474&amp;language=1" AppInfo="Mozambique">MZ</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186476&amp;language=1" AppInfo="Namibia">NA</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186482&amp;language=1" AppInfo="New Caledonia">NC</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186486&amp;language=1" AppInfo="Niger">NE</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186489&amp;language=1" AppInfo="Norfolk Island">NF</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186487&amp;language=1" AppInfo="Nigeria">NG</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186485&amp;language=1" AppInfo="Nicaragua">NI</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186479&amp;language=1" AppInfo="Netherlands">NL</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186490&amp;language=1" AppInfo="Norway">NO</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186478&amp;language=1" AppInfo="Nepal">NP</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186477&amp;language=1" AppInfo="Nauru">NR</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186488&amp;language=1" AppInfo="Niue">NU</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186484&amp;language=1" AppInfo="New Zealand">NZ</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186475&amp;language=1" AppInfo="Oman">OM</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186497&amp;language=1" AppInfo="Panama">PA</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186500&amp;language=1" AppInfo="Peru">PE</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186405&amp;language=1" AppInfo="French Polynesia">PF</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186498&amp;language=1" AppInfo="Papua New Guinea">PG</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186501&amp;language=1" AppInfo="Philippines">PH</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186496&amp;language=1" AppInfo="Pakistan">PK</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186503&amp;language=1" AppInfo="Poland">PL</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186519&amp;language=1" AppInfo="Saint Pierre and Miquelon">PM</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186502&amp;language=1" AppInfo="Pitcairn">PN</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186507&amp;language=1" AppInfo="Puerto Rico">PR</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186411&amp;language=1" AppInfo="Palestinian Territory">PS</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186504&amp;language=1" AppInfo="Portugal">PT</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186495&amp;language=1" AppInfo="Palau">PW</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186499&amp;language=1" AppInfo="Paraguay">PY</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186508&amp;language=1" AppInfo="Qatar">QA</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186509&amp;language=1" AppInfo="Reunion ﻿Réunion">RE</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186510&amp;language=1" AppInfo="Romania">RO</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186525&amp;language=1" AppInfo="Serbia">RS</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186511&amp;language=1" AppInfo="Russian Federation">RU</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186512&amp;language=1" AppInfo="Rwanda">RW</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186523&amp;language=1" AppInfo="Saudi Arabia">SA</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186356&amp;language=1" AppInfo="Solomon Islands">SB</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186526&amp;language=1" AppInfo="Seychelles">SC</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186537&amp;language=1" AppInfo="Sudan">SD</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186541&amp;language=1" AppInfo="Sweden">SE</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186528&amp;language=1" AppInfo="Singapore">SG</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186514&amp;language=1" AppInfo="Saint Helena">SH</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186531&amp;language=1" AppInfo="Slovenia">SI</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186539&amp;language=1" AppInfo="Svalbard and Jan Mayen">SJ</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186529&amp;language=1" AppInfo="Slovakia">SK</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186529&amp;language=1" AppInfo="Sierra Leone">SL</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186521&amp;language=1" AppInfo="San Marino">SM</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186524&amp;language=1" AppInfo="Senegal">SN</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186532&amp;language=1" AppInfo="Somalia">SO</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186538&amp;language=1" AppInfo="Suriname">SR</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186522&amp;language=1" AppInfo="Sao Tome and Principe">ST</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186392&amp;language=1" AppInfo="El Salvador">SV</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186543&amp;language=1" AppInfo="Syrian Arab Republic">SY</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186540&amp;language=1" AppInfo="Swaziland">SZ</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186554&amp;language=1" AppInfo="Turks and Caicos Islands">TC</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186370&amp;language=1" AppInfo="Chad">TD</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186406&amp;language=1" AppInfo="French Southern Territories">TF</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186546&amp;language=1" AppInfo="Togo">TG</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186545&amp;language=1" AppInfo="Thailand">TH</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186544&amp;language=1" AppInfo="Tajikistan">TJ</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186547&amp;language=1" AppInfo="Tokelau">TK</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186506&amp;language=1" AppInfo="Timor-Leste">TL</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186553&amp;language=1" AppInfo="Turkmenistan">TM</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186551&amp;language=1" AppInfo="Tunisia">TN</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186548&amp;language=1" AppInfo="Tonga">TO</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186552&amp;language=1" AppInfo="Turkey">TR</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186549&amp;language=1" AppInfo="Trinidad and Tobago">TT</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186555&amp;language=1" AppInfo="Tuvalu">TV</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186373&amp;language=1" AppInfo="Taiwan">TW</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186564&amp;language=1" AppInfo="Tanzania">TZ</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186557&amp;language=1" AppInfo="Ukraine">UA</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186556&amp;language=1" AppInfo="Uganda">UG</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186492&amp;language=1" AppInfo="United States Minor Outlying Islands">UM</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186565&amp;language=1" AppInfo="United States">US</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186568&amp;language=1" AppInfo="Uruguay">UY</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186569&amp;language=1" AppInfo="Uzbekistan">UZ</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186426&amp;language=1" AppInfo="Holy See (Vatican City State)">VA</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186520&amp;language=1" AppInfo="Saint Vincent and the Grenadines">VC</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186570&amp;language=1" AppInfo="Venezuela">VE</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186357&amp;language=1" AppInfo="Virgin Islands">VG</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186566&amp;language=1" AppInfo="Virgin Islands">VI</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186530&amp;language=1" AppInfo="Viet Nam">VN</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186483&amp;language=1" AppInfo="Vanuatu">VU</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186571&amp;language=1" AppInfo="Wallis and Futuna">WF</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186572&amp;language=1" AppInfo="Samoa">WS</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186573&amp;language=1" AppInfo="Yemen">YE</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186378&amp;language=1" AppInfo="Mayotte">YT</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186533&amp;language=1" AppInfo="South Africa">ZA</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186574&amp;language=1" AppInfo="Zambia">ZM</item>
+                                <item ConceptLink="https://cdb.iso.org/cdb/codeentry!display.action?entry=186534&amp;language=1" AppInfo="Zimbabwe">ZW</item>
+                            </enumeration>
+                        
+                    </ValueScheme>
+                </CMD_Element>
+            </CMD_Component>
+            <CMD_Component name="Continent" ComponentId="clarin.eu:cr1:c_1271859438105" ConceptLink="http://hdl.handle.net/11459/CCR_C-2531_e0427265-2fc4-d23e-0a7c-a21981ec3734">
+                <CMD_Element name="Code" ConceptLink="http://hdl.handle.net/11459/CCR_C-2531_e0427265-2fc4-d23e-0a7c-a21981ec3734" CardinalityMin="1" CardinalityMax="unbounded">
+                    <ValueScheme>
+                        
+                            <enumeration>
+                                <item AppInfo="Africa (AF)">AF</item>
+                                <item AppInfo="Asia (AS)">AS</item>
+                                <item AppInfo="Europe (EU)">EU</item>
+                                <item AppInfo="North America (NA)">NA</item>
+                                <item AppInfo="South America (SA)">SA</item>
+                                <item AppInfo="Oceania (OC)">OC</item>
+                                <item AppInfo="Antarctica (AN)">AN</item>
+                            </enumeration>
+                        
+                    </ValueScheme>
+                </CMD_Element>
+            </CMD_Component>
+            <CMD_Component name="Institution" ComponentId="clarin.eu:cr1:c_1595321762466" CardinalityMin="0" CardinalityMax="unbounded">
+                <CMD_Element name="Department" ConceptLink="http://hdl.handle.net/11459/CCR_C-3812_ce466764-27ab-b97b-a0bb-d7ac23ad9e60" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" DisplayPriority="1"/>
+                <CMD_Element name="Url" ConceptLink="http://hdl.handle.net/11459/CCR_C-2546_180dca37-c1d8-dffe-5d46-8f16de143320" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false"/>
+                <CMD_Component name="Organisation" ConceptLink="http://hdl.handle.net/11459/CCR_C-2979_8030473e-bbcb-6b87-3fd2-90554429ec50" CardinalityMin="1" CardinalityMax="unbounded">
+                    <CMD_Element name="name" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" DisplayPriority="1"/>
+                    <CMD_Component name="AuthoritativeIDs" ComponentId="clarin.eu:cr1:c_1444726211568" CardinalityMin="0" CardinalityMax="1">
+                        <CMD_Component name="AuthoritativeID" CardinalityMin="1" CardinalityMax="unbounded">
+                            <CMD_Element name="id" ConceptLink="http://hdl.handle.net/11459/CCR_C-1845_97d455c9-2f4a-0f47-4d4a-ff60c2db2582" ValueScheme="anyURI" CardinalityMin="1" CardinalityMax="1" DisplayPriority="1" Documentation="Please use resolvable URIs">
+                                
+                            </CMD_Element>
+                            <CMD_Element name="issuingAuthority" CardinalityMin="1" CardinalityMax="1" DisplayPriority="1" Documentation="Short name of the issuing authority, see controlled vocabulary">
+                                
+                                <ValueScheme>
+                                    
+                                        <enumeration>
+                                            <item ConceptLink="" AppInfo="">VIAF</item>
+                                            <item ConceptLink="" AppInfo="">GND</item>
+                                            <item ConceptLink="" AppInfo="">geoNames</item>
+                                            <item ConceptLink="" AppInfo="">ORCID</item>
+                                            <item ConceptLink="" AppInfo="">ISNI</item>
+                                            <item ConceptLink="" AppInfo="">LC</item>
+                                        </enumeration>
+                                    
+                                </ValueScheme>
+                            </CMD_Element>
+                        </CMD_Component>
+                    </CMD_Component>
+                </CMD_Component>
+                <CMD_Component name="Descriptions" ComponentId="clarin.eu:cr1:c_1290431694486" CardinalityMin="0" CardinalityMax="1">
+                    <CMD_Element name="Description" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" ValueScheme="string" CardinalityMin="1" CardinalityMax="unbounded" Multilingual="true" DisplayPriority="1">
+                        <AttributeList>
+                            <Attribute><Name>type</Name>
+                                <ValueScheme>
+                                    
+                                        <enumeration>
+                                            <item ConceptLink="" AppInfo="">short</item>
+                                            <item ConceptLink="" AppInfo="">long</item>
+                                        </enumeration>
+                                    
+                                </ValueScheme>
+                            </Attribute>
+                        </AttributeList>
+                    </CMD_Element>
+                </CMD_Component>
+            </CMD_Component>
+            <CMD_Component name="Creator" ConceptLink="http://hdl.handle.net/11459/CCR_C-6836_d35e73a8-ec72-d3c4-e39a-4b0fefd32cdc" CardinalityMin="1" CardinalityMax="unbounded">
+                
+                <CMD_Component name="Person" ComponentId="clarin.eu:cr1:c_1447674760335" CardinalityMin="0" CardinalityMax="unbounded">
+                    <CMD_Element name="firstName" ConceptLink="http://hdl.handle.net/11459/CCR_C-6493_e10ad1ee-82ac-c03f-a582-b14d5787576b" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" DisplayPriority="1"/>
+                    <CMD_Element name="lastName" ConceptLink="http://hdl.handle.net/11459/CCR_C-6492_9d5f20aa-e6bd-c141-15df-ffdae159e5e1" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false"/>
+                    <CMD_Element name="role" ConceptLink="http://hdl.handle.net/11459/CCR_C-3807_1479532e-b741-f5d4-99f4-881c5908cfd9" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false"/>
+                    <CMD_Component name="AuthoritativeIDs" ComponentId="clarin.eu:cr1:c_1444726211568" CardinalityMin="0" CardinalityMax="1">
+                        <CMD_Component name="AuthoritativeID" CardinalityMin="1" CardinalityMax="unbounded">
+                            <CMD_Element name="id" ConceptLink="http://hdl.handle.net/11459/CCR_C-1845_97d455c9-2f4a-0f47-4d4a-ff60c2db2582" ValueScheme="anyURI" CardinalityMin="1" CardinalityMax="1" DisplayPriority="1" Documentation="Please use resolvable URIs">
+                                
+                            </CMD_Element>
+                            <CMD_Element name="issuingAuthority" CardinalityMin="1" CardinalityMax="1" DisplayPriority="1" Documentation="Short name of the issuing authority, see controlled vocabulary">
+                                
+                                <ValueScheme>
+                                    
+                                        <enumeration>
+                                            <item ConceptLink="" AppInfo="">VIAF</item>
+                                            <item ConceptLink="" AppInfo="">GND</item>
+                                            <item ConceptLink="" AppInfo="">geoNames</item>
+                                            <item ConceptLink="" AppInfo="">ORCID</item>
+                                            <item ConceptLink="" AppInfo="">ISNI</item>
+                                            <item ConceptLink="" AppInfo="">LC</item>
+                                        </enumeration>
+                                    
+                                </ValueScheme>
+                            </CMD_Element>
+                        </CMD_Component>
+                    </CMD_Component>
+                </CMD_Component>
+                <CMD_Component name="Institution" ComponentId="clarin.eu:cr1:c_1595321762466" CardinalityMin="0" CardinalityMax="unbounded">
+                    <CMD_Element name="Department" ConceptLink="http://hdl.handle.net/11459/CCR_C-3812_ce466764-27ab-b97b-a0bb-d7ac23ad9e60" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" DisplayPriority="1"/>
+                    <CMD_Element name="Url" ConceptLink="http://hdl.handle.net/11459/CCR_C-2546_180dca37-c1d8-dffe-5d46-8f16de143320" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false"/>
+                    <CMD_Component name="Organisation" ConceptLink="http://hdl.handle.net/11459/CCR_C-2979_8030473e-bbcb-6b87-3fd2-90554429ec50" CardinalityMin="1" CardinalityMax="unbounded">
+                        <CMD_Element name="name" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" DisplayPriority="1"/>
+                        <CMD_Component name="AuthoritativeIDs" ComponentId="clarin.eu:cr1:c_1444726211568" CardinalityMin="0" CardinalityMax="1">
+                            <CMD_Component name="AuthoritativeID" CardinalityMin="1" CardinalityMax="unbounded">
+                                <CMD_Element name="id" ConceptLink="http://hdl.handle.net/11459/CCR_C-1845_97d455c9-2f4a-0f47-4d4a-ff60c2db2582" ValueScheme="anyURI" CardinalityMin="1" CardinalityMax="1" DisplayPriority="1" Documentation="Please use resolvable URIs">
+                                    
+                                </CMD_Element>
+                                <CMD_Element name="issuingAuthority" CardinalityMin="1" CardinalityMax="1" DisplayPriority="1" Documentation="Short name of the issuing authority, see controlled vocabulary">
+                                    
+                                    <ValueScheme>
+                                        
+                                            <enumeration>
+                                                <item ConceptLink="" AppInfo="">VIAF</item>
+                                                <item ConceptLink="" AppInfo="">GND</item>
+                                                <item ConceptLink="" AppInfo="">geoNames</item>
+                                                <item ConceptLink="" AppInfo="">ORCID</item>
+                                                <item ConceptLink="" AppInfo="">ISNI</item>
+                                                <item ConceptLink="" AppInfo="">LC</item>
+                                            </enumeration>
+                                        
+                                    </ValueScheme>
+                                </CMD_Element>
+                            </CMD_Component>
+                        </CMD_Component>
+                    </CMD_Component>
+                    <CMD_Component name="Descriptions" ComponentId="clarin.eu:cr1:c_1290431694486" CardinalityMin="0" CardinalityMax="1">
+                        <CMD_Element name="Description" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" ValueScheme="string" CardinalityMin="1" CardinalityMax="unbounded" Multilingual="true" DisplayPriority="1">
+                            <AttributeList>
+                                <Attribute><Name>type</Name>
+                                    <ValueScheme>
+                                        
+                                            <enumeration>
+                                                <item ConceptLink="" AppInfo="">short</item>
+                                                <item ConceptLink="" AppInfo="">long</item>
+                                            </enumeration>
+                                        
+                                    </ValueScheme>
+                                </Attribute>
+                            </AttributeList>
+                        </CMD_Element>
+                    </CMD_Component>
+                </CMD_Component>
+            </CMD_Component>
+            <CMD_Component name="Contributor" ConceptLink="http://hdl.handle.net/11459/CCR_C-6833_9440b43b-e77d-f98b-fddb-cab61f18f0ed" CardinalityMin="0" CardinalityMax="unbounded">
+                
+                <CMD_Element name="Role" ConceptLink="http://hdl.handle.net/11459/CCR_C-3807_1479532e-b741-f5d4-99f4-881c5908cfd9" ValueScheme="string" CardinalityMin="1" CardinalityMax="unbounded" Multilingual="true" Documentation="Role of person or institution (e.g. annotator, developer,  ...)">
+                    
+                </CMD_Element>
+                <CMD_Element name="Description" ConceptLink="http://hdl.handle.net/11459/CCR_C-6139_ab15a7eb-7032-d4f0-643e-bffe5ad09fc3" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" DisplayPriority="1" Documentation="Brief description of the contribution (complements role)">
+                    
+                </CMD_Element>
+                <CMD_Component name="Person" ComponentId="clarin.eu:cr1:c_1447674760335" CardinalityMin="0" CardinalityMax="unbounded">
+                    <CMD_Element name="firstName" ConceptLink="http://hdl.handle.net/11459/CCR_C-6493_e10ad1ee-82ac-c03f-a582-b14d5787576b" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" DisplayPriority="1"/>
+                    <CMD_Element name="lastName" ConceptLink="http://hdl.handle.net/11459/CCR_C-6492_9d5f20aa-e6bd-c141-15df-ffdae159e5e1" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false"/>
+                    <CMD_Element name="role" ConceptLink="http://hdl.handle.net/11459/CCR_C-3807_1479532e-b741-f5d4-99f4-881c5908cfd9" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false"/>
+                    <CMD_Component name="AuthoritativeIDs" ComponentId="clarin.eu:cr1:c_1444726211568" CardinalityMin="0" CardinalityMax="1">
+                        <CMD_Component name="AuthoritativeID" CardinalityMin="1" CardinalityMax="unbounded">
+                            <CMD_Element name="id" ConceptLink="http://hdl.handle.net/11459/CCR_C-1845_97d455c9-2f4a-0f47-4d4a-ff60c2db2582" ValueScheme="anyURI" CardinalityMin="1" CardinalityMax="1" DisplayPriority="1" Documentation="Please use resolvable URIs">
+                                
+                            </CMD_Element>
+                            <CMD_Element name="issuingAuthority" CardinalityMin="1" CardinalityMax="1" DisplayPriority="1" Documentation="Short name of the issuing authority, see controlled vocabulary">
+                                
+                                <ValueScheme>
+                                    
+                                        <enumeration>
+                                            <item ConceptLink="" AppInfo="">VIAF</item>
+                                            <item ConceptLink="" AppInfo="">GND</item>
+                                            <item ConceptLink="" AppInfo="">geoNames</item>
+                                            <item ConceptLink="" AppInfo="">ORCID</item>
+                                            <item ConceptLink="" AppInfo="">ISNI</item>
+                                            <item ConceptLink="" AppInfo="">LC</item>
+                                        </enumeration>
+                                    
+                                </ValueScheme>
+                            </CMD_Element>
+                        </CMD_Component>
+                    </CMD_Component>
+                </CMD_Component>
+                <CMD_Component name="Institution" ComponentId="clarin.eu:cr1:c_1595321762466" CardinalityMin="0" CardinalityMax="unbounded">
+                    <CMD_Element name="Department" ConceptLink="http://hdl.handle.net/11459/CCR_C-3812_ce466764-27ab-b97b-a0bb-d7ac23ad9e60" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" DisplayPriority="1"/>
+                    <CMD_Element name="Url" ConceptLink="http://hdl.handle.net/11459/CCR_C-2546_180dca37-c1d8-dffe-5d46-8f16de143320" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false"/>
+                    <CMD_Component name="Organisation" ConceptLink="http://hdl.handle.net/11459/CCR_C-2979_8030473e-bbcb-6b87-3fd2-90554429ec50" CardinalityMin="1" CardinalityMax="unbounded">
+                        <CMD_Element name="name" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" DisplayPriority="1"/>
+                        <CMD_Component name="AuthoritativeIDs" ComponentId="clarin.eu:cr1:c_1444726211568" CardinalityMin="0" CardinalityMax="1">
+                            <CMD_Component name="AuthoritativeID" CardinalityMin="1" CardinalityMax="unbounded">
+                                <CMD_Element name="id" ConceptLink="http://hdl.handle.net/11459/CCR_C-1845_97d455c9-2f4a-0f47-4d4a-ff60c2db2582" ValueScheme="anyURI" CardinalityMin="1" CardinalityMax="1" DisplayPriority="1" Documentation="Please use resolvable URIs">
+                                    
+                                </CMD_Element>
+                                <CMD_Element name="issuingAuthority" CardinalityMin="1" CardinalityMax="1" DisplayPriority="1" Documentation="Short name of the issuing authority, see controlled vocabulary">
+                                    
+                                    <ValueScheme>
+                                        
+                                            <enumeration>
+                                                <item ConceptLink="" AppInfo="">VIAF</item>
+                                                <item ConceptLink="" AppInfo="">GND</item>
+                                                <item ConceptLink="" AppInfo="">geoNames</item>
+                                                <item ConceptLink="" AppInfo="">ORCID</item>
+                                                <item ConceptLink="" AppInfo="">ISNI</item>
+                                                <item ConceptLink="" AppInfo="">LC</item>
+                                            </enumeration>
+                                        
+                                    </ValueScheme>
+                                </CMD_Element>
+                            </CMD_Component>
+                        </CMD_Component>
+                    </CMD_Component>
+                    <CMD_Component name="Descriptions" ComponentId="clarin.eu:cr1:c_1290431694486" CardinalityMin="0" CardinalityMax="1">
+                        <CMD_Element name="Description" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" ValueScheme="string" CardinalityMin="1" CardinalityMax="unbounded" Multilingual="true" DisplayPriority="1">
+                            <AttributeList>
+                                <Attribute><Name>type</Name>
+                                    <ValueScheme>
+                                        
+                                            <enumeration>
+                                                <item ConceptLink="" AppInfo="">short</item>
+                                                <item ConceptLink="" AppInfo="">long</item>
+                                            </enumeration>
+                                        
+                                    </ValueScheme>
+                                </Attribute>
+                            </AttributeList>
+                        </CMD_Element>
+                    </CMD_Component>
+                </CMD_Component>
+            </CMD_Component>
+            <CMD_Component name="RightsHolder" CardinalityMin="0" CardinalityMax="unbounded">
+                <CMD_Component name="Person" ComponentId="clarin.eu:cr1:c_1447674760335" CardinalityMin="0" CardinalityMax="unbounded">
+                    <CMD_Element name="firstName" ConceptLink="http://hdl.handle.net/11459/CCR_C-6493_e10ad1ee-82ac-c03f-a582-b14d5787576b" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" DisplayPriority="1"/>
+                    <CMD_Element name="lastName" ConceptLink="http://hdl.handle.net/11459/CCR_C-6492_9d5f20aa-e6bd-c141-15df-ffdae159e5e1" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false"/>
+                    <CMD_Element name="role" ConceptLink="http://hdl.handle.net/11459/CCR_C-3807_1479532e-b741-f5d4-99f4-881c5908cfd9" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false"/>
+                    <CMD_Component name="AuthoritativeIDs" ComponentId="clarin.eu:cr1:c_1444726211568" CardinalityMin="0" CardinalityMax="1">
+                        <CMD_Component name="AuthoritativeID" CardinalityMin="1" CardinalityMax="unbounded">
+                            <CMD_Element name="id" ConceptLink="http://hdl.handle.net/11459/CCR_C-1845_97d455c9-2f4a-0f47-4d4a-ff60c2db2582" ValueScheme="anyURI" CardinalityMin="1" CardinalityMax="1" DisplayPriority="1" Documentation="Please use resolvable URIs">
+                                
+                            </CMD_Element>
+                            <CMD_Element name="issuingAuthority" CardinalityMin="1" CardinalityMax="1" DisplayPriority="1" Documentation="Short name of the issuing authority, see controlled vocabulary">
+                                
+                                <ValueScheme>
+                                    
+                                        <enumeration>
+                                            <item ConceptLink="" AppInfo="">VIAF</item>
+                                            <item ConceptLink="" AppInfo="">GND</item>
+                                            <item ConceptLink="" AppInfo="">geoNames</item>
+                                            <item ConceptLink="" AppInfo="">ORCID</item>
+                                            <item ConceptLink="" AppInfo="">ISNI</item>
+                                            <item ConceptLink="" AppInfo="">LC</item>
+                                        </enumeration>
+                                    
+                                </ValueScheme>
+                            </CMD_Element>
+                        </CMD_Component>
+                    </CMD_Component>
+                </CMD_Component>
+                <CMD_Component name="Institution" ComponentId="clarin.eu:cr1:c_1595321762466" CardinalityMin="0" CardinalityMax="unbounded">
+                    <CMD_Element name="Department" ConceptLink="http://hdl.handle.net/11459/CCR_C-3812_ce466764-27ab-b97b-a0bb-d7ac23ad9e60" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" DisplayPriority="1"/>
+                    <CMD_Element name="Url" ConceptLink="http://hdl.handle.net/11459/CCR_C-2546_180dca37-c1d8-dffe-5d46-8f16de143320" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false"/>
+                    <CMD_Component name="Organisation" ConceptLink="http://hdl.handle.net/11459/CCR_C-2979_8030473e-bbcb-6b87-3fd2-90554429ec50" CardinalityMin="1" CardinalityMax="unbounded">
+                        <CMD_Element name="name" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" DisplayPriority="1"/>
+                        <CMD_Component name="AuthoritativeIDs" ComponentId="clarin.eu:cr1:c_1444726211568" CardinalityMin="0" CardinalityMax="1">
+                            <CMD_Component name="AuthoritativeID" CardinalityMin="1" CardinalityMax="unbounded">
+                                <CMD_Element name="id" ConceptLink="http://hdl.handle.net/11459/CCR_C-1845_97d455c9-2f4a-0f47-4d4a-ff60c2db2582" ValueScheme="anyURI" CardinalityMin="1" CardinalityMax="1" DisplayPriority="1" Documentation="Please use resolvable URIs">
+                                    
+                                </CMD_Element>
+                                <CMD_Element name="issuingAuthority" CardinalityMin="1" CardinalityMax="1" DisplayPriority="1" Documentation="Short name of the issuing authority, see controlled vocabulary">
+                                    
+                                    <ValueScheme>
+                                        
+                                            <enumeration>
+                                                <item ConceptLink="" AppInfo="">VIAF</item>
+                                                <item ConceptLink="" AppInfo="">GND</item>
+                                                <item ConceptLink="" AppInfo="">geoNames</item>
+                                                <item ConceptLink="" AppInfo="">ORCID</item>
+                                                <item ConceptLink="" AppInfo="">ISNI</item>
+                                                <item ConceptLink="" AppInfo="">LC</item>
+                                            </enumeration>
+                                        
+                                    </ValueScheme>
+                                </CMD_Element>
+                            </CMD_Component>
+                        </CMD_Component>
+                    </CMD_Component>
+                    <CMD_Component name="Descriptions" ComponentId="clarin.eu:cr1:c_1290431694486" CardinalityMin="0" CardinalityMax="1">
+                        <CMD_Element name="Description" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" ValueScheme="string" CardinalityMin="1" CardinalityMax="unbounded" Multilingual="true" DisplayPriority="1">
+                            <AttributeList>
+                                <Attribute><Name>type</Name>
+                                    <ValueScheme>
+                                        
+                                            <enumeration>
+                                                <item ConceptLink="" AppInfo="">short</item>
+                                                <item ConceptLink="" AppInfo="">long</item>
+                                            </enumeration>
+                                        
+                                    </ValueScheme>
+                                </Attribute>
+                            </AttributeList>
+                        </CMD_Element>
+                    </CMD_Component>
+                </CMD_Component>
+            </CMD_Component>
+            <CMD_Component name="PreservationInfo" ComponentId="clarin.eu:cr1:c_1595321762473" CardinalityMin="1" CardinalityMax="1">
+                <CMD_Element name="PreservationGuarantee" CardinalityMin="1" CardinalityMax="1" DisplayPriority="1" Documentation="The level of preservation support guaranteed by the archive">
+                    
+                    <ValueScheme>
+                        
+                            <enumeration>
+                                <item AppInfo="full long-term support, including migration to new formats and standards">long-term usability</item>
+                                <item AppInfo="mere bitstream preservation">bitstream preservation</item>
+                                <item AppInfo="no guarantee">none</item>
+                            </enumeration>
+                        
+                    </ValueScheme>
+                </CMD_Element>
+            </CMD_Component>
+        </CMD_Component>
+        <CMD_Component name="dc-inter-relations" ComponentId="clarin.eu:cr1:c_1430905751598" CardinalityMin="1" CardinalityMax="1">
+            <CMD_Element name="conformsTo" ConceptLink="http://purl.org/dc/terms/conformsTo" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
+                <AttributeList>
+                    <Attribute><Name>href</Name><Type>anyURI</Type></Attribute>
+                </AttributeList>
+            </CMD_Element>
+            <CMD_Element name="hasFormat" ConceptLink="http://purl.org/dc/terms/hasFormat" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false" DisplayPriority="1">
+                <AttributeList>
+                    <Attribute><Name>href</Name><Type>anyURI</Type></Attribute>
+                </AttributeList>
+            </CMD_Element>
+            <CMD_Element name="hasPart" ConceptLink="http://purl.org/dc/terms/hasPart" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
+                <AttributeList>
+                    <Attribute><Name>href</Name><Type>anyURI</Type></Attribute>
+                </AttributeList>
+            </CMD_Element>
+            <CMD_Element name="hasVersion" ConceptLink="http://purl.org/dc/terms/hasVersion" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
+                <AttributeList>
+                    <Attribute><Name>href</Name><Type>anyURI</Type></Attribute>
+                </AttributeList>
+            </CMD_Element>
+            <CMD_Element name="isFormatOf" ConceptLink="http://purl.org/dc/terms/isFormatOf" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
+                <AttributeList>
+                    <Attribute><Name>href</Name><Type>anyURI</Type></Attribute>
+                </AttributeList>
+            </CMD_Element>
+            <CMD_Element name="isPartOf" ConceptLink="http://purl.org/dc/terms/isPartOf" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
+                <AttributeList>
+                    <Attribute><Name>href</Name><Type>anyURI</Type></Attribute>
+                </AttributeList>
+            </CMD_Element>
+            <CMD_Element name="isReferencedBy" ConceptLink="http://purl.org/dc/terms/isReferencedBy" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
+                <AttributeList>
+                    <Attribute><Name>href</Name><Type>anyURI</Type></Attribute>
+                </AttributeList>
+            </CMD_Element>
+            <CMD_Element name="isReplacedBy" ConceptLink="http://purl.org/dc/terms/isReplacedBy" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
+                <AttributeList>
+                    <Attribute><Name>href</Name><Type>anyURI</Type></Attribute>
+                </AttributeList>
+            </CMD_Element>
+            <CMD_Element name="isRequiredBy" ConceptLink="http://purl.org/dc/terms/isRequiredBy" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
+                <AttributeList>
+                    <Attribute><Name>href</Name><Type>anyURI</Type></Attribute>
+                </AttributeList>
+            </CMD_Element>
+            <CMD_Element name="isVersionOf" ConceptLink="http://purl.org/dc/terms/isVersionOf" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
+                <AttributeList>
+                    <Attribute><Name>href</Name><Type>anyURI</Type></Attribute>
+                </AttributeList>
+            </CMD_Element>
+            <CMD_Element name="references" ConceptLink="http://purl.org/dc/terms/references" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
+                <AttributeList>
+                    <Attribute><Name>href</Name><Type>anyURI</Type></Attribute>
+                </AttributeList>
+            </CMD_Element>
+            <CMD_Element name="relation" ConceptLink="http://purl.org/dc/terms/relation" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
+                <AttributeList>
+                    <Attribute><Name>href</Name><Type>anyURI</Type></Attribute>
+                </AttributeList>
+            </CMD_Element>
+            <CMD_Element name="replaces" ConceptLink="http://purl.org/dc/terms/replaces" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
+                <AttributeList>
+                    <Attribute><Name>href</Name><Type>anyURI</Type></Attribute>
+                </AttributeList>
+            </CMD_Element>
+            <CMD_Element name="requires" ConceptLink="http://purl.org/dc/terms/requires" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
+                <AttributeList>
+                    <Attribute><Name>href</Name><Type>anyURI</Type></Attribute>
+                </AttributeList>
+            </CMD_Element>
+            <CMD_Element name="source" ConceptLink="http://purl.org/dc/terms/source" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
+                <AttributeList>
+                    <Attribute><Name>href</Name><Type>anyURI</Type></Attribute>
+                </AttributeList>
+            </CMD_Element>
+        </CMD_Component>
+    </CMD_Component>
+</CMD_ComponentSpec>

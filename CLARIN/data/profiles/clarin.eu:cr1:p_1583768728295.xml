@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8"?><CMD_ComponentSpec xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cue="http://www.clarin.eu/cmd/cues/1" xmlns:cue_old="http://www.clarin.eu/cmdi/cues/1" isProfile="true" xsi:noNamespaceSchemaLocation="https://infra.clarin.eu/CMDI/1.1/general-component-schema.xsd">
+    <Header>
+        <ID>clarin.eu:cr1:p_1583768728295</ID>
+        <Name>CenterProfile</Name>
+        <Description>A profile that contains all information about a CLARIN center. To be stored in the center registry.</Description>
+        
+        
+    </Header>
+    <CMD_Component name="CenterProfile" CardinalityMin="1" CardinalityMax="1">
+        <CMD_Component name="CenterBasicInformation" ComponentId="clarin.eu:cr1:c_1583768728300" CardinalityMin="1" CardinalityMax="1">
+            <CMD_Element name="Name" ConceptLink="http://hdl.handle.net/11459/CCR_C-2544_3626545e-a21d-058c-ebfd-241c0464e7e5" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" DisplayPriority="10" Documentation="The name of a CLARIN center">
+                
+            </CMD_Element>
+            <CMD_Element name="Type" ConceptLink="http://hdl.handle.net/11459/CCR_C-1971_b6a96b19-16fd-ec1a-0fc6-78fe87ff5cc3" CardinalityMin="1" CardinalityMax="1" Documentation="The type of this CLARIN center">
+                
+                <ValueScheme>
+                    
+                        <enumeration>
+                            <item ConceptLink="" AppInfo="">A</item>
+                            <item ConceptLink="" AppInfo="">B</item>
+                            <item ConceptLink="" AppInfo="">C</item>
+                            <item ConceptLink="" AppInfo="">E</item>
+                        </enumeration>
+                    
+                </ValueScheme>
+            </CMD_Element>
+            <CMD_Element name="Status" ConceptLink="http://hdl.handle.net/11459/CCR_C-3760_bf9771c3-7e27-ba40-115a-5b86011364a3" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" Documentation="To describe the A/B/C/E center type status">
+                
+            </CMD_Element>
+            <CMD_Element name="Description" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" Documentation="A general description of this CLARIN center, e.g., the collection focus or policy">
+                
+            </CMD_Element>
+            <CMD_Component name="Country" ComponentId="clarin.eu:cr1:c_1583768728299" ConceptLink="http://hdl.handle.net/11459/CCR_C-2532_d004b0a6-fd1d-3ca3-abf1-1e6aeb3e37b2">
+                <CMD_Element name="Code" ConceptLink="http://hdl.handle.net/11459/CCR_C-2532_d004b0a6-fd1d-3ca3-abf1-1e6aeb3e37b2" CardinalityMin="1" CardinalityMax="unbounded" DisplayPriority="1">
+                    <ValueScheme>
+                        
+                            <enumeration>
+                                <item AppInfo="Andorra (AD)">AD</item>
+                                <item AppInfo="United Arab Emirates (AE)">AE</item>
+                                <item AppInfo="Afghanistan (AF)">AF</item>
+                                <item AppInfo="Antigua and Barbuda (AG)">AG</item>
+                                <item AppInfo="Anguilla (AI)">AI</item>
+                                <item AppInfo="Albania (AL)">AL</item>
+                                <item AppInfo="Armenia (AM)">AM</item>
+                                <item AppInfo="Netherlands Antilles (AN)">AN</item>
+                                <item AppInfo="Angola (AO)">AO</item>
+                                <item AppInfo="Antarctica (AQ)">AQ</item>
+                                <item AppInfo="Argentina (AR)">AR</item>
+                                <item AppInfo="American Samoa (AS)">AS</item>
+                                <item AppInfo="Austria (AT)">AT</item>
+                                <item AppInfo="Australia (AU)">AU</item>
+                                <item AppInfo="Aruba (AW)">AW</item>
+                                <item AppInfo="Aland Islands Åland Islands (AX)">AX</item>
+                                <item AppInfo="Azerbaijan (AZ)">AZ</item>
+                                <item AppInfo="Bosnia and Herzegovina (BA)">BA</item>
+                                <item AppInfo="Barbados (BB)">BB</item>
+                                <item AppInfo="Bangladesh (BD)">BD</item>
+                                <item AppInfo="Belgium (BE)">BE</item>
+                                <item AppInfo="Burkina Faso (BF)">BF</item>
+                                <item AppInfo="Bulgaria (BG)">BG</item>
+                                <item AppInfo="Bahrain (BH)">BH</item>
+                                <item AppInfo="Burundi (BI)">BI</item>
+                                <item AppInfo="Benin (BJ)">BJ</item>
+                                <item AppInfo="Saint Barthélemy (BL)">BL</item>
+                                <item AppInfo="Bermuda (BM)">BM</item>
+                                <item AppInfo="Brunei Darussalam (BN)">BN</item>
+                                <item AppInfo="Bolivia (BO)">BO</item>
+                                <item AppInfo="Brazil (BR)">BR</item>
+                                <item AppInfo="Bahamas (BS)">BS</item>
+                                <item AppInfo="Bhutan (BT)">BT</item>
+                                <item AppInfo="Bouvet Island (BV)">BV</item>
+                                <item AppInfo="Botswana (BW)">BW</item>
+                                <item AppInfo="Belarus (BY)">BY</item>
+                                <item AppInfo="Belize (BZ)">BZ</item>
+                                <item AppInfo="Canada (CA)">CA</item>
+                                <item AppInfo="Cocos (Keeling) Islands (CC)">CC</item>
+                                <item AppInfo="Congo (CD)">CD</item>
+                                <item AppInfo="Central African Republic (CF)">CF</item>
+                                <item AppInfo="Congo (CG)">CG</item>
+                                <item AppInfo="Switzerland (CH)">CH</item>
+                                <item AppInfo="Cote d'Ivoire Côte d'Ivoire (CI)">CI</item>
+                                <item AppInfo="Cook Islands (CK)">CK</item>
+                                <item AppInfo="Chile (CL)">CL</item>
+                                <item AppInfo="Cameroon (CM)">CM</item>
+                                <item AppInfo="China (CN)">CN</item>
+                                <item AppInfo="Colombia (CO)">CO</item>
+                                <item AppInfo="Costa Rica (CR)">CR</item>
+                                <item AppInfo="Cuba (CU)">CU</item>
+                                <item AppInfo="Cape Verde (CV)">CV</item>
+                                <item AppInfo="Christmas Island (CX)">CX</item>
+                                <item AppInfo="Cyprus (CY)">CY</item>
+                                <item AppInfo="Czech Republic (CZ)">CZ</item>
+                                <item AppInfo="Germany (DE)">DE</item>
+                                <item AppInfo="Djibouti (DJ)">DJ</item>
+                                <item AppInfo="Denmark (DK)">DK</item>
+                                <item AppInfo="Dominica (DM)">DM</item>
+                                <item AppInfo="Dominican Republic (DO)">DO</item>
+                                <item AppInfo="Algeria (DZ)">DZ</item>
+                                <item AppInfo="Ecuador (EC)">EC</item>
+                                <item AppInfo="Estonia (EE)">EE</item>
+                                <item AppInfo="Egypt (EG)">EG</item>
+                                <item AppInfo="Western Sahara (EH)">EH</item>
+                                <item AppInfo="Eritrea (ER)">ER</item>
+                                <item AppInfo="Spain (ES)">ES</item>
+                                <item AppInfo="Ethiopia (ET)">ET</item>
+                                <item AppInfo="Finland (FI)">FI</item>
+                                <item AppInfo="Fiji (FJ)">FJ</item>
+                                <item AppInfo="Falkland Islands (Malvinas) (FK)">FK</item>
+                                <item AppInfo="Micronesia (FM)">FM</item>
+                                <item AppInfo="Faroe Islands (FO)">FO</item>
+                                <item AppInfo="France (FR)">FR</item>
+                                <item AppInfo="Gabon (GA)">GA</item>
+                                <item AppInfo="United Kingdom (GB)">GB</item>
+                                <item AppInfo="Grenada (GD)">GD</item>
+                                <item AppInfo="Georgia (GE)">GE</item>
+                                <item AppInfo="French Guiana (GF)">GF</item>
+                                <item AppInfo="Guernsey (GG)">GG</item>
+                                <item AppInfo="Ghana (GH)">GH</item>
+                                <item AppInfo="Gibraltar (GI)">GI</item>
+                                <item AppInfo="Greenland (GL)">GL</item>
+                                <item AppInfo="Gambia (GM)">GM</item>
+                                <item AppInfo="Guinea (GN)">GN</item>
+                                <item AppInfo="Guadeloupe (GP)">GP</item>
+                                <item AppInfo="Equatorial Guinea (GQ)">GQ</item>
+                                <item AppInfo="Greece (GR)">GR</item>
+                                <item AppInfo="South Georgia and the South Sandwich Islands (GS)">GS</item>
+                                <item AppInfo="Guatemala (GT)">GT</item>
+                                <item AppInfo="Guam (GU)">GU</item>
+                                <item AppInfo="Guinea-Bissau (GW)">GW</item>
+                                <item AppInfo="Guyana (GY)">GY</item>
+                                <item AppInfo="Hong Kong (HK)">HK</item>
+                                <item AppInfo="Heard Island and McDonald Islands (HM)">HM</item>
+                                <item AppInfo="Honduras (HN)">HN</item>
+                                <item AppInfo="Croatia (HR)">HR</item>
+                                <item AppInfo="Haiti (HT)">HT</item>
+                                <item AppInfo="Hungary (HU)">HU</item>
+                                <item AppInfo="Indonesia (ID)">ID</item>
+                                <item AppInfo="Ireland (IE)">IE</item>
+                                <item AppInfo="Israel (IL)">IL</item>
+                                <item AppInfo="Isle of Man (IM)">IM</item>
+                                <item AppInfo="India (IN)">IN</item>
+                                <item AppInfo="British Indian Ocean Territory (IO)">IO</item>
+                                <item AppInfo="Iraq (IQ)">IQ</item>
+                                <item AppInfo="Iran (IR)">IR</item>
+                                <item AppInfo="Iceland (IS)">IS</item>
+                                <item AppInfo="Italy (IT)">IT</item>
+                                <item AppInfo="Jersey (JE)">JE</item>
+                                <item AppInfo="Jamaica (JM)">JM</item>
+                                <item AppInfo="Jordan (JO)">JO</item>
+                                <item AppInfo="Japan (JP)">JP</item>
+                                <item AppInfo="Kenya (KE)">KE</item>
+                                <item AppInfo="Kyrgyzstan (KG)">KG</item>
+                                <item AppInfo="Cambodia (KH)">KH</item>
+                                <item AppInfo="Kiribati (KI)">KI</item>
+                                <item AppInfo="Comoros (KM)">KM</item>
+                                <item AppInfo="Saint Kitts and Nevis (KN)">KN</item>
+                                <item AppInfo="Korea (KP)">KP</item>
+                                <item AppInfo="Korea (KR)">KR</item>
+                                <item AppInfo="Kuwait (KW)">KW</item>
+                                <item AppInfo="Cayman Islands (KY)">KY</item>
+                                <item AppInfo="Kazakhstan (KZ)">KZ</item>
+                                <item AppInfo="Laos (LA)">LA</item>
+                                <item AppInfo="Lebanon (LB)">LB</item>
+                                <item AppInfo="Saint Lucia (LC)">LC</item>
+                                <item AppInfo="Liechtenstein (LI)">LI</item>
+                                <item AppInfo="Sri Lanka (LK)">LK</item>
+                                <item AppInfo="Liberia (LR)">LR</item>
+                                <item AppInfo="Lesotho (LS)">LS</item>
+                                <item AppInfo="Lithuania (LT)">LT</item>
+                                <item AppInfo="Luxembourg (LU)">LU</item>
+                                <item AppInfo="Latvia (LV)">LV</item>
+                                <item AppInfo="Libyan Arab Jamahiriya (LY)">LY</item>
+                                <item AppInfo="Morocco (MA)">MA</item>
+                                <item AppInfo="Monaco (MC)">MC</item>
+                                <item AppInfo="Moldova (MD)">MD</item>
+                                <item AppInfo="Montenegro (ME)">ME</item>
+                                <item AppInfo="Saint Martin (French part) (MF)">MF</item>
+                                <item AppInfo="Madagascar (MG)">MG</item>
+                                <item AppInfo="Marshall Islands (MH)">MH</item>
+                                <item AppInfo="North Macedonia (MK)">MK</item>
+                                <item AppInfo="Mali (ML)">ML</item>
+                                <item AppInfo="Myanmar (MM)">MM</item>
+                                <item AppInfo="Mongolia (MN)">MN</item>
+                                <item AppInfo="Macao (MO)">MO</item>
+                                <item AppInfo="Northern Mariana Islands (MP)">MP</item>
+                                <item AppInfo="Martinique (MQ)">MQ</item>
+                                <item AppInfo="Mauritania (MR)">MR</item>
+                                <item AppInfo="Montserrat (MS)">MS</item>
+                                <item AppInfo="Malta (MT)">MT</item>
+                                <item AppInfo="Mauritius (MU)">MU</item>
+                                <item AppInfo="Maldives (MV)">MV</item>
+                                <item AppInfo="Malawi (MW)">MW</item>
+                                <item AppInfo="Mexico (MX)">MX</item>
+                                <item AppInfo="Malaysia (MY)">MY</item>
+                                <item AppInfo="Mozambique (MZ)">MZ</item>
+                                <item AppInfo="Namibia (NA)">NA</item>
+                                <item AppInfo="New Caledonia (NC)">NC</item>
+                                <item AppInfo="Niger (NE)">NE</item>
+                                <item AppInfo="Norfolk Island (NF)">NF</item>
+                                <item AppInfo="Nigeria (NG)">NG</item>
+                                <item AppInfo="Nicaragua (NI)">NI</item>
+                                <item AppInfo="Netherlands (NL)">NL</item>
+                                <item AppInfo="Norway (NO)">NO</item>
+                                <item AppInfo="Nepal (NP)">NP</item>
+                                <item AppInfo="Nauru (NR)">NR</item>
+                                <item AppInfo="Niue (NU)">NU</item>
+                                <item AppInfo="New Zealand (NZ)">NZ</item>
+                                <item AppInfo="Oman (OM)">OM</item>
+                                <item AppInfo="Panama (PA)">PA</item>
+                                <item AppInfo="Peru (PE)">PE</item>
+                                <item AppInfo="French Polynesia (PF)">PF</item>
+                                <item AppInfo="Papua New Guinea (PG)">PG</item>
+                                <item AppInfo="Philippines (PH)">PH</item>
+                                <item AppInfo="Pakistan (PK)">PK</item>
+                                <item AppInfo="Poland (PL)">PL</item>
+                                <item AppInfo="Saint Pierre and Miquelon (PM)">PM</item>
+                                <item AppInfo="Pitcairn (PN)">PN</item>
+                                <item AppInfo="Puerto Rico (PR)">PR</item>
+                                <item AppInfo="Palestinian Territory (PS)">PS</item>
+                                <item AppInfo="Portugal (PT)">PT</item>
+                                <item AppInfo="Palau (PW)">PW</item>
+                                <item AppInfo="Paraguay (PY)">PY</item>
+                                <item AppInfo="Qatar (QA)">QA</item>
+                                <item AppInfo="Réunion (RE)">RE</item>
+                                <item AppInfo="Romania (RO)">RO</item>
+                                <item AppInfo="Serbia (RS)">RS</item>
+                                <item AppInfo="Russian Federation (RU)">RU</item>
+                                <item AppInfo="Rwanda (RW)">RW</item>
+                                <item AppInfo="Saudi Arabia (SA)">SA</item>
+                                <item AppInfo="Solomon Islands (SB)">SB</item>
+                                <item AppInfo="Seychelles (SC)">SC</item>
+                                <item AppInfo="Sudan (SD)">SD</item>
+                                <item AppInfo="Sweden (SE)">SE</item>
+                                <item AppInfo="Singapore (SG)">SG</item>
+                                <item AppInfo="Saint Helena (SH)">SH</item>
+                                <item AppInfo="Slovenia (SI)">SI</item>
+                                <item AppInfo="Svalbard and Jan Mayen (SJ)">SJ</item>
+                                <item AppInfo="Slovakia (SK)">SK</item>
+                                <item AppInfo="Sierra Leone (SL)">SL</item>
+                                <item AppInfo="San Marino (SM)">SM</item>
+                                <item AppInfo="Senegal (SN)">SN</item>
+                                <item AppInfo="Somalia (SO)">SO</item>
+                                <item AppInfo="Suriname (SR)">SR</item>
+                                <item AppInfo="Sao Tome and Principe (ST)">ST</item>
+                                <item AppInfo="El Salvador (SV)">SV</item>
+                                <item AppInfo="Syrian Arab Republic (SY)">SY</item>
+                                <item AppInfo="Swaziland (SZ)">SZ</item>
+                                <item AppInfo="Turks and Caicos Islands (TC)">TC</item>
+                                <item AppInfo="Chad (TD)">TD</item>
+                                <item AppInfo="French Southern Territories (TF)">TF</item>
+                                <item AppInfo="Togo (TG)">TG</item>
+                                <item AppInfo="Thailand (TH)">TH</item>
+                                <item AppInfo="Tajikistan (TJ)">TJ</item>
+                                <item AppInfo="Tokelau (TK)">TK</item>
+                                <item AppInfo="Timor-Leste (TL)">TL</item>
+                                <item AppInfo="Turkmenistan (TM)">TM</item>
+                                <item AppInfo="Tunisia (TN)">TN</item>
+                                <item AppInfo="Tonga (TO)">TO</item>
+                                <item AppInfo="Turkey (TR)">TR</item>
+                                <item AppInfo="Trinidad and Tobago (TT)">TT</item>
+                                <item AppInfo="Tuvalu (TV)">TV</item>
+                                <item AppInfo="Taiwan (TW)">TW</item>
+                                <item AppInfo="Tanzania (TZ)">TZ</item>
+                                <item AppInfo="Ukraine (UA)">UA</item>
+                                <item AppInfo="Uganda (UG)">UG</item>
+                                <item AppInfo="United States Minor Outlying Islands (UM)">UM</item>
+                                <item AppInfo="United States (US)">US</item>
+                                <item AppInfo="Uruguay (UY)">UY</item>
+                                <item AppInfo="Uzbekistan (UZ)">UZ</item>
+                                <item AppInfo="Holy See (Vatican City State) (VA)">VA</item>
+                                <item AppInfo="Saint Vincent and the Grenadines (VC)">VC</item>
+                                <item AppInfo="Venezuela (VE)">VE</item>
+                                <item AppInfo="Virgin Islands (VG)">VG</item>
+                                <item AppInfo="Virgin Islands (VI)">VI</item>
+                                <item AppInfo="Viet Nam (VN)">VN</item>
+                                <item AppInfo="Vanuatu (VU)">VU</item>
+                                <item AppInfo="Wallis and Futuna (WF)">WF</item>
+                                <item AppInfo="Samoa (WS)">WS</item>
+                                <item AppInfo="Yemen (YE)">YE</item>
+                                <item AppInfo="Mayotte (YT)">YT</item>
+                                <item AppInfo="South Africa (ZA)">ZA</item>
+                                <item AppInfo="Zambia (ZM)">ZM</item>
+                                <item AppInfo="Zimbabwe (ZW)">ZW</item>
+                                <item AppInfo="Dutch Language Union (DLU)">DLU</item>
+                            </enumeration>
+                        
+                    </ValueScheme>
+                </CMD_Element>
+            </CMD_Component>
+        </CMD_Component>
+        <CMD_Component name="CenterExtendedInformation" ComponentId="clarin.eu:cr1:c_1583768728294" CardinalityMin="1" CardinalityMax="1">
+            <CMD_Element name="Website" ConceptLink="http://hdl.handle.net/11459/CCR_C-2546_180dca37-c1d8-dffe-5d46-8f16de143320" ValueScheme="anyURI" CardinalityMin="1" CardinalityMax="1" DisplayPriority="2" Documentation="The website of the CLARIN center">
+                
+            </CMD_Element>
+            <CMD_Element name="LongTermArchivingPolicy" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" Documentation="Does the center have a long term archving policy? If so, which one?">
+                
+            </CMD_Element>
+            <CMD_Element name="RepositorySystem" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" Documentation="The name of the repostory used (eg Fedora)">
+                
+            </CMD_Element>
+            <CMD_Element name="PidStatus" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" Documentation="Does the center offer Persistent Identifiers for its resources? Of so which one? (eg handle)">
+                
+            </CMD_Element>
+            <CMD_Element name="StrictVersioning" ValueScheme="boolean" CardinalityMin="1" CardinalityMax="1" Documentation="Does a PID always point to exactly 1 version of a resource?">
+                
+            </CMD_Element>
+            <CMD_Element name="AssessmentStatus" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" Documentation="Has the center been assessed (eg. Data Seal of Approval, RAC, etc)? If so by which procedure?">
+                
+            </CMD_Element>
+            <CMD_Element name="InfrastructureServices" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" Documentation="Has the center non-standard offers like OAI harvesting">
+                
+            </CMD_Element>
+            <CMD_Component name="WebReference" ComponentId="clarin.eu:cr1:c_1316422391221" CardinalityMin="0" CardinalityMax="unbounded">
+                <CMD_Element name="Website" ConceptLink="http://hdl.handle.net/11459/CCR_C-2546_180dca37-c1d8-dffe-5d46-8f16de143320" ValueScheme="anyURI" CardinalityMin="1" CardinalityMax="1" DisplayPriority="2" Documentation="A URL (e.g. http://www.clarin.eu)">
+                    
+                </CMD_Element>
+                <CMD_Element name="Description" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" DisplayPriority="1" Documentation="A description: what is this website about (e.g. Documentation about a corpus)">
+                    
+                </CMD_Element>
+            </CMD_Component>
+            <CMD_Component name="AAI" CardinalityMin="1" CardinalityMax="1">
+                <CMD_Element name="AaiStatus" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" DisplayPriority="3" Documentation="Does the center have a SAML Service Provider?">
+                    
+                </CMD_Element>
+                <CMD_Element name="MemberOfNationalFederation" CardinalityMin="0" CardinalityMax="unbounded" Documentation="Is the center's SP available in one or more national Identity Federations (eg DFN-AAI)?">
+                    
+                    <ValueScheme>
+                        
+                            <enumeration>
+                                <item ConceptLink="" AppInfo="Netherlands">NL</item>
+                                <item ConceptLink="" AppInfo="Germany">DE</item>
+                                <item ConceptLink="" AppInfo="Finland">FI</item>
+                            </enumeration>
+                        
+                    </ValueScheme>
+                </CMD_Element>
+                <CMD_Element name="MemberOfSpf" ValueScheme="boolean" CardinalityMin="1" CardinalityMax="1" Documentation="Is the center's SP available in the CLARIN SPF?">
+                    
+                </CMD_Element>
+            </CMD_Component>
+            <CMD_Component name="Metadata" CardinalityMin="0" CardinalityMax="unbounded">
+                <CMD_Element name="OaiAccessPoint" ConceptLink="http://hdl.handle.net/11459/CCR_C-2546_180dca37-c1d8-dffe-5d46-8f16de143320" ValueScheme="anyURI" CardinalityMin="1" CardinalityMax="1" DisplayPriority="5" Documentation="The entry point for OAI harvesting (eg http://easy.dans.knaw.nl/oai?verb=Identify)">
+                    
+                </CMD_Element>
+                <CMD_Component name="OaiPmhSets" CardinalityMin="0" CardinalityMax="1">
+                    <CMD_Component name="Set" CardinalityMin="1" CardinalityMax="unbounded">
+                        <CMD_Element name="SetSpec" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" DisplayPriority="1"/>
+                        <CMD_Element name="SetType" ValueScheme="string" CardinalityMin="1" CardinalityMax="1"/>
+                    </CMD_Component>
+                </CMD_Component>
+            </CMD_Component>
+            <CMD_Component name="OrganisationalInformation" CardinalityMin="1" CardinalityMax="1">
+                <CMD_Component name="ClarinOrganisationInfo" ComponentId="clarin.eu:cr1:c_1316422391222" CardinalityMin="1" CardinalityMax="1">
+                    <CMD_Element name="OrganisationName" ConceptLink="http://hdl.handle.net/11459/CCR_C-2459_fc4e74d6-84de-c8cd-1ae8-2c2be5ee90b1" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" DisplayPriority="10" Documentation="The official name of the organisation">
+                        
+                    </CMD_Element>
+                    <CMD_Element name="Institution" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" Documentation="the legal entity (typically universities, although in some countries the faculties are legal entities)">
+                        
+                    </CMD_Element>
+                    <CMD_Element name="WorkingUnit" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" Documentation="typically a department, sometimes a faculty">
+                        
+                    </CMD_Element>
+                    <CMD_Element name="Code" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" Documentation="Short mnemonic code for the organisation (eg BBAW)">
+                        
+                    </CMD_Element>
+                    <CMD_Element name="PostAddress" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false"/>
+                    <CMD_Element name="Expertise" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false"/>
+                    <CMD_Element name="Latitude" ConceptLink="http://hdl.handle.net/11459/CCR_C-5582_0d7dc9e3-e288-56f8-2d9e-c91ae59f436f" ValueScheme="decimal" CardinalityMin="0" CardinalityMax="1" Multilingual="false"/>
+                    <CMD_Element name="Longitude" ConceptLink="http://hdl.handle.net/11459/CCR_C-5583_8be52a01-2494-9656-bfef-39e7f748d104" ValueScheme="decimal" CardinalityMin="0" CardinalityMax="1" Multilingual="false"/>
+                </CMD_Component>
+                <CMD_Component name="AdministrativeContact" CardinalityMin="1" CardinalityMax="1">
+                    <CMD_Component name="Contact" ComponentId="clarin.eu:cr1:c_1271859438113" CardinalityMin="1" CardinalityMax="1">
+                        <CMD_Element name="Person" ConceptLink="http://hdl.handle.net/11459/CCR_C-2978_0e9e4864-44c4-de22-66b1-9b38bca10836" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded"/>
+                        <CMD_Element name="Address" ConceptLink="http://hdl.handle.net/11459/CCR_C-2505_b61e249b-ac68-b40a-0f21-03a4a26e16b4" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded"/>
+                        <CMD_Element name="Email" ConceptLink="http://hdl.handle.net/11459/CCR_C-2521_7b01b455-0de8-d753-ad4e-dee49953ae98" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded"/>
+                        <CMD_Element name="Organisation" ConceptLink="http://hdl.handle.net/11459/CCR_C-2979_8030473e-bbcb-6b87-3fd2-90554429ec50" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true"/>
+                        <CMD_Element name="Telephone" ConceptLink="http://hdl.handle.net/11459/CCR_C-2461_76a92748-423e-46a0-cc7c-84a7d1c46794" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded"/>
+                        <CMD_Element name="Website" ConceptLink="http://hdl.handle.net/11459/CCR_C-63_95ec8724-267a-8689-a04d-50ae515bbacf" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
+                    </CMD_Component>
+                </CMD_Component>
+                <CMD_Component name="TechnicalContact" CardinalityMin="1" CardinalityMax="1">
+                    <CMD_Component name="Contact" ComponentId="clarin.eu:cr1:c_1271859438113" CardinalityMin="1" CardinalityMax="1">
+                        <CMD_Element name="Person" ConceptLink="http://hdl.handle.net/11459/CCR_C-2978_0e9e4864-44c4-de22-66b1-9b38bca10836" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded"/>
+                        <CMD_Element name="Address" ConceptLink="http://hdl.handle.net/11459/CCR_C-2505_b61e249b-ac68-b40a-0f21-03a4a26e16b4" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded"/>
+                        <CMD_Element name="Email" ConceptLink="http://hdl.handle.net/11459/CCR_C-2521_7b01b455-0de8-d753-ad4e-dee49953ae98" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded"/>
+                        <CMD_Element name="Organisation" ConceptLink="http://hdl.handle.net/11459/CCR_C-2979_8030473e-bbcb-6b87-3fd2-90554429ec50" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true"/>
+                        <CMD_Element name="Telephone" ConceptLink="http://hdl.handle.net/11459/CCR_C-2461_76a92748-423e-46a0-cc7c-84a7d1c46794" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded"/>
+                        <CMD_Element name="Website" ConceptLink="http://hdl.handle.net/11459/CCR_C-63_95ec8724-267a-8689-a04d-50ae515bbacf" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
+                    </CMD_Component>
+                </CMD_Component>
+            </CMD_Component>
+            <CMD_Component name="Monitoring" CardinalityMin="1" CardinalityMax="1">
+                <CMD_Element name="SpTestSite" ValueScheme="anyURI" CardinalityMin="1" CardinalityMax="1" DisplayPriority="1" Documentation="A site to test a SAML web service (eg http://catalog.clarin.eu/secure/shibenv.php)">
+                    
+                </CMD_Element>
+            </CMD_Component>
+        </CMD_Component>
+    </CMD_Component>
+</CMD_ComponentSpec>

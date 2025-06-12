@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-1978_088a96da-46c0-cfc9-eb0d-2a3bc20caa55">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-LexicalSemantics_2906bf39-6db8-90ed-da57-c7a3cc03c9c9"/>
+    <skos:prefLabel xml:lang="en">value</skos:prefLabel>
+    <skos:notation>valueGeneric</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-4046_8dfee0e9-6ab8-814f-8b5f-6703cc3ab058">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-LexicalSemantics_2906bf39-6db8-90ed-da57-c7a3cc03c9c9"/>
+    <skos:prefLabel xml:lang="en">text corpus</skos:prefLabel>
+    <skos:notation>textCorpus</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-3705_60143fc6-1dd7-c23e-a2f0-c30be3b1badb">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-LexicalSemantics_2906bf39-6db8-90ed-da57-c7a3cc03c9c9"/>
+    <skos:prefLabel xml:lang="en">encyclopedic information (vernacular)</skos:prefLabel>
+    <skos:notation>encyclopedic_info_vernacular</skos:notation>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://hdl.handle.net/11459/CCR_C-3778_b2ab05b5-4449-67a9-c25f-bf364a79621a">
+    <skos:topConceptOf rdf:resource="http://hdl.handle.net/11459/CCR_P-LexicalSemantics_2906bf39-6db8-90ed-da57-c7a3cc03c9c9"/>
+    <skos:prefLabel xml:lang="en">example (vernacular)</skos:prefLabel>
+    <skos:notation>example_vernacular</skos:notation>
+  </skos:Concept>
+
+  <skos:ConceptScheme rdf:about="http://hdl.handle.net/11459/CCR_P-LexicalSemantics_2906bf39-6db8-90ed-da57-c7a3cc03c9c9">
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-1978_088a96da-46c0-cfc9-eb0d-2a3bc20caa55"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-4046_8dfee0e9-6ab8-814f-8b5f-6703cc3ab058"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-3705_60143fc6-1dd7-c23e-a2f0-c30be3b1badb"/>
+    <skos:hasTopConcept rdf:resource="http://hdl.handle.net/11459/CCR_C-3778_b2ab05b5-4449-67a9-c25f-bf364a79621a"/>
+    <rdfs:label xml:lang="en">Lexical Semantics</rdfs:label>
+  </skos:ConceptScheme>
+
+</rdf:RDF>
