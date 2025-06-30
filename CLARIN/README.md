@@ -1,5 +1,11 @@
 # Vocabularies and mappings for the [CLARIN VLO](https://vlo.clarin.eu)
 
+For a demonstration of step-by-step retrieval of the data, see the notebook
+[clarin_data.ipynb](./clarin_data.ipynb).
+
+The retrieved data (concept definitions, profiles specifications, VLO facet values, 
+concept - facet mapping definitions), can be found in the [data folder](./data).
+
 ## Context 
 
 ### Components
